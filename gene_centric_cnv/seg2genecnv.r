@@ -10,31 +10,13 @@
 #		tools
 
 
-library(data.table)
-library(dplyr)
-library(futile.logger)
-
-# library(ggplot2)
-# library(gridExtra)
-
-setwd("~/Downloads/segs")
-# theme_set(theme_gray(base_size = 18))
-
-# read centromere loc
-
-min.arm.evidence = 50
-cutoffs = c(-0.6, -0.2, 0.2, 0.6)
-min.seg.evidence = 4
-min.bed.segment.len = 50
-neighbor.distance = 1e6
-
 # ReadGenomicTSV read a TSV file, and return a data.table of file content
 # - if file has a header, it must include a column named Chromosome
 # - if file does not have a header, default colnames of Chromosome/Start/End will be added to the first 3 columns
-# the function will also remove "chr" string from the contig names, and chang 23 to X
-ReadGenomicTSV = function(file, header = T) {
+# the function will also remove "chr" string from the contig names, and change 23 to X, 24 to Y
+ReadGenomicTSV = function(file, header = T, keep.chry = F) {
 	# permissible values
-	contigs = c(1:23, "X")
+	contigs = c(1:23, "X", "Y")
 	chr.contigs = paste0("chr", contigs)
 
 	# read file
@@ -53,8 +35,14 @@ ReadGenomicTSV = function(file, header = T) {
 		tsv$Chromosome = gsub("chr", "", tsv$Chromosome)
 	}
 
-	# update 23 to X
+	# update 23 to X, and 24 to Y
 	tsv$Chromosome[which(tsv$Chromosome == "23")] = "X"
+	tsv$Chromosome[which(tsv$Chromosome == "24")] = "Y"
+
+	# remove Y chromosome is needed
+	if(! keep.chry) {
+		tsv = tsv[Chromosome != "Y"]
+	}
 
 	# return resulting data.table
 	return(tsv)
@@ -198,14 +186,14 @@ GetGeneSegmean = function(segs, arm.segmean, gene, neighbor.distance = 1e6, min.
 	gene.segmean = ov %>% 
 		mutate(	potential_segmean = seg_segmean, 
 				source = "overlap") %>%
-		select(Gene, potential_segmean, source)
+		select(Chromosome, Start, End, Gene, potential_segmean, source)
 
 	# get arm_segmean as potential_segmean for genes not overlaps with any segments
 	gene.info.in_gap = gene.info[!Gene %in% ov$Gene] 
 	gene.segmean0 = gene.info.in_gap %>%
 		mutate(	potential_segmean = arm_segmean, 
 				source = "arm") %>% 
-		select(Gene, potential_segmean, source)
+		select(Chromosome, Start, End, Gene, potential_segmean, source)
 
 	# get left neighbor segmean as potential_segmean for genes not overlaps with any segments
 	gene.segmean0.left = gene.info.in_gap %>% 
@@ -214,7 +202,7 @@ GetGeneSegmean = function(segs, arm.segmean, gene, neighbor.distance = 1e6, min.
 		foverlaps(., segs, type = "any", mult = "last", nomatch = 0) %>% 
 		mutate(	potential_segmean = seg_segmean, 
 				source = "left_neighbor") %>% 
-		select(Gene, potential_segmean, source)
+		select(Chromosome, Start, End, Gene, potential_segmean, source)
 
 	# get right neighbor segmean as potential_segmean for genes not overlaps with any segments		
 	gene.segmean0.right = gene.info.in_gap %>% 
@@ -223,7 +211,7 @@ GetGeneSegmean = function(segs, arm.segmean, gene, neighbor.distance = 1e6, min.
 		foverlaps(., segs, type = "any", mult = "first", nomatch = 0) %>% 
 		mutate(	potential_segmean = seg_segmean, 
 				source = "right_neighbor") %>% 
-		select(Gene, potential_segmean, source)	
+		select(Chromosome, Start, End, Gene, potential_segmean, source)	
 
 	# get arm_segmean as potential_segmean for genes that only overlaps with a small segment
 	count = table(ov$Gene)
@@ -231,11 +219,12 @@ GetGeneSegmean = function(segs, arm.segmean, gene, neighbor.distance = 1e6, min.
 		filter(Gene %in% names(count)[count == 1] & is_small_segment) %>% 
 		mutate(	potential_segmean = arm_segmean, 
 				source = "arm") %>% 
-		select(Gene, potential_segmean, source)
+		select(Chromosome, Start, End, Gene, potential_segmean, source)
 
 	# merge all potential segmeans. (this is the most important intermediate dataset) 
 	gene.segmean = rbind(gene.segmean, gene.segmean0, gene.segmean0.left, gene.segmean0.right, gene.segmean1)	
 
+	return(gene.segmean)
 	
 }
 
@@ -251,6 +240,7 @@ SelectOneValue = function(arr, method = "extreme", favor.positive = F) {
  
 # AggregateSegmean select only one segmean if multiple exist for each gene
 # The default method is "extreme", and favor negative values
+# filter values are also added to indicate the reliability of the segmeans
 AggregateSegmean = function(gene.segmean = gene.segmean, cutoffs = cutoffs) {
 
 	setDT(gene.segmean)
@@ -259,7 +249,10 @@ AggregateSegmean = function(gene.segmean = gene.segmean, cutoffs = cutoffs) {
 	# aggregate, get min and max, find extreme value, and thresholded to integer scores by cutoffs
 	score = gene.segmean %>%
 		group_by(Gene) %>% 
-		summarise(	min_segmean = min(potential_segmean), 
+		summarise(	Chromosome = Chromosome[1], 
+					Start = Start[1], 
+					End = End[1],
+					min_segmean = min(potential_segmean), 
 					max_segmean = max(potential_segmean)) %>% 
 		mutate(	min_score = GetThresholedValue(min_segmean, cutoffs), 
 				max_score = GetThresholedValue(max_segmean, cutoffs), 
@@ -267,38 +260,86 @@ AggregateSegmean = function(gene.segmean = gene.segmean, cutoffs = cutoffs) {
 				one_segmean = ifelse(max_segmean > 0 & abs(max_segmean) > abs(min_segmean), max_segmean, min_segmean), 
 				one_score = GetThresholedValue(one_segmean, cutoffs), 
 				filter = "PASS", 
-				filter= ifelse(Gene %in% imputed.genes, AddFilter(filter, "impute"), filter), 
-				filter = ifelse(similar, filter, AddFilter(filter, "nondet"))) %>%
-		select(Gene, one_segmean, one_score, filter)
+				filter = ifelse(Gene %in% imputed.genes, AddFilter(filter, "impute"), filter), 
+				filter = ifelse(similar, filter, AddFilter(filter, "non_det"))) %>%
+		select(Chromosome, Start, End, Gene, one_segmean, one_score, filter)
 
-	score$filter = "PASS"
+	return(data.table(score))
+}
 
-		
-		
-	return(score)
+# add off-target filter to gene.score
+FilterByBed = function(gene.score, bed) {
+	# normalize bed coordinates with 1-indexed interval coordinates
+	bed$Start = bed$Start + 1
+	# overlap between gene and bed
+	setkey(bed, Chromosome, Start, End)
+	ov = foverlaps(gene.score, bed, type = "any", mult = "first", nomatch = NA, which = T) 
+	
+	# get genes without overlaps, and add filter "off_target"
+	off.target.index = which(is.na(ov))
+	gene.score$filter[off.target.index] = AddFilter(gene.score$filter[off.target.index], "off_target")
+
+	return(gene.score)
+}
+
+# reformat and write  
+WriteScores = function(gene.score, gene, filters, out.file) {
+	# re-oder genes and change colnames
+	gene.score = gene.score[match(gene$Gene, gene.score$Gene)] %>%
+		rename(	Segment_Mean = one_segmean, 
+				Copy_Number_Score = one_score, 
+				Filter = filter)
+
+	# write date
+	date = format(Sys.Date(), "%Y%m%d")
+	cat("##fileDate=", date, "\n", sep ="", file = out.file)
+
+	# write filters	
+	for(i in 1:nrow(filters)) {
+		cat("##Filter=<ID=", filters$ID[i], ",Description=\"", filters$Description[i], "\">", "\n", sep = "", file = out.file, append = T)
+	}
+
+	# write content
+	suppressWarnings(write.table(gene.score, file = out.file, append = T, col.names = T, row.names = F, sep="\t", quote=F))
 }
 
 
-	# threshold arm segmean 
-	# arm.segmean$arm_score = GetThresholedValue(arm.segmean$segmean, cutoffs) 
-	# threshold segment segmean
+library(data.table)
+library(dplyr)
+library(futile.logger)
 
-		mutate(	seg_score = GetThresholedValue(Segment_Mean, cutoffs),
+options(scipen = 999, digits=4)
+
+setwd("~/Downloads/segs")
+# theme_set(theme_gray(base_size = 18))
 
 
+minArmEvidence = 50
+minSegEvidence = 4
+minBedSegLength = 50
+neighborDistance = 1e6
 
+cutoffs = c(-0.6, -0.2, 0.2, 0.6)
 
+filters = data.table(ID = c("PASS", 
+							"impute", 
+							"non_det", 
+							"off_target"), 
+					Description = c("All filters passed", 
+							"gene-level value is imputed because gene is not overlapped with any segments", 
+							"gene-level value is not deterministic due to aggregation of segments with very different segment means", 
+							"gene not overlapped with any targeted capture regions"))
 
-check start < End
-check at least 2 probes
+bed.file = "../vcrome_2_1_hg19_capture_targets.hg19.bed"
+out.file = "output.tsv"
 
 
 # read All TCGA segments
 segs = ReadGenomicTSV("DUNGS_p_TCGA_b84_115_SNP_N_GenomeWideSNP_6_A07_771588.hg19.seg.txt")
+# centromere location is extracted from UCSC genome browser http://hgdownload.cse.ucsc.edu/goldenPath/hg38/database/cytoBand.txt.gz
 centromere = ReadGenomicTSV("centromere.position.hg38.txt")
 gene = ReadGenomicTSV("gencode.v22.gene.short.txt")
-bed = ReadGenomicTSV("../vcrome_2_1_hg19_capture_targets.hg19.bed", header = F)
-
+bed = ReadGenomicTSV(bed.file, header = F)
 
 
 # split segments by centromere 
@@ -307,149 +348,40 @@ split.segs = SplitSegByCentromere(segs, centromere)
 # we assume bed file and gene file do not have regions that contains centromere 
 
 # calcualte arm-level segmean value
-arm.segmean = GetArmSegmean(split.segs, min.arm.evidence, centromere, bed, min.bed.segment.len) 
+arm.segmean = GetArmSegmean(split.segs, minArmEvidence, centromere, bed, minBedSegLength) 
 
 # modify cutoffs by max and min of arm.segmean
-cutoffs = GetCutoffs(cutoffs, arm.segmean)
+new.cutoffs = GetCutoffs(cutoffs, arm.segmean)
 
 # get all potential gene-level segmean values
-gene.segmean = GetGeneSegmean(segs = split.segs, arm.segmean = arm.segmean, gene = gene, neighbor.distance = neighbor.distance, min.seg.evidence = min.seg.evidence)
+gene.segmean = GetGeneSegmean(segs = split.segs, arm.segmean = arm.segmean, gene = gene, neighbor.distance = neighborDistance, min.seg.evidence = minSegEvidence)
 
 # get aggregated gene-level CNV scores
-gene.score = AggregateSegmean(gene.segmean = gene.segmean, cutoffs = cutoffs)
+gene.score = AggregateSegmean(gene.segmean = gene.segmean, cutoffs = new.cutoffs)
 
-
-
-
-gene.segmean = AddBedFilter(gene.segmean, bed)
-
-
-
-
-
-
-
-
-
-
-
-
-segs = merge(segs, centromere, by = "Chromosome") %>% 
-		mutate(arm = ifelse(Start > Centromere, paste0(Chromosome,"q"), paste0(Chromosome, "p"))) 
-
-
-
-cutoffs[1] = min(cutoffs[1], arm.summary$segmean) 
-cutoffs[4] = max(cutoffs[4], arm.summary$segmean) 
-
-
-segs = segs[order(Sample, chrn, Start)]
-
-# read All TCGA GISTIC2 sample Cutoffs
-cutoff = fread("tcga.gistic2.sample.cutoff.txt")
-p.low.boxplot = ggplot(cutoff, aes(Project, Low, fill = Project)) + geom_boxplot() + theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) + guides(fill = F)
-p.high.boxplot = ggplot(cutoff, aes(Project, High, fill = Project)) + geom_boxplot() + theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) + guides(fill = F)
-grid.arrange(p.high.boxplot, p.low.boxplot, ncol=1)
-
-
-# get arm-level segmean
-arm.summary = data.table(segs %>% 
-	mutate(arm = ifelse(Start > centromere, "q", "p")) %>% 
-	group_by(Sample, Chromosome, arm) %>%
-	summarise(arm.segmean = sum(Num_Probes * Segment_Mean) / sum(Num_Probes)))
-
-# get sample-level segmean
-sample.summary = data.table(segs %>% 
-	group_by(Sample) %>%
-	summarise(sample.segmean = sum(Num_Probes * Segment_Mean) / sum(Num_Probes)))
-
-# get min and max of arm-level segmean per sample
-sample.extreme = data.table(arm.summary %>%
-	group_by(Sample) %>%
-	summarise(low = min(arm.segmean), high = max(arm.segmean)))
-
-# get gap distance and plot basic stats of segmentation data
-temp1 = segs[-nrow(segs), ]
-names(temp1) = paste0("left.", names(temp1))
-temp2 = segs[-1, ]
-names(temp2) = paste0("right.", names(temp2))
-temp = data.table(cbind(temp1, temp2))
-temp$Gap_Length = temp$right.Start - temp$left.End
-
-p.gaplen.dist = ggplot(temp[left.Sample == right.Sample & left.Chromosome == right.Chromosome], aes(Gap_Length)) + geom_density(fill="gray")
-p.segmean.dist = ggplot(segs, aes(Segment_Mean)) + geom_density(fill = "gray")
-p.seglen.dist = ggplot(segs, aes(End - Start + 1)) + geom_density(fill = "gray") + xlab("Segment_Length") 
-p.nprobe.dist = ggplot(segs, aes(Num_Probes)) + geom_density(fill = "gray") 
-grid.arrange(p.segmean.dist, p.nprobe.dist, p.seglen.dist + scale_x_log10(), p.gaplen.dist + scale_x_log10(), ncol=2)
-
-
-
-
-
-
-
-
-
-
-
-read.meta = function(file) {
-	# read SNP6 metadata information in rda/rdata/gz/txt/tsv/csv format
-	# get file extension
-	flog.info("Loading metadata: %s", file)
-
-	# read and format
-	options(warn = -1)
-	# gunzip to open gz data. zcat has compatibility issue in OSX
-	meta = fread(paste("gunzip -c", file))
-	options(warn = 0)
-	meta$strand = factor(meta$strand)
-	meta$type = factor(meta$type)
-	meta$chr = factor(meta$chr, levels = c(1:22, "X", "Y"))
-	# return
-	return(meta)
+# add off_target filter
+if(!is.null(bed.file)){
+	gene.score = FilterByBed(gene.score = gene.score, bed = bed)
 }
 
-get.segment = function(data, mode = "allcnv", sampleid = "Sample", seed=12345678) {
-        # load data that at least contains segmean, chr, pos, return copy number segments
-        if (mode == "nocnv") {
-        	# remove freqcnv probes and chromosome Y
-        	data = data[freqcnv == FALSE & chr != "Y"]
-        }
-        CNA.object = CNA( genomdat = data$segmean, chrom = data$chr, maploc = as.numeric(data$pos), data.type = "logratio", sampleid = sampleid)
-        CNA.smoothed = smooth.CNA(CNA.object)
-        set.seed(seed)
-        segs = segment(CNA.smoothed, nperm=10000, alpha=0.01)
-        return(segs$output)
-}
+# format and output
+WriteScores(gene.score, gene, filters, out.file)
 
-format.segment = function(segment, gender=NA) {
-	# format segment output, modify column names, and remove chrY is gender is female	
-	names(segment) = c("Sample", "Chromosome", "Start", "End", "Num_Probes", "Segment_Mean")
-	if (gender == "female") {
-		segment = segment[segment$Chromosome != "Y", ]
-	}
-	return(segment)
-}
 
-read.tangentcn = function(file) {
-	# read tangentcn data
-	flog.info("Loading tangent normalized copy number input file: %s", file)
-	options(warn = -1)
-	data = fread(file, skip=1, col.names=c("probeid", "signal"))
-	options(warn = 0)
-	return(data)	
-}
 
-annotate.tangentcn = function(tangentcn, meta) {
-	# merge tangentcn data with meta data, and add segmean
-	flog.info("Annotating tangent data with probeset information from metadata")
-	data = merge(meta, tangentcn, by="probeid")
-	# remove probes with missing information
-	data = data[(! is.na(data$strand)) & (! is.na(data$signal)), ]
-	# calculate probeset segment mean 
-	data$segmean = log2(data$signal) - 1
-	return(data)
-}
+
+
+
+
+
+
+
+
+
+
+
+# sample flog code to be integrated later
+if(F) {
 
 get.opt = function() {
 	# define option_list
@@ -505,14 +437,6 @@ get.opt = function() {
 }
 
 
-# load libraries
-require(data.table)
-require(DNAcopy)
-require(optparse)
-require(futile.logger)
-require(tools)
-
-options(scipen=999)
 
 # get options
 opt = get.opt()
@@ -529,41 +453,10 @@ if (! file.exists(opt$file)) {
 	stop("Please provide input file\n", call.=FALSE)
 }
 
-# check metadata existance and file md5
-# this script assume the metadata has md5sum fce277e26e4d65d187e1ea9800628bb9
-md5 = md5sum(opt$meta)
-if (is.na(md5)) {
-	flog.error("metadata does not exist")
-	stop("Please provide metadata\n", call.=FALSE)
-} else if (md5 != "fce277e26e4d65d187e1ea9800628bb9") {
-	flog.warning("metadata md5sum does not match fce277e26e4d65d187e1ea9800628bb9")
-}
 
-# read SNP6 metadata
-meta = read.meta(opt$meta)
-# read TCGA level 2 tangent CNV file
-tangentcn = read.tangentcn(opt$file)
-# merge level 2 data with probeset metadata
-data = annotate.tangentcn(tangentcn = tangentcn, meta = meta)
-
-# exclude PAR if gender is male or unknown
-if (opt$gender %in% c("male", "unknown")) {
-	data = data[par == FALSE]
-}
-
-# calculate, format and write segment
-flog.info("Calculating regular CNV segments")
-mode = "allcnv"
-segs = get.segment(data, mode = mode, sampleid = opt$sample)
-formatted.segs = format.segment(segs, gender = opt$gender)
-write.table(formatted.segs, opt$out1, col.names=T, row.names=F, sep="\t", quote=F)
 flog.info("Regular CNV Segnment Completed")
 
 # calculate, format and write nocnv segment
-flog.info("Calculating masked CNV segments")
-mode = "nocnv"
-nocnv.segs = get.segment(data, mode = mode, sampleid = opt$sample)
-formatted.nocnv.segs = format.segment(nocnv.segs, gender = opt$gender)
-write.table(formatted.nocnv.segs, opt$out2, col.names=T, row.names=F, sep="\t", quote=F)
 flog.info("Masked CNV Segnment Completed")
 
+}
