@@ -14,7 +14,7 @@
 # - if file has a header, it must include a column named Chromosome
 # - if file does not have a header, default colnames of Chromosome/Start/End will be added to the first 3 columns
 # the function will also remove "chr" string from the contig names, and change 23 to X, 24 to Y
-ReadGenomicTSV = function(file, header = T, keep.chry = F) {
+ReadGenomicTSV = function(file, header = T, segment = T, keep.chry = F) {
 	# permissible values
 	contigs = c(1:23, "X", "Y")
 	chr.contigs = paste0("chr", contigs)
@@ -22,8 +22,9 @@ ReadGenomicTSV = function(file, header = T, keep.chry = F) {
 	# read file
 	tsv = fread(file, h = header)
 
+
 	# add default header for the first 3 columns if header == F
-	if (!header) {
+	if (!header & segment) {
 		colnames(tsv)[1:3] = c("Chromosome", "Start", "End")
 	}
 
@@ -44,6 +45,14 @@ ReadGenomicTSV = function(file, header = T, keep.chry = F) {
 		tsv = tsv[Chromosome != "Y"]
 	}
 
+	# sort 
+	tsv$Chromosome = factor(tsv$Chromosome, levels = contigs)
+	if(segment){
+		tsv = tsv[order(Chromosome, Start, End)]
+	} else {
+		tsv = tsv[order(Chromosome)]
+	}
+
 	# return resulting data.table
 	return(tsv)
 }
@@ -54,7 +63,7 @@ ReadGenomicTSV = function(file, header = T, keep.chry = F) {
 GetArm = function(genomictsv, centromere) {
 	# get arm information of each segment and return
 	arm.info = genomictsv %>% 
-		merge(., centromere, by = "Chromosome") %>% 
+		left_join(., centromere, by = "Chromosome") %>% 
 		mutate(arm = ifelse(Start > Centromere, paste0(Chromosome,"q"), paste0(Chromosome, "p"))) 
 	return(arm.info$arm)	
 }
@@ -64,7 +73,7 @@ GetArm = function(genomictsv, centromere) {
 SplitSegByCentromere = function(segs, centromere) {
 	# annotate each segment by centromere position, and whether centromere is within the segment
 	segs = 	data.table(segs %>% 
-				merge(., centromere, by = "Chromosome") %>% 
+				left_join(., centromere, by = "Chromosome") %>% 
 				mutate(	Cross_Centromere = Start <= Centromere & End > Centromere))
 
 	# if cross-centromere segments exist, they are split into two segments
@@ -186,7 +195,8 @@ GetGeneSegmean = function(segs, arm.segmean, gene, neighbor.distance = 1e6, min.
 	gene.segmean = ov %>% 
 		mutate(	potential_segmean = seg_segmean, 
 				source = "overlap") %>%
-		select(Chromosome, Start, End, Gene, potential_segmean, source)
+		select(Chromosome, i.Start, i.End, Gene, potential_segmean, source) %>%
+		rename(End = i.End, Start = i.Start)
 
 	# get arm_segmean as potential_segmean for genes not overlaps with any segments
 	gene.info.in_gap = gene.info[!Gene %in% ov$Gene] 
@@ -286,6 +296,7 @@ FilterByBed = function(gene.score, bed) {
 WriteScores = function(gene.score, gene, filters, out.file) {
 	# re-oder genes and change colnames
 	gene.score = gene.score[match(gene$Gene, gene.score$Gene)] %>%
+		mutate(Chromosome = paste0("chr", Chromosome)) %>%
 		rename(	Segment_Mean = one_segmean, 
 				Copy_Number_Score = one_score, 
 				Filter = filter)
@@ -335,11 +346,11 @@ out.file = "output.tsv"
 
 
 # read All TCGA segments
-segs = ReadGenomicTSV("DUNGS_p_TCGA_b84_115_SNP_N_GenomeWideSNP_6_A07_771588.hg19.seg.txt")
+segs = ReadGenomicTSV("DUNGS_p_TCGA_b84_115_SNP_N_GenomeWideSNP_6_A07_771588.hg19.seg.txt", header = T, segment = T, keep.chry = F)
 # centromere location is extracted from UCSC genome browser http://hgdownload.cse.ucsc.edu/goldenPath/hg38/database/cytoBand.txt.gz
-centromere = ReadGenomicTSV("centromere.position.hg38.txt")
-gene = ReadGenomicTSV("gencode.v22.gene.short.txt")
-bed = ReadGenomicTSV(bed.file, header = F)
+centromere = ReadGenomicTSV("centromere.position.hg38.txt", header = T, segment = F, keep.chry = F)
+gene = ReadGenomicTSV("gencode.v22.gene.short.txt", header = T, segment = T, keep.chry = F)
+bed = ReadGenomicTSV(bed.file, header = F, segment = T, keep.chry = F)
 
 
 # split segments by centromere 
