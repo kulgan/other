@@ -47,7 +47,7 @@ hotspot.v2 <- rbind(hotspot.snp.v2.paper.reformat, hotspot.indel.v2.paper.reform
 
 
 # we may want to compare variants in paper to that in the website
-check.web = F
+check.web <- F
 
 if(check.web) {
   # read and extract variants from v2 website
@@ -88,7 +88,7 @@ if(check.web) {
 
 
 # we may want to extract coordinates, that requires merging snp variants from web and indel variants from paper
-get.coord = F
+get.coord <- F
 
 if(get.coord & check.web) {
   hotspot.indel.v2.paper.reformat2 <- hotspot.indel.v2.paper %>%
