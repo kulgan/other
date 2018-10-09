@@ -1,4 +1,5 @@
 library(data.table)
+library(dplyr)
 
 
 setwd("~/SCRATCH/gistic/data/pc_thresholded_03.by_genes")
@@ -46,6 +47,7 @@ for (i in 1:length(diseases)) {
   data = focal[, 4:ncol(focal)]
   data = replace(data, data > noise, 1)
   data = replace(data, data < -noise, -1)
+  data = replace(data, data >= -noise & data <= noise, 0)  
 
   # collect metrics
   gene.gain.summary = gene.gain.summary + apply(data, 1, function(x) sum(x == 1))
@@ -66,26 +68,16 @@ for (i in 1:length(diseases)) {
 
 # write summary output
 # 11,368 aliquots and 19,729 protein coding genes in chr1-22/X
+ncase = length(aliquot.gain.summary)
+ngene = length(pc.genes)
 
-gene.gain.summary = data.table(gene = names(gene.gain.summary), count = gene.gain.summary)
-write.table(gene.gain.summary, "gene.gain.summary.txt", col.names=T, row.names=F, sep="\t", quote=F)
+gene.summary = data.table(gene = names(gene.gain.summary), gain = gene.gain.summary, loss = gene.loss.summary) %>%
+  mutate(neutral = ncase - loss - gain)
+write.table(gene.summary, "gene.event.summary.txt", col.names=T, row.names=F, sep="\t", quote=F)
 
-gene.loss.summary = data.table(gene = names(gene.loss.summary), count = gene.loss.summary)
-write.table(gene.loss.summary, "gene.loss.summary.txt", col.names=T, row.names=F, sep="\t", quote=F)
-
-gene.event.summary = gene.gain.summary
-gene.event.summary$count = gene.gain.summary$count + gene.loss.summary$count
-write.table(gene.event.summary, "gene.event.summary.txt", col.names=T, row.names=F, sep="\t", quote=F)
-
-aliquot.gain.summary = data.table(aliquot = names(aliquot.gain.summary), count = aliquot.gain.summary)
-write.table(aliquot.gain.summary, "aliquot.gain.summary.txt", col.names=T, row.names=F, sep="\t", quote=F)
-
-aliquot.loss.summary = data.table(aliquot = names(aliquot.loss.summary), count = aliquot.loss.summary)
-write.table(aliquot.loss.summary, "aliquot.loss.summary.txt", col.names=T, row.names=F, sep="\t", quote=F)
-
-aliquot.event.summary = aliquot.gain.summary
-aliquot.event.summary$count = aliquot.gain.summary$count + aliquot.loss.summary$count
-write.table(aliquot.event.summary, "aliquot.event.summary.txt", col.names=T, row.names=F, sep="\t", quote=F)
+aliquot.summary = data.table(aliquot = names(aliquot.gain.summary), gain = aliquot.gain.summary, loss = aliquot.loss.summary) %>%
+  mutate(neutral = ngene - loss - gain)
+write.table(aliquot.summary, "aliquot.event.summary.txt", col.names=T, row.names=F, sep="\t", quote=F)
 
 write.table(project.summary, "project.summary.txt", col.names=T, row.names=F, sep="\t", quote=F)
 
