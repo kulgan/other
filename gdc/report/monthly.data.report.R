@@ -78,7 +78,7 @@ summary.io = summary %>%
 
 # output
 out.file = paste0("GPAS_file_import_generation_report_", month, ".tsv")
-write.table(summary.io, out.file, col.names=T, row.names=F, sep="\t, quote=F")
+write.table(summary.io, out.file, col.names=T, row.names=F, sep="\t", quote=F)
 
 
 
