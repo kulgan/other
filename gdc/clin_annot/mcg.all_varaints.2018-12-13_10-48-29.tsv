@@ -1,0 +1,473 @@
+name	url	is_association	alteration	disease	therapy	type	gene	gene2
+CRLF2 c.695T>G (F232C) Mutation in Acute Lymphoblastic Leukemia	/content/disease/acute-lymphoblastic-leukemia/crlf2/199/	FALSE	F232C	Acute Lymphoblastic Leukemia	NA	point_mutation	CRLF2	NA
+CRLF2 Fusions in Acute Lymphoblastic Leukemia	/content/disease/acute-lymphoblastic-leukemia/crlf2/208/	FALSE		Acute Lymphoblastic Leukemia	NA	fusion	CRLF2	*
+JAK2 c.2047A>G (R683G) Mutation in Acute Lymphoblastic Leukemia	/content/disease/acute-lymphoblastic-leukemia/jak2/200/	FALSE	R683G	Acute Lymphoblastic Leukemia	NA	point_mutation	JAK2	NA
+JAK2 c.2049A>T (R683S) Mutation in Acute Lymphoblastic Leukemia	/content/disease/acute-lymphoblastic-leukemia/jak2/201/	FALSE	R683S	Acute Lymphoblastic Leukemia	NA	point_mutation	JAK2	NA
+JAK2 c.2049A>C (R683S) Mutation in Acute Lymphoblastic Leukemia	/content/disease/acute-lymphoblastic-leukemia/jak2/202/	FALSE	R683S	Acute Lymphoblastic Leukemia	NA	point_mutation	JAK2	NA
+JAK2 c.2048G>C (R683T) Mutation in Acute Lymphoblastic Leukemia	/content/disease/acute-lymphoblastic-leukemia/jak2/203/	FALSE	R683T	Acute Lymphoblastic Leukemia	NA	point_mutation	JAK2	NA
+CALR c.1154_1155insTTGTC (K385fs*47) Mutation in Acute Myeloid Leukemia	/content/disease/acute-myeloid-leukemia/calr/371/	FALSE	K385fs*47	Acute Myeloid Leukemia	NA	frameshift	CALR	NA
+CALR c.1099_1150del (L367fs*46) Mutation in Acute Myeloid Leukemia	/content/disease/acute-myeloid-leukemia/calr/387/	FALSE	L367fs*46	Acute Myeloid Leukemia	NA	frameshift	CALR	NA
+CBFB-MYH11 t(16;16)(p13.1;q22) Translocation in Acute Myeloid Leukemia	/content/disease/acute-myeloid-leukemia/cbfb-myh11/252/	FALSE	p13.1;q22	Acute Myeloid Leukemia	NA	translocation	CBFB	MYH11
+CBFB-MYH11 inv(16)(p13.1q22) Inversion in Acute Myeloid Leukemia	/content/disease/acute-myeloid-leukemia/cbfb-myh11/258/	FALSE	p13.1q22	Acute Myeloid Leukemia	NA	inversion	CBFB	MYH11
+CEBPA Biallelic Mutation in Acute Myeloid Leukemia	/content/disease/acute-myeloid-leukemia/cebpa/372/	FALSE	Biallelic	Acute Myeloid Leukemia	NA	mutation_other	CEBPA	NA
+DEK-NUP214 t(6;9)(p23;q34) Translocation in Acute Myeloid Leukemia	/content/disease/acute-myeloid-leukemia/dek-nup214/255/	FALSE	p23;q34	Acute Myeloid Leukemia	NA	translocation	DEK	NUP214
+DNMT3A c.2644C>T (R882C) Mutation in Acute Myeloid Leukemia	/content/disease/acute-myeloid-leukemia/dnmt3a/291/	FALSE	R882C	Acute Myeloid Leukemia	NA	point_mutation	DNMT3A	NA
+DNMT3A c.2644C>A (R882S) Mutation in Acute Myeloid Leukemia	/content/disease/acute-myeloid-leukemia/dnmt3a/292/	FALSE	R882S	Acute Myeloid Leukemia	NA	point_mutation	DNMT3A	NA
+DNMT3A c.2645G>A (R882H) Mutation in Acute Myeloid Leukemia	/content/disease/acute-myeloid-leukemia/dnmt3a/293/	FALSE	R882H	Acute Myeloid Leukemia	NA	point_mutation	DNMT3A	NA
+DNMT3A c.2645G>C (R882P) Mutation in Acute Myeloid Leukemia	/content/disease/acute-myeloid-leukemia/dnmt3a/294/	FALSE	R882P	Acute Myeloid Leukemia	NA	point_mutation	DNMT3A	NA
+DNMT3A c.2644C>G (R882G) Mutation in Acute Myeloid Leukemia	/content/disease/acute-myeloid-leukemia/dnmt3a/295/	FALSE	R882G	Acute Myeloid Leukemia	NA	point_mutation	DNMT3A	NA
+DNMT3A c.2645G>T (R882L) Mutation in Acute Myeloid Leukemia	/content/disease/acute-myeloid-leukemia/dnmt3a/296/	FALSE	R882L	Acute Myeloid Leukemia	NA	point_mutation	DNMT3A	NA
+FLT3 Internal Tandem Duplication in Acute Myeloid Leukemia	/content/disease/acute-myeloid-leukemia/flt3/277/	FALSE	Internal Tandem	Acute Myeloid Leukemia	NA	large_duplication	FLT3	NA
+FLT3 c.2503G>C (D835H) Mutation in Acute Myeloid Leukemia	/content/disease/acute-myeloid-leukemia/flt3/278/	FALSE	D835H	Acute Myeloid Leukemia	NA	point_mutation	FLT3	NA
+FLT3 c.2503G>A (D835N) Mutation in Acute Myeloid Leukemia	/content/disease/acute-myeloid-leukemia/flt3/279/	FALSE	D835N	Acute Myeloid Leukemia	NA	point_mutation	FLT3	NA
+FLT3 c.2503G>T (D835Y) Mutation in Acute Myeloid Leukemia	/content/disease/acute-myeloid-leukemia/flt3/280/	FALSE	D835Y	Acute Myeloid Leukemia	NA	point_mutation	FLT3	NA
+FLT3 c. 2504A>C (D835A) Mutation in Acute Myeloid Leukemia	/content/disease/acute-myeloid-leukemia/flt3/281/	FALSE	D835A	Acute Myeloid Leukemia	NA	point_mutation	FLT3	NA
+FLT3 c.2504A>T (D835V) Mutation in Acute Myeloid Leukemia	/content/disease/acute-myeloid-leukemia/flt3/282/	FALSE	D835V	Acute Myeloid Leukemia	NA	point_mutation	FLT3	NA
+FLT3 c.2505T>G (D835E) Mutation in Acute Myeloid Leukemia	/content/disease/acute-myeloid-leukemia/flt3/283/	FALSE	D835E	Acute Myeloid Leukemia	NA	point_mutation	FLT3	NA
+FLT3 c.2506A>C (I836L) Mutation in Acute Myeloid Leukemia	/content/disease/acute-myeloid-leukemia/flt3/284/	FALSE	I836L	Acute Myeloid Leukemia	NA	point_mutation	FLT3	NA
+FLT3 c.2506A>G (I836V) Mutation in Acute Myeloid Leukemia	/content/disease/acute-myeloid-leukemia/flt3/285/	FALSE	I836V	Acute Myeloid Leukemia	NA	point_mutation	FLT3	NA
+FLT3 c.2506_2507delATinsGA (I836D) Mutation in Acute Myeloid Leukemia	/content/disease/acute-myeloid-leukemia/flt3/286/	FALSE	I836D	Acute Myeloid Leukemia	NA	point_mutation	FLT3	NA
+FLT3 c.2506_2507delATinsCA (I836H) Mutation in Acute Myeloid Leukemia	/content/disease/acute-myeloid-leukemia/flt3/287/	FALSE	I836H	Acute Myeloid Leukemia	NA	point_mutation	FLT3	NA
+FLT3 c.2505T>A (D835E) Mutation in Acute Myeloid Leukemia 	/content/disease/acute-myeloid-leukemia/flt3/288/	FALSE	D835E	Acute Myeloid Leukemia 	NA	point_mutation	FLT3	NA
+FLT3 c.2506A>T (I836F) Mutation in Acute Myeloid Leukemia	/content/disease/acute-myeloid-leukemia/flt3/289/	FALSE	I836F	Acute Myeloid Leukemia	NA	point_mutation	FLT3	NA
+FLT3 c.2508C>G (I836M) Mutation in Acute Myeloid Leukemia 	/content/disease/acute-myeloid-leukemia/flt3/290/	FALSE	I836M	Acute Myeloid Leukemia 	NA	point_mutation	FLT3	NA
+IDH1 c.394C>T (R132C) Mutation in Acute Myeloid Leukemia 	/content/disease/acute-myeloid-leukemia/idh1/260/	FALSE	R132C	Acute Myeloid Leukemia 	NA	point_mutation	IDH1	NA
+IDH1 c.394C>G (R132G) Mutation in Acute Myeloid Leukemia	/content/disease/acute-myeloid-leukemia/idh1/261/	FALSE	R132G	Acute Myeloid Leukemia	NA	point_mutation	IDH1	NA
+IDH1 c.394C>A (R132S) Mutation in Acute Myeloid Leukemia	/content/disease/acute-myeloid-leukemia/idh1/262/	FALSE	R132S	Acute Myeloid Leukemia	NA	point_mutation	IDH1	NA
+IDH1 c.395G>A (R132H) Mutation in Acute Myeloid Leukemia	/content/disease/acute-myeloid-leukemia/idh1/263/	FALSE	R132H	Acute Myeloid Leukemia	NA	point_mutation	IDH1	NA
+IDH1 c.395G>T (R132L) Mutation in Acute Myeloid Leukemia	/content/disease/acute-myeloid-leukemia/idh1/264/	FALSE	R132L	Acute Myeloid Leukemia	NA	point_mutation	IDH1	NA
+IDH1 c.395G>C (R132P) Mutation in Acute Myeloid Leukemia	/content/disease/acute-myeloid-leukemia/idh1/265/	FALSE	R132P	Acute Myeloid Leukemia	NA	point_mutation	IDH1	NA
+IDH2 c.419G>A (R140Q) Mutation in Acute Myeloid Leukemia	/content/disease/acute-myeloid-leukemia/idh2/266/	FALSE	R140Q	Acute Myeloid Leukemia	NA	point_mutation	IDH2	NA
+IDH2 c.418C>T (R140W) Mutation in Acute Myeloid Leukemia	/content/disease/acute-myeloid-leukemia/idh2/267/	FALSE	R140W	Acute Myeloid Leukemia	NA	point_mutation	IDH2	NA
+IDH2 c.419G>T (R140L) Mutation in Acute Myeloid Leukemia	/content/disease/acute-myeloid-leukemia/idh2/268/	FALSE	R140L	Acute Myeloid Leukemia	NA	point_mutation	IDH2	NA
+IDH2 c.418C>G (R140G) Mutation in Acute Myeloid Leukemia	/content/disease/acute-myeloid-leukemia/idh2/269/	FALSE	R140G	Acute Myeloid Leukemia	NA	point_mutation	IDH2	NA
+IDH2 c.515G>A (R172K) Mutation in Acute Myeloid Leukemia	/content/disease/acute-myeloid-leukemia/idh2/270/	FALSE	R172K	Acute Myeloid Leukemia	NA	point_mutation	IDH2	NA
+IDH2 c.515G>T (R172M) Mutation in Acute Myeloid Leukemia	/content/disease/acute-myeloid-leukemia/idh2/271/	FALSE	R172M	Acute Myeloid Leukemia	NA	point_mutation	IDH2	NA
+IDH2 c.516G>C (R172S) Mutation in Acute Myeloid Leukemia	/content/disease/acute-myeloid-leukemia/idh2/272/	FALSE	R172S	Acute Myeloid Leukemia	NA	point_mutation	IDH2	NA
+KIT Exon 8 Mutation in Acute Myeloid Leukemia	/content/disease/acute-myeloid-leukemia/kit/273/	FALSE	Exon 8	Acute Myeloid Leukemia	NA	mutation_other	KIT	NA
+KIT c.2446G>T (D816Y) Mutation in Acute Myeloid Leukemia	/content/disease/acute-myeloid-leukemia/kit/274/	FALSE	D816Y	Acute Myeloid Leukemia	NA	point_mutation	KIT	NA
+KIT c.2447A>T (D816V) Mutation in Acute Myeloid Leukemia	/content/disease/acute-myeloid-leukemia/kit/275/	FALSE	D816V	Acute Myeloid Leukemia	NA	point_mutation	KIT	NA
+KIT c.2446_2447delGAinsAT (D816I) Mutation in Acute Myeloid Leukemia	/content/disease/acute-myeloid-leukemia/kit/276/	FALSE	D816I	Acute Myeloid Leukemia	NA	point_mutation	KIT	NA
+KIT c.2446G>C (D816H) Mutation in Acute Myeloid Leukemia 	/content/disease/acute-myeloid-leukemia/kit/84/	FALSE	D816H	Acute Myeloid Leukemia 	NA	point_mutation	KIT	NA
+MLL-MLLT3 t(9;11)(p22;q23) Translocation in Acute Myeloid Leukemia	/content/disease/acute-myeloid-leukemia/mll-mllt3/254/	FALSE	p22;q23	Acute Myeloid Leukemia	NA	translocation	MLL	MLLT3
+NPM1 Exon 12 Mutations in Acute Myeloid Leukemia	/content/disease/acute-myeloid-leukemia/npm1/373/	FALSE	Exon 12	Acute Myeloid Leukemia	NA	mutation_other	NPM1	NA
+PML-RARA t(15;17)(q22;q12) Translocation in Acute Myeloid Leukemia	/content/disease/acute-myeloid-leukemia/pml-rara/253/	FALSE	q22;q12	Acute Myeloid Leukemia	NA	translocation	PML	RARA
+RBM15-MKL1 t(1;22)(p13;q13) Translocation in Acute Myeloid Leukemia	/content/disease/acute-myeloid-leukemia/rbm15-mkl1/257/	FALSE	p13;q13	Acute Myeloid Leukemia	NA	translocation	RBM15	MKL1
+RPN1-EVI1 (RPN1-MECOM) inv(3)(q21q26.2) Inversion in Acute Myeloid Leukemia	/content/disease/acute-myeloid-leukemia/rpn1-evi1/256/	FALSE	q21q26.2	Acute Myeloid Leukemia	NA	inversion	RPN1	MECOM
+RPN1-EVI1 (RPN1-MECOM) t(3;3)(q21;q26.2) Translocation in Acute Myeloid Leukemia	/content/disease/acute-myeloid-leukemia/rpn1-evi1/259/	FALSE	q21;q26.2	Acute Myeloid Leukemia	NA	translocation	RPN1	MECOM
+RUNX1-RUNX1T1 t(8;21)(q22;q22) Translocation in Acute Myeloid Leukemia	/content/disease/acute-myeloid-leukemia/runx1-runx1t1/251/	FALSE	q22;q22	Acute Myeloid Leukemia	NA	translocation	RUNX1	RUNX1T1
+TET2 Mutations in Acute Myeloid Leukemia	/content/disease/acute-myeloid-leukemia/tet2/330/	FALSE		Acute Myeloid Leukemia	NA	mutation_ns	TET2	NA
+ALK Fusions in Anaplastic Large Cell Lymphoma	/content/disease/anaplastic-large-cell-lymphoma/alk/66/	FALSE		Anaplastic Large Cell Lymphoma	NA	fusion	ALK	*
+SMO c.1417G>C (D473H) Mutation in Basal Cell Carcinoma	/content/disease/basal-cell-carcinoma/smo/163/	FALSE	D473H	Basal Cell Carcinoma	NA	point_mutation	SMO	NA
+SMO c.203_204delCCinsTT (A68V) Mutation in Basal Cell Carcinoma	/content/disease/basal-cell-carcinoma/smo/164/	FALSE	A68V	Basal Cell Carcinoma	NA	point_mutation	SMO	NA
+SMO c.595C>T (R199W) Mutation in Basal Cell Carcinoma	/content/disease/basal-cell-carcinoma/smo/165/	FALSE	R199W	Basal Cell Carcinoma	NA	point_mutation	SMO	NA
+SMO c.1046_1047delCCinsTT (T349I) Mutation in Basal Cell Carcinoma	/content/disease/basal-cell-carcinoma/smo/166/	FALSE	T349I	Basal Cell Carcinoma	NA	point_mutation	SMO	NA
+SMO c.1452_1453delCCinsTT (R485W) Mutation in Basal Cell Carcinoma	/content/disease/basal-cell-carcinoma/smo/167/	FALSE	R485W	Basal Cell Carcinoma	NA	point_mutation	SMO	NA
+SMO c.1542_1543delCCinsTT (L515F) Mutation in Basal Cell Carcinoma	/content/disease/basal-cell-carcinoma/smo/168/	FALSE	L515F	Basal Cell Carcinoma	NA	point_mutation	SMO	NA
+SMO c.1604G>T (W535L) Mutation in Basal Cell Carcinoma	/content/disease/basal-cell-carcinoma/smo/169/	FALSE	W535L	Basal Cell Carcinoma	NA	point_mutation	SMO	NA
+SMO c.1685G>A (R562Q) Mutation in Basal Cell Carcinoma	/content/disease/basal-cell-carcinoma/smo/170/	FALSE	R562Q	Basal Cell Carcinoma	NA	point_mutation	SMO	NA
+SMO c.1955C>T (A652V) Mutation in Basal Cell Carcinoma	/content/disease/basal-cell-carcinoma/smo/171/	FALSE	A652V	Basal Cell Carcinoma	NA	point_mutation	SMO	NA
+SMO c.2263_2264delCCinsTT (P755F) Mutation in Basal Cell Carcinoma	/content/disease/basal-cell-carcinoma/smo/172/	FALSE	P755F	Basal Cell Carcinoma	NA	point_mutation	SMO	NA
+FGFR3 Fusion in Bladder Cancer	/content/disease/bladder-cancer/fgfr3/341/	FALSE		Bladder Cancer	NA	fusion	FGFR3	*
+FGFR3 c.746C>G (S249C) Mutation in Bladder Cancer	/content/disease/bladder-cancer/fgfr3/356/	FALSE	S249C	Bladder Cancer	NA	point_mutation	FGFR3	NA
+FGFR3 c.1114G>T (G372C) Mutation in Bladder Cancer	/content/disease/bladder-cancer/fgfr3/360/	FALSE	G372C	Bladder Cancer	NA	point_mutation	FGFR3	NA
+FGFR3 c.1954A>C (K652E) Mutation in Bladder Cancer	/content/disease/bladder-cancer/fgfr3/361/	FALSE	K652E	Bladder Cancer	NA	point_mutation	FGFR3	NA
+FGFR3 c.1955A>T (K652M) Mutation in Bladder Cancer	/content/disease/bladder-cancer/fgfr3/362/	FALSE	K652M	Bladder Cancer	NA	point_mutation	FGFR3	NA
+FGFR3 c.1954A>G (K652Q) Mutation in Bladder Cancer	/content/disease/bladder-cancer/fgfr3/363/	FALSE	K652Q	Bladder Cancer	NA	point_mutation	FGFR3	NA
+FGFR3 c.1955A>C (K652T) Mutation in Bladder Cancer	/content/disease/bladder-cancer/fgfr3/364/	FALSE	K652T	Bladder Cancer	NA	point_mutation	FGFR3	NA
+FGFR3 c.742C>T (R248C) Mutation in Bladder Cancer	/content/disease/bladder-cancer/fgfr3/365/	FALSE	R248C	Bladder Cancer	NA	point_mutation	FGFR3	NA
+FGFR3 c.1124A>G (Y375C) Mutation in Bladder Cancer	/content/disease/bladder-cancer/fgfr3/366/	FALSE	Y375C	Bladder Cancer	NA	point_mutation	FGFR3	NA
+TSC1 c.1907_1908del (E636fs) Mutation in Bladder Cancer	/content/disease/bladder-cancer/tsc1/237/	FALSE	E636fs	Bladder Cancer	NA	frameshift	TSC1	NA
+AKT1 c.49G>A (E17K) Mutation in Breast Cancer	/content/disease/breast-cancer/akt1/23/	FALSE	E17K	Breast Cancer	NA	point_mutation	AKT1	NA
+AR Expression in Breast Cancer	/content/disease/breast-cancer/ar/311/	FALSE		Breast Cancer	NA	expression	AR	NA
+ER (ESR1) Expression in Breast Cancer	/content/disease/breast-cancer/esr1/248/	FALSE		Breast Cancer	NA	expression	ESR1	NA
+ESR1 Mutations Associated with Acquired Resistance to Antiestrogen Therapy	/content/disease/breast-cancer/esr1/314/	TRUE		NA	Acquired Resistance to Antiestrogen Therapy	mutation_ns	ESR1	NA
+FGFR1 Amplification in Breast Cancer	/content/disease/breast-cancer/fgfr1/58/	FALSE		Breast Cancer	NA	amplification	FGFR1	NA
+FGFR2 Amplification in Breast Cancer	/content/disease/breast-cancer/fgfr2/309/	FALSE		Breast Cancer	NA	amplification	FGFR2	NA
+FGFR3 c.746C>G (S249C) Mutation in Breast Cancer	/content/disease/breast-cancer/fgfr3/356/	FALSE	S249C	Breast Cancer	NA	point_mutation	FGFR3	NA
+FGFR3 Amplification in Breast Cancer	/content/disease/breast-cancer/fgfr3/357/	FALSE		Breast Cancer	NA	amplification	FGFR3	NA
+HER2 (ERBB2) Amplification in Breast Cancer	/content/disease/breast-cancer/erbb2/119/	FALSE		Breast Cancer	NA	amplification	ERBB2	NA
+HER2 (ERBB2) Overexpression in Breast Cancer	/content/disease/breast-cancer/erbb2/238/	FALSE		Breast Cancer	NA	overexpression	ERBB2	NA
+HER2 (ERBB2) c.926G>C (G309A) Mutation in Breast Cancer	/content/disease/breast-cancer/erbb2/239/	FALSE	G309A	Breast Cancer	NA	point_mutation	HER2	NA
+HER2 (ERBB2) c.2305G>C (D769H) Mutation in Breast Cancer	/content/disease/breast-cancer/erbb2/240/	FALSE	D769H	Breast Cancer	NA	point_mutation	HER2	NA
+HER2 (ERBB2) c.2305G>T (D769Y) Mutation in Breast Cancer	/content/disease/breast-cancer/erbb2/241/	FALSE	D769Y	Breast Cancer	NA	point_mutation	HER2	NA
+HER2 (ERBB2) c.2264_2278del (L755_T759del) Mutation in Breast Cancer	/content/disease/breast-cancer/erbb2/242/	FALSE	L755_T759del	Breast Cancer	NA	small_deletion	HER2	NA
+HER2 (ERBB2) c.2339_2340ins (G778_P780dup) Mutation in Breast Cancer	/content/disease/breast-cancer/erbb2/243/	FALSE	G778_P780dup	Breast Cancer	NA	duplication	HER2	NA
+HER2 (ERBB2) c.2524G>A (V842I) Mutation in Breast Cancer	/content/disease/breast-cancer/erbb2/244/	FALSE	V842I	Breast Cancer	NA	point_mutation	HER2	NA
+HER2 (ERBB2) c.2686C>T (R896C) Mutation in Breast Cancer	/content/disease/breast-cancer/erbb2/245/	FALSE	R896C	Breast Cancer	NA	point_mutation	HER2	NA
+HER2 (ERBB2) c.2264T>C (L755S) Mutation in Breast Cancer	/content/disease/breast-cancer/erbb2/246/	FALSE	L755S	Breast Cancer	NA	point_mutation	HER2	NA
+HER2 (ERBB2) c.2329G>T (V777L) Mutation in Breast Cancer	/content/disease/breast-cancer/erbb2/247/	FALSE	V777L	Breast Cancer	NA	point_mutation	HER2	NA
+PIK3CA c.3140A>T (H1047L) Mutation in Breast Cancer	/content/disease/breast-cancer/pik3ca/10/	FALSE	H1047L	Breast Cancer	NA	point_mutation	PIK3CA	NA
+PIK3CA  c.3140A>G (H1047R) Mutation in Breast Cancer	/content/disease/breast-cancer/pik3ca/11/	FALSE	H1047R	Breast Cancer	NA	point_mutation	PIK3CA	NA
+PIK3CA c.1634A>G (E545G) Mutation in Breast Cancer	/content/disease/breast-cancer/pik3ca/13/	FALSE	E545G	Breast Cancer	NA	point_mutation	PIK3CA	NA
+PIK3CA c.1634A>T (E545V) Mutation in Breast Cancer	/content/disease/breast-cancer/pik3ca/14/	FALSE	E545V	Breast Cancer	NA	point_mutation	PIK3CA	NA
+PIK3CA c.1636C>G (Q546E) Mutation in Breast Cancer	/content/disease/breast-cancer/pik3ca/15/	FALSE	Q546E	Breast Cancer	NA	point_mutation	PIK3CA	NA
+PIK3CA c.1636C>A (Q546K) Mutation in Breast Cancer	/content/disease/breast-cancer/pik3ca/16/	FALSE	Q546K	Breast Cancer	NA	point_mutation	PIK3CA	NA
+PIK3CA c.1637A>T (Q546L) Mutation in Breast Cancer	/content/disease/breast-cancer/pik3ca/17/	FALSE	Q546L	Breast Cancer	NA	point_mutation	PIK3CA	NA
+PIK3CA c.1637A>C (Q546P) Mutation in Breast Cancer	/content/disease/breast-cancer/pik3ca/18/	FALSE	Q546P	Breast Cancer	NA	point_mutation	PIK3CA	NA
+PIK3CA c.1637A>G (Q546R) Mutation in Breast Cancer	/content/disease/breast-cancer/pik3ca/19/	FALSE	Q546R	Breast Cancer	NA	point_mutation	PIK3CA	NA
+PIK3CA c.1645G>A (D549N) Mutation in Breast Cancer	/content/disease/breast-cancer/pik3ca/20/	FALSE	D549N	Breast Cancer	NA	point_mutation	PIK3CA	NA
+PIK3CA c.1624G>A (E542K) Mutation in Breast Cancer	/content/disease/breast-cancer/pik3ca/7/	FALSE	E542K	Breast Cancer	NA	point_mutation	PIK3CA	NA
+PIK3CA c.1633G>A (E545K) Mutation in Breast Cancer	/content/disease/breast-cancer/pik3ca/8/	FALSE	E545K	Breast Cancer	NA	point_mutation	PIK3CA	NA
+PIK3CA c.1633G>C (E545Q) Mutation in Breast Cancer	/content/disease/breast-cancer/pik3ca/9/	FALSE	E545Q	Breast Cancer	NA	point_mutation	PIK3CA	NA
+PR (PGR) Expression in Breast Cancer	/content/disease/breast-cancer/pgr/249/	FALSE		Breast Cancer	NA	expression	PGR	NA
+PTEN c.477G>T (R159S) Mutations in Breast Cancer	/content/disease/breast-cancer/pten/24/	FALSE	R159S	Breast Cancer	NA	point_mutation	PTEN	NA
+PTEN c.697C>T (R233*) Mutations in Breast Cancer	/content/disease/breast-cancer/pten/25/	FALSE	R233*	Breast Cancer	NA	point_mutation	PTEN	NA
+PTEN c.800delA (K267fs*9) Mutations in Breast Cancer	/content/disease/breast-cancer/pten/26/	FALSE	K267fs*9	Breast Cancer	NA	frameshift	PTEN	NA
+BIRC3 Truncating Mutations in Chronic Lymphocytic Leukemia	/content/disease/chronic-lymphocytic-leukemia/birc3/342/	FALSE	Truncating	Chronic Lymphocytic Leukemia	NA	mutation_other	BIRC3	NA
+NOTCH1 c.7541_7542delCT (P2514fs) Mutation in Chronic Lymphocytic Leukemia	/content/disease/chronic-lymphocytic-leukemia/notch1/344/	FALSE	P2514fs	Chronic Lymphocytic Leukemia	NA	frameshift	NOTCH1	NA
+NOTCH1 Truncating Mutations in Chronic Lymphocytic Leukemia	/content/disease/chronic-lymphocytic-leukemia/notch1/345/	FALSE	Truncating	Chronic Lymphocytic Leukemia	NA	mutation_other	NOTCH1	NA
+BCR-ABL1 Fusions in Chronic Myeloid Leukemia	/content/disease/chronic-myeloid-leukemia/bcr-abl1/219/	FALSE		Chronic Myeloid Leukemia	NA	fusion	BCR	ABL1
+Other BCR-ABL1 Mutations in Chronic Myeloid Leukemia	/content/disease/chronic-myeloid-leukemia/bcr-abl1/220/	FALSE	BCR-ABL1	Chronic Myeloid Leukemia	NA	mutation_other	Other	NA
+BCR-ABL1 c.1075T>G (F359V) Mutation in Chronic Myeloid Leukemia	/content/disease/chronic-myeloid-leukemia/bcr-abl1/221/	FALSE	F359V	Chronic Myeloid Leukemia	NA	point_mutation	BCR-ABL1	NA
+BCR-ABL1 c.1075T>A (F359I) Mutation in Chronic Myeloid Leukemia	/content/disease/chronic-myeloid-leukemia/bcr-abl1/222/	FALSE	F359I	Chronic Myeloid Leukemia	NA	point_mutation	BCR-ABL1	NA
+BCR-ABL1 c.1076T>G (F359C) Mutation in Chronic Myeloid Leukemia	/content/disease/chronic-myeloid-leukemia/bcr-abl1/223/	FALSE	F359C	Chronic Myeloid Leukemia	NA	point_mutation	BCR-ABL1	NA
+BCR-ABL1 c.764A>T (E255V) Mutation in Chronic Myeloid Leukemia	/content/disease/chronic-myeloid-leukemia/bcr-abl1/224/	FALSE	E255V	Chronic Myeloid Leukemia	NA	point_mutation	BCR-ABL1	NA
+BCR-ABL1 c.949T>G (F317V) Mutation in Chronic Myeloid Leukemia	/content/disease/chronic-myeloid-leukemia/bcr-abl1/225/	FALSE	F317V	Chronic Myeloid Leukemia	NA	point_mutation	BCR-ABL1	NA
+BCR-ABL1 c.951C>G (F317L) Mutation in Chronic Myeloid Leukemia	/content/disease/chronic-myeloid-leukemia/bcr-abl1/226/	FALSE	F317L	Chronic Myeloid Leukemia	NA	point_mutation	BCR-ABL1	NA
+BCR-ABL1 c.949T>C (F317L) Mutation in Chronic Myeloid Leukemia	/content/disease/chronic-myeloid-leukemia/bcr-abl1/227/	FALSE	F317L	Chronic Myeloid Leukemia	NA	point_mutation	BCR-ABL1	NA
+BCR-ABL1 c.951C>A (F317L) Mutation in Chronic Myeloid Leukemia	/content/disease/chronic-myeloid-leukemia/bcr-abl1/228/	FALSE	F317L	Chronic Myeloid Leukemia	NA	point_mutation	BCR-ABL1	NA
+BCR-ABL1 c.949T>A (F317I) Mutation in Chronic Myeloid Leukemia	/content/disease/chronic-myeloid-leukemia/bcr-abl1/229/	FALSE	F317I	Chronic Myeloid Leukemia	NA	point_mutation	BCR-ABL1	NA
+BCR-ABL1 c.950T>G (F317C) Mutation in Chronic Myeloid Leukemia	/content/disease/chronic-myeloid-leukemia/bcr-abl1/230/	FALSE	F317C	Chronic Myeloid Leukemia	NA	point_mutation	BCR-ABL1	NA
+BCR-ABL1 c.944C>T (T315I) Mutation in Chronic Myeloid Leukemia	/content/disease/chronic-myeloid-leukemia/bcr-abl1/231/	FALSE	T315I	Chronic Myeloid Leukemia	NA	point_mutation	BCR-ABL1	NA
+BCR-ABL1 c.943A>G (T315A) Mutation in Chronic Myeloid Leukemia 	/content/disease/chronic-myeloid-leukemia/bcr-abl1/232/	FALSE	T315A	Chronic Myeloid Leukemia 	NA	point_mutation	BCR-ABL1	NA
+BCR-ABL1 c.895G>T (V299L) Mutation in Chronic Myeloid Leukemia	/content/disease/chronic-myeloid-leukemia/bcr-abl1/233/	FALSE	V299L	Chronic Myeloid Leukemia	NA	point_mutation	BCR-ABL1	NA
+BCR-ABL1 c.895G>C (V299L) Mutation in Chronic Myeloid Leukemia	/content/disease/chronic-myeloid-leukemia/bcr-abl1/234/	FALSE	V299L	Chronic Myeloid Leukemia	NA	point_mutation	BCR-ABL1	NA
+BCR-ABL1 c.763G>A (E255K) Mutation in Chronic Myeloid Leukemia	/content/disease/chronic-myeloid-leukemia/bcr-abl1/235/	FALSE	E255K	Chronic Myeloid Leukemia	NA	point_mutation	BCR-ABL1	NA
+BCR-ABL1 c.757T>C (Y253H) Mutation in Chronic Myeloid Leukemia	/content/disease/chronic-myeloid-leukemia/bcr-abl1/236/	FALSE	Y253H	Chronic Myeloid Leukemia	NA	point_mutation	BCR-ABL1	NA
+AKT1 c.49G>A (E17K) Mutation in Colorectal Cancer 	/content/disease/colorectal-cancer/akt1/23/	FALSE	E17K	Colorectal Cancer 	NA	point_mutation	AKT1	NA
+BRAF c.1406G>A (G469E) Mutation in Colorectal Cancer	/content/disease/colorectal-cancer/braf/146/	FALSE	G469E	Colorectal Cancer	NA	point_mutation	BRAF	NA
+BRAF c.1406G>T (G469V) Mutation in Colorectal Cancer	/content/disease/colorectal-cancer/braf/147/	FALSE	G469V	Colorectal Cancer	NA	point_mutation	BRAF	NA
+BRAF c.1781A>G (D594G) Mutation in Colorectal Cancer	/content/disease/colorectal-cancer/braf/148/	FALSE	D594G	Colorectal Cancer	NA	point_mutation	BRAF	NA
+BRAF c.1781A>T (D594V) Mutation in Colorectal Cancer	/content/disease/colorectal-cancer/braf/149/	FALSE	D594V	Colorectal Cancer	NA	point_mutation	BRAF	NA
+BRAF c.1786G>C (G596R) Mutation in Colorectal Cancer	/content/disease/colorectal-cancer/braf/150/	FALSE	G596R	Colorectal Cancer	NA	point_mutation	BRAF	NA
+BRAF c.1799T>A (V600E) Mutation in Colorectal Cancer	/content/disease/colorectal-cancer/braf/54/	FALSE	V600E	Colorectal Cancer	NA	point_mutation	BRAF	NA
+BRAF c.1397G>T (G466V) Mutation in Colorectal Cancer	/content/disease/colorectal-cancer/braf/70/	FALSE	G466V	Colorectal Cancer	NA	point_mutation	BRAF	NA
+BRAF c.1406G>C (G469A) Mutation in Colorectal Cancer	/content/disease/colorectal-cancer/braf/71/	FALSE	G469A	Colorectal Cancer	NA	point_mutation	BRAF	NA
+KRAS c.38G>T (G13V) Mutation in Colorectal Cancer	/content/disease/colorectal-cancer/kras/159/	FALSE	G13V	Colorectal Cancer	NA	point_mutation	KRAS	NA
+KRAS c.351A>C (K117N) Mutation in Colorectal Cancer	/content/disease/colorectal-cancer/kras/160/	FALSE	K117N	Colorectal Cancer	NA	point_mutation	KRAS	NA
+KRAS c.351A>T (K117N) Mutation in Colorectal Cancer	/content/disease/colorectal-cancer/kras/161/	FALSE	K117N	Colorectal Cancer	NA	point_mutation	KRAS	NA
+KRAS c.436G>C (A146P) Mutation in Colorectal Cancer	/content/disease/colorectal-cancer/kras/27/	FALSE	A146P	Colorectal Cancer	NA	point_mutation	KRAS	NA
+KRAS c.436G>A (A146T) Mutation in Colorectal Cancer	/content/disease/colorectal-cancer/kras/28/	FALSE	A146T	Colorectal Cancer	NA	point_mutation	KRAS	NA
+KRAS c.437C>T (A146V) Mutation in Colorectal Cancer	/content/disease/colorectal-cancer/kras/29/	FALSE	A146V	Colorectal Cancer	NA	point_mutation	KRAS	NA
+KRAS c.183A>C (Q61H) Mutation in Colorectal Cancer	/content/disease/colorectal-cancer/kras/30/	FALSE	Q61H	Colorectal Cancer	NA	point_mutation	KRAS	NA
+KRAS c.182A>C (Q61P) Mutation in Colorectal Cancer	/content/disease/colorectal-cancer/kras/308/	FALSE	Q61P	Colorectal Cancer	NA	point_mutation	KRAS	NA
+KRAS c.183A>T (Q61H) Mutation in Colorectal Cancer	/content/disease/colorectal-cancer/kras/31/	FALSE	Q61H	Colorectal Cancer	NA	point_mutation	KRAS	NA
+KRAS c.35G>C (G12A) Mutation in Colorectal Cancer	/content/disease/colorectal-cancer/kras/32/	FALSE	G12A	Colorectal Cancer	NA	point_mutation	KRAS	NA
+KRAS c.34G>T (G12C) Mutation in Colorectal Cancer	/content/disease/colorectal-cancer/kras/33/	FALSE	G12C	Colorectal Cancer	NA	point_mutation	KRAS	NA
+KRAS c.35G>A (G12D) Mutation in Colorectal Cancer	/content/disease/colorectal-cancer/kras/34/	FALSE	G12D	Colorectal Cancer	NA	point_mutation	KRAS	NA
+KRAS c.64C>A (Q22K) Mutation in Colorectal Cancer	/content/disease/colorectal-cancer/kras/347/	FALSE	Q22K	Colorectal Cancer	NA	point_mutation	KRAS	NA
+KRAS c.34G>C (G12R) Mutation in Colorectal Cancer	/content/disease/colorectal-cancer/kras/35/	FALSE	G12R	Colorectal Cancer	NA	point_mutation	KRAS	NA
+KRAS c.34G>A (G12S) Mutation in Colorectal Cancer	/content/disease/colorectal-cancer/kras/36/	FALSE	G12S	Colorectal Cancer	NA	point_mutation	KRAS	NA
+KRAS Amplification in Colorectal Cancer	/content/disease/colorectal-cancer/kras/367/	FALSE		Colorectal Cancer	NA	amplification	KRAS	NA
+KRAS c.35G>T (G12V) Mutation in Colorectal Cancer	/content/disease/colorectal-cancer/kras/37/	FALSE	G12V	Colorectal Cancer	NA	point_mutation	KRAS	NA
+KRAS c.37G>T (G13C) Mutation in Colorectal Cancer	/content/disease/colorectal-cancer/kras/38/	FALSE	G13C	Colorectal Cancer	NA	point_mutation	KRAS	NA
+KRAS c.38G>A (G13D) Mutation in Colorectal Cancer	/content/disease/colorectal-cancer/kras/39/	FALSE	G13D	Colorectal Cancer	NA	point_mutation	KRAS	NA
+KRAS c.37G>C (G13R) Mutation in Colorectal Cancer	/content/disease/colorectal-cancer/kras/40/	FALSE	G13R	Colorectal Cancer	NA	point_mutation	KRAS	NA
+KRAS c.181C>A (Q61K) Mutation in Colorectal Cancer	/content/disease/colorectal-cancer/kras/41/	FALSE	Q61K	Colorectal Cancer	NA	point_mutation	KRAS	NA
+KRAS c.182A>T (Q61L) Mutation in Colorectal Cancer	/content/disease/colorectal-cancer/kras/42/	FALSE	Q61L	Colorectal Cancer	NA	point_mutation	KRAS	NA
+KRAS c.182A>G (Q61R) Mutation in Colorectal Cancer	/content/disease/colorectal-cancer/kras/43/	FALSE	Q61R	Colorectal Cancer	NA	point_mutation	KRAS	NA
+No KRAS and No NRAS Mutation Detected in Colorectal Cancer	/content/disease/colorectal-cancer/kras/44/	FALSE	No KRAS and No NRAS Detected	Colorectal Cancer	NA	other	NA	NA
+KRAS c.38G>C (G13A) Mutation in Colorectal Cancer	/content/disease/colorectal-cancer/kras/68/	FALSE	G13A	Colorectal Cancer	NA	point_mutation	KRAS	NA
+KRAS c.37G>A (G13S) Mutation in Colorectal Cancer	/content/disease/colorectal-cancer/kras/69/	FALSE	G13S	Colorectal Cancer	NA	point_mutation	KRAS	NA
+No KRAS and No NRAS Mutation Detected in Colorectal Cancer	/content/disease/colorectal-cancer/nras/316/	FALSE	No KRAS and No NRAS Detected	Colorectal Cancer	NA	other	NA	NA
+NRAS c.181C>A (Q61K) Mutation in Colorectal Cancer	/content/disease/colorectal-cancer/nras/75/	FALSE	Q61K	Colorectal Cancer	NA	point_mutation	NRAS	NA
+NRAS c.182A>G (Q61R) Mutation in Colorectal Cancer	/content/disease/colorectal-cancer/nras/77/	FALSE	Q61R	Colorectal Cancer	NA	point_mutation	NRAS	NA
+NRAS c.35G>C (G12A) Mutation in Colorectal Cancer	/content/disease/colorectal-cancer/nras/85/	FALSE	G12A	Colorectal Cancer	NA	point_mutation	NRAS	NA
+NRAS c.34G>T (G12C) Mutation in Colorectal Cancer	/content/disease/colorectal-cancer/nras/86/	FALSE	G12C	Colorectal Cancer	NA	point_mutation	NRAS	NA
+NRAS c.35G>A (G12D) Mutation in Colorectal Cancer	/content/disease/colorectal-cancer/nras/87/	FALSE	G12D	Colorectal Cancer	NA	point_mutation	NRAS	NA
+NRAS c.34G>A (G12S) Mutation in Colorectal Cancer	/content/disease/colorectal-cancer/nras/89/	FALSE	G12S	Colorectal Cancer	NA	point_mutation	NRAS	NA
+NRAS c.35G>T (G12V) Mutation in Colorectal Cancer	/content/disease/colorectal-cancer/nras/90/	FALSE	G12V	Colorectal Cancer	NA	point_mutation	NRAS	NA
+PIK3CA c.3140A>T (H1047L) Mutation in Colorectal Cancer	/content/disease/colorectal-cancer/pik3ca/10/	FALSE	H1047L	Colorectal Cancer	NA	point_mutation	PIK3CA	NA
+PIK3CA c.3140A>G (H1047R) Mutation in Colorectal Cancer	/content/disease/colorectal-cancer/pik3ca/11/	FALSE	H1047R	Colorectal Cancer	NA	point_mutation	PIK3CA	NA
+PIK3CA c.1634A>G (E545G) Mutation in Colorectal Cancer	/content/disease/colorectal-cancer/pik3ca/13/	FALSE	E545G	Colorectal Cancer	NA	point_mutation	PIK3CA	NA
+PIK3CA c.1634A>T (E545V) Mutation in Colorectal Cancer	/content/disease/colorectal-cancer/pik3ca/14/	FALSE	E545V	Colorectal Cancer	NA	point_mutation	PIK3CA	NA
+PIK3CA c.1636C>G (Q546E) Mutation in Colorectal Cancer	/content/disease/colorectal-cancer/pik3ca/15/	FALSE	Q546E	Colorectal Cancer	NA	point_mutation	PIK3CA	NA
+PIK3CA c.1636C>A (Q546K) Mutation in Colorectal Cancer	/content/disease/colorectal-cancer/pik3ca/16/	FALSE	Q546K	Colorectal Cancer	NA	point_mutation	PIK3CA	NA
+PIK3CA c.1637A>T (Q546L) Mutation in Colorectal Cancer	/content/disease/colorectal-cancer/pik3ca/17/	FALSE	Q546L	Colorectal Cancer	NA	point_mutation	PIK3CA	NA
+PIK3CA c.1637A>C (Q546P) Mutation in Colorectal Cancer	/content/disease/colorectal-cancer/pik3ca/18/	FALSE	Q546P	Colorectal Cancer	NA	point_mutation	PIK3CA	NA
+PIK3CA c.1637A>G (Q546R) Mutation in Colorectal Cancer	/content/disease/colorectal-cancer/pik3ca/19/	FALSE	Q546R	Colorectal Cancer	NA	point_mutation	PIK3CA	NA
+PIK3CA c.1645G>A (D549N) Mutation in Colorectal Cancer	/content/disease/colorectal-cancer/pik3ca/20/	FALSE	D549N	Colorectal Cancer	NA	point_mutation	PIK3CA	NA
+PIK3CA c.1624G>A (E542K) Mutation in Colorectal Cancer	/content/disease/colorectal-cancer/pik3ca/7/	FALSE	E542K	Colorectal Cancer	NA	point_mutation	PIK3CA	NA
+PIK3CA c.1633G>A (E545K) Mutation in Colorectal Cancer	/content/disease/colorectal-cancer/pik3ca/8/	FALSE	E545K	Colorectal Cancer	NA	point_mutation	PIK3CA	NA
+PIK3CA c.1633G>C (E545Q) Mutation in Colorectal Cancer	/content/disease/colorectal-cancer/pik3ca/9/	FALSE	E545Q	Colorectal Cancer	NA	point_mutation	PIK3CA	NA
+PTEN c.477G>T (R159S) Mutations in Colorectal Cancer	/content/disease/colorectal-cancer/pten/24/	FALSE	R159S	Colorectal Cancer	NA	point_mutation	PTEN	NA
+PTEN c.697C>T (R233*) Mutations in Colorectal Cancer 	/content/disease/colorectal-cancer/pten/25/	FALSE	R233*	Colorectal Cancer 	NA	point_mutation	PTEN	NA
+PTEN c.800delA (K267fs*9) Mutations in Colorectal Cancer	/content/disease/colorectal-cancer/pten/26/	FALSE	K267fs*9	Colorectal Cancer	NA	frameshift	PTEN	NA
+SMAD4 c.989A>C (E330A) Mutation in Colorectal Cancer	/content/disease/colorectal-cancer/smad4/151/	FALSE	E330A	Colorectal Cancer	NA	point_mutation	SMAD4	NA
+SMAD4 c.1051G>C (D351H) Mutation in Colorectal Cancer	/content/disease/colorectal-cancer/smad4/152/	FALSE	D351H	Colorectal Cancer	NA	point_mutation	SMAD4	NA
+SMAD4 c.1609G>T (D537Y) Mutation in Colorectal Cancer	/content/disease/colorectal-cancer/smad4/153/	FALSE	D537Y	Colorectal Cancer	NA	point_mutation	SMAD4	NA
+SMAD4 c.1051G>A (D351N) mutation in Colorectal Cancer	/content/disease/colorectal-cancer/smad4/154/	FALSE	D351N	Colorectal Cancer	NA	point_mutation	SMAD4	NA
+SMAD4 c.1065C>A (D355E) Mutation in Colorectal Cancer	/content/disease/colorectal-cancer/smad4/155/	FALSE	D355E	Colorectal Cancer	NA	point_mutation	SMAD4	NA
+SMAD4 c.1081C>A (R361S) Mutation in Colorectal Cancer	/content/disease/colorectal-cancer/smad4/156/	FALSE	R361S	Colorectal Cancer	NA	point_mutation	SMAD4	NA
+SMAD4 c.1081C>T (R361C) Mutation in Colorectal Cancer	/content/disease/colorectal-cancer/smad4/157/	FALSE	R361C	Colorectal Cancer	NA	point_mutation	SMAD4	NA
+SMAD4 c.1082G>A (R361H) Mutation in Colorectal Cancer	/content/disease/colorectal-cancer/smad4/158/	FALSE	R361H	Colorectal Cancer	NA	point_mutation	SMAD4	NA
+HER2 (ERBB2) Amplification in Gastric Cancer	/content/disease/gastric-cancer/erbb2/119/	FALSE		Gastric Cancer	NA	amplification	ERBB2	NA
+BRAF c.1799T>A (V600E) mutation in GIST	/content/disease/gist/braf/54/	FALSE	V600E	GIST	NA	point_mutation	BRAF	NA
+No Mutation Detected in KIT, PDGFRA and BRAF in GIST	/content/disease/gist/braf/55/	FALSE	No Detected in KIT, PDGFRA and BRAF	GIST	NA	other	NA	NA
+KIT Exon 9 Mutation in GIST	/content/disease/gist/kit/46/	FALSE	Exon 9	GIST	NA	mutation_other	KIT	NA
+KIT Exon 11 Mutation in GIST	/content/disease/gist/kit/47/	FALSE	Exon 11	GIST	NA	mutation_other	KIT	NA
+KIT Exon 13 Mutation in GIST	/content/disease/gist/kit/49/	FALSE	Exon 13	GIST	NA	mutation_other	KIT	NA
+KIT Exon 14 Mutation in GIST	/content/disease/gist/kit/50/	FALSE	Exon 14	GIST	NA	mutation_other	KIT	NA
+KIT Exon 17 Mutation in GIST	/content/disease/gist/kit/52/	FALSE	Exon 17	GIST	NA	mutation_other	KIT	NA
+No Mutation Detected in KIT, PDGFRA and BRAF in GIST	/content/disease/gist/kit/56/	FALSE	No Detected in KIT, PDGFRA and BRAF	GIST	NA	other	NA	NA
+PDGFRA Exon 18 Mutation in GIST (D842V)	/content/disease/gist/pdgfra/45/	FALSE	Exon 18	GIST (D842V)	NA	mutation_other	PDGFRA	NA
+PDGFRA Exon 12 Mutation in GIST	/content/disease/gist/pdgfra/48/	FALSE	Exon 12	GIST	NA	mutation_other	PDGFRA	NA
+PDGFRA Exon 14 Mutation in GIST	/content/disease/gist/pdgfra/51/	FALSE	Exon 14	GIST	NA	mutation_other	PDGFRA	NA
+PDGFRA Exon 18 Mutation in GIST	/content/disease/gist/pdgfra/53/	FALSE	Exon 18	GIST	NA	mutation_other	PDGFRA	NA
+No Mutation Detected in KIT, PDGFRA and BRAF in GIST	/content/disease/gist/pdgfra/57/	FALSE	No Detected in KIT, PDGFRA and BRAF	GIST	NA	other	NA	NA
+BRAF c.1799T>A (V600E) Mutation in Glioma	/content/disease/glioma/braf/54/	FALSE	V600E	Glioma	NA	point_mutation	BRAF	NA
+IDH1 c.394C>T (R132C) Mutation in Glioma	/content/disease/glioma/idh1/260/	FALSE	R132C	Glioma	NA	point_mutation	IDH1	NA
+IDH1 c.394C>G (R132G) Mutation in Glioma	/content/disease/glioma/idh1/261/	FALSE	R132G	Glioma	NA	point_mutation	IDH1	NA
+IDH1 c.394C>A (R132S) Mutation in Glioma	/content/disease/glioma/idh1/262/	FALSE	R132S	Glioma	NA	point_mutation	IDH1	NA
+IDH1 c.395G>A (R132H) Mutation in Glioma	/content/disease/glioma/idh1/263/	FALSE	R132H	Glioma	NA	point_mutation	IDH1	NA
+IDH1 c.395G>T (R132L) Mutation in Glioma	/content/disease/glioma/idh1/264/	FALSE	R132L	Glioma	NA	point_mutation	IDH1	NA
+IDH2 c.515G>A (R172K) Mutation in Glioma	/content/disease/glioma/idh2/270/	FALSE	R172K	Glioma	NA	point_mutation	IDH2	NA
+IDH2 c.515G>T (R172M) Mutation in Glioma	/content/disease/glioma/idh2/271/	FALSE	R172M	Glioma	NA	point_mutation	IDH2	NA
+IDH2 c.516G>C (R172S) Mutation in Glioma	/content/disease/glioma/idh2/272/	FALSE	R172S	Glioma	NA	point_mutation	IDH2	NA
+IDH2 c.514A>G (R172G) Mutation in Glioma	/content/disease/glioma/idh2/317/	FALSE	R172G	Glioma	NA	point_mutation	IDH2	NA
+IDH2 c.514A>T (R172W) Mutation in Glioma	/content/disease/glioma/idh2/318/	FALSE	R172W	Glioma	NA	point_mutation	IDH2	NA
+IDH2 c.516G>T (R172S) Mutation in Glioma	/content/disease/glioma/idh2/319/	FALSE	R172S	Glioma	NA	point_mutation	IDH2	NA
+ALK Fusions in Inflammatory Myofibroblastic Tumor	/content/disease/inflammatory-myofibroblastic-tumor/alk/66/	FALSE		Inflammatory Myofibroblastic Tumor	NA	fusion	ALK	*
+AKT1 c.49G>A (E17K) Mutations in Non-Small Cell Lung Cancer (NSCLC)	/content/disease/lung-cancer/akt1/23/	FALSE	E17K	Non-Small Cell Lung Cancer (NSCLC)	NA	point_mutation	AKT1	NA
+ALK Mutations Associated with Acquired Resistance to ALK TKI Therapy	/content/disease/lung-cancer/alk/139/	TRUE		NA	Acquired Resistance to ALK TKI Therapy	mutation_ns	ALK	NA
+ALK Fusions in Non-Small Cell Lung Cancer	/content/disease/lung-cancer/alk/66/	FALSE		Non-Small Cell Lung Cancer	NA	fusion	ALK	*
+BRAF c.1415A>G (Y472C) Mutation in Non-Small Cell Lung Cancer	/content/disease/lung-cancer/braf/209/	FALSE	Y472C	Non-Small Cell Lung Cancer	NA	point_mutation	BRAF	NA
+BRAF c.1405_1406delGGinsTT (G469L) Mutation in Non-Small Cell Lung Cancer	/content/disease/lung-cancer/braf/310/	FALSE	G469L	Non-Small Cell Lung Cancer	NA	point_mutation	BRAF	NA
+BRAF c.1799T>A (V600E) Mutation in Non-Small Cell Lung Cancer	/content/disease/lung-cancer/braf/54/	FALSE	V600E	Non-Small Cell Lung Cancer	NA	point_mutation	BRAF	NA
+BRAF c.1397G>T (G466V) Mutation in Non-Small Cell Lung Cancer	/content/disease/lung-cancer/braf/70/	FALSE	G466V	Non-Small Cell Lung Cancer	NA	point_mutation	BRAF	NA
+BRAF c.1406G>C (G469A) Mutation in Non-Small Cell Lung Cancer	/content/disease/lung-cancer/braf/71/	FALSE	G469A	Non-Small Cell Lung Cancer	NA	point_mutation	BRAF	NA
+BRAF c.1789C>G (L597V) Mutation in Non-Small Cell Lung Cancer	/content/disease/lung-cancer/braf/73/	FALSE	L597V	Non-Small Cell Lung Cancer	NA	point_mutation	BRAF	NA
+DDR2 c.2304T>A (S768R) Mutation in Squamous Cell Carcinoma of the Lung	/content/disease/lung-cancer/ddr2/78/	FALSE	S768R	Squamous Cell Carcinoma of the Lung	NA	point_mutation	DDR2	NA
+EGFR c.2156G>C (G719A) Mutations in Non-Small Cell Lung Cancer	/content/disease/lung-cancer/egfr/1/	FALSE	G719A	Non-Small Cell Lung Cancer	NA	point_mutation	EGFR	NA
+EGFR Exon 19 Insertion in Non-Small Cell Lung Cancer	/content/disease/lung-cancer/egfr/135/	FALSE	Exon 19	Non-Small Cell Lung Cancer	NA	large_insertion	EGFR	NA
+EGFR c.2155G>T (G719C) Mutations in Non-Small Cell Lung Cancer	/content/disease/lung-cancer/egfr/2/	FALSE	G719C	Non-Small Cell Lung Cancer	NA	point_mutation	EGFR	NA
+EGFR Exon 19 Deletion in Non-Small Cell Lung Cancer	/content/disease/lung-cancer/egfr/21/	FALSE	Exon 19	Non-Small Cell Lung Cancer	NA	large_deletion	EGFR	NA
+EGFR c.2155G>A (G719S) Mutations in Non-Small Cell Lung Cancer	/content/disease/lung-cancer/egfr/3/	FALSE	G719S	Non-Small Cell Lung Cancer	NA	point_mutation	EGFR	NA
+EGFR c.2290_2291ins (A763_Y764insFQEA) Mutation in Non-Small Cell Lung Cancer	/content/disease/lung-cancer/egfr/312/	FALSE	A763_Y764insFQEA	Non-Small Cell Lung Cancer	NA	insertion	EGFR	NA
+EGFR Status Unknown in Non-Small Cell Lung cancer	/content/disease/lung-cancer/egfr/313/	FALSE	EGFR Status Unknown	Non-Small Cell Lung cancer	NA	other	NA	NA
+EGFR exon 18â25 Kinase Domain Duplication (EGFR-KDD) in Non-Small Cell Lung Cancer	/content/disease/lung-cancer/egfr/339/	FALSE	EGFR-KDD	Non-Small Cell Lung Cancer	NA	other	NA	NA
+EGFR c.2303G>T (S768I) Mutation in Lung Cancer	/content/disease/lung-cancer/egfr/348/	FALSE	S768I	Lung Cancer	NA	point_mutation	EGFR	NA
+EGFR c.2390G>C (C797S) Mutation in Lung Cancer	/content/disease/lung-cancer/egfr/368/	FALSE	C797S	Lung Cancer	NA	point_mutation	EGFR	NA
+EGFR c.2369C>T (T790M) Mutation in Non-Small Cell Lung Cancer	/content/disease/lung-cancer/egfr/4/	FALSE	T790M	Non-Small Cell Lung Cancer	NA	point_mutation	EGFR	NA
+EGFR c.2573T>G (L858R) Mutation in Non-Small Cell Lung Cancer	/content/disease/lung-cancer/egfr/5/	FALSE	L858R	Non-Small Cell Lung Cancer	NA	point_mutation	EGFR	NA
+EGFR c.2582T>A (L861Q) Mutation in Non-Small Cell Lung Cancer	/content/disease/lung-cancer/egfr/6/	FALSE	L861Q	Non-Small Cell Lung Cancer	NA	point_mutation	EGFR	NA
+EGFR Exon 20 Insertion in Non-Small Cell Lung Cancer	/content/disease/lung-cancer/egfr/64/	FALSE	Exon 20	Non-Small Cell Lung Cancer	NA	large_insertion	EGFR	NA
+No EGFR Mutation Detected in Non-Small Cell Lung Cancer	/content/disease/lung-cancer/egfr/79/	FALSE	No EGFR Detected	Non-Small Cell Lung Cancer	NA	other	NA	NA
+FGFR1 Amplification in SCC of the Lung	/content/disease/lung-cancer/fgfr1/58/	FALSE		SCC of the Lung	NA	amplification	FGFR1	NA
+FGFR3 Fusions in Lung Cancer	/content/disease/lung-cancer/fgfr3/341/	FALSE		Lung Cancer	NA	fusion	FGFR3	*
+HER2 (ERBB2) Exon 20 Insertion in Non-Small Cell Lung Cancer	/content/disease/lung-cancer/erbb2/65/	FALSE	Exon 20	Non-Small Cell Lung Cancer	NA	large_insertion	ERBB2	NA
+KRAS c.183A>C (Q61H) Mutation in Non-Small Cell Lung Cancer	/content/disease/lung-cancer/kras/30/	FALSE	Q61H	Non-Small Cell Lung Cancer	NA	point_mutation	KRAS	NA
+KRAS c.183A>T (Q61H) Mutation in Non-Small Cell Lung Cancer	/content/disease/lung-cancer/kras/31/	FALSE	Q61H	Non-Small Cell Lung Cancer	NA	point_mutation	KRAS	NA
+KRAS c.35G>C (G12A) Mutation in Non-Small Cell Lung Cancer	/content/disease/lung-cancer/kras/32/	FALSE	G12A	Non-Small Cell Lung Cancer	NA	point_mutation	KRAS	NA
+KRAS c.34G>T (G12C) Mutation in Non-Small Cell Lung Cancer	/content/disease/lung-cancer/kras/33/	FALSE	G12C	Non-Small Cell Lung Cancer	NA	point_mutation	KRAS	NA
+KRAS c.35G>A (G12D) Mutation in Non-Small Cell Lung Cancer	/content/disease/lung-cancer/kras/34/	FALSE	G12D	Non-Small Cell Lung Cancer	NA	point_mutation	KRAS	NA
+KRAS c.34G>C (G12R) Mutation in Non-Small Cell Lung Cancer	/content/disease/lung-cancer/kras/35/	FALSE	G12R	Non-Small Cell Lung Cancer	NA	point_mutation	KRAS	NA
+KRAS c.34G>A (G12S) Mutation in Non-Small Cell Lung Cancer	/content/disease/lung-cancer/kras/36/	FALSE	G12S	Non-Small Cell Lung Cancer	NA	point_mutation	KRAS	NA
+KRAS c.35G>T (G12V) Mutation in Non-Small Cell Lung Cancer	/content/disease/lung-cancer/kras/37/	FALSE	G12V	Non-Small Cell Lung Cancer	NA	point_mutation	KRAS	NA
+KRAS c.37G>T (G13C) Mutation in Non-Small Cell Lung Cancer	/content/disease/lung-cancer/kras/38/	FALSE	G13C	Non-Small Cell Lung Cancer	NA	point_mutation	KRAS	NA
+KRAS c.38G>A (G13D) Mutation in Non-Small Cell Lung Cancer	/content/disease/lung-cancer/kras/39/	FALSE	G13D	Non-Small Cell Lung Cancer	NA	point_mutation	KRAS	NA
+KRAS c.37G>C (G13R) Mutation in Non-Small Cell Lung Cancer	/content/disease/lung-cancer/kras/40/	FALSE	G13R	Non-Small Cell Lung Cancer	NA	point_mutation	KRAS	NA
+KRAS c.181C>A (Q61K) Mutation in Non-Small Cell Lung Cancer	/content/disease/lung-cancer/kras/41/	FALSE	Q61K	Non-Small Cell Lung Cancer	NA	point_mutation	KRAS	NA
+KRAS c.182A>T (Q61L) Mutation in Non-Small Cell Lung Cancer	/content/disease/lung-cancer/kras/42/	FALSE	Q61L	Non-Small Cell Lung Cancer	NA	point_mutation	KRAS	NA
+KRAS c.182A>G (Q61R) Mutation in Non-Small Cell Lung Cancer	/content/disease/lung-cancer/kras/43/	FALSE	Q61R	Non-Small Cell Lung Cancer	NA	point_mutation	KRAS	NA
+KRAS c.38G>C (G13A) Mutation in Non-Small Cell Lung Cancer	/content/disease/lung-cancer/kras/68/	FALSE	G13A	Non-Small Cell Lung Cancer	NA	point_mutation	KRAS	NA
+KRAS c.37G>A (G13S) Mutation in Non-Small Cell Lung Cancer	/content/disease/lung-cancer/kras/69/	FALSE	G13S	Non-Small Cell Lung Cancer	NA	point_mutation	KRAS	NA
+MEK1 (MAP2K1) c.199G>A (D67N) Mutations in Non-Small Cell Lung Cancer (NSCLC)	/content/disease/lung-cancer/map2k1/60/	FALSE	D67N	Non-Small Cell Lung Cancer (NSCLC)	NA	point_mutation	MEK1	NA
+MEK1 (MAP2K1) c.171G>T (K57N) Mutations in Non-Small Cell Lung Cancer (NSCLC)	/content/disease/lung-cancer/map2k1/72/	FALSE	K57N	Non-Small Cell Lung Cancer (NSCLC)	NA	point_mutation	MEK1	NA
+MEK1 (MAP2K1) c.167A>C (Q56P) Mutation in Non-Small Cell Lung Cancer (NSCLC)	/content/disease/lung-cancer/map2k1/74/	FALSE	Q56P	Non-Small Cell Lung Cancer (NSCLC)	NA	point_mutation	MEK1	NA
+MET Exon 14 Skipping Mutations in Lung Cancer	/content/disease/lung-cancer/met/343/	FALSE	Exon 14 Skipping	Lung Cancer	NA	mutation_other	MET	NA
+MET Amplification in Non-Small Cell Lung Cancer	/content/disease/lung-cancer/met/59/	FALSE		Non-Small Cell Lung Cancer	NA	amplification	MET	NA
+NRAS c.181C>A (Q61K) Mutation in Non-Small Cell Lung Cancer	/content/disease/lung-cancer/nras/75/	FALSE	Q61K	Non-Small Cell Lung Cancer	NA	point_mutation	NRAS	NA
+NRAS c.182A>T (Q61L) Mutation in Non-Small Cell Lung Cancer	/content/disease/lung-cancer/nras/76/	FALSE	Q61L	Non-Small Cell Lung Cancer	NA	point_mutation	NRAS	NA
+NRAS c.182A>G (Q61R) Mutation in Non-Small Cell Lung Cancer	/content/disease/lung-cancer/nras/77/	FALSE	Q61R	Non-Small Cell Lung Cancer	NA	point_mutation	NRAS	NA
+NRAS c.183A>C (Q61H) Mutation in Non-Small Cell Lung Cancer	/content/disease/lung-cancer/nras/80/	FALSE	Q61H	Non-Small Cell Lung Cancer	NA	point_mutation	NRAS	NA
+NRAS c.183A>T (Q61H) Mutation in Lung Cancer	/content/disease/lung-cancer/nras/81/	FALSE	Q61H	Lung Cancer	NA	point_mutation	NRAS	NA
+NRAS c.35G>C (G12A) Mutation in Non-Small Cell Lung Cancer	/content/disease/lung-cancer/nras/85/	FALSE	G12A	Non-Small Cell Lung Cancer	NA	point_mutation	NRAS	NA
+NRAS c.34G>T (G12C) Mutation in Non-Small Cell Lung Cancer	/content/disease/lung-cancer/nras/86/	FALSE	G12C	Non-Small Cell Lung Cancer	NA	point_mutation	NRAS	NA
+NRAS c.35G>A (G12D) Mutation in Non-Small Cell Lung Cancer	/content/disease/lung-cancer/nras/87/	FALSE	G12D	Non-Small Cell Lung Cancer	NA	point_mutation	NRAS	NA
+NRAS c.34G>C (G12R) Mutation in Non-Small Cell Lung Cancer	/content/disease/lung-cancer/nras/88/	FALSE	G12R	Non-Small Cell Lung Cancer	NA	point_mutation	NRAS	NA
+NRAS c.34G>A (G12S) Mutation in Non-Small Cell Lung Cancer	/content/disease/lung-cancer/nras/89/	FALSE	G12S	Non-Small Cell Lung Cancer	NA	point_mutation	NRAS	NA
+NTRK1 (TRKA) Fusions in Lung Cancer	/content/disease/lung-cancer/ntrk1/315/	FALSE		Lung Cancer	NA	fusion	NTRK1	*
+PD-L1 (CD274) Expression in Lung Cancer	/content/disease/lung-cancer/cd274/359/	FALSE		Lung Cancer	NA	expression	CD274	NA
+PIK3CA  c.3140A>T (H1047L) Mutation in Non-Small Cell Lung Cancer	/content/disease/lung-cancer/pik3ca/10/	FALSE	H1047L	Non-Small Cell Lung Cancer	NA	point_mutation	PIK3CA	NA
+PIK3CA c.3140A>G (H1047R) Mutation in Non-Small Cell Lung Cancer	/content/disease/lung-cancer/pik3ca/11/	FALSE	H1047R	Non-Small Cell Lung Cancer	NA	point_mutation	PIK3CA	NA
+PIK3CA c.1624G>A (E542K) Mutation in Non-Small Cell Lung Cancer	/content/disease/lung-cancer/pik3ca/7/	FALSE	E542K	Non-Small Cell Lung Cancer	NA	point_mutation	PIK3CA	NA
+PIK3CA c.1633G>A (E545K) Mutation in Non-Small Cell Lung Cancer	/content/disease/lung-cancer/pik3ca/8/	FALSE	E545K	Non-Small Cell Lung Cancer	NA	point_mutation	PIK3CA	NA
+PIK3CA c.1633G>C (E545Q) Mutation in Non-Small Cell Lung Cancer	/content/disease/lung-cancer/pik3ca/9/	FALSE	E545Q	Non-Small Cell Lung Cancer	NA	point_mutation	PIK3CA	NA
+PTEN c.697C>T  (R233*) Mutations in Non-Small Cell Lung Cancer (NSCLC)	/content/disease/lung-cancer/pten/25/	FALSE	R233*	Non-Small Cell Lung Cancer (NSCLC)	NA	point_mutation	PTEN	NA
+RET Fusions in Non-Small Cell Lung Cancer	/content/disease/lung-cancer/ret/127/	FALSE		Non-Small Cell Lung Cancer	NA	fusion	RET	*
+RICTOR Amplification in Lung Cancer	/content/disease/lung-cancer/rictor/340/	FALSE		Lung Cancer	NA	amplification	RICTOR	NA
+ROS1 Mutations Associated with Acquired Resistance to ROS1 TKI Therapy	/content/disease/lung-cancer/ros1/346/	TRUE		NA	Acquired Resistance to ROS1 TKI Therapy	mutation_ns	ROS1	NA
+ROS1 Fusions in Non-Small Cell Lung Cancer	/content/disease/lung-cancer/ros1/67/	FALSE		Non-Small Cell Lung Cancer	NA	fusion	ROS1	*
+SMO c.1417G>C (D473H) Mutation in Medulloblastoma	/content/disease/medulloblastoma/smo/163/	FALSE	D473H	Medulloblastoma	NA	point_mutation	SMO	NA
+BRAF c.1799_1800delTGinsAA (V600E) Mutation in Melanoma	/content/disease/melanoma/braf/111/	FALSE	V600E	Melanoma	NA	point_mutation	BRAF	NA
+BRAF c.1799_1800delTGinsAT (V600D) Mutation in Melanoma	/content/disease/melanoma/braf/114/	FALSE	V600D	Melanoma	NA	point_mutation	BRAF	NA
+BRAF c.1799T>G (V600G) Mutation in Melanoma	/content/disease/melanoma/braf/115/	FALSE	V600G	Melanoma	NA	point_mutation	BRAF	NA
+BRAF c.1798_1799delGTinsAA (V600K) Mutation in Melanoma	/content/disease/melanoma/braf/116/	FALSE	V600K	Melanoma	NA	point_mutation	BRAF	NA
+BRAF c.1798G>A (V600M) Mutation in Melanoma	/content/disease/melanoma/braf/117/	FALSE	V600M	Melanoma	NA	point_mutation	BRAF	NA
+BRAF c.1798_1799delGTinsAG (V600R) Mutation in Melanoma	/content/disease/melanoma/braf/118/	FALSE	V600R	Melanoma	NA	point_mutation	BRAF	NA
+BRAF c.1790T>G (L597R) Mutation in Melanoma	/content/disease/melanoma/braf/138/	FALSE	L597R	Melanoma	NA	point_mutation	BRAF	NA
+BRAF c.1781A>G (D594G) Mutation in Melanoma	/content/disease/melanoma/braf/148/	FALSE	D594G	Melanoma	NA	point_mutation	BRAF	NA
+BRAF c.1781A>T (D594V) Mutation in Melanoma	/content/disease/melanoma/braf/149/	FALSE	D594V	Melanoma	NA	point_mutation	BRAF	NA
+BRAF c.1790T>A (L597Q) Mutation in Melanoma	/content/disease/melanoma/braf/188/	FALSE	L597Q	Melanoma	NA	point_mutation	BRAF	NA
+BRAF c.1789_1790delCTinsTC (L597S) Mutation in Melanoma	/content/disease/melanoma/braf/189/	FALSE	L597S	Melanoma	NA	point_mutation	BRAF	NA
+BRAF c.1801A>G (K601E) Mutation in Melanoma	/content/disease/melanoma/braf/190/	FALSE	K601E	Melanoma	NA	point_mutation	BRAF	NA
+BRAF c.1780G>A (D594N) Mutation in Melanoma	/content/disease/melanoma/braf/298/	FALSE	D594N	Melanoma	NA	point_mutation	BRAF	NA
+BRAF c.1779_1780delTGinsGA (D594N) Mutation in Melanoma	/content/disease/melanoma/braf/299/	FALSE	D594N	Melanoma	NA	point_mutation	BRAF	NA
+BRAF c.1780G>C (D594H) Mutation in Melanoma	/content/disease/melanoma/braf/300/	FALSE	D594H	Melanoma	NA	point_mutation	BRAF	NA
+BRAF c.1782T>A (D594E) Mutation in Melanoma	/content/disease/melanoma/braf/301/	FALSE	D594E	Melanoma	NA	point_mutation	BRAF	NA
+BRAF c.1782T>G (D594E) Mutation in Melanoma	/content/disease/melanoma/braf/302/	FALSE	D594E	Melanoma	NA	point_mutation	BRAF	NA
+BRAF Fusions in Melanoma	/content/disease/melanoma/braf/334/	FALSE		Melanoma	NA	fusion	BRAF	*
+BRAF c.1799T>A (V600E) Mutation in Melanoma	/content/disease/melanoma/braf/54/	FALSE	V600E	Melanoma	NA	point_mutation	BRAF	NA
+BRAF c.1789C>G (L597V) Mutation in Melanoma	/content/disease/melanoma/braf/73/	FALSE	L597V	Melanoma	NA	point_mutation	BRAF	NA
+CTNNB1(beta-catenin) c.110C>T (S37F) Mutation in Melanoma	/content/disease/melanoma/ctnnb1/104/	FALSE	S37F	Melanoma	NA	point_mutation	CTNNB1(beta-catenin)	NA
+CTNNB1 (beta-catenin) c.110C>A (S37Y) Mutation in Melanoma	/content/disease/melanoma/ctnnb1/105/	FALSE	S37Y	Melanoma	NA	point_mutation	CTNNB1	NA
+CTNNB1 (beta-catenin) c.134C>T (S45F) Mutation in Melanoma	/content/disease/melanoma/ctnnb1/106/	FALSE	S45F	Melanoma	NA	point_mutation	CTNNB1	NA
+CTNNB1 (beta-catenin) c.133T>C (S45P) Mutation in Melanoma	/content/disease/melanoma/ctnnb1/107/	FALSE	S45P	Melanoma	NA	point_mutation	CTNNB1	NA
+CTNNB1 (beta-catenin) c.134C>A (S45Y) Mutation in Melanoma	/content/disease/melanoma/ctnnb1/108/	FALSE	S45Y	Melanoma	NA	point_mutation	CTNNB1	NA
+GNA11 c.626A>C (Q209P) Mutation in Melanoma	/content/disease/melanoma/gna11/101/	FALSE	Q209P	Melanoma	NA	point_mutation	GNA11	NA
+GNA11 c.546_547delCCinsTT (R183C) Mutation in Melanoma	/content/disease/melanoma/gna11/335/	FALSE	R183C	Melanoma	NA	point_mutation	GNA11	NA
+GNA11 c.547C>T (R183C) Mutation in Melanoma	/content/disease/melanoma/gna11/336/	FALSE	R183C	Melanoma	NA	point_mutation	GNA11	NA
+GNA11 c.626A>T (Q209L) Mutation in Melanoma	/content/disease/melanoma/gna11/99/	FALSE	Q209L	Melanoma	NA	point_mutation	GNA11	NA
+GNAQ c.626A>T (Q209L) Mutation in Melanoma	/content/disease/melanoma/gnaq/100/	FALSE	Q209L	Melanoma	NA	point_mutation	GNAQ	NA
+GNAQ c.626A>C (Q209P) Mutation in Melanoma	/content/disease/melanoma/gnaq/102/	FALSE	Q209P	Melanoma	NA	point_mutation	GNAQ	NA
+GNAQ c.626A>G (Q209R) Mutation in Melanoma	/content/disease/melanoma/gnaq/103/	FALSE	Q209R	Melanoma	NA	point_mutation	GNAQ	NA
+GNAQ c.548G>A (R183Q) Mutation in Melanoma	/content/disease/melanoma/gnaq/337/	FALSE	R183Q	Melanoma	NA	point_mutation	GNAQ	NA
+KIT c.1669T>A (W557R) Mutation in Melanoma	/content/disease/melanoma/kit/109/	FALSE	W557R	Melanoma	NA	point_mutation	KIT	NA
+KIT c.1669T>C (W557R) Mutation in Melanoma	/content/disease/melanoma/kit/110/	FALSE	W557R	Melanoma	NA	point_mutation	KIT	NA
+KIT c.1676T>C (V559A) Mutation in Melanoma	/content/disease/melanoma/kit/112/	FALSE	V559A	Melanoma	NA	point_mutation	KIT	NA
+KIT c.1676T>A (V559D) Mutation in Melanoma	/content/disease/melanoma/kit/113/	FALSE	V559D	Melanoma	NA	point_mutation	KIT	NA
+Other KIT mutations in Melanoma	/content/disease/melanoma/kit/132/	FALSE	KIT	Melanoma	NA	mutation_other	Other	NA
+KIT Amplification in Melanoma	/content/disease/melanoma/kit/338/	FALSE		Melanoma	NA	amplification	KIT	NA
+KIT c.2446G>C (D816H) Mutation in Melanoma	/content/disease/melanoma/kit/84/	FALSE	D816H	Melanoma	NA	point_mutation	KIT	NA
+KIT c.1924A>G (K642E) Mutation in Melanoma	/content/disease/melanoma/kit/95/	FALSE	K642E	Melanoma	NA	point_mutation	KIT	NA
+KIT c.1727T>C (L576P) Mutation in Melanoma	/content/disease/melanoma/kit/96/	FALSE	L576P	Melanoma	NA	point_mutation	KIT	NA
+MEK1 (MAP2K1) c.157T>C (F53L) Mutation in Melanoma	/content/disease/melanoma/map2k1/210/	FALSE	F53L	Melanoma	NA	point_mutation	MEK1	NA
+MEK1 (MAP2K1) c.332T>G (I111S) Mutation in Melanoma	/content/disease/melanoma/map2k1/211/	FALSE	I111S	Melanoma	NA	point_mutation	MEK1	NA
+MEK1 (MAP2K1) c.362G>C (C121S) Mutation in Melanoma	/content/disease/melanoma/map2k1/212/	FALSE	C121S	Melanoma	NA	point_mutation	MEK1	NA
+MEK1 (MAP2K1) c.371C>T (P124L) Mutation in Melanoma	/content/disease/melanoma/map2k1/213/	FALSE	P124L	Melanoma	NA	point_mutation	MEK1	NA
+MEK1 (MAP2K1) c.370C>T (P124S) Mutation in Melanoma	/content/disease/melanoma/map2k1/214/	FALSE	P124S	Melanoma	NA	point_mutation	MEK1	NA
+MEK1 (MAP2K1) c.607G>A (E203K) Mutation in Melanoma	/content/disease/melanoma/map2k1/215/	FALSE	E203K	Melanoma	NA	point_mutation	MEK1	NA
+MEK1 (MAP2K1) c.790C>T (P264S) Mutation in Melanoma	/content/disease/melanoma/map2k1/216/	FALSE	P264S	Melanoma	NA	point_mutation	MEK1	NA
+MEK1 (MAP2K1) c.1144A>C (N382H) Mutation in Melanoma	/content/disease/melanoma/map2k1/217/	FALSE	N382H	Melanoma	NA	point_mutation	MEK1	NA
+NF1 Mutations in Melanoma	/content/disease/melanoma/nf1/325/	FALSE		Melanoma	NA	mutation_ns	NF1	NA
+NRAS c.37G>T (G13C) Mutation in Melanoma	/content/disease/melanoma/nras/297/	FALSE	G13C	Melanoma	NA	point_mutation	NRAS	NA
+NRAS c.181C>A (Q61K) Mutation in Melanoma	/content/disease/melanoma/nras/75/	FALSE	Q61K	Melanoma	NA	point_mutation	NRAS	NA
+NRAS c.182A>T (Q61L) Mutation in Melanoma	/content/disease/melanoma/nras/76/	FALSE	Q61L	Melanoma	NA	point_mutation	NRAS	NA
+NRAS c.182A>G (Q61R) Mutation in Melanoma	/content/disease/melanoma/nras/77/	FALSE	Q61R	Melanoma	NA	point_mutation	NRAS	NA
+NRAS c.183A>C (Q61H) Mutation in Melanoma	/content/disease/melanoma/nras/80/	FALSE	Q61H	Melanoma	NA	point_mutation	NRAS	NA
+NRAS c.183A>T (Q61H) Mutation in Melanoma	/content/disease/melanoma/nras/81/	FALSE	Q61H	Melanoma	NA	point_mutation	NRAS	NA
+NRAS c.182_183delAAinsGG (Q61R) Mutation in Melanoma	/content/disease/melanoma/nras/82/	FALSE	Q61R	Melanoma	NA	point_mutation	NRAS	NA
+NRAS c.182_183delAAinsTG (Q61L) Mutation in Melanoma	/content/disease/melanoma/nras/83/	FALSE	Q61L	Melanoma	NA	point_mutation	NRAS	NA
+NRAS c.35G>C (G12A) Mutation in Melanoma	/content/disease/melanoma/nras/85/	FALSE	G12A	Melanoma	NA	point_mutation	NRAS	NA
+NRAS c.34G>T (G12C) Mutation in Melanoma	/content/disease/melanoma/nras/86/	FALSE	G12C	Melanoma	NA	point_mutation	NRAS	NA
+NRAS c.35G>A (G12D) Mutation in Melanoma	/content/disease/melanoma/nras/87/	FALSE	G12D	Melanoma	NA	point_mutation	NRAS	NA
+NRAS c.34G>C (G12R) Mutation in Melanoma	/content/disease/melanoma/nras/88/	FALSE	G12R	Melanoma	NA	point_mutation	NRAS	NA
+NRAS c.34G>A (G12S) Mutation in Melanoma	/content/disease/melanoma/nras/89/	FALSE	G12S	Melanoma	NA	point_mutation	NRAS	NA
+NRAS c.35G>T (G12V) Mutation in Melanoma	/content/disease/melanoma/nras/90/	FALSE	G12V	Melanoma	NA	point_mutation	NRAS	NA
+NRAS c.38G>C (G13A) Mutation in Melanoma	/content/disease/melanoma/nras/91/	FALSE	G13A	Melanoma	NA	point_mutation	NRAS	NA
+NRAS c.38G>A (G13D) Mutation in Melanoma	/content/disease/melanoma/nras/92/	FALSE	G13D	Melanoma	NA	point_mutation	NRAS	NA
+NRAS c.37G>C (G13R) Mutation in Melanoma	/content/disease/melanoma/nras/93/	FALSE	G13R	Melanoma	NA	point_mutation	NRAS	NA
+NRAS c.38G>T (G13V) Mutation in Melanoma	/content/disease/melanoma/nras/94/	FALSE	G13V	Melanoma	NA	point_mutation	NRAS	NA
+NRAS c.181C>G (Q61E) Mutation in Melanoma	/content/disease/melanoma/nras/97/	FALSE	Q61E	Melanoma	NA	point_mutation	NRAS	NA
+NRAS c.182A>C (Q61P) Mutation in Melanoma	/content/disease/melanoma/nras/98/	FALSE	Q61P	Melanoma	NA	point_mutation	NRAS	NA
+ASXL1 Mutations in Myelodysplastic Syndromes	/content/disease/myelodysplastic-syndromes/asxl1/320/	FALSE		Myelodysplastic Syndromes	NA	mutation_ns	ASXL1	NA
+BCOR Mutations in Myelodysplastic Syndromes	/content/disease/myelodysplastic-syndromes/bcor/321/	FALSE		Myelodysplastic Syndromes	NA	mutation_ns	BCOR	NA
+DNMT3A Mutations in Myelodysplastic Syndromes	/content/disease/myelodysplastic-syndromes/dnmt3a/322/	FALSE		Myelodysplastic Syndromes	NA	mutation_ns	DNMT3A	NA
+ETV6 Mutations in Myelodysplastic Syndromes	/content/disease/myelodysplastic-syndromes/etv6/323/	FALSE		Myelodysplastic Syndromes	NA	mutation_ns	ETV6	NA
+EZH2 Mutations in Myelodysplastic Syndromes	/content/disease/myelodysplastic-syndromes/ezh2/324/	FALSE		Myelodysplastic Syndromes	NA	mutation_ns	EZH2	NA
+NF1 Mutations in Myelodysplastic Syndromes	/content/disease/myelodysplastic-syndromes/nf1/325/	FALSE		Myelodysplastic Syndromes	NA	mutation_ns	NF1	NA
+RUNX1 Mutations in Myelodysplastic Syndromes	/content/disease/myelodysplastic-syndromes/runx1/326/	FALSE		Myelodysplastic Syndromes	NA	mutation_ns	RUNX1	NA
+SF3B1 Mutations in Myelodysplastic Syndromes	/content/disease/myelodysplastic-syndromes/sf3b1/327/	FALSE		Myelodysplastic Syndromes	NA	mutation_ns	SF3B1	NA
+SRSF2 Mutations in Myelodysplastic Syndromes	/content/disease/myelodysplastic-syndromes/srsf2/328/	FALSE		Myelodysplastic Syndromes	NA	mutation_ns	SRSF2	NA
+STAG2 Mutations in Myelodysplastic Syndromes	/content/disease/myelodysplastic-syndromes/stag2/329/	FALSE		Myelodysplastic Syndromes	NA	mutation_ns	STAG2	NA
+TET2 Mutations in Myelodysplastic Syndromes	/content/disease/myelodysplastic-syndromes/tet2/330/	FALSE		Myelodysplastic Syndromes	NA	mutation_ns	TET2	NA
+TP53 Mutations in Myelodysplastic Syndromes	/content/disease/myelodysplastic-syndromes/tp53/331/	FALSE		Myelodysplastic Syndromes	NA	mutation_ns	TP53	NA
+U2AF1 Mutations in Myelodysplastic Syndromes	/content/disease/myelodysplastic-syndromes/u2af1/332/	FALSE		Myelodysplastic Syndromes	NA	mutation_ns	U2AF1	NA
+ZRSR2 Mutations in Myelodysplastic Syndromes	/content/disease/myelodysplastic-syndromes/zrsr2/333/	FALSE		Myelodysplastic Syndromes	NA	mutation_ns	ZRSR2	NA
+CALR c.1154_1155insTTGTC (K385fs*47) Mutation in Myeloproliferative Neoplasms	/content/disease/myeloproliferative-neoplasms/calr/371/	FALSE	K385fs*47	Myeloproliferative Neoplasms	NA	frameshift	CALR	NA
+CALR c.1099_1150del (L367fs*46) Mutation in Myeloproliferative Neoplasms	/content/disease/myeloproliferative-neoplasms/calr/387/	FALSE	L367fs*46	Myeloproliferative Neoplasms	NA	frameshift	CALR	NA
+JAK2 c.1849G>T (V617F) Mutation in Myeloproliferative Neoplasms	/content/disease/myeloproliferative-neoplasms/jak2/358/	FALSE	V617F	Myeloproliferative Neoplasms	NA	point_mutation	JAK2	NA
+JAK2 c.1615_1616delAAinsTT (K539L) Mutation in Myeloproliferative Neoplasms	/content/disease/myeloproliferative-neoplasms/jak2/382/	FALSE	K539L	Myeloproliferative Neoplasms	NA	point_mutation	JAK2	NA
+JAK2 c.1624_1629delAATGAA (N542_E543del) Mutation in Myeloproliferative Neoplasms	/content/disease/myeloproliferative-neoplasms/jak2/383/	FALSE	N542_E543del	Myeloproliferative Neoplasms	NA	small_deletion	JAK2	NA
+JAK2 c.1611_1616delTCACAA (F537_K539delinsL) Mutation in Myeloproliferative Neoplasms	/content/disease/myeloproliferative-neoplasms/jak2/386/	FALSE	F537_K539delinsL	Myeloproliferative Neoplasms	NA	delins	JAK2	NA
+MPL c.1544G>T (W515L) Mutation in Myeloproliferative Neoplasms	/content/disease/myeloproliferative-neoplasms/mpl/378/	FALSE	W515L	Myeloproliferative Neoplasms	NA	point_mutation	MPL	NA
+MPL c.1543_1544delTGinsAA (W515K) Mutation in Myeloproliferative Neoplasms	/content/disease/myeloproliferative-neoplasms/mpl/384/	FALSE	W515K	Myeloproliferative Neoplasms	NA	point_mutation	MPL	NA
+ALK c.3271G>A (D1091N) Mutation in Neuroblastoma	/content/disease/neuroblastoma/alk/173/	FALSE	D1091N	Neuroblastoma	NA	point_mutation	ALK	NA
+ALK c.3452C>T (T1151M) Mutation in Neuroblastoma	/content/disease/neuroblastoma/alk/174/	FALSE	T1151M	Neuroblastoma	NA	point_mutation	ALK	NA
+ALK c.3512T>A (I1171N) Mutation in Neuroblastoma	/content/disease/neuroblastoma/alk/175/	FALSE	I1171N	Neuroblastoma	NA	point_mutation	ALK	NA
+ALK c.3521T>G (F1174C) Mutation in Neuroblastoma	/content/disease/neuroblastoma/alk/176/	FALSE	F1174C	Neuroblastoma	NA	point_mutation	ALK	NA
+ALK c.3520T>A (F1174I) Mutation in Neuroblastoma	/content/disease/neuroblastoma/alk/177/	FALSE	F1174I	Neuroblastoma	NA	point_mutation	ALK	NA
+ALK c.3522C>A (F1174L) Mutation in Neuroblastoma	/content/disease/neuroblastoma/alk/178/	FALSE	F1174L	Neuroblastoma	NA	point_mutation	ALK	NA
+ALK c.3520T>G (F1174V) Mutation in Neuroblastoma	/content/disease/neuroblastoma/alk/179/	FALSE	F1174V	Neuroblastoma	NA	point_mutation	ALK	NA
+ALK c.3734T>G (F1245C) Mutation in Neuroblastoma	/content/disease/neuroblastoma/alk/180/	FALSE	F1245C	Neuroblastoma	NA	point_mutation	ALK	NA
+ALK c.3735C>G (F1245L) Mutation in Neuroblastoma	/content/disease/neuroblastoma/alk/181/	FALSE	F1245L	Neuroblastoma	NA	point_mutation	ALK	NA
+ALK c.3733T>G (F1245V) Mutation in Neuroblastoma	/content/disease/neuroblastoma/alk/182/	FALSE	F1245V	Neuroblastoma	NA	point_mutation	ALK	NA
+ALK c.3824G>A (R1275Q) Mutation in Neuroblastoma	/content/disease/neuroblastoma/alk/183/	FALSE	R1275Q	Neuroblastoma	NA	point_mutation	ALK	NA
+ALK c.3833A>C (Y1278S) Mutation in Neuroblastoma	/content/disease/neuroblastoma/alk/184/	FALSE	Y1278S	Neuroblastoma	NA	point_mutation	ALK	NA
+BRAF c.1790T>G (L597R) Mutation in Ovarian Cancer	/content/disease/ovarian-cancer/braf/138/	FALSE	L597R	Ovarian Cancer	NA	point_mutation	BRAF	NA
+BRAF c.1799T>A (V600E) Mutation in Ovarian Cancer	/content/disease/ovarian-cancer/braf/54/	FALSE	V600E	Ovarian Cancer	NA	point_mutation	BRAF	NA
+KRAS c.35G>C (G12A) Mutation in Ovarian Cancer	/content/disease/ovarian-cancer/kras/32/	FALSE	G12A	Ovarian Cancer	NA	point_mutation	KRAS	NA
+KRAS c.34G>T (G12C) Mutation in Ovarian Cancer	/content/disease/ovarian-cancer/kras/33/	FALSE	G12C	Ovarian Cancer	NA	point_mutation	KRAS	NA
+KRAS c.35G>A (G12D) Mutation in Ovarian Cancer	/content/disease/ovarian-cancer/kras/34/	FALSE	G12D	Ovarian Cancer	NA	point_mutation	KRAS	NA
+KRAS c.34G>C (G12R) Mutation in Ovarian Cancer	/content/disease/ovarian-cancer/kras/35/	FALSE	G12R	Ovarian Cancer	NA	point_mutation	KRAS	NA
+KRAS c.35G>T (G12V) Mutation in Ovarian Cancer	/content/disease/ovarian-cancer/kras/37/	FALSE	G12V	Ovarian Cancer	NA	point_mutation	KRAS	NA
+KRAS c.38G>A (G13D) Mutation in Ovarian Cancer	/content/disease/ovarian-cancer/kras/39/	FALSE	G13D	Ovarian Cancer	NA	point_mutation	KRAS	NA
+PIK3CA c.3140A>T (H1047L) Mutation in Ovarian Cancer	/content/disease/ovarian-cancer/pik3ca/10/	FALSE	H1047L	Ovarian Cancer	NA	point_mutation	PIK3CA	NA
+PIK3CA c.3140A>G (H1047R) Mutation in Ovarian Cancer	/content/disease/ovarian-cancer/pik3ca/11/	FALSE	H1047R	Ovarian Cancer	NA	point_mutation	PIK3CA	NA
+PIK3CA c.1636C>A (Q546K) Mutation in Ovarian Cancer	/content/disease/ovarian-cancer/pik3ca/16/	FALSE	Q546K	Ovarian Cancer	NA	point_mutation	PIK3CA	NA
+PIK3CA c.1624G>A (E542K) Mutation in Ovarian Cancer	/content/disease/ovarian-cancer/pik3ca/7/	FALSE	E542K	Ovarian Cancer	NA	point_mutation	PIK3CA	NA
+PIK3CA c.1633G>A (E545K) Mutation in Ovarian Cancer	/content/disease/ovarian-cancer/pik3ca/8/	FALSE	E545K	Ovarian Cancer	NA	point_mutation	PIK3CA	NA
+PTEN c.388C>T (R130*) Mutation in Ovarian Cancer	/content/disease/ovarian-cancer/pten/137/	FALSE	R130*	Ovarian Cancer	NA	point_mutation	PTEN	NA
+PTEN c.968dupA (N323fs*2) Mutation in Ovarian Cancer	/content/disease/ovarian-cancer/pten/140/	FALSE	N323fs*2	Ovarian Cancer	NA	frameshift	PTEN	NA
+PTEN c.968delA (N323fs*21) Mutation in Ovarian Cancer	/content/disease/ovarian-cancer/pten/141/	FALSE	N323fs*21	Ovarian Cancer	NA	frameshift	PTEN	NA
+PTEN c.741dupA (P248fs*5) Mutation in Ovarian Cancer	/content/disease/ovarian-cancer/pten/142/	FALSE	P248fs*5	Ovarian Cancer	NA	frameshift	PTEN	NA
+PTEN c.389delG (R130fs*4) Mutation in Ovarian Cancer	/content/disease/ovarian-cancer/pten/143/	FALSE	R130fs*4	Ovarian Cancer	NA	frameshift	PTEN	NA
+PTEN c.389G>A (R130Q) Mutation in Ovarian Cancer	/content/disease/ovarian-cancer/pten/144/	FALSE	R130Q	Ovarian Cancer	NA	point_mutation	PTEN	NA
+PTEN c.388C>G (R130G) Mutation in Ovarian Cancer	/content/disease/ovarian-cancer/pten/145/	FALSE	R130G	Ovarian Cancer	NA	point_mutation	PTEN	NA
+AR c.2631C>A (F877L) Mutation in Prostate Cancer	/content/disease/prostate-cancer/ar/349/	FALSE	F877L	Prostate Cancer	NA	point_mutation	AR	NA
+AR c.2632A>G (T878A) Mutation in Prostate Cancer	/content/disease/prostate-cancer/ar/350/	FALSE	T878A	Prostate Cancer	NA	point_mutation	AR	NA
+AR c.2105T>A (L702H) Mutation in Prostate Cancer	/content/disease/prostate-cancer/ar/351/	FALSE	L702H	Prostate Cancer	NA	point_mutation	AR	NA
+AR c.2623C>T (H875Y) Mutation in Prostate Cancer	/content/disease/prostate-cancer/ar/352/	FALSE	H875Y	Prostate Cancer	NA	point_mutation	AR	NA
+AR c.2226G>T (W742C) Mutation in Prostate Cancer	/content/disease/prostate-cancer/ar/353/	FALSE	W742C	Prostate Cancer	NA	point_mutation	AR	NA
+AR Amplification in Prostate Cancer	/content/disease/prostate-cancer/ar/354/	FALSE		Prostate Cancer	NA	amplification	AR	NA
+AR Splice Variant 7 (AR-V7) Expression in Prostate Cancer	/content/disease/prostate-cancer/ar/355/	FALSE		Prostate Cancer	NA	expression	AR-V7	NA
+ALK Exon Deletion in Rhabdomyosarcoma	/content/disease/rhabdomyosarcoma/alk/186/	FALSE	Exon	Rhabdomyosarcoma	NA	large_deletion	ALK	NA
+ALK c.3673G>A (D1225N) Mutation in Rhabdomyosarcoma	/content/disease/rhabdomyosarcoma/alk/187/	FALSE	D1225N	Rhabdomyosarcoma	NA	point_mutation	ALK	NA
+KIT c. 1669T>C (W557R) Mutation in Thymic Carcinoma	/content/disease/thymic-carcinoma/kit/110/	FALSE	W557R	Thymic Carcinoma	NA	point_mutation	KIT	NA
+KIT c. 1676T>C (V559A) Mutation in Thymic Carcinoma	/content/disease/thymic-carcinoma/kit/112/	FALSE	V559A	Thymic Carcinoma	NA	point_mutation	KIT	NA
+KIT c.2460T>A (D820E) Mutation in Thymic Carcinoma	/content/disease/thymic-carcinoma/kit/120/	FALSE	D820E	Thymic Carcinoma	NA	point_mutation	KIT	NA
+KIT c.2089C>T (H697Y) Mutation in Thymic Carcinoma	/content/disease/thymic-carcinoma/kit/121/	FALSE	H697Y	Thymic Carcinoma	NA	point_mutation	KIT	NA
+KIT c.1730_1738del (P577_D579del) Mutation in Thymic Carcinoma	/content/disease/thymic-carcinoma/kit/122/	FALSE	P577_D579del	Thymic Carcinoma	NA	small_deletion	KIT	NA
+KIT c.1679_1681del (V560del) Mutation in Thymic Carcinoma	/content/disease/thymic-carcinoma/kit/123/	FALSE	V560del	Thymic Carcinoma	NA	small_deletion	KIT	NA
+KIT c.1657T>A (Y553N) Mutation in Thymic Carcinoma	/content/disease/thymic-carcinoma/kit/124/	FALSE	Y553N	Thymic Carcinoma	NA	point_mutation	KIT	NA
+KIT c.1468G>A (E490K) Mutation in Thymic Carcinoma	/content/disease/thymic-carcinoma/kit/218/	FALSE	E490K	Thymic Carcinoma	NA	point_mutation	KIT	NA
+KIT c.1727T>C (L576P) Mutation in Thymic Carcinoma	/content/disease/thymic-carcinoma/kit/96/	FALSE	L576P	Thymic Carcinoma	NA	point_mutation	KIT	NA
+AKAP-BRAF Translocation in Thyroid Cancer	/content/disease/thyroid-cancer/braf/125/	FALSE		Thyroid Cancer	NA	translocation	AKAP	BRAF
+BRAF c.1799T>A (V600E) Mutation in Thyroid Cancer	/content/disease/thyroid-cancer/braf/54/	FALSE	V600E	Thyroid Cancer	NA	point_mutation	BRAF	NA
+HRAS c.34G>C (G12R) Mutation in Thyroid Cancer	/content/disease/thyroid-cancer/hras/303/	FALSE	G12R	Thyroid Cancer	NA	point_mutation	HRAS	NA
+HRAS c.35G>T (G12V) Mutation in Thyroid Cancer	/content/disease/thyroid-cancer/hras/304/	FALSE	G12V	Thyroid Cancer	NA	point_mutation	HRAS	NA
+HRAS c.37G>T (G13C) Mutation in Thyroid Cancer	/content/disease/thyroid-cancer/hras/305/	FALSE	G13C	Thyroid Cancer	NA	point_mutation	HRAS	NA
+HRAS c.37G>C (G13R) Mutation in Thyroid Cancer	/content/disease/thyroid-cancer/hras/306/	FALSE	G13R	Thyroid Cancer	NA	point_mutation	HRAS	NA
+HRAS c.182A>G (Q61R) Mutation in Thyroid Cancer	/content/disease/thyroid-cancer/hras/307/	FALSE	Q61R	Thyroid Cancer	NA	point_mutation	HRAS	NA
+KRAS c.437C>T (A146V) Mutation in Thyroid Cancer	/content/disease/thyroid-cancer/kras/29/	FALSE	A146V	Thyroid Cancer	NA	point_mutation	KRAS	NA
+KRAS c.182A>C (Q61P) Mutation in Thyroid Cancer	/content/disease/thyroid-cancer/kras/308/	FALSE	Q61P	Thyroid Cancer	NA	point_mutation	KRAS	NA
+KRAS c.35G>C (G12A) Mutation in Thyroid Cancer	/content/disease/thyroid-cancer/kras/32/	FALSE	G12A	Thyroid Cancer	NA	point_mutation	KRAS	NA
+KRAS c.34G>T (G12C) Mutation in Thyroid Cancer	/content/disease/thyroid-cancer/kras/33/	FALSE	G12C	Thyroid Cancer	NA	point_mutation	KRAS	NA
+KRAS c.35G>A (G12D) Mutation in Thyroid Cancer	/content/disease/thyroid-cancer/kras/34/	FALSE	G12D	Thyroid Cancer	NA	point_mutation	KRAS	NA
+KRAS c.34G>C (G12R) Mutation in Thyroid Cancer	/content/disease/thyroid-cancer/kras/35/	FALSE	G12R	Thyroid Cancer	NA	point_mutation	KRAS	NA
+KRAS c.34G>A (G12S) Mutation in Thyroid Cancer	/content/disease/thyroid-cancer/kras/36/	FALSE	G12S	Thyroid Cancer	NA	point_mutation	KRAS	NA
+KRAS c.35G>T (G12V) Mutation in Thyroid Cancer	/content/disease/thyroid-cancer/kras/37/	FALSE	G12V	Thyroid Cancer	NA	point_mutation	KRAS	NA
+KRAS c.38G>A (G13D) Mutation in Thyroid Cancer	/content/disease/thyroid-cancer/kras/39/	FALSE	G13D	Thyroid Cancer	NA	point_mutation	KRAS	NA
+KRAS c.37G>C (G13R) Mutation in Thyroid Cancer	/content/disease/thyroid-cancer/kras/40/	FALSE	G13R	Thyroid Cancer	NA	point_mutation	KRAS	NA
+KRAS c.181C>A (Q61K) Mutation in Thyroid Cancer	/content/disease/thyroid-cancer/kras/41/	FALSE	Q61K	Thyroid Cancer	NA	point_mutation	KRAS	NA
+KRAS c.182A>T (Q61L) Mutation in Thyroid Cancer	/content/disease/thyroid-cancer/kras/42/	FALSE	Q61L	Thyroid Cancer	NA	point_mutation	KRAS	NA
+KRAS c.182A>G (Q61R) Mutation in Thyroid Cancer	/content/disease/thyroid-cancer/kras/43/	FALSE	Q61R	Thyroid Cancer	NA	point_mutation	KRAS	NA
+KRAS c.37G>A (G13S) Mutation in Thyroid Cancer	/content/disease/thyroid-cancer/kras/69/	FALSE	G13S	Thyroid Cancer	NA	point_mutation	KRAS	NA
+NRAS c.181C>A (Q61K) Mutation in Thyroid Cancer	/content/disease/thyroid-cancer/nras/75/	FALSE	Q61K	Thyroid Cancer	NA	point_mutation	NRAS	NA
+NRAS c.182A>G (Q61R) Mutation in Thyroid Cancer	/content/disease/thyroid-cancer/nras/77/	FALSE	Q61R	Thyroid Cancer	NA	point_mutation	NRAS	NA
+RET C634 Mutations in Thyroid Cancer	/content/disease/thyroid-cancer/ret/126/	FALSE	C634	Thyroid Cancer	NA	mutation_other	RET	NA
+RET Fusions in Thyroid Cancer	/content/disease/thyroid-cancer/ret/127/	FALSE		Thyroid Cancer	NA	fusion	RET	*
+RET M918T Mutations in Thyroid Cancer	/content/disease/thyroid-cancer/ret/128/	FALSE	M918T	Thyroid Cancer	NA	point_mutation	RET	NA
+MYD88 c.794T>C (L265P)  Mutation in Waldenstrom Macroglobulinemia	/content/disease/waldenstrom-macroglobulinemia/myd88/369/	FALSE	L265P	Waldenstrom Macroglobulinemia	NA	point_mutation	MYD88	NA
