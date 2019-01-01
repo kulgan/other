@@ -583,7 +583,7 @@ if(sum(!validation) > 0) {
 }
 
 # write final data to disk
-all.variants.file <- "all.vairiants.txt"
+all.variants.file <- "all.variants.txt"
 fwrite(variants, all.variants.file, sep="\t", quote=F)
 
 flog.info("Summary")
