@@ -1,0 +1,1267 @@
+gdc.gene.name	gdc.gene.id	gdc.transcript.id	hgvsp	type	civic.url
+AKT1	ENSG00000142208.14	ENST00000407796.5	p.E17K	point_mutation	https://civicdb.org/events/genes/2/summary/variants/4/summary
+ALK	ENSG00000171094.14	ENST00000389048.6	p.F1174L	point_mutation	https://civicdb.org/events/genes/1/summary/variants/8/summary
+ALK	ENSG00000171094.14	ENST00000389048.6	p.R1275Q	point_mutation	https://civicdb.org/events/genes/1/summary/variants/9/summary
+ARAF	ENSG00000078061.11	ENST00000377045.7	p.S214C	point_mutation	https://civicdb.org/events/genes/3/summary/variants/10/summary
+BRAF	ENSG00000157764.11	ENST00000288602.9	p.V600D	point_mutation	https://civicdb.org/events/genes/5/summary/variants/11/summary
+BRAF	ENSG00000157764.11	ENST00000288602.9	p.V600E	point_mutation	https://civicdb.org/events/genes/5/summary/variants/12/summary
+EGFR	ENSG00000146648.14	ENST00000275493.5	p.L858R	point_mutation	https://civicdb.org/events/genes/19/summary/variants/33/summary
+EGFR	ENSG00000146648.14	ENST00000275493.5	p.T790M	point_mutation	https://civicdb.org/events/genes/19/summary/variants/34/summary
+ERBB2	ENSG00000141736.12	ENST00000269571.8	p.D769H	point_mutation	https://civicdb.org/events/genes/20/summary/variants/35/summary
+ERBB2	ENSG00000141736.12	ENST00000269571.8	p.D769Y	point_mutation	https://civicdb.org/events/genes/20/summary/variants/36/summary
+ERBB2	ENSG00000141736.12	ENST00000269571.8	p.G309A	point_mutation	https://civicdb.org/events/genes/20/summary/variants/38/summary
+ERBB2	ENSG00000141736.12	ENST00000269571.8	p.L755S	point_mutation	https://civicdb.org/events/genes/20/summary/variants/39/summary
+ERBB2	ENSG00000141736.12	ENST00000269571.8	p.L755W	point_mutation	https://civicdb.org/events/genes/20/summary/variants/40/summary
+ERBB2	ENSG00000141736.12	ENST00000269571.8	p.R678Q	point_mutation	https://civicdb.org/events/genes/20/summary/variants/42/summary
+ERBB2	ENSG00000141736.12	ENST00000269571.8	p.R896C	point_mutation	https://civicdb.org/events/genes/20/summary/variants/43/summary
+ERBB2	ENSG00000141736.12	ENST00000269571.8	p.V777L	point_mutation	https://civicdb.org/events/genes/20/summary/variants/44/summary
+ERBB2	ENSG00000141736.12	ENST00000269571.8	p.V842I	point_mutation	https://civicdb.org/events/genes/20/summary/variants/45/summary
+ESR1	ENSG00000091831.20	ENST00000440973.4	p.L536Q	point_mutation	https://civicdb.org/events/genes/21/summary/variants/46/summary
+ESR1	ENSG00000091831.20	ENST00000206249.6	p.D538G	point_mutation	https://civicdb.org/events/genes/21/summary/variants/47/summary
+ESR1	ENSG00000091831.20	ENST00000206249.6	p.Y537C	point_mutation	https://civicdb.org/events/genes/21/summary/variants/48/summary
+ESR1	ENSG00000091831.20	ENST00000206249.6	p.Y537N	point_mutation	https://civicdb.org/events/genes/21/summary/variants/49/summary
+ESR1	ENSG00000091831.20	ENST00000206249.6	p.Y537S	point_mutation	https://civicdb.org/events/genes/21/summary/variants/50/summary
+IDH1	ENSG00000138413.12	ENST00000415913.4	p.R132C	point_mutation	https://civicdb.org/events/genes/26/summary/variants/59/summary
+IDH2	ENSG00000182054.8	ENST00000330062.6	p.R172K	point_mutation	https://civicdb.org/events/genes/27/summary/variants/63/summary
+JAK2	ENSG00000096968.11	ENST00000381652.3	p.V617F	point_mutation	https://civicdb.org/events/genes/28/summary/variants/64/summary
+KIT	ENSG00000157404.14	ENST00000288135.5	p.D816V	point_mutation	https://civicdb.org/events/genes/29/summary/variants/65/summary
+KIT	ENSG00000157404.14	ENST00000288135.5	p.L576P	point_mutation	https://civicdb.org/events/genes/29/summary/variants/72/summary
+KIT	ENSG00000157404.14	ENST00000288135.5	p.V654A	point_mutation	https://civicdb.org/events/genes/29/summary/variants/73/summary
+KRAS	ENSG00000133703.10	ENST00000256078.7	p.G12C	point_mutation	https://civicdb.org/events/genes/30/summary/variants/78/summary
+KRAS	ENSG00000133703.10	ENST00000256078.7	p.G12D	point_mutation	https://civicdb.org/events/genes/30/summary/variants/79/summary
+KRAS	ENSG00000133703.10	ENST00000256078.7	p.G13D	point_mutation	https://civicdb.org/events/genes/30/summary/variants/81/summary
+MAP2K1	ENSG00000169032.8	ENST00000307102.8	p.P124S	point_mutation	https://civicdb.org/events/genes/31/summary/variants/82/summary
+MAP2K1	ENSG00000169032.8	ENST00000307102.8	p.Q56P	point_mutation	https://civicdb.org/events/genes/31/summary/variants/83/summary
+NPM1	ENSG00000181163.12	ENST00000517671.4	p.W288fs	frameshift	https://civicdb.org/events/genes/35/summary/variants/87/summary
+NRAS	ENSG00000213281.4	ENST00000369535.4	p.G13D	point_mutation	https://civicdb.org/events/genes/36/summary/variants/93/summary
+NRAS	ENSG00000213281.4	ENST00000369535.4	p.Q61L	point_mutation	https://civicdb.org/events/genes/36/summary/variants/95/summary
+NRAS	ENSG00000213281.4	ENST00000369535.4	p.Q61R	point_mutation	https://civicdb.org/events/genes/36/summary/variants/96/summary
+PDGFRA	ENSG00000134853.10	ENST00000257290.8	p.D842I	point_mutation	https://civicdb.org/events/genes/38/summary/variants/98/summary
+PDGFRA	ENSG00000134853.10	ENST00000257290.8	p.D842V	point_mutation	https://civicdb.org/events/genes/38/summary/variants/99/summary
+PDGFRA	ENSG00000134853.10	ENST00000257290.8	p.D842Y	point_mutation	https://civicdb.org/events/genes/38/summary/variants/100/summary
+PDGFRA	ENSG00000134853.10	ENST00000257290.8	p.I843del	small_deletion	https://civicdb.org/events/genes/38/summary/variants/101/summary
+PIK3CA	ENSG00000121879.3	ENST00000263967.3	p.E542K	point_mutation	https://civicdb.org/events/genes/37/summary/variants/103/summary
+PIK3CA	ENSG00000121879.3	ENST00000263967.3	p.E545K	point_mutation	https://civicdb.org/events/genes/37/summary/variants/104/summary
+PIK3CA	ENSG00000121879.3	ENST00000263967.3	p.H1047R	point_mutation	https://civicdb.org/events/genes/37/summary/variants/107/summary
+PTEN	ENSG00000171862.8	ENST00000371953.6	p.R233*	point_mutation	https://civicdb.org/events/genes/41/summary/variants/110/summary
+RET	ENSG00000165731.16	ENST00000355710.6	p.C634W	point_mutation	https://civicdb.org/events/genes/42/summary/variants/112/summary
+RET	ENSG00000165731.16	ENST00000355710.6	p.M918T	point_mutation	https://civicdb.org/events/genes/42/summary/variants/113/summary
+SF3B1	ENSG00000115524.14	ENST00000335508.9	p.K666N	point_mutation	https://civicdb.org/events/genes/44/summary/variants/114/summary
+TP53	ENSG00000141510.14	ENST00000269305.7	p.R175H	point_mutation	https://civicdb.org/events/genes/45/summary/variants/116/summary
+TP53	ENSG00000141510.14	ENST00000269305.7	p.R248Q	point_mutation	https://civicdb.org/events/genes/45/summary/variants/117/summary
+TP53	ENSG00000141510.14	ENST00000269305.7	p.R248W	point_mutation	https://civicdb.org/events/genes/45/summary/variants/118/summary
+TP53	ENSG00000141510.14	ENST00000269305.7	p.R273C	point_mutation	https://civicdb.org/events/genes/45/summary/variants/121/summary
+TP53	ENSG00000141510.14	ENST00000269305.7	p.R273H	point_mutation	https://civicdb.org/events/genes/45/summary/variants/122/summary
+EGFR	ENSG00000146648.14	ENST00000275493.5	p.G719S	point_mutation	https://civicdb.org/events/genes/19/summary/variants/134/summary
+NOTCH1	ENSG00000148400.9	ENST00000277541.6	p.D1642H	point_mutation	https://civicdb.org/events/genes/50/summary/variants/135/summary
+NOTCH1	ENSG00000148400.9	ENST00000277541.6	p.R2327W	point_mutation	https://civicdb.org/events/genes/50/summary/variants/136/summary
+NOTCH1	ENSG00000148400.9	ENST00000277541.6	p.V2444fs	frameshift	https://civicdb.org/events/genes/50/summary/variants/137/summary
+NOTCH1	ENSG00000148400.9	ENST00000277541.6	p.S2275fs	frameshift	https://civicdb.org/events/genes/50/summary/variants/138/summary
+DDR2	ENSG00000162733.15	ENST00000367922.6	p.L63V	point_mutation	https://civicdb.org/events/genes/51/summary/variants/139/summary
+DDR2	ENSG00000162733.15	ENST00000367922.6	p.L239R	point_mutation	https://civicdb.org/events/genes/51/summary/variants/140/summary
+DDR2	ENSG00000162733.15	ENST00000367922.6	p.G253C	point_mutation	https://civicdb.org/events/genes/51/summary/variants/141/summary
+DDR2	ENSG00000162733.15	ENST00000367922.6	p.G505S	point_mutation	https://civicdb.org/events/genes/51/summary/variants/142/summary
+DDR2	ENSG00000162733.15	ENST00000367922.6	p.I638F	point_mutation	https://civicdb.org/events/genes/51/summary/variants/143/summary
+DDR2	ENSG00000162733.15	ENST00000367922.6	p.G774V	point_mutation	https://civicdb.org/events/genes/51/summary/variants/144/summary
+DDR2	ENSG00000162733.15	ENST00000367922.6	p.S768R	point_mutation	https://civicdb.org/events/genes/51/summary/variants/145/summary
+KRAS	ENSG00000133703.10	ENST00000256078.7	p.G12A	point_mutation	https://civicdb.org/events/genes/30/summary/variants/148/summary
+BTK	ENSG00000010671.14	ENST00000308731.7	p.C481S	point_mutation	https://civicdb.org/events/genes/65/summary/variants/168/summary
+AKT1	ENSG00000142208.14	ENST00000407796.5	p.Q79K	point_mutation	https://civicdb.org/events/genes/2/summary/variants/169/summary
+AR	ENSG00000169083.14	ENST00000374690.6	p.F877L	point_mutation	https://civicdb.org/events/genes/67/summary/variants/175/summary
+FGFR3	ENSG00000068078.16	ENST00000340107.7	p.Y375C	point_mutation	https://civicdb.org/events/genes/23/summary/variants/196/summary
+FOXL2	ENSG00000183770.5	ENST00000330315.3	p.C134W	point_mutation	https://civicdb.org/events/genes/72/summary/variants/198/summary
+KIT	ENSG00000157404.14	ENST00000288135.5	p.M541L	point_mutation	https://civicdb.org/events/genes/29/summary/variants/201/summary
+KIT	ENSG00000157404.14	ENST00000288135.5	p.V560del	small_deletion	https://civicdb.org/events/genes/29/summary/variants/202/summary
+NOTCH1	ENSG00000148400.9	ENST00000277541.6	p.P2514fs	frameshift	https://civicdb.org/events/genes/50/summary/variants/207/summary
+NT5C2	ENSG00000076685.17	ENST00000343289.8	p.R367Q	point_mutation	https://civicdb.org/events/genes/9189/summary/variants/238/summary
+NT5C2	ENSG00000076685.17	ENST00000343289.8	p.K359Q	point_mutation	https://civicdb.org/events/genes/9189/summary/variants/239/summary
+NT5C2	ENSG00000076685.17	ENST00000343289.8	p.D407A	point_mutation	https://civicdb.org/events/genes/9189/summary/variants/240/summary
+ATM	ENSG00000149311.16	ENST00000278616.7	p.V2288fs*1	frameshift	https://civicdb.org/events/genes/69/summary/variants/243/summary
+ATM	ENSG00000149311.16	ENST00000278616.7	p.N2875H	point_mutation	https://civicdb.org/events/genes/69/summary/variants/244/summary
+NF2	ENSG00000186575.16	ENST00000338641.7	p.Y177fs	frameshift	https://civicdb.org/events/genes/3870/summary/variants/245/summary
+PDGFRA	ENSG00000134853.10	ENST00000257290.8	p.V561A	point_mutation	https://civicdb.org/events/genes/38/summary/variants/247/summary
+TERT	ENSG00000164362.17	ENST00000310581.8	p.C228T	point_mutation	https://civicdb.org/events/genes/79/summary/variants/248/summary
+XRCC1	ENSG00000073050.10	ENST00000262887.8	p.R194W	point_mutation	https://civicdb.org/events/genes/6144/summary/variants/249/summary
+MTHFR	ENSG00000177000.9	ENST00000376592.4	p.A222V	point_mutation	https://civicdb.org/events/genes/3672/summary/variants/258/summary
+GSTP1	ENSG00000084207.14	ENST00000398606.6	p.I105V	point_mutation	https://civicdb.org/events/genes/2473/summary/variants/259/summary
+ABCG2	ENSG00000118777.9	ENST00000237612.6	p.Q141K	point_mutation	https://civicdb.org/events/genes/7451/summary/variants/260/summary
+XRCC1	ENSG00000073050.10	ENST00000262887.8	p.Q399R	point_mutation	https://civicdb.org/events/genes/6144/summary/variants/261/summary
+ABCB1	ENSG00000085563.13	ENST00000265724.6	p.S893T	point_mutation	https://civicdb.org/events/genes/4244/summary/variants/262/summary
+ABCB1	ENSG00000085563.13	ENST00000265724.6	p.I1145I	point_mutation	https://civicdb.org/events/genes/4244/summary/variants/263/summary
+ERCC2	ENSG00000104884.13	ENST00000391945.7	p.K751Q	point_mutation	https://civicdb.org/events/genes/1736/summary/variants/264/summary
+ATR	ENSG00000175054.13	ENST00000350721.7	p.I774fs	frameshift	https://civicdb.org/events/genes/524/summary/variants/271/summary
+HRAS	ENSG00000174775.15	ENST00000451590.4	p.G13D	point_mutation	https://civicdb.org/events/genes/2747/summary/variants/274/summary
+NF2	ENSG00000186575.16	ENST00000338641.7	p.K159fs*16	frameshift	https://civicdb.org/events/genes/3870/summary/variants/279/summary
+MTOR	ENSG00000198793.11	ENST00000361445.7	p.H1968Y	point_mutation	https://civicdb.org/events/genes/2073/summary/variants/283/summary
+MTOR	ENSG00000198793.11	ENST00000361445.7	p.P2213S	point_mutation	https://civicdb.org/events/genes/2073/summary/variants/284/summary
+BRAF	ENSG00000157764.11	ENST00000288602.9	p.L597R	point_mutation	https://civicdb.org/events/genes/5/summary/variants/288/summary
+PIK3CA	ENSG00000121879.3	ENST00000263967.3	p.P471L	point_mutation	https://civicdb.org/events/genes/37/summary/variants/294/summary
+SMO	ENSG00000128602.8	ENST00000249373.6	p.D473H	point_mutation	https://civicdb.org/events/genes/5365/summary/variants/299/summary
+EGFR	ENSG00000146648.14	ENST00000275493.5	p.G724S	point_mutation	https://civicdb.org/events/genes/19/summary/variants/317/summary
+MAPK1	ENSG00000100030.13	ENST00000215832.9	p.E322K	point_mutation	https://civicdb.org/events/genes/4532/summary/variants/320/summary
+KRAS	ENSG00000133703.10	ENST00000256078.7	p.A146V	point_mutation	https://civicdb.org/events/genes/30/summary/variants/322/summary
+SETBP1	ENSG00000152217.15	ENST00000282030.5	p.G870S	point_mutation	https://civicdb.org/events/genes/10024/summary/variants/351/summary
+RAC1	ENSG00000136238.16	ENST00000356142.4	p.P29S	point_mutation	https://civicdb.org/events/genes/4753/summary/variants/367/summary
+NQO1	ENSG00000181019.11	ENST00000320623.8	p.P187S	point_mutation	https://civicdb.org/events/genes/1463/summary/variants/402/summary
+ERBB2	ENSG00000141736.12	ENST00000269571.8	p.Y772_A775dup	duplication	https://civicdb.org/events/genes/20/summary/variants/414/summary
+EGFR	ENSG00000146648.14	ENST00000275493.5	p.C797S	point_mutation	https://civicdb.org/events/genes/19/summary/variants/415/summary
+IDH1	ENSG00000138413.12	ENST00000415913.4	p.R132H	point_mutation	https://civicdb.org/events/genes/26/summary/variants/420/summary
+MYD88	ENSG00000172936.11	ENST00000396334.6	p.L265P	point_mutation	https://civicdb.org/events/genes/3742/summary/variants/424/summary
+KRAS	ENSG00000133703.10	ENST00000256078.7	p.G12V	point_mutation	https://civicdb.org/events/genes/30/summary/variants/425/summary
+NRAS	ENSG00000213281.4	ENST00000369535.4	p.Q61K	point_mutation	https://civicdb.org/events/genes/36/summary/variants/427/summary
+EGFR	ENSG00000146648.14	ENST00000275493.5	p.G465R	point_mutation	https://civicdb.org/events/genes/19/summary/variants/443/summary
+EGFR	ENSG00000146648.14	ENST00000275493.5	p.S492R	point_mutation	https://civicdb.org/events/genes/19/summary/variants/453/summary
+EGFR	ENSG00000146648.14	ENST00000275493.5	p.R451C	point_mutation	https://civicdb.org/events/genes/19/summary/variants/454/summary
+EGFR	ENSG00000146648.14	ENST00000275493.5	p.K467T	point_mutation	https://civicdb.org/events/genes/19/summary/variants/455/summary
+FCGR2A	ENSG00000143226.12	ENST00000271450.9	p.H167R	point_mutation	https://civicdb.org/events/genes/1842/summary/variants/456/summary
+FCGR3A	ENSG00000203747.8	ENST00000367969.6	p.F212V	point_mutation	https://civicdb.org/events/genes/1844/summary/variants/457/summary
+FCGR2B	ENSG00000072694.17	ENST00000358671.8	p.I232T	point_mutation	https://civicdb.org/events/genes/1843/summary/variants/458/summary
+EGFR	ENSG00000146648.14	ENST00000275493.5	p.P753S	point_mutation	https://civicdb.org/events/genes/19/summary/variants/460/summary
+KDR	ENSG00000128052.8	ENST00000263923.4	p.A1065T	point_mutation	https://civicdb.org/events/genes/3153/summary/variants/467/summary
+KDR	ENSG00000128052.8	ENST00000263923.4	p.D717V	point_mutation	https://civicdb.org/events/genes/3153/summary/variants/468/summary
+TSC2	ENSG00000103197.15	ENST00000219476.6	p.Q1178*	point_mutation	https://civicdb.org/events/genes/47/summary/variants/469/summary
+MTOR	ENSG00000198793.11	ENST00000361445.7	p.F2108L	point_mutation	https://civicdb.org/events/genes/2073/summary/variants/470/summary
+RAD51D	ENSG00000185379.19	ENST00000345365.9	p.R186*	point_mutation	https://civicdb.org/events/genes/4765/summary/variants/471/summary
+BRCA1	ENSG00000012048.18	ENST00000471181.5	p.P968fs	frameshift	https://civicdb.org/events/genes/6/summary/variants/477/summary
+KRAS	ENSG00000133703.10	ENST00000256078.7	p.Q22*	point_mutation	https://civicdb.org/events/genes/30/summary/variants/479/summary
+DNMT3A	ENSG00000119772.15	ENST00000264709.6	p.P904L	point_mutation	https://civicdb.org/events/genes/18/summary/variants/480/summary
+ERBB2	ENSG00000141736.12	ENST00000269571.8	p.L866M	point_mutation	https://civicdb.org/events/genes/20/summary/variants/496/summary
+KDR	ENSG00000128052.8	ENST00000263923.4	p.R961W	point_mutation	https://civicdb.org/events/genes/3153/summary/variants/502/summary
+TP53	ENSG00000141510.14	ENST00000269305.7	p.P47S	point_mutation	https://civicdb.org/events/genes/45/summary/variants/504/summary
+PMS2	ENSG00000122512.13	ENST00000265849.10	p.K706fs*19	frameshift	https://civicdb.org/events/genes/4371/summary/variants/508/summary
+FGFR1	ENSG00000077782.18	ENST00000341462.8	p.N546K	point_mutation	https://civicdb.org/events/genes/1885/summary/variants/515/summary
+KRAS	ENSG00000133703.10	ENST00000256078.7	p.G12R	point_mutation	https://civicdb.org/events/genes/30/summary/variants/530/summary
+TP53	ENSG00000141510.14	ENST00000269305.7	p.P72R	point_mutation	https://civicdb.org/events/genes/45/summary/variants/531/summary
+FLT3	ENSG00000122025.13	ENST00000241453.10	p.T227M	point_mutation	https://civicdb.org/events/genes/24/summary/variants/540/summary
+PALB2	ENSG00000083093.8	ENST00000261584.7	p.L531fs*30	frameshift	https://civicdb.org/events/genes/15013/summary/variants/541/summary
+MTOR	ENSG00000198793.11	ENST00000361445.7	p.S2215Y	point_mutation	https://civicdb.org/events/genes/2073/summary/variants/542/summary
+MTOR	ENSG00000198793.11	ENST00000361445.7	p.C1483Y	point_mutation	https://civicdb.org/events/genes/2073/summary/variants/543/summary
+MTOR	ENSG00000198793.11	ENST00000361445.7	p.E1799K	point_mutation	https://civicdb.org/events/genes/2073/summary/variants/544/summary
+FGFR2	ENSG00000066468.19	ENST00000457416.5	p.N550K	point_mutation	https://civicdb.org/events/genes/22/summary/variants/545/summary
+ALK	ENSG00000171094.14	ENST00000389048.6	p.F1245C	point_mutation	https://civicdb.org/events/genes/1/summary/variants/549/summary
+CDK4	ENSG00000135446.15	ENST00000257904.9	p.R24C	point_mutation	https://civicdb.org/events/genes/13/summary/variants/556/summary
+EGFR	ENSG00000146648.14	ENST00000275493.5	p.S768I	point_mutation	https://civicdb.org/events/genes/19/summary/variants/562/summary
+BRAF	ENSG00000157764.11	ENST00000288602.9	p.V600K	point_mutation	https://civicdb.org/events/genes/5/summary/variants/563/summary
+SF3B1	ENSG00000115524.14	ENST00000335508.9	p.K700E	point_mutation	https://civicdb.org/events/genes/44/summary/variants/565/summary
+MAP2K7	ENSG00000076984.16	ENST00000397979.3	p.E116K	point_mutation	https://civicdb.org/events/genes/4546/summary/variants/566/summary
+BRAF	ENSG00000157764.11	ENST00000288602.9	p.D594A	point_mutation	https://civicdb.org/events/genes/5/summary/variants/579/summary
+BRAF	ENSG00000157764.11	ENST00000288602.9	p.D594V	point_mutation	https://civicdb.org/events/genes/5/summary/variants/580/summary
+BRAF	ENSG00000157764.11	ENST00000288602.9	p.K483M	point_mutation	https://civicdb.org/events/genes/5/summary/variants/581/summary
+BRAF	ENSG00000157764.11	ENST00000288602.9	p.L597S	point_mutation	https://civicdb.org/events/genes/5/summary/variants/582/summary
+BRAF	ENSG00000157764.11	ENST00000288602.9	p.L597Q	point_mutation	https://civicdb.org/events/genes/5/summary/variants/583/summary
+BRAF	ENSG00000157764.11	ENST00000288602.9	p.K601E	point_mutation	https://civicdb.org/events/genes/5/summary/variants/584/summary
+BRAF	ENSG00000157764.11	ENST00000288602.9	p.L597V	point_mutation	https://civicdb.org/events/genes/5/summary/variants/585/summary
+GNAQ	ENSG00000156052.9	ENST00000286548.7	p.Q209P	point_mutation	https://civicdb.org/events/genes/2317/summary/variants/604/summary
+PTEN	ENSG00000171862.8	ENST00000371953.6	p.V317fs	frameshift	https://civicdb.org/events/genes/41/summary/variants/605/summary
+MTOR	ENSG00000198793.11	ENST00000361445.7	p.M2327I	point_mutation	https://civicdb.org/events/genes/2073/summary/variants/609/summary
+MTOR	ENSG00000198793.11	ENST00000361445.7	p.A2034V	point_mutation	https://civicdb.org/events/genes/2073/summary/variants/610/summary
+BRAF	ENSG00000157764.11	ENST00000288602.9	p.D594G	point_mutation	https://civicdb.org/events/genes/5/summary/variants/611/summary
+FLT3	ENSG00000122025.13	ENST00000241453.10	p.D835H	point_mutation	https://civicdb.org/events/genes/24/summary/variants/612/summary
+JAK1	ENSG00000162434.10	ENST00000342505.4	p.Q503*	point_mutation	https://civicdb.org/events/genes/3090/summary/variants/614/summary
+B2M	ENSG00000166710.16	ENST00000558401.4	p.S14fs	frameshift	https://civicdb.org/events/genes/537/summary/variants/616/summary
+MAP2K1	ENSG00000169032.8	ENST00000307102.8	p.C121S	point_mutation	https://civicdb.org/events/genes/31/summary/variants/627/summary
+FGFR3	ENSG00000068078.16	ENST00000340107.7	p.S249C	point_mutation	https://civicdb.org/events/genes/23/summary/variants/628/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.R200W	point_mutation	https://civicdb.org/events/genes/58/summary/variants/631/summary
+STK11	ENSG00000118046.13	ENST00000326873.10	p.D194E	point_mutation	https://civicdb.org/events/genes/5534/summary/variants/634/summary
+PTEN	ENSG00000171862.8	ENST00000371953.6	p.R130*	point_mutation	https://civicdb.org/events/genes/41/summary/variants/636/summary
+RB1	ENSG00000139687.12	ENST00000267163.4	p.M695fs*26	frameshift	https://civicdb.org/events/genes/4795/summary/variants/638/summary
+MET	ENSG00000105976.13	ENST00000397752.6	p.D1228N	point_mutation	https://civicdb.org/events/genes/52/summary/variants/649/summary
+CASP8	ENSG00000064012.20	ENST00000264275.8	p.D302H	point_mutation	https://civicdb.org/events/genes/761/summary/variants/650/summary
+MAP2K1	ENSG00000169032.8	ENST00000307102.8	p.Q56_V60del	small_deletion	https://civicdb.org/events/genes/31/summary/variants/655/summary
+BRAF	ENSG00000157764.11	ENST00000288602.9	p.L505H	point_mutation	https://civicdb.org/events/genes/5/summary/variants/658/summary
+BRCA2	ENSG00000139618.13	ENST00000544455.4	p.D3095E	point_mutation	https://civicdb.org/events/genes/7/summary/variants/661/summary
+ERRFI1	ENSG00000116285.11	ENST00000377482.8	p.E384*	point_mutation	https://civicdb.org/events/genes/12271/summary/variants/691/summary
+ESR1	ENSG00000091831.20	ENST00000440973.4	p.S463P	point_mutation	https://civicdb.org/events/genes/21/summary/variants/692/summary
+BRAF	ENSG00000157764.11	ENST00000288602.9	p.G596C	point_mutation	https://civicdb.org/events/genes/5/summary/variants/694/summary
+ERBB3	ENSG00000065361.13	ENST00000267101.6	p.V104M	point_mutation	https://civicdb.org/events/genes/1733/summary/variants/701/summary
+ERBB3	ENSG00000065361.13	ENST00000267101.6	p.R103G	point_mutation	https://civicdb.org/events/genes/1733/summary/variants/702/summary
+ERBB3	ENSG00000065361.13	ENST00000267101.6	p.G284R	point_mutation	https://civicdb.org/events/genes/1733/summary/variants/703/summary
+EGFR	ENSG00000146648.14	ENST00000275493.5	p.D761Y	point_mutation	https://civicdb.org/events/genes/19/summary/variants/712/summary
+TSC1	ENSG00000165699.12	ENST00000298552.6	p.R1062W	point_mutation	https://civicdb.org/events/genes/46/summary/variants/714/summary
+EGFR	ENSG00000146648.14	ENST00000275493.5	p.K757R	point_mutation	https://civicdb.org/events/genes/19/summary/variants/723/summary
+EGFR	ENSG00000146648.14	ENST00000275493.5	p.E746G	point_mutation	https://civicdb.org/events/genes/19/summary/variants/724/summary
+MLH1	ENSG00000076242.13	ENST00000231790.5	p.E13fs*3	frameshift	https://civicdb.org/events/genes/3532/summary/variants/725/summary
+MSH2	ENSG00000095002.11	ENST00000233146.5	p.R383*	point_mutation	https://civicdb.org/events/genes/3628/summary/variants/727/summary
+MLH1	ENSG00000076242.13	ENST00000231790.5	p.V534R	point_mutation	https://civicdb.org/events/genes/3532/summary/variants/728/summary
+MLH1	ENSG00000076242.13	ENST00000231790.5	p.G606fs*2	frameshift	https://civicdb.org/events/genes/3532/summary/variants/730/summary
+MLH1	ENSG00000076242.13	ENST00000231790.5	p.K618del	small_deletion	https://civicdb.org/events/genes/3532/summary/variants/733/summary
+MLH1	ENSG00000076242.13		p.P138T	point_mutation	https://civicdb.org/events/genes/3532/summary/variants/734/summary
+MLH1	ENSG00000076242.13	ENST00000231790.5	p.R687fs	frameshift	https://civicdb.org/events/genes/3532/summary/variants/735/summary
+MLH1	ENSG00000076242.13	ENST00000231790.5	p.R100*	point_mutation	https://civicdb.org/events/genes/3532/summary/variants/741/summary
+MLH1	ENSG00000076242.13	ENST00000231790.5	p.T117M	point_mutation	https://civicdb.org/events/genes/3532/summary/variants/743/summary
+MLH1	ENSG00000076242.13	ENST00000231790.5	p.Q426fs	frameshift	https://civicdb.org/events/genes/3532/summary/variants/744/summary
+MLH1	ENSG00000076242.13	ENST00000231790.5	p.V49A	point_mutation	https://civicdb.org/events/genes/3532/summary/variants/745/summary
+MLH1	ENSG00000076242.13	ENST00000231790.5	p.D667fs	frameshift	https://civicdb.org/events/genes/3532/summary/variants/746/summary
+MLH1	ENSG00000076242.13	ENST00000231790.5	p.M1L	point_mutation	https://civicdb.org/events/genes/3532/summary/variants/747/summary
+MLH1	ENSG00000076242.13	ENST00000231790.5	p.*757L	point_mutation	https://civicdb.org/events/genes/3532/summary/variants/748/summary
+MLH1	ENSG00000076242.13	ENST00000231790.5	p.R265G	point_mutation	https://civicdb.org/events/genes/3532/summary/variants/749/summary
+MLH1	ENSG00000076242.13	ENST00000231790.5	p.V213fs	frameshift	https://civicdb.org/events/genes/3532/summary/variants/750/summary
+MLH1	ENSG00000076242.13	ENST00000231790.5	p.N551T	point_mutation	https://civicdb.org/events/genes/3532/summary/variants/751/summary
+MLH1	ENSG00000076242.13	ENST00000231790.5	p.A424T	point_mutation	https://civicdb.org/events/genes/3532/summary/variants/752/summary
+MLH1	ENSG00000076242.13	ENST00000231790.5	p.Q149*	point_mutation	https://civicdb.org/events/genes/3532/summary/variants/753/summary
+MLH1	ENSG00000076242.13	ENST00000231790.5	p.R226*	point_mutation	https://civicdb.org/events/genes/3532/summary/variants/754/summary
+MSH6	ENSG00000116062.13	ENST00000234420.8	p.I972F	point_mutation	https://civicdb.org/events/genes/2478/summary/variants/755/summary
+MLH1	ENSG00000076242.13	ENST00000231790.5	p.P536fs	frameshift	https://civicdb.org/events/genes/3532/summary/variants/756/summary
+MLH1	ENSG00000076242.13	ENST00000231790.5	p.G67R	point_mutation	https://civicdb.org/events/genes/3532/summary/variants/757/summary
+MLH1	ENSG00000076242.13	ENST00000231790.5	p.I68S	point_mutation	https://civicdb.org/events/genes/3532/summary/variants/758/summary
+MLH1	ENSG00000076242.13	ENST00000231790.5	p.G65D	point_mutation	https://civicdb.org/events/genes/3532/summary/variants/759/summary
+MLH1	ENSG00000076242.13	ENST00000231790.5	p.A681V	point_mutation	https://civicdb.org/events/genes/3532/summary/variants/760/summary
+MSH6	ENSG00000116062.13	ENST00000234420.8	p.P138T	point_mutation	https://civicdb.org/events/genes/2478/summary/variants/761/summary
+MSH2	ENSG00000095002.11	ENST00000233146.5	p.V273fs	frameshift	https://civicdb.org/events/genes/3628/summary/variants/762/summary
+MSH2	ENSG00000095002.11	ENST00000233146.5	p.E28fs	frameshift	https://civicdb.org/events/genes/3628/summary/variants/763/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.E55fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/764/summary
+MSH6	ENSG00000116062.13	ENST00000234420.8	p.I891fs	frameshift	https://civicdb.org/events/genes/2478/summary/variants/765/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.E55Rfs*11	frameshift	https://civicdb.org/events/genes/58/summary/variants/766/summary
+MSH6	ENSG00000116062.13	ENST00000234420.8	p.R1242H	point_mutation	https://civicdb.org/events/genes/2478/summary/variants/767/summary
+PMS2	ENSG00000122512.13	ENST00000265849.10	p.R315*	point_mutation	https://civicdb.org/events/genes/4371/summary/variants/768/summary
+MLH1	ENSG00000076242.13	ENST00000231790.5	p.M490T	point_mutation	https://civicdb.org/events/genes/3532/summary/variants/769/summary
+MSH2	ENSG00000095002.11	ENST00000233146.5	p.K172*	point_mutation	https://civicdb.org/events/genes/3628/summary/variants/770/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.A56fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/771/summary
+HOXB13	ENSG00000159184.7	ENST00000290295.7	p.G84E	point_mutation	https://civicdb.org/events/genes/8351/summary/variants/772/summary
+MSH2	ENSG00000095002.11	ENST00000233146.5	p.E483G	point_mutation	https://civicdb.org/events/genes/3628/summary/variants/773/summary
+MSH6	ENSG00000116062.13	ENST00000234420.8	p.V352I	point_mutation	https://civicdb.org/events/genes/2478/summary/variants/775/summary
+MSH6	ENSG00000116062.13	ENST00000234420.8	p.R1242C	point_mutation	https://civicdb.org/events/genes/2478/summary/variants/776/summary
+SLCO1B1	ENSG00000134538.2	ENST00000256958.2	p.N130D	point_mutation	https://civicdb.org/events/genes/8450/summary/variants/778/summary
+ERBB3	ENSG00000065361.13		p.V855A	point_mutation	https://civicdb.org/events/genes/1733/summary/variants/781/summary
+CHEK2	ENSG00000183765.19	ENST00000328354.9	p.I157T	point_mutation	https://civicdb.org/events/genes/8950/summary/variants/787/summary
+PTPRD	ENSG00000153707.14	ENST00000381196.7	p.V253I	point_mutation	https://civicdb.org/events/genes/4692/summary/variants/792/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.A56fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/793/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.E55E	point_mutation	https://civicdb.org/events/genes/58/summary/variants/794/summary
+MET	ENSG00000105976.13	ENST00000397752.6	p.D1228V	point_mutation	https://civicdb.org/events/genes/52/summary/variants/798/summary
+RUNX1	ENSG00000159216.17	ENST00000344691.7	p.K83E	point_mutation	https://civicdb.org/events/genes/43/summary/variants/802/summary
+RUNX1	ENSG00000159216.17	ENST00000344691.7	p.Y260*	point_mutation	https://civicdb.org/events/genes/43/summary/variants/803/summary
+RUNX1	ENSG00000159216.17	ENST00000300305.6	p.D198Y	point_mutation	https://civicdb.org/events/genes/43/summary/variants/806/summary
+RUNX1	ENSG00000159216.17	ENST00000344691.7	p.A107P	point_mutation	https://civicdb.org/events/genes/43/summary/variants/807/summary
+ETV6	ENSG00000139083.9	ENST00000396373.7	p.R399C	point_mutation	https://civicdb.org/events/genes/1769/summary/variants/811/summary
+ETV6	ENSG00000139083.9	ENST00000396373.7	p.R369Q	point_mutation	https://civicdb.org/events/genes/1769/summary/variants/812/summary
+ETV6	ENSG00000139083.9	ENST00000396373.7	p.P214L	point_mutation	https://civicdb.org/events/genes/1769/summary/variants/813/summary
+DDX41	ENSG00000183258.10	ENST00000507955.4	p.R164W	point_mutation	https://civicdb.org/events/genes/11932/summary/variants/814/summary
+ERBB2	ENSG00000141736.12	ENST00000269571.8	p.G776L	point_mutation	https://civicdb.org/events/genes/20/summary/variants/816/summary
+ERBB2	ENSG00000141736.12	ENST00000269571.8	p.G778_P780dup	duplication	https://civicdb.org/events/genes/20/summary/variants/817/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.A149S	point_mutation	https://civicdb.org/events/genes/58/summary/variants/820/summary
+JAK1	ENSG00000162434.10	ENST00000342505.4	p.S703I	point_mutation	https://civicdb.org/events/genes/3090/summary/variants/822/summary
+MAP2K1	ENSG00000169032.8	ENST00000307102.8	p.K57T	point_mutation	https://civicdb.org/events/genes/31/summary/variants/824/summary
+ARAF	ENSG00000078061.11	ENST00000377045.7	p.S490T	point_mutation	https://civicdb.org/events/genes/3/summary/variants/825/summary
+GNAS	ENSG00000087460.22	ENST00000371085.6	p.R201C	point_mutation	https://civicdb.org/events/genes/2319/summary/variants/826/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.M54Ifs	frameshift	https://civicdb.org/events/genes/58/summary/variants/829/summary
+SMO	ENSG00000128602.8	ENST00000249373.6	p.W535L	point_mutation	https://civicdb.org/events/genes/5365/summary/variants/837/summary
+PTEN	ENSG00000171862.8	ENST00000371953.6	p.R173C	point_mutation	https://civicdb.org/events/genes/41/summary/variants/838/summary
+BRAF	ENSG00000157764.11	ENST00000288602.9	p.G469R	point_mutation	https://civicdb.org/events/genes/5/summary/variants/840/summary
+BRAF	ENSG00000157764.11	ENST00000288602.9	p.G469V	point_mutation	https://civicdb.org/events/genes/5/summary/variants/841/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.M1fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/846/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.N7D	point_mutation	https://civicdb.org/events/genes/58/summary/variants/849/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.P25L	point_mutation	https://civicdb.org/events/genes/58/summary/variants/850/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.P59fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/851/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.Y98fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/852/summary
+HRAS	ENSG00000174775.15	ENST00000451590.4	p.Q61L	point_mutation	https://civicdb.org/events/genes/2747/summary/variants/854/summary
+EGFR	ENSG00000146648.14	ENST00000275493.5	p.T725M	point_mutation	https://civicdb.org/events/genes/19/summary/variants/861/summary
+PDGFRA	ENSG00000134853.10	ENST00000257290.8	p.P577S	point_mutation	https://civicdb.org/events/genes/38/summary/variants/862/summary
+PDGFRA	ENSG00000134853.10	ENST00000257290.8	p.R841K	point_mutation	https://civicdb.org/events/genes/38/summary/variants/863/summary
+PDGFRA	ENSG00000134853.10	ENST00000257290.8	p.H845Y	point_mutation	https://civicdb.org/events/genes/38/summary/variants/864/summary
+PDGFRA	ENSG00000134853.10	ENST00000257290.8	p.G853D	point_mutation	https://civicdb.org/events/genes/38/summary/variants/865/summary
+BTK	ENSG00000010671.14	ENST00000308731.7	p.T316A	point_mutation	https://civicdb.org/events/genes/65/summary/variants/870/summary
+ERBB2	ENSG00000141736.12	ENST00000269571.8	p.T862A	point_mutation	https://civicdb.org/events/genes/20/summary/variants/871/summary
+ERBB2	ENSG00000141736.12	ENST00000269571.8	p.V773A	point_mutation	https://civicdb.org/events/genes/20/summary/variants/872/summary
+ERBB2	ENSG00000141736.12	ENST00000269571.8	p.N857S	point_mutation	https://civicdb.org/events/genes/20/summary/variants/873/summary
+ERBB2	ENSG00000141736.12	ENST00000269571.8	p.H878Y	point_mutation	https://civicdb.org/events/genes/20/summary/variants/874/summary
+GNAS	ENSG00000087460.22		p.T393C	point_mutation	https://civicdb.org/events/genes/2319/summary/variants/877/summary
+NRAS	ENSG00000213281.4	ENST00000369535.4	p.G12D	point_mutation	https://civicdb.org/events/genes/36/summary/variants/878/summary
+TP53	ENSG00000141510.14		p.G245S	point_mutation	https://civicdb.org/events/genes/45/summary/variants/879/summary
+IDH1	ENSG00000138413.12	ENST00000415913.4	p.R132L	point_mutation	https://civicdb.org/events/genes/26/summary/variants/880/summary
+PIK3CA	ENSG00000121879.3	ENST00000263967.3	p.E545Q	point_mutation	https://civicdb.org/events/genes/37/summary/variants/881/summary
+PIK3CA	ENSG00000121879.3	ENST00000263967.3	p.E545A	point_mutation	https://civicdb.org/events/genes/37/summary/variants/882/summary
+PIK3CA	ENSG00000121879.3	ENST00000263967.3	p.E545G	point_mutation	https://civicdb.org/events/genes/37/summary/variants/883/summary
+PIK3CA	ENSG00000121879.3	ENST00000263967.3	p.E545V	point_mutation	https://civicdb.org/events/genes/37/summary/variants/884/summary
+PIK3CA	ENSG00000121879.3	ENST00000263967.3	p.Q546K	point_mutation	https://civicdb.org/events/genes/37/summary/variants/885/summary
+PIK3CA	ENSG00000121879.3	ENST00000263967.3	p.Q546E	point_mutation	https://civicdb.org/events/genes/37/summary/variants/886/summary
+EGFR	ENSG00000146648.14		p.L747_S752del	small_deletion	https://civicdb.org/events/genes/19/summary/variants/890/summary
+NRAS	ENSG00000213281.4	ENST00000369535.4	p.Q61H	point_mutation	https://civicdb.org/events/genes/36/summary/variants/893/summary
+NRAS	ENSG00000213281.4	ENST00000369535.4	p.G13C	point_mutation	https://civicdb.org/events/genes/36/summary/variants/895/summary
+NRAS	ENSG00000213281.4	ENST00000369535.4	p.G13R	point_mutation	https://civicdb.org/events/genes/36/summary/variants/896/summary
+NRAS	ENSG00000213281.4	ENST00000369535.4	p.G12C	point_mutation	https://civicdb.org/events/genes/36/summary/variants/897/summary
+NRAS	ENSG00000213281.4	ENST00000369535.4	p.G12S	point_mutation	https://civicdb.org/events/genes/36/summary/variants/898/summary
+ATM	ENSG00000149311.16	ENST00000278616.7	p.T2666A	point_mutation	https://civicdb.org/events/genes/69/summary/variants/901/summary
+ATM	ENSG00000149311.16	ENST00000278616.7	p.L2890V	point_mutation	https://civicdb.org/events/genes/69/summary/variants/902/summary
+ATM	ENSG00000149311.16	ENST00000278616.7	p.R3008C	point_mutation	https://civicdb.org/events/genes/69/summary/variants/903/summary
+ATM	ENSG00000149311.16	ENST00000278616.7	p.R3008H	point_mutation	https://civicdb.org/events/genes/69/summary/variants/904/summary
+KRAS	ENSG00000133703.10	ENST00000256078.7	p.A146P	point_mutation	https://civicdb.org/events/genes/30/summary/variants/905/summary
+KRAS	ENSG00000133703.10	ENST00000256078.7	p.A146T	point_mutation	https://civicdb.org/events/genes/30/summary/variants/906/summary
+KRAS	ENSG00000133703.10	ENST00000256078.7	p.Q61H	point_mutation	https://civicdb.org/events/genes/30/summary/variants/907/summary
+KRAS	ENSG00000133703.10	ENST00000256078.7	p.Q61L	point_mutation	https://civicdb.org/events/genes/30/summary/variants/908/summary
+KRAS	ENSG00000133703.10	ENST00000256078.7	p.Q61R	point_mutation	https://civicdb.org/events/genes/30/summary/variants/909/summary
+KRAS	ENSG00000133703.10	ENST00000256078.7	p.Q61K	point_mutation	https://civicdb.org/events/genes/30/summary/variants/910/summary
+KRAS	ENSG00000133703.10	ENST00000256078.7	p.G13C	point_mutation	https://civicdb.org/events/genes/30/summary/variants/911/summary
+KRAS	ENSG00000133703.10	ENST00000256078.7	p.G12S	point_mutation	https://civicdb.org/events/genes/30/summary/variants/913/summary
+TP53	ENSG00000141510.14	ENST00000269305.7	p.R273L	point_mutation	https://civicdb.org/events/genes/45/summary/variants/918/summary
+TP53	ENSG00000141510.14	ENST00000269305.7	p.Y220C	point_mutation	https://civicdb.org/events/genes/45/summary/variants/922/summary
+IDH1	ENSG00000138413.12	ENST00000415913.4	p.R132G	point_mutation	https://civicdb.org/events/genes/26/summary/variants/927/summary
+IDH1	ENSG00000138413.12	ENST00000415913.4	p.R132S	point_mutation	https://civicdb.org/events/genes/26/summary/variants/928/summary
+PIK3CA	ENSG00000121879.3	ENST00000263967.3	p.N345K	point_mutation	https://civicdb.org/events/genes/37/summary/variants/930/summary
+PIK3CA	ENSG00000121879.3	ENST00000263967.3	p.C420R	point_mutation	https://civicdb.org/events/genes/37/summary/variants/931/summary
+PIK3CA	ENSG00000121879.3	ENST00000263967.3	p.E542Q	point_mutation	https://civicdb.org/events/genes/37/summary/variants/933/summary
+PIK3CA	ENSG00000121879.3	ENST00000263967.3	p.E545D	point_mutation	https://civicdb.org/events/genes/37/summary/variants/934/summary
+PIK3CA	ENSG00000121879.3	ENST00000263967.3	p.Y1021C	point_mutation	https://civicdb.org/events/genes/37/summary/variants/935/summary
+PIK3CA	ENSG00000121879.3	ENST00000263967.3	p.M1043I	point_mutation	https://civicdb.org/events/genes/37/summary/variants/937/summary
+PIK3CA	ENSG00000121879.3	ENST00000263967.3	p.H1047Y	point_mutation	https://civicdb.org/events/genes/37/summary/variants/938/summary
+PIK3CA	ENSG00000121879.3	ENST00000263967.3	p.G1049S	point_mutation	https://civicdb.org/events/genes/37/summary/variants/939/summary
+PIK3CA	ENSG00000121879.3	ENST00000263967.3	p.G1049R	point_mutation	https://civicdb.org/events/genes/37/summary/variants/940/summary
+PDGFRA	ENSG00000134853.10	ENST00000257290.8	p.V561D	point_mutation	https://civicdb.org/events/genes/38/summary/variants/941/summary
+KIT	ENSG00000157404.14	ENST00000288135.5	p.Y503_F504insAY	insertion	https://civicdb.org/events/genes/29/summary/variants/946/summary
+KIT	ENSG00000157404.14		p.K550_W557del	small_deletion	https://civicdb.org/events/genes/29/summary/variants/948/summary
+KIT	ENSG00000157404.14	ENST00000288135.5	p.K550_K558del	small_deletion	https://civicdb.org/events/genes/29/summary/variants/949/summary
+KIT	ENSG00000157404.14	ENST00000288135.5	p.P551L	point_mutation	https://civicdb.org/events/genes/29/summary/variants/950/summary
+KIT	ENSG00000157404.14	ENST00000288135.5	p.M552_W557del	small_deletion	https://civicdb.org/events/genes/29/summary/variants/951/summary
+KIT	ENSG00000157404.14	ENST00000288135.5	p.Y553D	point_mutation	https://civicdb.org/events/genes/29/summary/variants/952/summary
+KIT	ENSG00000157404.14		p.Y553_K558del	small_deletion	https://civicdb.org/events/genes/29/summary/variants/953/summary
+KIT	ENSG00000157404.14	ENST00000288135.5	p.E554D	point_mutation	https://civicdb.org/events/genes/29/summary/variants/955/summary
+KIT	ENSG00000157404.14	ENST00000288135.5	p.V555_Q556del	small_deletion	https://civicdb.org/events/genes/29/summary/variants/956/summary
+KIT	ENSG00000157404.14	ENST00000288135.5	p.W557R	point_mutation	https://civicdb.org/events/genes/29/summary/variants/958/summary
+KIT	ENSG00000157404.14	ENST00000288135.5	p.W557G	point_mutation	https://civicdb.org/events/genes/29/summary/variants/959/summary
+KIT	ENSG00000157404.14	ENST00000288135.5	p.W557T	point_mutation	https://civicdb.org/events/genes/29/summary/variants/960/summary
+KIT	ENSG00000157404.14		p.W557_E561del	small_deletion	https://civicdb.org/events/genes/29/summary/variants/962/summary
+KIT	ENSG00000157404.14	ENST00000288135.5	p.K558Q	point_mutation	https://civicdb.org/events/genes/29/summary/variants/963/summary
+KIT	ENSG00000157404.14	ENST00000288135.5	p.K558_V559del	small_deletion	https://civicdb.org/events/genes/29/summary/variants/964/summary
+KIT	ENSG00000157404.14	ENST00000288135.5	p.K558R	point_mutation	https://civicdb.org/events/genes/29/summary/variants/965/summary
+KIT	ENSG00000157404.14	ENST00000288135.5	p.V559del	small_deletion	https://civicdb.org/events/genes/29/summary/variants/966/summary
+KIT	ENSG00000157404.14	ENST00000288135.5	p.V559_V560del	small_deletion	https://civicdb.org/events/genes/29/summary/variants/967/summary
+KIT	ENSG00000157404.14		p.V559D	point_mutation	https://civicdb.org/events/genes/29/summary/variants/968/summary
+KIT	ENSG00000157404.14	ENST00000288135.5	p.V559A	point_mutation	https://civicdb.org/events/genes/29/summary/variants/969/summary
+KIT	ENSG00000157404.14	ENST00000288135.5	p.V559G	point_mutation	https://civicdb.org/events/genes/29/summary/variants/970/summary
+KIT	ENSG00000157404.14	ENST00000288135.5	p.V560D	point_mutation	https://civicdb.org/events/genes/29/summary/variants/971/summary
+KIT	ENSG00000157404.14	ENST00000288135.5	p.V560G	point_mutation	https://civicdb.org/events/genes/29/summary/variants/972/summary
+KIT	ENSG00000157404.14	ENST00000288135.5	p.T574A	point_mutation	https://civicdb.org/events/genes/29/summary/variants/974/summary
+KIT	ENSG00000157404.14	ENST00000288135.5	p.Q575L	point_mutation	https://civicdb.org/events/genes/29/summary/variants/975/summary
+KIT	ENSG00000157404.14	ENST00000288135.5	p.P577L	point_mutation	https://civicdb.org/events/genes/29/summary/variants/976/summary
+KIT	ENSG00000157404.14	ENST00000288135.5	p.D579del	small_deletion	https://civicdb.org/events/genes/29/summary/variants/977/summary
+KIT	ENSG00000157404.14	ENST00000288135.5	p.K642E	point_mutation	https://civicdb.org/events/genes/29/summary/variants/978/summary
+KIT	ENSG00000157404.14	ENST00000288135.5	p.T661I	point_mutation	https://civicdb.org/events/genes/29/summary/variants/979/summary
+KIT	ENSG00000157404.14	ENST00000288135.5	p.S692L	point_mutation	https://civicdb.org/events/genes/29/summary/variants/980/summary
+KIT	ENSG00000157404.14	ENST00000288135.5	p.Q694K	point_mutation	https://civicdb.org/events/genes/29/summary/variants/981/summary
+KIT	ENSG00000157404.14	ENST00000288135.5	p.D816H	point_mutation	https://civicdb.org/events/genes/29/summary/variants/983/summary
+KIT	ENSG00000157404.14		p.D816Y	point_mutation	https://civicdb.org/events/genes/29/summary/variants/984/summary
+KIT	ENSG00000157404.14	ENST00000288135.5	p.D820Y	point_mutation	https://civicdb.org/events/genes/29/summary/variants/986/summary
+KIT	ENSG00000157404.14	ENST00000288135.5	p.Y823D	point_mutation	https://civicdb.org/events/genes/29/summary/variants/989/summary
+KIT	ENSG00000157404.14		p.A829P	point_mutation	https://civicdb.org/events/genes/29/summary/variants/990/summary
+BRAF	ENSG00000157764.11		p.V600R	point_mutation	https://civicdb.org/events/genes/5/summary/variants/991/summary
+BRAF	ENSG00000157764.11	ENST00000288602.9	p.G469A	point_mutation	https://civicdb.org/events/genes/5/summary/variants/992/summary
+BRAF	ENSG00000157764.11		p.G469E	point_mutation	https://civicdb.org/events/genes/5/summary/variants/993/summary
+EGFR	ENSG00000146648.14		p.R108K	point_mutation	https://civicdb.org/events/genes/19/summary/variants/994/summary
+EGFR	ENSG00000146648.14		p.T263P	point_mutation	https://civicdb.org/events/genes/19/summary/variants/995/summary
+EGFR	ENSG00000146648.14	ENST00000275493.5	p.A289V	point_mutation	https://civicdb.org/events/genes/19/summary/variants/996/summary
+EGFR	ENSG00000146648.14	ENST00000275493.5	p.G719A	point_mutation	https://civicdb.org/events/genes/19/summary/variants/999/summary
+EGFR	ENSG00000146648.14		p.V742A	point_mutation	https://civicdb.org/events/genes/19/summary/variants/1001/summary
+EGFR	ENSG00000146648.14	ENST00000275493.5	p.E746_T751delinsA	delins	https://civicdb.org/events/genes/19/summary/variants/1004/summary
+EGFR	ENSG00000146648.14		p.E746V	point_mutation	https://civicdb.org/events/genes/19/summary/variants/1005/summary
+EGFR	ENSG00000146648.14		p.L747_P753delinsS	delins	https://civicdb.org/events/genes/19/summary/variants/1012/summary
+EGFR	ENSG00000146648.14		p.D761N	point_mutation	https://civicdb.org/events/genes/19/summary/variants/1013/summary
+EGFR	ENSG00000146648.14		p.G810S	point_mutation	https://civicdb.org/events/genes/19/summary/variants/1016/summary
+EGFR	ENSG00000146648.14	ENST00000275493.5	p.R831H	point_mutation	https://civicdb.org/events/genes/19/summary/variants/1017/summary
+EGFR	ENSG00000146648.14		p.L838V	point_mutation	https://civicdb.org/events/genes/19/summary/variants/1018/summary
+EGFR	ENSG00000146648.14		p.L861Q	point_mutation	https://civicdb.org/events/genes/19/summary/variants/1020/summary
+ABL1	ENSG00000097007.16	ENST00000318560.5	p.Q252H	point_mutation	https://civicdb.org/events/genes/4/summary/variants/1024/summary
+ABL1	ENSG00000097007.16	ENST00000318560.5	p.Y253F	point_mutation	https://civicdb.org/events/genes/4/summary/variants/1026/summary
+ABL1	ENSG00000097007.16	ENST00000318560.5	p.M351T	point_mutation	https://civicdb.org/events/genes/4/summary/variants/1029/summary
+NOTCH1	ENSG00000148400.9	ENST00000277541.6	p.L1600P	point_mutation	https://civicdb.org/events/genes/50/summary/variants/1031/summary
+NOTCH1	ENSG00000148400.9	ENST00000277541.6	p.L1574P	point_mutation	https://civicdb.org/events/genes/50/summary/variants/1032/summary
+NOTCH1	ENSG00000148400.9	ENST00000277541.6	p.R1598P	point_mutation	https://civicdb.org/events/genes/50/summary/variants/1033/summary
+NOTCH1	ENSG00000148400.9	ENST00000277541.6	p.L1678P	point_mutation	https://civicdb.org/events/genes/50/summary/variants/1034/summary
+TP53	ENSG00000141510.14		p.P278S	point_mutation	https://civicdb.org/events/genes/45/summary/variants/1049/summary
+TP53	ENSG00000141510.14		p.M237I	point_mutation	https://civicdb.org/events/genes/45/summary/variants/1066/summary
+TP53	ENSG00000141510.14	ENST00000269305.7	p.Y234C	point_mutation	https://civicdb.org/events/genes/45/summary/variants/1068/summary
+TP53	ENSG00000141510.14	ENST00000269305.7	p.V157F	point_mutation	https://civicdb.org/events/genes/45/summary/variants/1092/summary
+KRAS	ENSG00000133703.10	ENST00000256078.7	p.Q61P	point_mutation	https://civicdb.org/events/genes/30/summary/variants/1103/summary
+KRAS	ENSG00000133703.10	ENST00000256078.7	p.Q61E	point_mutation	https://civicdb.org/events/genes/30/summary/variants/1104/summary
+KRAS	ENSG00000133703.10		p.Q61fs	frameshift	https://civicdb.org/events/genes/30/summary/variants/1105/summary
+BRAF	ENSG00000157764.11	ENST00000288602.9	p.G464V	point_mutation	https://civicdb.org/events/genes/5/summary/variants/1106/summary
+BRAF	ENSG00000157764.11	ENST00000288602.9	p.D594N	point_mutation	https://civicdb.org/events/genes/5/summary/variants/1107/summary
+TP53	ENSG00000141510.14	ENST00000269305.7	p.R282L	point_mutation	https://civicdb.org/events/genes/45/summary/variants/1108/summary
+TP53	ENSG00000141510.14	ENST00000269305.7	p.R213P	point_mutation	https://civicdb.org/events/genes/45/summary/variants/1109/summary
+KRAS	ENSG00000133703.10	ENST00000256078.7	p.K117N	point_mutation	https://civicdb.org/events/genes/30/summary/variants/1120/summary
+BRAF	ENSG00000157764.11	ENST00000288602.9	p.F595L	point_mutation	https://civicdb.org/events/genes/5/summary/variants/1121/summary
+NOTCH1	ENSG00000148400.9	ENST00000277541.6	p.F1592S	point_mutation	https://civicdb.org/events/genes/50/summary/variants/1127/summary
+NOTCH1	ENSG00000148400.9	ENST00000277541.6	p.L1600Q	point_mutation	https://civicdb.org/events/genes/50/summary/variants/1140/summary
+NOTCH1	ENSG00000148400.9	ENST00000277541.6	p.L1585R	point_mutation	https://civicdb.org/events/genes/50/summary/variants/1142/summary
+NOTCH1	ENSG00000148400.9	ENST00000277541.6	p.V1577A	point_mutation	https://civicdb.org/events/genes/50/summary/variants/1143/summary
+NOTCH1	ENSG00000148400.9	ENST00000277541.6	p.V1577E	point_mutation	https://civicdb.org/events/genes/50/summary/variants/1144/summary
+NOTCH1	ENSG00000148400.9	ENST00000277541.6	p.L1574Q	point_mutation	https://civicdb.org/events/genes/50/summary/variants/1145/summary
+PIK3CA	ENSG00000121879.3	ENST00000263967.3	p.H1047L	point_mutation	https://civicdb.org/events/genes/37/summary/variants/1151/summary
+ATM	ENSG00000149311.16	ENST00000278616.7	p.P292R	point_mutation	https://civicdb.org/events/genes/69/summary/variants/1153/summary
+ATM	ENSG00000149311.16		p.M1fs	frameshift	https://civicdb.org/events/genes/69/summary/variants/1154/summary
+ATM	ENSG00000149311.16	ENST00000278616.7	p.K293*	point_mutation	https://civicdb.org/events/genes/69/summary/variants/1155/summary
+ATM	ENSG00000149311.16		p.R2459C	point_mutation	https://civicdb.org/events/genes/69/summary/variants/1156/summary
+ATM	ENSG00000149311.16	ENST00000278616.7	p.Q984E	point_mutation	https://civicdb.org/events/genes/69/summary/variants/1157/summary
+ATM	ENSG00000149311.16	ENST00000278616.7	p.F1025L	point_mutation	https://civicdb.org/events/genes/69/summary/variants/1158/summary
+ATM	ENSG00000149311.16	ENST00000278616.7	p.Q1084*	point_mutation	https://civicdb.org/events/genes/69/summary/variants/1159/summary
+ATM	ENSG00000149311.16	ENST00000278616.7	p.D1930V	point_mutation	https://civicdb.org/events/genes/69/summary/variants/1160/summary
+ATM	ENSG00000149311.16	ENST00000278616.7	p.R2034P	point_mutation	https://civicdb.org/events/genes/69/summary/variants/1161/summary
+ATM	ENSG00000149311.16	ENST00000278616.7	p.E2187*	point_mutation	https://civicdb.org/events/genes/69/summary/variants/1162/summary
+ATM	ENSG00000149311.16	ENST00000278616.7	p.L2427P	point_mutation	https://civicdb.org/events/genes/69/summary/variants/1163/summary
+ATM	ENSG00000149311.16	ENST00000278616.7	p.F2732V	point_mutation	https://civicdb.org/events/genes/69/summary/variants/1164/summary
+ATM	ENSG00000149311.16		p.R777fs	frameshift	https://civicdb.org/events/genes/69/summary/variants/1165/summary
+ATM	ENSG00000149311.16	ENST00000278616.7	p.K468fs	frameshift	https://civicdb.org/events/genes/69/summary/variants/1166/summary
+ATM	ENSG00000149311.16		p.V1268fs	frameshift	https://civicdb.org/events/genes/69/summary/variants/1167/summary
+ATM	ENSG00000149311.16	ENST00000278616.7	p.D1682H	point_mutation	https://civicdb.org/events/genes/69/summary/variants/1168/summary
+ATM	ENSG00000149311.16	ENST00000278616.7	p.A2062V	point_mutation	https://civicdb.org/events/genes/69/summary/variants/1169/summary
+ATM	ENSG00000149311.16	ENST00000278616.7	p.R1575H	point_mutation	https://civicdb.org/events/genes/69/summary/variants/1170/summary
+ATM	ENSG00000149311.16	ENST00000278616.7	p.A2274T	point_mutation	https://civicdb.org/events/genes/69/summary/variants/1171/summary
+ATM	ENSG00000149311.16	ENST00000278616.7	p.C2488Y	point_mutation	https://civicdb.org/events/genes/69/summary/variants/1172/summary
+NOTCH1	ENSG00000148400.9	ENST00000277541.6	p.F1592C	point_mutation	https://civicdb.org/events/genes/50/summary/variants/1174/summary
+NRAS	ENSG00000213281.4		p.G12V	point_mutation	https://civicdb.org/events/genes/36/summary/variants/1175/summary
+PIK3CA	ENSG00000121879.3	ENST00000263967.3	p.R93W	point_mutation	https://civicdb.org/events/genes/37/summary/variants/1178/summary
+EGFR	ENSG00000146648.14		p.R776C	point_mutation	https://civicdb.org/events/genes/19/summary/variants/1181/summary
+EGFR	ENSG00000146648.14		p.S784F	point_mutation	https://civicdb.org/events/genes/19/summary/variants/1182/summary
+ABL1	ENSG00000097007.16	ENST00000318560.5	p.E292V	point_mutation	https://civicdb.org/events/genes/4/summary/variants/1183/summary
+BRAF	ENSG00000157764.11		p.N581S	point_mutation	https://civicdb.org/events/genes/5/summary/variants/1186/summary
+EGFR	ENSG00000146648.14	ENST00000275493.5	p.A864T	point_mutation	https://civicdb.org/events/genes/19/summary/variants/1187/summary
+EGFR	ENSG00000146648.14		p.N826S	point_mutation	https://civicdb.org/events/genes/19/summary/variants/1188/summary
+BRAF	ENSG00000157764.11	ENST00000288602.9	p.G466A	point_mutation	https://civicdb.org/events/genes/5/summary/variants/1196/summary
+KIT	ENSG00000157404.14		p.S501_A502insAY	insertion	https://civicdb.org/events/genes/29/summary/variants/1206/summary
+EGFR	ENSG00000146648.14	ENST00000275493.5	p.E746_T751delinsVA	delins	https://civicdb.org/events/genes/19/summary/variants/1214/summary
+AKT3	ENSG00000117020.15	ENST00000366539.4	p.E17K	point_mutation	https://civicdb.org/events/genes/7936/summary/variants/1227/summary
+ABL1	ENSG00000097007.16	ENST00000318560.5	p.L384M	point_mutation	https://civicdb.org/events/genes/4/summary/variants/1230/summary
+ABL1	ENSG00000097007.16	ENST00000318560.5	p.L387F	point_mutation	https://civicdb.org/events/genes/4/summary/variants/1232/summary
+PIK3CA	ENSG00000121879.3	ENST00000263967.3	p.K111N	point_mutation	https://civicdb.org/events/genes/37/summary/variants/1234/summary
+PIK3CA	ENSG00000121879.3	ENST00000263967.3	p.I391M	point_mutation	https://civicdb.org/events/genes/37/summary/variants/1235/summary
+BRCA1	ENSG00000012048.18	ENST00000471181.5	p.M1V	point_mutation	https://civicdb.org/events/genes/6/summary/variants/1236/summary
+BRCA1	ENSG00000012048.18	ENST00000471181.5	p.M1I	point_mutation	https://civicdb.org/events/genes/6/summary/variants/1237/summary
+BRCA1	ENSG00000012048.18	ENST00000471181.5	p.C61G	point_mutation	https://civicdb.org/events/genes/6/summary/variants/1238/summary
+BRCA1	ENSG00000012048.18	ENST00000471181.5	p.C64Y	point_mutation	https://civicdb.org/events/genes/6/summary/variants/1239/summary
+BRCA1	ENSG00000012048.18	ENST00000471181.5	p.R71G	point_mutation	https://civicdb.org/events/genes/6/summary/variants/1240/summary
+BRCA1	ENSG00000012048.18	ENST00000471181.5	p.R71K	point_mutation	https://civicdb.org/events/genes/6/summary/variants/1241/summary
+BRCA1	ENSG00000012048.18	ENST00000357654.6	p.R1495M	point_mutation	https://civicdb.org/events/genes/6/summary/variants/1242/summary
+BRCA1	ENSG00000012048.18	ENST00000357654.6	p.E1559K	point_mutation	https://civicdb.org/events/genes/6/summary/variants/1243/summary
+BRCA1	ENSG00000012048.18	ENST00000357654.6	p.D1692N	point_mutation	https://civicdb.org/events/genes/6/summary/variants/1244/summary
+BRCA1	ENSG00000012048.18	ENST00000471181.5	p.R1443*	point_mutation	https://civicdb.org/events/genes/6/summary/variants/1245/summary
+BRCA1	ENSG00000012048.18	ENST00000357654.6	p.Q1467*	point_mutation	https://civicdb.org/events/genes/6/summary/variants/1246/summary
+BRCA2	ENSG00000139618.13	ENST00000544455.4	p.M1R	point_mutation	https://civicdb.org/events/genes/7/summary/variants/1247/summary
+BRCA2	ENSG00000139618.13	ENST00000544455.4	p.M1I	point_mutation	https://civicdb.org/events/genes/7/summary/variants/1248/summary
+BRCA2	ENSG00000139618.13	ENST00000544455.4	p.V159M	point_mutation	https://civicdb.org/events/genes/7/summary/variants/1249/summary
+BRCA2	ENSG00000139618.13		p.V211L	point_mutation	https://civicdb.org/events/genes/7/summary/variants/1250/summary
+BRCA2	ENSG00000139618.13		p.V211I	point_mutation	https://civicdb.org/events/genes/7/summary/variants/1251/summary
+BRCA2	ENSG00000139618.13	ENST00000544455.4	p.R2336P	point_mutation	https://civicdb.org/events/genes/7/summary/variants/1252/summary
+BRCA2	ENSG00000139618.13	ENST00000544455.4	p.R2336H	point_mutation	https://civicdb.org/events/genes/7/summary/variants/1253/summary
+TP53	ENSG00000141510.14	ENST00000269305.7	p.V143A	point_mutation	https://civicdb.org/events/genes/45/summary/variants/1254/summary
+RET	ENSG00000165731.16	ENST00000355710.6	p.C609Y	point_mutation	https://civicdb.org/events/genes/42/summary/variants/1260/summary
+KIT	ENSG00000157404.14	ENST00000288135.5	p.N822K	point_mutation	https://civicdb.org/events/genes/29/summary/variants/1263/summary
+KIT	ENSG00000157404.14	ENST00000288135.5	p.C809G	point_mutation	https://civicdb.org/events/genes/29/summary/variants/1264/summary
+KIT	ENSG00000157404.14	ENST00000288135.5	p.D820A	point_mutation	https://civicdb.org/events/genes/29/summary/variants/1265/summary
+KIT	ENSG00000157404.14	ENST00000288135.5	p.D820G	point_mutation	https://civicdb.org/events/genes/29/summary/variants/1266/summary
+KIT	ENSG00000157404.14	ENST00000288135.5	p.T670I	point_mutation	https://civicdb.org/events/genes/29/summary/variants/1267/summary
+MAP2K1	ENSG00000169032.8	ENST00000307102.8	p.F53L	point_mutation	https://civicdb.org/events/genes/31/summary/variants/1270/summary
+ROS1	ENSG00000047936.9	ENST00000368508.6	p.G2032R	point_mutation	https://civicdb.org/events/genes/4941/summary/variants/1271/summary
+MAP2K1	ENSG00000169032.8	ENST00000307102.8	p.K57N	point_mutation	https://civicdb.org/events/genes/31/summary/variants/1272/summary
+ALK	ENSG00000171094.14	ENST00000389048.6	p.L1198F	point_mutation	https://civicdb.org/events/genes/1/summary/variants/1275/summary
+CTNNB1	ENSG00000168036.15	ENST00000349496.8	p.T41A	point_mutation	https://civicdb.org/events/genes/1290/summary/variants/1285/summary
+CTNNB1	ENSG00000168036.15	ENST00000349496.8	p.S45F	point_mutation	https://civicdb.org/events/genes/1290/summary/variants/1286/summary
+CTNNB1	ENSG00000168036.15	ENST00000349496.8	p.S45P	point_mutation	https://civicdb.org/events/genes/1290/summary/variants/1287/summary
+JAK3	ENSG00000105639.17	ENST00000458235.4	p.M511I	point_mutation	https://civicdb.org/events/genes/3091/summary/variants/1288/summary
+JAK3	ENSG00000105639.17	ENST00000458235.4	p.V722I	point_mutation	https://civicdb.org/events/genes/3091/summary/variants/1289/summary
+JAK3	ENSG00000105639.17	ENST00000458235.4	p.S61C	point_mutation	https://civicdb.org/events/genes/3091/summary/variants/1290/summary
+JAK1	ENSG00000162434.10	ENST00000342505.4	p.P429S	point_mutation	https://civicdb.org/events/genes/3090/summary/variants/1291/summary
+JAK1	ENSG00000162434.10	ENST00000342505.4	p.W690*	point_mutation	https://civicdb.org/events/genes/3090/summary/variants/1292/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.W8*	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1294/summary
+ALK	ENSG00000171094.14	ENST00000389048.6	p.F1245V	point_mutation	https://civicdb.org/events/genes/1/summary/variants/1295/summary
+FLT3	ENSG00000122025.13	ENST00000241453.10	p.D835V	point_mutation	https://civicdb.org/events/genes/24/summary/variants/1302/summary
+ERBB2	ENSG00000141736.12	ENST00000269571.8	p.L755P	point_mutation	https://civicdb.org/events/genes/20/summary/variants/1304/summary
+ERBB2	ENSG00000141736.12	ENST00000269571.8	p.T798M	point_mutation	https://civicdb.org/events/genes/20/summary/variants/1305/summary
+ERBB2	ENSG00000141736.12	ENST00000269571.8	p.L768S	point_mutation	https://civicdb.org/events/genes/20/summary/variants/1308/summary
+ERBB2	ENSG00000141736.12		p.L638S	point_mutation	https://civicdb.org/events/genes/20/summary/variants/1309/summary
+ERBB2	ENSG00000141736.12		p.V773L	point_mutation	https://civicdb.org/events/genes/20/summary/variants/1311/summary
+ERBB2	ENSG00000141736.12	ENST00000269571.8	p.K753E	point_mutation	https://civicdb.org/events/genes/20/summary/variants/1312/summary
+ERBB2	ENSG00000141736.12		p.L753E	point_mutation	https://civicdb.org/events/genes/20/summary/variants/1313/summary
+ERBB2	ENSG00000141736.12		p.K755S	point_mutation	https://civicdb.org/events/genes/20/summary/variants/1314/summary
+NRAS	ENSG00000213281.4		p.G13V	point_mutation	https://civicdb.org/events/genes/36/summary/variants/1317/summary
+GNAS	ENSG00000087460.22		p.R201H	point_mutation	https://civicdb.org/events/genes/2319/summary/variants/1319/summary
+HRAS	ENSG00000174775.15		p.G12D	point_mutation	https://civicdb.org/events/genes/2747/summary/variants/1387/summary
+EGFR	ENSG00000146648.14		p.E884K	point_mutation	https://civicdb.org/events/genes/19/summary/variants/1390/summary
+HRAS	ENSG00000174775.15		p.Q61R	point_mutation	https://civicdb.org/events/genes/2747/summary/variants/1391/summary
+HRAS	ENSG00000174775.15		p.Q61K	point_mutation	https://civicdb.org/events/genes/2747/summary/variants/1392/summary
+HRAS	ENSG00000174775.15		p.G13R	point_mutation	https://civicdb.org/events/genes/2747/summary/variants/1393/summary
+HRAS	ENSG00000174775.15		p.G12V	point_mutation	https://civicdb.org/events/genes/2747/summary/variants/1394/summary
+KRAS	ENSG00000133703.10	ENST00000256078.7	p.G13R	point_mutation	https://civicdb.org/events/genes/30/summary/variants/1395/summary
+KRAS	ENSG00000133703.10	ENST00000256078.7	p.G13S	point_mutation	https://civicdb.org/events/genes/30/summary/variants/1396/summary
+FLT3	ENSG00000122025.13		p.D835E	point_mutation	https://civicdb.org/events/genes/24/summary/variants/1397/summary
+MAP2K2	ENSG00000126934.12		p.F57C	point_mutation	https://civicdb.org/events/genes/4542/summary/variants/1398/summary
+FGFR3	ENSG00000068078.16		p.K650E	point_mutation	https://civicdb.org/events/genes/23/summary/variants/1400/summary
+KIT	ENSG00000157404.14		p.D816G	point_mutation	https://civicdb.org/events/genes/29/summary/variants/1402/summary
+EGFR	ENSG00000146648.14		p.E709Q	point_mutation	https://civicdb.org/events/genes/19/summary/variants/1413/summary
+EGFR	ENSG00000146648.14		p.G719D	point_mutation	https://civicdb.org/events/genes/19/summary/variants/1420/summary
+EGFR	ENSG00000146648.14		p.S768N	point_mutation	https://civicdb.org/events/genes/19/summary/variants/1443/summary
+EGFR	ENSG00000146648.14		p.D770_N771insSVD	insertion	https://civicdb.org/events/genes/19/summary/variants/1445/summary
+EGFR	ENSG00000146648.14		p.H773_V774insH	insertion	https://civicdb.org/events/genes/19/summary/variants/1446/summary
+EGFR	ENSG00000146648.14		p.L838P	point_mutation	https://civicdb.org/events/genes/19/summary/variants/1457/summary
+EGFR	ENSG00000146648.14		p.T847I	point_mutation	https://civicdb.org/events/genes/19/summary/variants/1463/summary
+EGFR	ENSG00000146648.14		p.P848L	point_mutation	https://civicdb.org/events/genes/19/summary/variants/1465/summary
+EGFR	ENSG00000146648.14		p.V851I	point_mutation	https://civicdb.org/events/genes/19/summary/variants/1466/summary
+EGFR	ENSG00000146648.14		p.T854A	point_mutation	https://civicdb.org/events/genes/19/summary/variants/1467/summary
+EGFR	ENSG00000146648.14	ENST00000275493.5	p.A859T	point_mutation	https://civicdb.org/events/genes/19/summary/variants/1474/summary
+EGFR	ENSG00000146648.14		p.L861R	point_mutation	https://civicdb.org/events/genes/19/summary/variants/1477/summary
+EGFR	ENSG00000146648.14		p.E868G	point_mutation	https://civicdb.org/events/genes/19/summary/variants/1482/summary
+HRAS	ENSG00000174775.15		p.G13V	point_mutation	https://civicdb.org/events/genes/2747/summary/variants/1489/summary
+KRAS	ENSG00000133703.10	ENST00000256078.7	p.A59T	point_mutation	https://civicdb.org/events/genes/30/summary/variants/1491/summary
+ALK	ENSG00000171094.14		p.F1174C	point_mutation	https://civicdb.org/events/genes/1/summary/variants/1492/summary
+ALK	ENSG00000171094.14	ENST00000389048.6	p.T1151M	point_mutation	https://civicdb.org/events/genes/1/summary/variants/1493/summary
+ABL1	ENSG00000097007.16	ENST00000318560.5	p.T277A	point_mutation	https://civicdb.org/events/genes/4/summary/variants/1494/summary
+ABL1	ENSG00000097007.16	ENST00000318560.5	p.S438C	point_mutation	https://civicdb.org/events/genes/4/summary/variants/1495/summary
+ABL1	ENSG00000097007.16	ENST00000318560.5	p.E450G	point_mutation	https://civicdb.org/events/genes/4/summary/variants/1496/summary
+KIT	ENSG00000157404.14		p.W557_V559insC	insertion	https://civicdb.org/events/genes/29/summary/variants/1498/summary
+PIK3CA	ENSG00000121879.3	ENST00000263967.3	p.S158L	point_mutation	https://civicdb.org/events/genes/37/summary/variants/1499/summary
+PIK3CA	ENSG00000121879.3	ENST00000263967.3	p.E81K	point_mutation	https://civicdb.org/events/genes/37/summary/variants/1500/summary
+FBXW7	ENSG00000109670.12	ENST00000281708.7	p.R505C	point_mutation	https://civicdb.org/events/genes/12903/summary/variants/1503/summary
+FBXW7	ENSG00000109670.12		p.R505H	point_mutation	https://civicdb.org/events/genes/12903/summary/variants/1504/summary
+ALK	ENSG00000171094.14	ENST00000389048.6	p.F1174V	point_mutation	https://civicdb.org/events/genes/1/summary/variants/1505/summary
+ABL1	ENSG00000097007.16	ENST00000318560.5	p.L298V	point_mutation	https://civicdb.org/events/genes/4/summary/variants/1506/summary
+ABL1	ENSG00000097007.16	ENST00000318560.5	p.L364I	point_mutation	https://civicdb.org/events/genes/4/summary/variants/1508/summary
+ARID1A	ENSG00000117713.16		p.Q456*	point_mutation	https://civicdb.org/events/genes/6559/summary/variants/1510/summary
+EGFR	ENSG00000146648.14		p.S768_D770dup	duplication	https://civicdb.org/events/genes/19/summary/variants/1511/summary
+EGFR	ENSG00000146648.14		p.H773_V774insNPH	insertion	https://civicdb.org/events/genes/19/summary/variants/1513/summary
+EGFR	ENSG00000146648.14	ENST00000275493.5	p.D770_N771insGL	insertion	https://civicdb.org/events/genes/19/summary/variants/1514/summary
+EGFR	ENSG00000146648.14	ENST00000275493.5	p.A763_Y764insFQEA	insertion	https://civicdb.org/events/genes/19/summary/variants/1515/summary
+KRAS	ENSG00000133703.10	ENST00000256078.7	p.G13V	point_mutation	https://civicdb.org/events/genes/30/summary/variants/1517/summary
+MTOR	ENSG00000198793.11		p.Q2223K	point_mutation	https://civicdb.org/events/genes/2073/summary/variants/1520/summary
+CDKN2A	ENSG00000147889.15	ENST00000498124.1	p.W110*	point_mutation	https://civicdb.org/events/genes/14/summary/variants/1521/summary
+CDKN2A	ENSG00000147889.15	ENST00000498124.1	p.A20P	point_mutation	https://civicdb.org/events/genes/14/summary/variants/1522/summary
+ABL1	ENSG00000097007.16	ENST00000318560.5	p.M343T	point_mutation	https://civicdb.org/events/genes/4/summary/variants/1524/summary
+ABL1	ENSG00000097007.16	ENST00000318560.5	p.E279K	point_mutation	https://civicdb.org/events/genes/4/summary/variants/1526/summary
+ABL1	ENSG00000097007.16	ENST00000318560.5	p.Q300R	point_mutation	https://civicdb.org/events/genes/4/summary/variants/1527/summary
+ABL1	ENSG00000097007.16	ENST00000318560.5	p.D421G	point_mutation	https://civicdb.org/events/genes/4/summary/variants/1532/summary
+ABL1	ENSG00000097007.16	ENST00000318560.5	p.I432T	point_mutation	https://civicdb.org/events/genes/4/summary/variants/1533/summary
+ABL1	ENSG00000097007.16	ENST00000318560.5	p.E453A	point_mutation	https://civicdb.org/events/genes/4/summary/variants/1536/summary
+ABL1	ENSG00000097007.16	ENST00000318560.5	p.F486Y	point_mutation	https://civicdb.org/events/genes/4/summary/variants/1538/summary
+PDGFRA	ENSG00000134853.10	ENST00000257290.8	p.L579M	point_mutation	https://civicdb.org/events/genes/38/summary/variants/1540/summary
+KIT	ENSG00000157404.14		p.Q556_I571del	small_deletion	https://civicdb.org/events/genes/29/summary/variants/1541/summary
+KIT	ENSG00000157404.14		p.V555_I571del	small_deletion	https://civicdb.org/events/genes/29/summary/variants/1543/summary
+KIT	ENSG00000157404.14		p.D579_H580insIDPTQLPYD	insertion	https://civicdb.org/events/genes/29/summary/variants/1547/summary
+KIT	ENSG00000157404.14		p.Y570_L576del	small_deletion	https://civicdb.org/events/genes/29/summary/variants/1548/summary
+KIT	ENSG00000157404.14		p.V560_L576del	small_deletion	https://civicdb.org/events/genes/29/summary/variants/1550/summary
+KIT	ENSG00000157404.14		p.V569_L576del	small_deletion	https://civicdb.org/events/genes/29/summary/variants/1551/summary
+MAPK1	ENSG00000100030.13	ENST00000544786.1	p.E278E	point_mutation	https://civicdb.org/events/genes/4532/summary/variants/1552/summary
+ALK	ENSG00000171094.14	ENST00000389048.6	p.L1196Q	point_mutation	https://civicdb.org/events/genes/1/summary/variants/1553/summary
+ALK	ENSG00000171094.14	ENST00000389048.6	p.L1152P	point_mutation	https://civicdb.org/events/genes/1/summary/variants/1554/summary
+BRCA1	ENSG00000012048.18		p.W1815*	point_mutation	https://civicdb.org/events/genes/6/summary/variants/1555/summary
+ALK	ENSG00000171094.14	ENST00000389048.6	p.L1198P	point_mutation	https://civicdb.org/events/genes/1/summary/variants/1556/summary
+KIT	ENSG00000157404.14		p.A502_Y503insAY	insertion	https://civicdb.org/events/genes/29/summary/variants/1558/summary
+KIT	ENSG00000157404.14		p.D816E	point_mutation	https://civicdb.org/events/genes/29/summary/variants/1559/summary
+SMO	ENSG00000128602.8		p.D473G	point_mutation	https://civicdb.org/events/genes/5365/summary/variants/1560/summary
+SMO	ENSG00000128602.8		p.D473Y	point_mutation	https://civicdb.org/events/genes/5365/summary/variants/1561/summary
+SMO	ENSG00000128602.8		p.S278I	point_mutation	https://civicdb.org/events/genes/5365/summary/variants/1562/summary
+SMO	ENSG00000128602.8		p.W281C	point_mutation	https://civicdb.org/events/genes/5365/summary/variants/1563/summary
+SMO	ENSG00000128602.8		p.Q477E	point_mutation	https://civicdb.org/events/genes/5365/summary/variants/1564/summary
+EGFR	ENSG00000146648.14	ENST00000275493.5	p.D770_N771insGT	insertion	https://civicdb.org/events/genes/19/summary/variants/1566/summary
+EGFR	ENSG00000146648.14		p.V774_C775insHV	insertion	https://civicdb.org/events/genes/19/summary/variants/1567/summary
+EGFR	ENSG00000146648.14		p.D770_N771insNPG	insertion	https://civicdb.org/events/genes/19/summary/variants/1569/summary
+SMO	ENSG00000128602.8	ENST00000249373.6	p.L412F	point_mutation	https://civicdb.org/events/genes/5365/summary/variants/1570/summary
+EGFR	ENSG00000146648.14		p.W731L	point_mutation	https://civicdb.org/events/genes/19/summary/variants/1571/summary
+EGFR	ENSG00000146648.14		p.E734Q	point_mutation	https://civicdb.org/events/genes/19/summary/variants/1572/summary
+EGFR	ENSG00000146648.14		p.T785A	point_mutation	https://civicdb.org/events/genes/19/summary/variants/1573/summary
+EGFR	ENSG00000146648.14	ENST00000275493.5	p.C797Y	point_mutation	https://civicdb.org/events/genes/19/summary/variants/1574/summary
+EGFR	ENSG00000146648.14		p.Y801H	point_mutation	https://civicdb.org/events/genes/19/summary/variants/1575/summary
+SMO	ENSG00000128602.8		p.V321M	point_mutation	https://civicdb.org/events/genes/5365/summary/variants/1576/summary
+EGFR	ENSG00000146648.14		p.V769A	point_mutation	https://civicdb.org/events/genes/19/summary/variants/1578/summary
+EGFR	ENSG00000146648.14		p.L747_S752insQ	insertion	https://civicdb.org/events/genes/19/summary/variants/1580/summary
+EGFR	ENSG00000146648.14		p.P546S	point_mutation	https://civicdb.org/events/genes/19/summary/variants/1582/summary
+SMO	ENSG00000128602.8		p.W281L	point_mutation	https://civicdb.org/events/genes/5365/summary/variants/1583/summary
+SMO	ENSG00000128602.8		p.G497W	point_mutation	https://civicdb.org/events/genes/5365/summary/variants/1584/summary
+SMO	ENSG00000128602.8		p.I408V	point_mutation	https://civicdb.org/events/genes/5365/summary/variants/1585/summary
+SMO	ENSG00000128602.8		p.C469Y	point_mutation	https://civicdb.org/events/genes/5365/summary/variants/1586/summary
+SMO	ENSG00000128602.8		p.T241M	point_mutation	https://civicdb.org/events/genes/5365/summary/variants/1587/summary
+SMO	ENSG00000128602.8		p.A459V	point_mutation	https://civicdb.org/events/genes/5365/summary/variants/1588/summary
+SMO	ENSG00000128602.8		p.S533N	point_mutation	https://civicdb.org/events/genes/5365/summary/variants/1589/summary
+PTCH1	ENSG00000185920.14		p.W170*	point_mutation	https://civicdb.org/events/genes/4645/summary/variants/1590/summary
+PTCH1	ENSG00000185920.14		p.W712*	point_mutation	https://civicdb.org/events/genes/4645/summary/variants/1591/summary
+PTCH1	ENSG00000185920.14		p.Q787*	point_mutation	https://civicdb.org/events/genes/4645/summary/variants/1592/summary
+PTCH1	ENSG00000185920.14		p.Q17*	point_mutation	https://civicdb.org/events/genes/4645/summary/variants/1593/summary
+ABL1	ENSG00000097007.16	ENST00000318560.5	p.H201L	point_mutation	https://civicdb.org/events/genes/4/summary/variants/1595/summary
+ABL1	ENSG00000097007.16	ENST00000318560.5	p.Y232S	point_mutation	https://civicdb.org/events/genes/4/summary/variants/1596/summary
+ABL1	ENSG00000097007.16	ENST00000318560.5	p.M237V	point_mutation	https://civicdb.org/events/genes/4/summary/variants/1597/summary
+ABL1	ENSG00000097007.16	ENST00000318560.5	p.I242T	point_mutation	https://civicdb.org/events/genes/4/summary/variants/1598/summary
+ABL1	ENSG00000097007.16	ENST00000318560.5	p.G250V	point_mutation	https://civicdb.org/events/genes/4/summary/variants/1599/summary
+ABL1	ENSG00000097007.16	ENST00000318560.5	p.Q252R	point_mutation	https://civicdb.org/events/genes/4/summary/variants/1600/summary
+ABL1	ENSG00000097007.16	ENST00000318560.5	p.E258D	point_mutation	https://civicdb.org/events/genes/4/summary/variants/1601/summary
+ABL1	ENSG00000097007.16	ENST00000318560.5	p.L273M	point_mutation	https://civicdb.org/events/genes/4/summary/variants/1602/summary
+ABL1	ENSG00000097007.16	ENST00000318560.5	p.E281K	point_mutation	https://civicdb.org/events/genes/4/summary/variants/1603/summary
+ABL1	ENSG00000097007.16	ENST00000318560.5	p.V289I	point_mutation	https://civicdb.org/events/genes/4/summary/variants/1604/summary
+ABL1	ENSG00000097007.16	ENST00000318560.5	p.Y342H	point_mutation	https://civicdb.org/events/genes/4/summary/variants/1605/summary
+ABL1	ENSG00000097007.16	ENST00000318560.5	p.D363Y	point_mutation	https://civicdb.org/events/genes/4/summary/variants/1606/summary
+ABL1	ENSG00000097007.16	ENST00000318560.5	p.A365V	point_mutation	https://civicdb.org/events/genes/4/summary/variants/1607/summary
+ABL1	ENSG00000097007.16	ENST00000318560.5	p.A366G	point_mutation	https://civicdb.org/events/genes/4/summary/variants/1608/summary
+ABL1	ENSG00000097007.16	ENST00000318560.5	p.M388L	point_mutation	https://civicdb.org/events/genes/4/summary/variants/1610/summary
+ABL1	ENSG00000097007.16	ENST00000318560.5	p.Y393C	point_mutation	https://civicdb.org/events/genes/4/summary/variants/1611/summary
+ABL1	ENSG00000097007.16	ENST00000318560.5	p.A397P	point_mutation	https://civicdb.org/events/genes/4/summary/variants/1612/summary
+ABL1	ENSG00000097007.16	ENST00000318560.5	p.S417Y	point_mutation	https://civicdb.org/events/genes/4/summary/variants/1613/summary
+ABL1	ENSG00000097007.16	ENST00000318560.5	p.I418V	point_mutation	https://civicdb.org/events/genes/4/summary/variants/1614/summary
+ABL1	ENSG00000097007.16		p.I418S	point_mutation	https://civicdb.org/events/genes/4/summary/variants/1615/summary
+ABL1	ENSG00000097007.16	ENST00000318560.5	p.P441L	point_mutation	https://civicdb.org/events/genes/4/summary/variants/1616/summary
+ABL1	ENSG00000097007.16	ENST00000318560.5	p.E450K	point_mutation	https://civicdb.org/events/genes/4/summary/variants/1617/summary
+ABL1	ENSG00000097007.16	ENST00000318560.5	p.E450Q	point_mutation	https://civicdb.org/events/genes/4/summary/variants/1618/summary
+ABL1	ENSG00000097007.16	ENST00000318560.5	p.E450A	point_mutation	https://civicdb.org/events/genes/4/summary/variants/1619/summary
+ABL1	ENSG00000097007.16	ENST00000318560.5	p.E453V	point_mutation	https://civicdb.org/events/genes/4/summary/variants/1620/summary
+ABL1	ENSG00000097007.16	ENST00000318560.5	p.E459G	point_mutation	https://civicdb.org/events/genes/4/summary/variants/1621/summary
+ABL1	ENSG00000097007.16	ENST00000318560.5	p.M472I	point_mutation	https://civicdb.org/events/genes/4/summary/variants/1622/summary
+ABL1	ENSG00000097007.16	ENST00000318560.5	p.P480L	point_mutation	https://civicdb.org/events/genes/4/summary/variants/1623/summary
+ABL1	ENSG00000097007.16	ENST00000318560.5	p.G514S	point_mutation	https://civicdb.org/events/genes/4/summary/variants/1624/summary
+MAP2K1	ENSG00000169032.8	ENST00000307102.8	p.E203K	point_mutation	https://civicdb.org/events/genes/31/summary/variants/1626/summary
+BRAF	ENSG00000157764.11	ENST00000288602.9	p.G596R	point_mutation	https://civicdb.org/events/genes/5/summary/variants/1627/summary
+NF1	ENSG00000196712.15		p.R163*	point_mutation	https://civicdb.org/events/genes/3867/summary/variants/1628/summary
+FLT3	ENSG00000122025.13		p.Y591_V592insVDFREYE	insertion	https://civicdb.org/events/genes/24/summary/variants/1630/summary
+FLT3	ENSG00000122025.13		p.E588_Y589insKYFYVDFRE	insertion	https://civicdb.org/events/genes/24/summary/variants/1631/summary
+FLT3	ENSG00000122025.13		p.V592_D593insDFREY	insertion	https://civicdb.org/events/genes/24/summary/variants/1632/summary
+ABL1	ENSG00000097007.16		p.C475V	point_mutation	https://civicdb.org/events/genes/4/summary/variants/1639/summary
+ABL1	ENSG00000097007.16	ENST00000318560.5	p.N336S	point_mutation	https://civicdb.org/events/genes/4/summary/variants/1640/summary
+ROS1	ENSG00000047936.9		p.D2033N	point_mutation	https://civicdb.org/events/genes/4941/summary/variants/1641/summary
+POLD1	ENSG00000062822.11		p.Y956N	point_mutation	https://civicdb.org/events/genes/4384/summary/variants/1642/summary
+SCN8A	ENSG00000196876.12		p.Q225*	point_mutation	https://civicdb.org/events/genes/5128/summary/variants/1643/summary
+PXDNL	ENSG00000147485.11		p.P1460T	point_mutation	https://civicdb.org/events/genes/18364/summary/variants/1644/summary
+PAPPA2	ENSG00000116183.9		p.Y1520*	point_mutation	https://civicdb.org/events/genes/14195/summary/variants/1645/summary
+POLE4	ENSG00000115350.10		p.A59E	point_mutation	https://civicdb.org/events/genes/13465/summary/variants/1646/summary
+POLD1	ENSG00000062822.11		p.C284Y	point_mutation	https://civicdb.org/events/genes/4384/summary/variants/1647/summary
+POLD1	ENSG00000062822.11		p.E374K	point_mutation	https://civicdb.org/events/genes/4384/summary/variants/1648/summary
+MET	ENSG00000105976.13		p.D1010Y	point_mutation	https://civicdb.org/events/genes/52/summary/variants/1649/summary
+BRAF	ENSG00000157764.11		p.G596V	point_mutation	https://civicdb.org/events/genes/5/summary/variants/1650/summary
+MET	ENSG00000105976.13		p.D1010N	point_mutation	https://civicdb.org/events/genes/52/summary/variants/1651/summary
+PIK3R2	ENSG00000105647.13		p.N561D	point_mutation	https://civicdb.org/events/genes/4290/summary/variants/1652/summary
+PIK3R2	ENSG00000268173.1		p.N561D	point_mutation	https://civicdb.org/events/genes/4290/summary/variants/1652/summary
+PIK3CA	ENSG00000121879.3	ENST00000263967.3	p.D350G	point_mutation	https://civicdb.org/events/genes/37/summary/variants/1653/summary
+NRAS	ENSG00000213281.4		p.Q179*	point_mutation	https://civicdb.org/events/genes/36/summary/variants/1654/summary
+ABL1	ENSG00000097007.16	ENST00000372348.5	p.R351W	point_mutation	https://civicdb.org/events/genes/4/summary/variants/1656/summary
+ABL1	ENSG00000097007.16		p.G340L	point_mutation	https://civicdb.org/events/genes/4/summary/variants/1657/summary
+KIT	ENSG00000157404.14		p.S628N	point_mutation	https://civicdb.org/events/genes/29/summary/variants/1659/summary
+MET	ENSG00000105976.13		p.D1010H	point_mutation	https://civicdb.org/events/genes/52/summary/variants/1660/summary
+ALK	ENSG00000171094.14	ENST00000389048.6	p.R1192P	point_mutation	https://civicdb.org/events/genes/1/summary/variants/1661/summary
+EGFR	ENSG00000146648.14		p.N771delinsVH	delins	https://civicdb.org/events/genes/19/summary/variants/1662/summary
+EGFR	ENSG00000146648.14		p.M766_A767insAI	insertion	https://civicdb.org/events/genes/19/summary/variants/1664/summary
+EGFR	ENSG00000146648.14		p.Y764_V765insHH	insertion	https://civicdb.org/events/genes/19/summary/variants/1665/summary
+EGFR	ENSG00000146648.14		p.D770_N771insGY	insertion	https://civicdb.org/events/genes/19/summary/variants/1666/summary
+EGFR	ENSG00000146648.14		p.P772_H773insYNP	insertion	https://civicdb.org/events/genes/19/summary/variants/1667/summary
+EGFR	ENSG00000146648.14		p.P772_V774insPHV	insertion	https://civicdb.org/events/genes/19/summary/variants/1668/summary
+LYN	ENSG00000254087.6		p.Y508F	point_mutation	https://civicdb.org/events/genes/3359/summary/variants/1669/summary
+ROS1	ENSG00000047936.9		p.S1986Y	point_mutation	https://civicdb.org/events/genes/4941/summary/variants/1670/summary
+ROS1	ENSG00000047936.9		p.S1986F	point_mutation	https://civicdb.org/events/genes/4941/summary/variants/1671/summary
+EGFR	ENSG00000146648.14		p.Y69fs*11	frameshift	https://civicdb.org/events/genes/19/summary/variants/1672/summary
+ERBB4	ENSG00000178568.12	ENST00000342788.7	p.G1109C	point_mutation	https://civicdb.org/events/genes/1734/summary/variants/1673/summary
+ESR1	ENSG00000091831.20		p.E380Q	point_mutation	https://civicdb.org/events/genes/21/summary/variants/1674/summary
+ESR1	ENSG00000091831.20		p.L536R	point_mutation	https://civicdb.org/events/genes/21/summary/variants/1675/summary
+FBXW7	ENSG00000109670.12		p.S668fs*39	frameshift	https://civicdb.org/events/genes/12903/summary/variants/1676/summary
+FBXW7	ENSG00000109670.12		p.L403fs*34	frameshift	https://civicdb.org/events/genes/12903/summary/variants/1677/summary
+FBXW7	ENSG00000109670.12		p.G579W	point_mutation	https://civicdb.org/events/genes/12903/summary/variants/1678/summary
+FBXW7	ENSG00000109670.12		p.R658Q	point_mutation	https://civicdb.org/events/genes/12903/summary/variants/1679/summary
+RAF1	ENSG00000132155.10		p.R391W	point_mutation	https://civicdb.org/events/genes/4767/summary/variants/1680/summary
+ARID1A	ENSG00000117713.16		p.P1175fs*5	frameshift	https://civicdb.org/events/genes/6559/summary/variants/1682/summary
+ALK	ENSG00000171094.14		p.R214H	point_mutation	https://civicdb.org/events/genes/1/summary/variants/1683/summary
+ACVR1	ENSG00000115170.12	ENST00000434821.4	p.G328V	point_mutation	https://civicdb.org/events/genes/154/summary/variants/1686/summary
+FGFR3	ENSG00000068078.16		p.G691R	point_mutation	https://civicdb.org/events/genes/23/summary/variants/1692/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.E12D	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1694/summary
+TP53	ENSG00000141510.14		p.R158H	point_mutation	https://civicdb.org/events/genes/45/summary/variants/1695/summary
+TP53	ENSG00000141510.14		p.R249S	point_mutation	https://civicdb.org/events/genes/45/summary/variants/1696/summary
+TP53	ENSG00000141510.14		p.R280K	point_mutation	https://civicdb.org/events/genes/45/summary/variants/1697/summary
+TP53	ENSG00000141510.14		p.R280T	point_mutation	https://civicdb.org/events/genes/45/summary/variants/1698/summary
+TP53	ENSG00000141510.14		p.R158L	point_mutation	https://civicdb.org/events/genes/45/summary/variants/1699/summary
+RET	ENSG00000165731.16		p.C634R	point_mutation	https://civicdb.org/events/genes/42/summary/variants/1700/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.E46*	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1733/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.E52K	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1734/summary
+VHL	ENSG00000134086.7		p.E55*	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1736/summary
+VHL	ENSG00000134086.7		p.G39Afs*26	frameshift	https://civicdb.org/events/genes/58/summary/variants/1737/summary
+VHL	ENSG00000134086.7		p.L158P	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1738/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.R167Q	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1739/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.Y98H	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1741/summary
+VHL	ENSG00000134086.7		p.H115Q	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1742/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.F119L	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1743/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.A149T	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1744/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.T157I	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1745/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.R161Q	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1746/summary
+VHL	ENSG00000134086.7		p.R167W	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1747/summary
+VHL	ENSG00000134086.7		p.L178P	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1748/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.F76I	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1749/summary
+VHL	ENSG00000134086.7		p.V62C	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1750/summary
+VHL	ENSG00000134086.7		p.Q73*	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1752/summary
+VHL	ENSG00000134086.7		p.N78H	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1754/summary
+VHL	ENSG00000134086.7		p.N78S	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1755/summary
+VHL	ENSG00000134086.7		p.N78T	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1756/summary
+VHL	ENSG00000134086.7		p.S80I	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1757/summary
+VHL	ENSG00000134086.7		p.N131*	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1758/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.P86A	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1759/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.P86L	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1760/summary
+VHL	ENSG00000134086.7		p.W88R	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1761/summary
+VHL	ENSG00000134086.7		p.S111fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/1762/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.S111N	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1763/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.S111R	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1764/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.Y112*	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1766/summary
+VHL	ENSG00000134086.7		p.W117C	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1767/summary
+VHL	ENSG00000134086.7		p.L129Q	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1768/summary
+VHL	ENSG00000134086.7		p.L135*	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1769/summary
+VHL	ENSG00000134086.7		p.N150I	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1770/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.P154fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/1771/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.C162R	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1772/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.C162F	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1773/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.C162W	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1774/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.V166D	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1775/summary
+VHL	ENSG00000134086.7		p.L184P	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1776/summary
+VHL	ENSG00000134086.7		p.E186*	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1777/summary
+VHL	ENSG00000134086.7		p.E186K	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1778/summary
+VHL	ENSG00000134086.7		p.R167fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/1779/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.Y175fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/1780/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.Q145H	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1781/summary
+VHL	ENSG00000134086.7		p.P154L	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1782/summary
+VHL	ENSG00000134086.7		p.T157fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/1783/summary
+VHL	ENSG00000134086.7		p.S183*	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1784/summary
+VHL	ENSG00000134086.7		p.A56fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/1785/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.P59R	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1786/summary
+VHL	ENSG00000134086.7		p.S65W	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1787/summary
+VHL	ENSG00000134086.7		p.S65L	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1788/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.V66*	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1789/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.C77fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/1790/summary
+VHL	ENSG00000134086.7		p.R79P	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1791/summary
+VHL	ENSG00000134086.7		p.S80R	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1792/summary
+VHL	ENSG00000134086.7		p.L89P	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1793/summary
+VHL	ENSG00000134086.7		p.E94*	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1794/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.P103fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/1795/summary
+VHL	ENSG00000134086.7		p.R113*	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1796/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.G114C	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1797/summary
+VHL	ENSG00000134086.7		p.L118P	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1798/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.N131P	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1800/summary
+VHL	ENSG00000134086.7		p.F136S	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1801/summary
+VHL	ENSG00000134086.7		p.L153C	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1802/summary
+VHL	ENSG00000134086.7		p.L158V	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1803/summary
+VHL	ENSG00000134086.7		p.R161*	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1804/summary
+VHL	ENSG00000134086.7		p.R167G	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1805/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.V170F	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1806/summary
+VHL	ENSG00000134086.7		p.I180V	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1807/summary
+VHL	ENSG00000134086.7		p.L184R	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1808/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.Y185*	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1809/summary
+VHL	ENSG00000134086.7		p.Q195*	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1810/summary
+VHL	ENSG00000134086.7		p.S65*	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1811/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.G93fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/1812/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.D121G	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1813/summary
+VHL	ENSG00000134086.7		p.F136C	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1814/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.V84L	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1815/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.S72P	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1816/summary
+VHL	ENSG00000134086.7		p.Q96P	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1818/summary
+VHL	ENSG00000134086.7		p.G185S	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1819/summary
+VHL	ENSG00000134086.7		p.L116V	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1820/summary
+VHL	ENSG00000134086.7		p.W117*	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1821/summary
+VHL	ENSG00000134086.7		p.L118R	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1822/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.N141fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/1823/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.C162Y	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1824/summary
+VHL	ENSG00000134086.7		p.V166F	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1825/summary
+VHL	ENSG00000134086.7		p.V170D	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1826/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.R177*	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1827/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.L188R	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1828/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.E186del	small_deletion	https://civicdb.org/events/genes/58/summary/variants/1829/summary
+POLE	ENSG00000177084.15		p.P286R	point_mutation	https://civicdb.org/events/genes/4386/summary/variants/1830/summary
+POLE	ENSG00000177084.15		p.V411L	point_mutation	https://civicdb.org/events/genes/4386/summary/variants/1831/summary
+POLE	ENSG00000177084.15		p.S459F	point_mutation	https://civicdb.org/events/genes/4386/summary/variants/1832/summary
+VHL	ENSG00000134086.7		p.V166F	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1833/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.E70*	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1834/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.F76S	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1835/summary
+VHL	ENSG00000134086.7		p.L188V	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1836/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.P81S	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1837/summary
+VHL	ENSG00000134086.7		p.L101G	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1838/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.T105P	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1839/summary
+VHL	ENSG00000134086.7		p.R107P	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1840/summary
+VHL	ENSG00000134086.7		p.L118T	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1841/summary
+VHL	ENSG00000134086.7		p.N167T	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1842/summary
+VHL	ENSG00000134086.7		p.L132fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/1843/summary
+VHL	ENSG00000134086.7		p.D143fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/1844/summary
+VHL	ENSG00000134086.7		p.Q164*	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1845/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.Y175D	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1846/summary
+VHL	ENSG00000134086.7		p.V181G	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1847/summary
+VHL	ENSG00000134086.7		p.Q96*	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1848/summary
+VHL	ENSG00000134086.7		p.P86R	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1849/summary
+VHL	ENSG00000134086.7		p.G144*	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1850/summary
+VHL	ENSG00000134086.7		p.L128F	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1851/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.L188P	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1852/summary
+VHL	ENSG00000134086.7		p.S111C	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1853/summary
+VHL	ENSG00000134086.7		p.R161P	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1855/summary
+VHL	ENSG00000134086.7		p.Q164R	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1856/summary
+VHL	ENSG00000134086.7		p.G114R	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1857/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.G93D	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1858/summary
+VHL	ENSG00000134086.7		p.G93S	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1859/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.L101R	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1860/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.L188Q	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1861/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.K159E	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1862/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.P192fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/1864/summary
+VHL	ENSG00000134086.7		p.Y112H	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1865/summary
+VHL	ENSG00000134086.7		p.R64P	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1867/summary
+VHL	ENSG00000134086.7		p.N131fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/1868/summary
+VHL	ENSG00000134086.7		p.E189L	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1869/summary
+VHL	ENSG00000134086.7		p.I151T	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1871/summary
+VHL	ENSG00000134086.7		p.L158fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/1872/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.S68P	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1873/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.S80N	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1874/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.V130F	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1875/summary
+ATM	ENSG00000149311.16		p.F858L	point_mutation	https://civicdb.org/events/genes/69/summary/variants/1881/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.Q145*	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1883/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.E134*	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1884/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.H115P	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1885/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.L128R	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1886/summary
+VHL	ENSG00000134086.7		p.L169P	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1887/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.L178R	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1888/summary
+VHL	ENSG00000134086.7		p.M54*	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1889/summary
+EGFR	ENSG00000146648.14		p.L747P	point_mutation	https://civicdb.org/events/genes/19/summary/variants/1891/summary
+EGFR	ENSG00000146648.14		p.V774A	point_mutation	https://civicdb.org/events/genes/19/summary/variants/1892/summary
+VHL	ENSG00000134086.7		p.F91*	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1893/summary
+EGFR	ENSG00000146648.14		p.V774M	point_mutation	https://civicdb.org/events/genes/19/summary/variants/1894/summary
+EGFR	ENSG00000146648.14	ENST00000275493.5	p.K806E	point_mutation	https://civicdb.org/events/genes/19/summary/variants/1895/summary
+EGFR	ENSG00000146648.14		p.N826Y	point_mutation	https://civicdb.org/events/genes/19/summary/variants/1896/summary
+EGFR	ENSG00000146648.14		p.V834I	point_mutation	https://civicdb.org/events/genes/19/summary/variants/1897/summary
+EGFR	ENSG00000146648.14		p.N842S	point_mutation	https://civicdb.org/events/genes/19/summary/variants/1899/summary
+VHL	ENSG00000134086.7		p.P86S	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1902/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.S65P	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1903/summary
+VHL	ENSG00000134086.7		p.S72P	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1904/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.G123fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/1905/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.L135fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/1906/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.R176fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/1907/summary
+VHL	ENSG00000134086.7		p.W88*	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1908/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.V155E	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1909/summary
+VHL	ENSG00000134086.7		p.V170A	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1910/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.R58fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/1911/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.F76fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/1912/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.K196*	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1913/summary
+VHL	ENSG00000134086.7		p.R120G	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1914/summary
+VHL	ENSG00000134086.7		p.R161G	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1915/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.R167L	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1916/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.N141fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/1917/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.D126fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/1918/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.E160fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/1919/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.G93R	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1920/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.H115Y	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1921/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.I109fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/1922/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.L153P	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1923/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.L188R	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1924/summary
+VHL	ENSG00000134086.7		p.L85fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/1925/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.F76del	small_deletion	https://civicdb.org/events/genes/58/summary/variants/1926/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.P103A	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1927/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.P138T	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1928/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.P59fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/1929/summary
+VHL	ENSG00000134086.7		p.P59S	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1930/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.P61P	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1931/summary
+VHL	ENSG00000134086.7		p.Y175*	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1932/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.Y98C	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1933/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.V155G	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1934/summary
+VHL	ENSG00000134086.7		p.V170G	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1935/summary
+VHL	ENSG00000134086.7		p.V66G	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1936/summary
+VHL	ENSG00000134086.7		p.V84L	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1937/summary
+VHL	ENSG00000134086.7		p.S168T	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1941/summary
+VHL	ENSG00000134086.7		p.P86S	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1942/summary
+VHL	ENSG00000134086.7		p.Q164H	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1943/summary
+VHL	ENSG00000134086.7		p.L63P	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1944/summary
+VHL	ENSG00000134086.7		p.Y156C	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1946/summary
+VHL	ENSG00000134086.7		p.R69fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/1948/summary
+VHL	ENSG00000134086.7		p.G144fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/1949/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.N131K	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1953/summary
+VHL	ENSG00000134086.7		p.T105fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/1954/summary
+VHL	ENSG00000134086.7		p.P71fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/1955/summary
+VHL	ENSG00000134086.7		p.E70K	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1956/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.H115Q	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1957/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.H191fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/1958/summary
+VHL	ENSG00000134086.7		p.L140fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/1960/summary
+VHL	ENSG00000134086.7		p.M54fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/1961/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.P154P	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1962/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.S80R	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1963/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.R60fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/1964/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.W88S	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1966/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.Y156D	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1967/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.Y156*	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1968/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.Y175*	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1969/summary
+VHL	ENSG00000134086.7		p.V130L	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1970/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.Splicing alteration	splicing	https://civicdb.org/events/genes/58/summary/variants/1972/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.Splicing alteration	splicing	https://civicdb.org/events/genes/58/summary/variants/1974/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.E173*	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1976/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.V194fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/1977/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.R82P	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1980/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.*214L	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1986/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.*214W	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1987/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.*214C	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1988/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.G144fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/1989/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.Splicing alteration	splicing	https://civicdb.org/events/genes/58/summary/variants/1990/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.Splicing alteration	splicing	https://civicdb.org/events/genes/58/summary/variants/1992/summary
+VHL	ENSG00000134086.7		p.Splicing alteration	splicing	https://civicdb.org/events/genes/58/summary/variants/1993/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.Q132*	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1994/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.L129fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/1996/summary
+VHL	ENSG00000134086.7		p.L178Q	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1997/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.Splicing alteration	splicing	https://civicdb.org/events/genes/58/summary/variants/1998/summary
+VHL	ENSG00000134086.7		p.V74G	point_mutation	https://civicdb.org/events/genes/58/summary/variants/1999/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.H115R	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2000/summary
+VHL	ENSG00000134086.7		p.R131S	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2001/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.Q73fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2002/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.S111R	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2003/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.S168fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2004/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.P172fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2005/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.Y112N	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2006/summary
+VHL	ENSG00000134086.7		p.R107G	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2007/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.G93C	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2008/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.G93V	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2009/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.L198Q	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2010/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.S65A	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2011/summary
+VHL	ENSG00000134086.7		p.S68W	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2012/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.Y156N	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2013/summary
+VHL	ENSG00000134086.7		p.P61fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2014/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.F76del	small_deletion	https://civicdb.org/events/genes/58/summary/variants/2015/summary
+VHL	ENSG00000134086.7		p.Splicing alteration	splicing	https://civicdb.org/events/genes/58/summary/variants/2017/summary
+VHL	ENSG00000134086.7		p.Splicing alteration	splicing	https://civicdb.org/events/genes/58/summary/variants/2019/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.L85P	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2020/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.V194fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2022/summary
+VHL	ENSG00000134086.7		p.A149fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2023/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.G114S	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2026/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.W117fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2027/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.A122I	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2028/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.N150fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2029/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.I151M	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2030/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.E160fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2032/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.L163H	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2033/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.L129P	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2034/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.C162fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2035/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.N78I	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2037/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.I147V	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2038/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.W88fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2039/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.K159fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2040/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.Q73fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2041/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.A149fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2042/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.G104A	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2043/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.R107H	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2044/summary
+VHL	ENSG00000134086.7		p.S111C	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2045/summary
+VHL	ENSG00000134086.7		p.V155L	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2046/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.Splicing alteration	splicing	https://civicdb.org/events/genes/58/summary/variants/2048/summary
+DICER1	ENSG00000100697.13		p.E1705K	point_mutation	https://civicdb.org/events/genes/9533/summary/variants/2050/summary
+DICER1	ENSG00000100697.13		p.D1709N	point_mutation	https://civicdb.org/events/genes/9533/summary/variants/2051/summary
+DICER1	ENSG00000100697.13		p.E1813Q	point_mutation	https://civicdb.org/events/genes/9533/summary/variants/2052/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.D126Y	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2053/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.T124I	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2054/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.P146fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2055/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.W88R	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2056/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.H115fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2057/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.P102fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2058/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.G144R	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2059/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.H125P	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2060/summary
+STK11	ENSG00000118046.13		p.F354L	point_mutation	https://civicdb.org/events/genes/5534/summary/variants/2063/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.P192S	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2064/summary
+VHL	ENSG00000134086.7		p.Splicing alteration	splicing	https://civicdb.org/events/genes/58/summary/variants/2065/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.Y175N	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2066/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.Y175C	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2067/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.V87A	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2068/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.P97L	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2069/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.L184H	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2070/summary
+VHL	ENSG00000134086.7		p.G106fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2073/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.Splicing alteration	splicing	https://civicdb.org/events/genes/58/summary/variants/2074/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.Splicing alteration	splicing	https://civicdb.org/events/genes/58/summary/variants/2075/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.V155M	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2076/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.Splicing alteration	splicing	https://civicdb.org/events/genes/58/summary/variants/2077/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.Splicing alteration	splicing	https://civicdb.org/events/genes/58/summary/variants/2078/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.Q164L	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2079/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.R176fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2080/summary
+VHL	ENSG00000134086.7		p.V194fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2081/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.P81L	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2084/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.T152I	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2085/summary
+VHL	ENSG00000134086.7		p.L63fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2087/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.F76del	small_deletion	https://civicdb.org/events/genes/58/summary/variants/2088/summary
+VHL	ENSG00000134086.7		p.P40fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2090/summary
+VHL	ENSG00000134086.7		p.T152fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2091/summary
+VHL	ENSG00000134086.7		p.T157fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2092/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.Splicing alteration	splicing	https://civicdb.org/events/genes/58/summary/variants/2093/summary
+VHL	ENSG00000134086.7		p.T157fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2094/summary
+VHL	ENSG00000134086.7		p.I151fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2095/summary
+VHL	ENSG00000134086.7		p.D92fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2097/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.K159fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2098/summary
+VHL	ENSG00000134086.7		p.V66del	small_deletion	https://civicdb.org/events/genes/58/summary/variants/2099/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.S183fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2100/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.V84M	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2101/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.Splicing alteration	splicing	https://civicdb.org/events/genes/58/summary/variants/2104/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.D197N	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2105/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.S80G	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2106/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.F76L	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2107/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.R82L	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2110/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.N78D	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2112/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.N78Y	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2113/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.Splicing alteration	splicing	https://civicdb.org/events/genes/58/summary/variants/2114/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.Y185*	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2115/summary
+VHL	ENSG00000134086.7		p.R167Q	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2116/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.P95R	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2117/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.P103L	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2118/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.F119S	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2119/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.P138L	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2120/summary
+VHL	ENSG00000134086.7		p.P61fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2121/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.S65*	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2122/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.C77del	small_deletion	https://civicdb.org/events/genes/58/summary/variants/2123/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.W88C	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2124/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.Q132P	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2125/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.D198fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2126/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.G93fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2127/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.P97P	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2128/summary
+VHL	ENSG00000134086.7		p.G114dup	duplication	https://civicdb.org/events/genes/58/summary/variants/2129/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.S65fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2130/summary
+VHL	ENSG00000134086.7		p.Q73fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2131/summary
+VHL	ENSG00000134086.7		p.F76fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2132/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.Splicing alteration	splicing	https://civicdb.org/events/genes/58/summary/variants/2133/summary
+VHL	ENSG00000134086.7		p.G114fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2134/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.G123fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2135/summary
+VHL	ENSG00000134086.7		p.H125fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2136/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.L158fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2137/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.Y175fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2138/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.L188fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2139/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.Q195fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2140/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.D197fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2141/summary
+VHL	ENSG00000134086.7		p.T202fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2142/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.R113fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2143/summary
+VHL	ENSG00000134086.7		p.E55fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2144/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.P61fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2145/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.Splicing alteration	splicing	https://civicdb.org/events/genes/58/summary/variants/2146/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.K196E	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2147/summary
+VHL	ENSG00000134086.7		p.R161R	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2148/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.N90I	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2149/summary
+VHL	ENSG00000134086.7		p.I151F	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2150/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.W88*	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2151/summary
+VHL	ENSG00000134086.7		p.G114fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2153/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.D121H	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2154/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.R145fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2155/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.S111R	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2156/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.L128P	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2157/summary
+VHL	ENSG00000134086.7		p.F76fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2158/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.Y98fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2160/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.S183L	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2161/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.N150S	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2162/summary
+FANCA	ENSG00000187741.13	ENST00000568369.4	p.S1088F	point_mutation	https://civicdb.org/events/genes/1810/summary/variants/2165/summary
+RAD50	ENSG00000113522.12		p.L1237F	point_mutation	https://civicdb.org/events/genes/8032/summary/variants/2168/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.E94K	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2173/summary
+VHL	ENSG00000134086.7		p.R79C	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2175/summary
+VHL	ENSG00000134086.7		p.Y175C	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2176/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.M54I	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2177/summary
+DICER1	ENSG00000100697.13		p.D1709G	point_mutation	https://civicdb.org/events/genes/9533/summary/variants/2195/summary
+DICER1	ENSG00000100697.13		p.D1709E	point_mutation	https://civicdb.org/events/genes/9533/summary/variants/2196/summary
+DICER1	ENSG00000100697.13		p.D1810H	point_mutation	https://civicdb.org/events/genes/9533/summary/variants/2197/summary
+DICER1	ENSG00000100697.13		p.D1810Y	point_mutation	https://civicdb.org/events/genes/9533/summary/variants/2198/summary
+DICER1	ENSG00000100697.13		p.D1810N	point_mutation	https://civicdb.org/events/genes/9533/summary/variants/2199/summary
+DICER1	ENSG00000100697.13		p.E1813G	point_mutation	https://civicdb.org/events/genes/9533/summary/variants/2200/summary
+DICER1	ENSG00000100697.13		p.E1813K	point_mutation	https://civicdb.org/events/genes/9533/summary/variants/2201/summary
+EGFR	ENSG00000146648.14		p.M766_A767insASV	insertion	https://civicdb.org/events/genes/19/summary/variants/2213/summary
+EGFR	ENSG00000146648.14		p.P772_H773insH	insertion	https://civicdb.org/events/genes/19/summary/variants/2217/summary
+BRAF	ENSG00000157764.11		p.G496A	point_mutation	https://civicdb.org/events/genes/5/summary/variants/2221/summary
+BRAF	ENSG00000157764.11	ENST00000288602.9	p.G466V	point_mutation	https://civicdb.org/events/genes/5/summary/variants/2222/summary
+BRAF	ENSG00000157764.11	ENST00000288602.9	p.G606E	point_mutation	https://civicdb.org/events/genes/5/summary/variants/2223/summary
+BRAF	ENSG00000157764.11	ENST00000288602.9	p.P731T	point_mutation	https://civicdb.org/events/genes/5/summary/variants/2224/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.R82C	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2241/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.W88L	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2242/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.S111G	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2243/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.I151M	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2244/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.E160*	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2245/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.I180N	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2246/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.L198R	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2247/summary
+VHL	ENSG00000134086.7		p.T100A	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2248/summary
+VHL	ENSG00000134086.7		p.W117*	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2249/summary
+VHL	ENSG00000134086.7		p.I151S	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2250/summary
+VHL	ENSG00000134086.7		p.Q96fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2251/summary
+VHL	ENSG00000134086.7		p.G104fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2252/summary
+VHL	ENSG00000134086.7		p.N174fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2253/summary
+EGFR	ENSG00000146648.14		p.A702S	point_mutation	https://civicdb.org/events/genes/19/summary/variants/2255/summary
+EGFR	ENSG00000146648.14		p.I744_K745insKIPVAI	insertion	https://civicdb.org/events/genes/19/summary/variants/2259/summary
+MET	ENSG00000105976.13		p.D1028N	point_mutation	https://civicdb.org/events/genes/52/summary/variants/2260/summary
+VHL	ENSG00000134086.7		p.Q132fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2261/summary
+VHL	ENSG00000134086.7		p.L63fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2262/summary
+VHL	ENSG00000134086.7		p.P61fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2263/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.R82_V84del	small_deletion	https://civicdb.org/events/genes/58/summary/variants/2264/summary
+VHL	ENSG00000134086.7		p.A56_P59del	small_deletion	https://civicdb.org/events/genes/58/summary/variants/2265/summary
+VHL	ENSG00000134086.7		p.G104fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2266/summary
+VHL	ENSG00000134086.7		p.Q132fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2267/summary
+VHL	ENSG00000134086.7		p.V194fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2268/summary
+VHL	ENSG00000134086.7		p.M54_A56del	small_deletion	https://civicdb.org/events/genes/58/summary/variants/2269/summary
+VHL	ENSG00000134086.7		p.F76_N78del	small_deletion	https://civicdb.org/events/genes/58/summary/variants/2271/summary
+VHL	ENSG00000134086.7		p.N141fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2272/summary
+VHL	ENSG00000134086.7		p.R161fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2273/summary
+VHL	ENSG00000134086.7		p.P172fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2274/summary
+ACVR1	ENSG00000115170.12		p.R258G	point_mutation	https://civicdb.org/events/genes/154/summary/variants/2275/summary
+AMER1	ENSG00000184675.8		p.R358*	point_mutation	https://civicdb.org/events/genes/18420/summary/variants/2276/summary
+CRLF2	ENSG00000205755.9		p.V2del	small_deletion	https://civicdb.org/events/genes/14303/summary/variants/2277/summary
+CRLF2	ENSGR0000205755.9		p.V2del	small_deletion	https://civicdb.org/events/genes/14303/summary/variants/2277/summary
+CRLF2	ENSG00000205755.9		p.G24R	point_mutation	https://civicdb.org/events/genes/14303/summary/variants/2279/summary
+CRLF2	ENSGR0000205755.9		p.G24R	point_mutation	https://civicdb.org/events/genes/14303/summary/variants/2279/summary
+ACVR1	ENSG00000115170.12		p.G328W	point_mutation	https://civicdb.org/events/genes/154/summary/variants/2280/summary
+CTNNB1	ENSG00000168036.15		p.S37C	point_mutation	https://civicdb.org/events/genes/1290/summary/variants/2281/summary
+DROSHA	ENSG00000113360.15		p.E518K	point_mutation	https://civicdb.org/events/genes/11314/summary/variants/2282/summary
+ACVR1	ENSG00000115170.12		p.G328E	point_mutation	https://civicdb.org/events/genes/154/summary/variants/2283/summary
+CRLF2	ENSG00000205755.9		p.F232C	point_mutation	https://civicdb.org/events/genes/14303/summary/variants/2285/summary
+CRLF2	ENSGR0000205755.9		p.F232C	point_mutation	https://civicdb.org/events/genes/14303/summary/variants/2285/summary
+VHL	ENSG00000134086.7		p.G144Q	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2290/summary
+VHL	ENSG00000134086.7		p.I147T	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2291/summary
+VHL	ENSG00000134086.7		p.Splicing alteration	splicing	https://civicdb.org/events/genes/58/summary/variants/2292/summary
+VHL	ENSG00000134086.7		p.G104G	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2293/summary
+VHL	ENSG00000134086.7		p.F91L	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2294/summary
+VHL	ENSG00000134086.7		p.L128fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2298/summary
+VHL	ENSG00000134086.7		p.W88fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2299/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.L63P	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2300/summary
+VHL	ENSG00000134086.7		p.E55fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2301/summary
+VHL	ENSG00000134086.7		p.R60fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2302/summary
+VHL	ENSG00000134086.7		p.P61_S65del	small_deletion	https://civicdb.org/events/genes/58/summary/variants/2303/summary
+VHL	ENSG00000134086.7		p.E70fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2304/summary
+VHL	ENSG00000134086.7		p.L85fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2305/summary
+VHL	ENSG00000134086.7		p.P86fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2306/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.P86H	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2307/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.L89H	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2308/summary
+VHL	ENSG00000134086.7		p.N90fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2309/summary
+VHL	ENSG00000134086.7		p.E94_P97del	small_deletion	https://civicdb.org/events/genes/58/summary/variants/2310/summary
+VHL	ENSG00000134086.7		p.K114fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2311/summary
+VHL	ENSG00000134086.7		p.L116fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2312/summary
+VHL	ENSG00000134086.7		p.L118fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2313/summary
+VHL	ENSG00000134086.7		p.T124fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2314/summary
+VHL	ENSG00000134086.7		p.N131fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2315/summary
+VHL	ENSG00000134086.7		p.S139fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2316/summary
+VHL	ENSG00000134086.7		p.L140fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2317/summary
+VHL	ENSG00000134086.7		p.N141_D142del	small_deletion	https://civicdb.org/events/genes/58/summary/variants/2318/summary
+VHL	ENSG00000134086.7		p.G144fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2319/summary
+VHL	ENSG00000134086.7		p.G144fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2320/summary
+VHL	ENSG00000134086.7		p.Q145H	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2321/summary
+VHL	ENSG00000134086.7		p.I147fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2322/summary
+VHL	ENSG00000134086.7		p.T157fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2323/summary
+VHL	ENSG00000134086.7		p.L158_K159del	small_deletion	https://civicdb.org/events/genes/58/summary/variants/2324/summary
+VHL	ENSG00000134086.7		p.V166fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2325/summary
+VHL	ENSG00000134086.7		p.S168_L169del	small_deletion	https://civicdb.org/events/genes/58/summary/variants/2326/summary
+VHL	ENSG00000134086.7		p.K171fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2327/summary
+VHL	ENSG00000134086.7		p.H191fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2328/summary
+VHL	ENSG00000134086.7		p.R205fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2329/summary
+ERBB2	ENSG00000141736.12	ENST00000269571.8	p.L869R	point_mutation	https://civicdb.org/events/genes/20/summary/variants/2330/summary
+ERBB2	ENSG00000141736.12		p.T798I	point_mutation	https://civicdb.org/events/genes/20/summary/variants/2331/summary
+EGFR	ENSG00000146648.14		p.A750T	point_mutation	https://civicdb.org/events/genes/19/summary/variants/2332/summary
+EGFR	ENSG00000146648.14		p.R705K	point_mutation	https://civicdb.org/events/genes/19/summary/variants/2333/summary
+MLH1	ENSG00000076242.13		p.E34K	point_mutation	https://civicdb.org/events/genes/3532/summary/variants/2346/summary
+IL7R	ENSG00000168685.13		p.S185C	point_mutation	https://civicdb.org/events/genes/2975/summary/variants/2347/summary
+IL7R	ENSG00000168685.13		p.V253G	point_mutation	https://civicdb.org/events/genes/2975/summary/variants/2348/summary
+PREX2	ENSG00000046889.17		p.R172I	point_mutation	https://civicdb.org/events/genes/15344/summary/variants/2364/summary
+RHEB	ENSG00000106615.8		p.Y35N	point_mutation	https://civicdb.org/events/genes/4868/summary/variants/2377/summary
+VHL	ENSG00000134086.7		p.V130I	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2380/summary
+CSF3R	ENSG00000119535.16		p.T618I	point_mutation	https://civicdb.org/events/genes/1239/summary/variants/2387/summary
+BRAF	ENSG00000157764.11		p.D594K	point_mutation	https://civicdb.org/events/genes/5/summary/variants/2398/summary
+FGFR3	ENSG00000068078.16		p.V443L	point_mutation	https://civicdb.org/events/genes/23/summary/variants/2399/summary
+FGFR3	ENSG00000068078.16		p.V443M	point_mutation	https://civicdb.org/events/genes/23/summary/variants/2400/summary
+FGFR3	ENSG00000068078.16		p.V496V	point_mutation	https://civicdb.org/events/genes/23/summary/variants/2401/summary
+FGFR3	ENSG00000068078.16		p.V555M	point_mutation	https://civicdb.org/events/genes/23/summary/variants/2402/summary
+FGFR3	ENSG00000068078.16		p.R248C	point_mutation	https://civicdb.org/events/genes/23/summary/variants/2403/summary
+FGFR3	ENSG00000068078.16		p.Y373C	point_mutation	https://civicdb.org/events/genes/23/summary/variants/2404/summary
+FGFR3	ENSG00000068078.16		p.G380R	point_mutation	https://civicdb.org/events/genes/23/summary/variants/2405/summary
+FGFR3	ENSG00000068078.16		p.G370C	point_mutation	https://civicdb.org/events/genes/23/summary/variants/2406/summary
+FGFR3	ENSG00000068078.16		p.F386L	point_mutation	https://civicdb.org/events/genes/23/summary/variants/2407/summary
+H3F3A	ENSG00000163041.8		p.K27M	point_mutation	https://civicdb.org/events/genes/2537/summary/variants/2416/summary
+H3F3B	ENSG00000132475.7		p.K36M	point_mutation	https://civicdb.org/events/genes/2538/summary/variants/2420/summary
+H3F3A	ENSG00000163041.8		p.G34W	point_mutation	https://civicdb.org/events/genes/2537/summary/variants/2421/summary
+VHL	ENSG00000134086.7		p.F136fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2423/summary
+VHL	ENSG00000134086.7		p.H191D	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2425/summary
+VHL	ENSG00000134086.7		p.Splicing alteration	splicing	https://civicdb.org/events/genes/58/summary/variants/2426/summary
+VHL	ENSG00000134086.7		p.P54S	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2427/summary
+VHL	ENSG00000134086.7		p.G104V	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2428/summary
+VHL	ENSG00000134086.7		p.P40R	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2430/summary
+VHL	ENSG00000134086.7		p.V87fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2432/summary
+VHL	ENSG00000134086.7		p.Splicing alteration	splicing	https://civicdb.org/events/genes/58/summary/variants/2434/summary
+VHL	ENSG00000134086.7		p.Splicing alteration	splicing	https://civicdb.org/events/genes/58/summary/variants/2436/summary
+VHL	ENSG00000134086.7		p.V166A	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2437/summary
+VHL	ENSG00000134086.7		p.P138R	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2440/summary
+VHL	ENSG00000134086.7		p.Splicing alteration	splicing	https://civicdb.org/events/genes/58/summary/variants/2441/summary
+VHL	ENSG00000134086.7		p.Q132Hfs*45	frameshift	https://civicdb.org/events/genes/58/summary/variants/2443/summary
+VHL	ENSG00000134086.7		p.Q73Pfs*59	frameshift	https://civicdb.org/events/genes/58/summary/variants/2444/summary
+VHL	ENSG00000134086.7		p.V74Sfs*53	frameshift	https://civicdb.org/events/genes/58/summary/variants/2445/summary
+VHL	ENSG00000134086.7		p.D121Mfs*38	frameshift	https://civicdb.org/events/genes/58/summary/variants/2446/summary
+VHL	ENSG00000134086.7		p.V66Gfs*89	frameshift	https://civicdb.org/events/genes/58/summary/variants/2447/summary
+VHL	ENSG00000134086.7		p.R79_S80del	small_deletion	https://civicdb.org/events/genes/58/summary/variants/2448/summary
+VHL	ENSG00000134086.7		p.D92G	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2449/summary
+VHL	ENSG00000134086.7		p.Y98C	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2450/summary
+VHL	ENSG00000134086.7		p.V141fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2451/summary
+VHL	ENSG00000134086.7		p.Splicing alteration	splicing	https://civicdb.org/events/genes/58/summary/variants/2452/summary
+VHL	ENSG00000134086.7		p.Y156_T157del	small_deletion	https://civicdb.org/events/genes/58/summary/variants/2453/summary
+VHL	ENSG00000134086.7		p.Splicing alteration	splicing	https://civicdb.org/events/genes/58/summary/variants/2454/summary
+VHL	ENSG00000134086.7		p.G114Vfs*45	frameshift	https://civicdb.org/events/genes/58/summary/variants/2455/summary
+VHL	ENSG00000134086.7		p.T133Lfs*26	frameshift	https://civicdb.org/events/genes/58/summary/variants/2456/summary
+VHL	ENSG00000134086.7		p.Splicing alteration	splicing	https://civicdb.org/events/genes/58/summary/variants/2457/summary
+VHL	ENSG00000134086.7		p.R167P	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2458/summary
+VHL	ENSG00000134086.7		p.L178P	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2459/summary
+VHL	ENSG00000134086.7		p.N131K	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2460/summary
+VHL	ENSG00000134086.7		p.Splicing alteration	splicing	https://civicdb.org/events/genes/58/summary/variants/2461/summary
+VHL	ENSG00000134086.7		p.S72fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2462/summary
+VHL	ENSG00000134086.7		p.H110P	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2463/summary
+VHL	ENSG00000134086.7		p.Splicing alteration	splicing	https://civicdb.org/events/genes/58/summary/variants/2464/summary
+VHL	ENSG00000134086.7		p.E52*	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2466/summary
+VHL	ENSG00000134086.7		p.L158E	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2467/summary
+PRKCB	ENSG00000166501.11		p.D427N	point_mutation	https://civicdb.org/events/genes/4517/summary/variants/2468/summary
+VHL	ENSG00000134086.7		p.R176fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2469/summary
+VHL	ENSG00000134086.7		p.W117C	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2470/summary
+VHL	ENSG00000134086.7		p.T104fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2471/summary
+VHL	ENSG00000134086.7		p.M54fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2473/summary
+VHL	ENSG00000134086.7		p.P59fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2474/summary
+VHL	ENSG00000134086.7		p.F119L	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2475/summary
+VHL	ENSG00000134086.7		p.I151N	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2476/summary
+VHL	ENSG00000134086.7		p.V155fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2477/summary
+VHL	ENSG00000134086.7		p.L163P	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2478/summary
+VHL	ENSG00000134086.7		p.Y98S	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2480/summary
+VHL	ENSG00000134086.7		p.I151T	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2481/summary
+VHL	ENSG00000134086.7		p.A149fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2482/summary
+VHL	ENSG00000134086.7		p.Y98N	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2484/summary
+VHL	ENSG00000134086.7		p.Splicing alteration	splicing	https://civicdb.org/events/genes/58/summary/variants/2485/summary
+VHL	ENSG00000134086.7		p.R167fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2486/summary
+VHL	ENSG00000134086.7		p.I75del	small_deletion	https://civicdb.org/events/genes/58/summary/variants/2487/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.*214G	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2488/summary
+VHL	ENSG00000134086.7		p.*214C	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2489/summary
+VHL	ENSG00000134086.7		p.N131S	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2490/summary
+VHL	ENSG00000134086.7		p.G114V	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2491/summary
+VHL	ENSG00000134086.7		p.V194G	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2493/summary
+VHL	ENSG00000134086.7		p.R120T	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2494/summary
+VHL	ENSG00000134086.7		p.H208fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2495/summary
+VHL	ENSG00000134086.7		p.M54Gfs*77	frameshift	https://civicdb.org/events/genes/58/summary/variants/2497/summary
+VHL	ENSG00000134086.7		p.L198Wfs*4	frameshift	https://civicdb.org/events/genes/58/summary/variants/2498/summary
+VHL	ENSG00000134086.7		p.K196fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2499/summary
+VHL	ENSG00000134086.7		p.Y98S	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2500/summary
+VHL	ENSG00000134086.7		p.L198P	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2501/summary
+VHL	ENSG00000134086.7	ENST00000256474.2	p.E160V	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2502/summary
+VHL	ENSG00000134086.7		p.S183W	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2503/summary
+VHL	ENSG00000134086.7		p.Splicing alteration	splicing	https://civicdb.org/events/genes/58/summary/variants/2504/summary
+VHL	ENSG00000134086.7		p.L163F	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2505/summary
+VHL	ENSG00000134086.7		p.L85_E94del	small_deletion	https://civicdb.org/events/genes/58/summary/variants/2506/summary
+VHL	ENSG00000134086.7		p.L129P	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2508/summary
+VHL	ENSG00000134086.7		p.V62Efs*71	frameshift	https://civicdb.org/events/genes/58/summary/variants/2509/summary
+VHL	ENSG00000134086.7		p.R69Afs*63	frameshift	https://civicdb.org/events/genes/58/summary/variants/2510/summary
+VHL	ENSG00000134086.7		p.S80Ifs*79	frameshift	https://civicdb.org/events/genes/58/summary/variants/2511/summary
+VHL	ENSG00000134086.7		p.S80fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2512/summary
+VHL	ENSG00000134086.7		p.V87E	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2513/summary
+VHL	ENSG00000134086.7		p.D92fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2514/summary
+VHL	ENSG00000134086.7		p.P97Afs*35	frameshift	https://civicdb.org/events/genes/58/summary/variants/2515/summary
+VHL	ENSG00000134086.7		p.H110Pfs*49	frameshift	https://civicdb.org/events/genes/58/summary/variants/2516/summary
+VHL	ENSG00000134086.7		p.S111Tfs*48	frameshift	https://civicdb.org/events/genes/58/summary/variants/2517/summary
+VHL	ENSG00000134086.7		p.Splicing alteration	splicing	https://civicdb.org/events/genes/58/summary/variants/2518/summary
+VHL	ENSG00000134086.7		p.Splicing alteration	splicing	https://civicdb.org/events/genes/58/summary/variants/2519/summary
+VHL	ENSG00000134086.7		p.H115fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2520/summary
+VHL	ENSG00000134086.7		p.W117G	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2521/summary
+VHL	ENSG00000134086.7		p.W117R	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2522/summary
+VHL	ENSG00000134086.7		p.W117S	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2523/summary
+VHL	ENSG00000134086.7		p.E134Dfs*72	frameshift	https://civicdb.org/events/genes/58/summary/variants/2524/summary
+VHL	ENSG00000134086.7		p.Q145fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2525/summary
+VHL	ENSG00000134086.7		p.P146Gfs*14	frameshift	https://civicdb.org/events/genes/58/summary/variants/2526/summary
+VHL	ENSG00000134086.7		p.E160fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2527/summary
+VHL	ENSG00000134086.7		p.C162*	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2528/summary
+VHL	ENSG00000134086.7		p.E189_D190del	small_deletion	https://civicdb.org/events/genes/58/summary/variants/2529/summary
+VHL	ENSG00000134086.7		p.Splicing alteration	splicing	https://civicdb.org/events/genes/58/summary/variants/2530/summary
+VHL	ENSG00000134086.7		p.R82G	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2532/summary
+VHL	ENSG00000134086.7		p.D126N	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2533/summary
+VHL	ENSG00000134086.7		p.Splicing alteration	splicing	https://civicdb.org/events/genes/58/summary/variants/2534/summary
+VHL	ENSG00000134086.7		p.R108fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2537/summary
+VHL	ENSG00000134086.7		p.V114R	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2539/summary
+VHL	ENSG00000134086.7		p.H115Q	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2540/summary
+VHL	ENSG00000134086.7		p.S139F	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2541/summary
+VHL	ENSG00000134086.7		p.F190L	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2542/summary
+VHL	ENSG00000134086.7		p.L198fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2543/summary
+VHL	ENSG00000134086.7		p.M54fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2545/summary
+VHL	ENSG00000134086.7		p.N67fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2547/summary
+VHL	ENSG00000134086.7		p.V84fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2548/summary
+VHL	ENSG00000134086.7		p.L89R	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2549/summary
+VHL	ENSG00000134086.7		p.G104fs*158	frameshift	https://civicdb.org/events/genes/58/summary/variants/2551/summary
+VHL	ENSG00000134086.7		p.R120fs*158	frameshift	https://civicdb.org/events/genes/58/summary/variants/2552/summary
+VHL	ENSG00000134086.7		p.D121_A122del	small_deletion	https://civicdb.org/events/genes/58/summary/variants/2553/summary
+VHL	ENSG00000134086.7		p.D126G	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2554/summary
+VHL	ENSG00000134086.7		p.G127fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2555/summary
+VHL	ENSG00000134086.7		p.T133fs*157	frameshift	https://civicdb.org/events/genes/58/summary/variants/2556/summary
+VHL	ENSG00000134086.7		p.L135fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2557/summary
+VHL	ENSG00000134086.7		p.F137fs	frameshift	https://civicdb.org/events/genes/58/summary/variants/2558/summary
+VHL	ENSG00000134086.7		p.L140fs*158	frameshift	https://civicdb.org/events/genes/58/summary/variants/2559/summary
+VHL	ENSG00000134086.7		p.G144fs*158	frameshift	https://civicdb.org/events/genes/58/summary/variants/2560/summary
+VHL	ENSG00000134086.7		p.A149fs*158	frameshift	https://civicdb.org/events/genes/58/summary/variants/2561/summary
+VHL	ENSG00000134086.7		p.T157fs*158	frameshift	https://civicdb.org/events/genes/58/summary/variants/2562/summary
+VHL	ENSG00000134086.7		p.L163fs*169	frameshift	https://civicdb.org/events/genes/58/summary/variants/2563/summary
+RET	ENSG00000165731.16		p.V804M	point_mutation	https://civicdb.org/events/genes/42/summary/variants/2568/summary
+EZH2	ENSG00000106462.9		p.Y641F	point_mutation	https://civicdb.org/events/genes/63/summary/variants/2569/summary
+PTPN11	ENSG00000179295.14		p.D61Y	point_mutation	https://civicdb.org/events/genes/4685/summary/variants/2573/summary
+SETBP1	ENSG00000152217.15		p.D868N	point_mutation	https://civicdb.org/events/genes/10024/summary/variants/2574/summary
+CTNNB1	ENSG00000168036.15		p.G34V	point_mutation	https://civicdb.org/events/genes/1290/summary/variants/2576/summary
+VHL	ENSG00000134086.7		p.N131T	point_mutation	https://civicdb.org/events/genes/58/summary/variants/2580/summary
