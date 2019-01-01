@@ -443,8 +443,8 @@ ProcessMcg <- function(allowedTypes, gene.model) {
       )) %>% 
     mutate(type = ifelse(gene == "BCR-ABL1" & type == "point_mutation", "BCR-ABL1_point_mutation", type)) %>% 
     rowwise() %>%
-    mutate(fusion.gene = ifelse(type %in% c("fusion", "inversion", "translocation", "ABL1_point_mutation") & grepl("-", gene), strsplit(gene, "-")[[1]][2], NA),
-           fusion.gene = ifelse(type %in% c("fusion", "inversion", "translocation", "ABL1_point_mutation") & is.na(fusion.gene), "*", fusion.gene),
+    mutate(fusion.gene = ifelse(type %in% c("fusion", "inversion", "translocation", "BCR-ABL1_point_mutation") & grepl("-", gene), strsplit(gene, "-")[[1]][2], NA),
+           fusion.gene = ifelse(type %in% c("fusion", "inversion", "translocation", "BCR-ABL1_point_mutation") & is.na(fusion.gene), "*", fusion.gene),
            gene = ifelse(!is.na(fusion.gene) & fusion.gene != "*", strsplit(gene, "-")[[1]][1], gene))
 
   # Save parsed data to disk
