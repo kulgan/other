@@ -170,7 +170,7 @@ ProcessOncokb <- function(allowedTypes, gene.model) {
     setDT()
  
    # Check genes that do not have a match 
-  left = oncokb.url[is.na(gdc.gene.id)]
+  left <- oncokb.url[is.na(gdc.gene.id)]
   if (nrow(left) > 0) {
     flog.warn("Can not find gene name match for %s", left$gene)
   }
@@ -336,7 +336,7 @@ ProcessCivic <- function(allowedTypes, gene.model) {
     setDT()
 
   # Check genes that do not have a match 
-  left = civic.url[is.na(gdc.gene.id)]
+  left <- civic.url[is.na(gdc.gene.id)]
   if (nrow(left) > 0) {
     flog.warn("Can not find gene name match for %s", left$entrez_name)
   }
