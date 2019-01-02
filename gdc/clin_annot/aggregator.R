@@ -20,7 +20,7 @@ GetOptions = function() {
   opt_parser = OptionParser(option_list = option_list)
   opt = parse_args(opt_parser)
 
-  # normlize path
+  # normalize path
   opt$gtf = normalizePath(opt$gtf)
   if(opt$wkdir != "auto") {
     opt$wkdir = normalizePath(opt$wkdir)
