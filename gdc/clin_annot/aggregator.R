@@ -619,20 +619,20 @@ flog.info("Merging databases ...")
 variants <- rbind(
   oncokb %>% 
     select(gdc.gene.name, gdc.gene.id, hgvsp, oncokb.url) %>%
-    rename(gene.name = oncokb.url, 
+    rename(gene.name = gdc.gene.name, 
            gene.id = gdc.gene.id, 
            url = oncokb.url) %>% 
     mutate(name = paste(gdc.gene.name, gsub("^p.", "", hgvsp)), 
            source = "OncoKB"), 
   civic %>% 
     select(gdc.gene.name, gdc.gene.id, hgvsp, civic.url, name) %>%
-    rename(gene.name = civic.url, 
+    rename(gene.name = gdc.gene.name, 
            gene.id = gdc.gene.id, 
            url = civic.url) %>% 
     mutate(source = "CIVIC"), 
   mcg %>% 
     select(gdc.gene.name, gdc.gene.id, hgvsp, mcg.url, name) %>%
-    rename(gene.name = mcg.url, 
+    rename(gene.name = gdc.gene.name, 
            gene.id = gdc.gene.id, 
            url = mcg.url) %>% 
     mutate(source = "MyCancerGenome")) %>% 
