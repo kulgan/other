@@ -2,6 +2,7 @@
 # example command to run this script RScript aggregator.R --gtf gencode.v22.annotation.gtf.gz
 # setwd("/Users/zhenyu/github/other/gdc/clin_annot")
 
+# GetOptions read parameters from input
 GetOptions = function() {
   # define option_list
   option_list = list(
@@ -42,7 +43,7 @@ GetOptions = function() {
   return(opt)
 }
 
-# CreateWkDir creates and sets the current working diretory to be ./runYYYYMMDD/
+# CreateWkDir creates and sets the current working diretory to be ./run_YYYYMMDD/
 # If it already exists, a underscore and a number is added as postfix of the directory name, starting from "_1"
 CreateWkDir <- function(working.dir) {
   flog.info("Initialization ...")
@@ -125,9 +126,9 @@ GetGeneModel <- function(gtf.file) {
 }
 
 
-# OncoKB 
-# URL http://oncokb.org/#/gene/{Gene}/alteration/{Alteration}  
-# http://oncokb.org/api/v1/info
+# ProcessOncokb downloads and reformats OncoKB TXT raw data from http://oncokb.org/api/v1/utils/allAnnotatedVariants.txt
+# URLs are then created as http://oncokb.org/#/gene/{Gene}/alteration/{Alteration}  
+# Also query http://oncokb.org/api/v1/info for additional validation informations
 ProcessOncokb <- function(allowedTypes, gene.model) {
   oncokb.variant.url = "http://oncokb.org/api/v1/utils/allAnnotatedVariants.txt"
 
@@ -247,8 +248,8 @@ ProcessOncokb <- function(allowedTypes, gene.model) {
 
 
 
-# CIVIC
-# URL https://civicdb.org/events/genes/{gene_id}/summary/variants/{id}/summary
+# ProcessCivic downloads and reformats CIVIC JSON raw data from https://civicdb.org/api/variants?count=
+# URLs are then created as https://civicdb.org/events/genes/{gene_id}/summary/variants/{id}/summary
 ProcessCivic <- function(allowedTypes, gene.model) {  
 
   civicMax <- 99999
@@ -411,9 +412,8 @@ ProcessCivic <- function(allowedTypes, gene.model) {
   return(civic.url)
 }
 
-
-# MyCancerGenome
-# Note gene CRLF2 matches twice b/c existance of ENSG00000205755.9 and ENSGR0000205755.9 on chrX and chrY
+# ProcessMcg downloads and reformats MyCancerGenome SiteMap from https://www.mycancergenome.org/sitemap
+# URLs are directly extracted from the sitemap
 ProcessMcg <- function(allowedTypes, gene.model) {  
 
   mcg.variant.url <- "https://www.mycancergenome.org/sitemap/"
@@ -569,7 +569,6 @@ CheckURL <- function(urls,  batch = 100) {
 }
 
 
-
 suppressMessages(library(futile.logger))
 suppressMessages(library(dplyr))
 suppressMessages(library(RCurl))
@@ -581,22 +580,21 @@ suppressMessages(library(optparse))
 
 # library(devtools)
 # library(hgvsParseR)
-# if gtf file is gz compressed, need zcat install in Linux or gunzip in OSX
 
+# if gtf file is gz compressed, need zcat install in Linux or gunzip in OSX
 
 # Init
 options(scipen=999)
 allowedTypes <- c("point_mutation", "duplication", "small_deletion", "insertion", "delins", "frameshift", "splicing")
 
-# Get Options
+# Read Options
 opt = GetOptions()
 
-# create and set output dir
+# Create and set output dir
 CreateWkDir(opt$wkdir)
 flog.appender(appender.file(opt$log))
 
-
-# set log file
+# Set log file
 log.file <- opt$log
 flog.appender(appender.file(log.file)) 
 flog.info("Writing logs in %s in the working directory", log.file)
@@ -605,40 +603,43 @@ flog.info("Writing logs in %s in the working directory", log.file)
 flog.info("Preparing Gene Model ...")
 gene.model <- GetGeneModel(opt$gtf)
 
+# Process OncoKB
 flog.info("Processing OncoKB variants ...")
 oncokb <- ProcessOncokb(allowedTypes, gene.model)
 
+# Process CIVIC
 flog.info("Processing CIVIC variants ...")
 civic <- ProcessCivic(allowedTypes, gene.model)
 
+# Process MyCancerGenome
 flog.info("Processing MyCancerGenome variants ...")
 mcg <- ProcessMcg(allowedTypes, gene.model)
 
 # Merge
+# Please Note gene name are not unique, so ensembl id should be used
+# For example, CRLF2 matches both ENSG00000205755.9 and ENSGR0000205755.9 on chrX and chrY
 flog.info("Merging databases ...")
 variants <- rbind(
   oncokb %>% 
     select(gdc.gene.name, gdc.gene.id, hgvsp, oncokb.url) %>%
-    rename(gene.name = gdc.gene.name, 
-           gene.id = gdc.gene.id, 
-           url = oncokb.url) %>% 
+    rename(url = oncokb.url) %>% 
     mutate(name = paste(gdc.gene.name, gsub("^p.", "", hgvsp)), 
            source = "OncoKB"), 
   civic %>% 
     select(gdc.gene.name, gdc.gene.id, hgvsp, civic.url, name) %>%
-    rename(gene.name = gdc.gene.name, 
-           gene.id = gdc.gene.id, 
-           url = civic.url) %>% 
+    rename(url = civic.url) %>% 
     mutate(source = "CIVIC"), 
   mcg %>% 
     select(gdc.gene.name, gdc.gene.id, hgvsp, mcg.url, name) %>%
-    rename(gene.name = gdc.gene.name, 
-           gene.id = gdc.gene.id, 
-           url = mcg.url) %>% 
+    rename(url = mcg.url) %>% 
     mutate(source = "MyCancerGenome")) %>% 
+  rename(gene.name = gdc.gene.name, 
+         gene.id = gdc.gene.id) %>%
   setDT()
 
-# validate URLs
+# Validate URLs
+# This is extremely slow for CIVIC and MyCancerGenome (~ hour)
+# Suggest to ignore during testing
 if(opt$checkURL) {
   flog.info("Validating all URLs ...")
   validation <- CheckURL(variants$url)
@@ -654,6 +655,7 @@ if(opt$checkURL) {
 all.variants.file <- "all.variants.txt"
 fwrite(variants, all.variants.file, sep="\t", quote=F)
 
+# final summary output to the log file
 flog.info("Summary")
 flog.info("  - %s variants in total", nrow(variants))
 flog.info("  - %s unique variants", length(unique(paste(variants$gene.id, variants$hgvsp))))
