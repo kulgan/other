@@ -2,27 +2,69 @@
 
 # setwd("/Users/zhenyu/github/other/gdc/clin_annot")
 
+GetOptions = function() {
+  # define option_list
+  option_list = list(
+    make_option(c("-g", "--gtf"), type = "character", default = NULL, 
+                  help = "path to the GTF file"),
+    make_option(c("-c", "--checkURL"), type = "logical", default = F, 
+                  help = "whether to check the existance of output URLs [default = %default]"), 
+    make_option(c("-d", "--wkdir"), type = "character", default = "auto", 
+                  help = "path to the working directory where outputs are saved (Attention: file overwritten risk) [default = %default]"), 
+    make_option(c("-l", "--log"), type = "character", default = "log.txt", 
+                  help = "log file (file name only, no path) [default = %default]")   
+  )
+  
+  # parse 
+  opt_parser = OptionParser(option_list = option_list)
+  opt = parse_args(opt_parser)
+
+  # normlize path
+  opt$gtf = normalizePath(opt$gtf)
+  if(opt$wkdir != "auto") {
+    opt$wkdir = normalizePath(opt$wkdir)
+  }
+
+  # stop if input gtf file is not provided
+  if (is.null(opt$gtf)){
+    print_help(opt_parser)
+    flog.error("no input GTF file provided")
+    stop("At least one argument must be supplied (input file)\n", call.=FALSE)
+  }
+
+  # display all input options
+  flog.info("GTF File: \t\t\t%s", opt$gtf)
+  flog.info("CheckURL: \t\t\t%s", opt$checkURL)
+  flog.info("Working Directory: \t\t%s", opt$wkdir)
+  flog.info("Log File: \t%s", opt$log)
+
+  # return
+  return(opt)
+}
+
 # CreateWkDir creates and sets the current working diretory to be ./runYYYYMMDD/
 # If it already exists, a underscore and a number is added as postfix of the directory name, starting from "_1"
-CreateWkDir <- function() {
+CreateWkDir <- function(working.dir) {
   flog.info("Initialization ...")
 
-  current.date <- format(Sys.time(), "%Y%m%d")
-  working.dir <- paste0(getwd(), "/run_", current.date)
+  if (working.dir == "auto") {
+    current.date <- format(Sys.time(), "%Y%m%d")
+    working.dir <- paste0(getwd(), "/run_", current.date)
 
-  # loop until the new directory name does not exist
-  i <- 1
-  new.dir <- working.dir
-  while(dir.exists(new.dir)) {
-    new.dir <- paste0(working.dir, "_", i) 
-    i <- i + 1
+    # loop until the new directory name does not exist
+    i <- 1
+    new.dir <- working.dir
+    while(dir.exists(new.dir)) {
+      new.dir <- paste0(working.dir, "_", i) 
+      i <- i + 1
+    }
+    working.dir <- new.dir
   }
-  working.dir <- new.dir
 
   # create directory and setwd
   dir.create(working.dir)
   setwd(working.dir)
-  flog.info("%s is created and set as working directory", working.dir)
+  flog.info("%s is created and set as output directory", working.dir)
 }
 
 # ExtractGtfAttr accepts an array of GTF attribute, and attribute feature name, and return attribute values
@@ -39,6 +81,20 @@ ExtractGtfAttr <- function(gtf.attr, feature) {
 GetGeneModel <- function(gtf.file) {
   # parse gencode gene and transcript
   flog.info("  - Reading GTF file")
+
+  # special treatment to gz file to allow reading
+  if(file_ext(gtf.file) == "gz") {
+    if(Sys.info()[['sysname']] == "Darwin") {
+      # if we have MAC, use gunzip 
+      gtf.file = paste("gunzip -c", gtf.file)
+    } else if (Sys.info()[['sysname']] == "Linux") {
+      # if we have Linux, use zcat
+      gtf.file = paste("zcat", gtf.file)
+    } else {
+      flog.error("Unsupported OS")
+    }
+  }
+
   gtf <- fread(gtf.file, h=F)
   colnames(gtf) <- c("seqname", "source", "feature", "start", "end",  "score", "strand", "frame", "attribute")
 
@@ -514,31 +570,40 @@ CheckURL <- function(urls,  batch = 100) {
 
 
 
-library(futile.logger)
-library(dplyr)
-library(RCurl)
-library(data.table)
-library(jsonlite)
-library(XML)
+suppressMessages(library(futile.logger))
+suppressMessages(library(dplyr))
+suppressMessages(library(RCurl))
+suppressMessages(library(data.table))
+suppressMessages(library(jsonlite))
+suppressMessages(library(XML))
+suppressMessages(library(tools))
+suppressMessages(library(optparse))
 
 # library(devtools)
 # library(hgvsParseR)
+# if gtf file is gz compressed, need zcat install in Linux or gunzip in OSX
+
 
 # Init
+options(scipen=999)
 allowedTypes <- c("point_mutation", "duplication", "small_deletion", "insertion", "delins", "frameshift", "splicing")
 
-# create and set working dir
-CreateWkDir()
+# Get Options
+opt = GetOptions()
+
+# create and set output dir
+CreateWkDir(opt$wkdir)
+flog.appender(appender.file(opt$log))
+
 
 # set log file
-log.file <- "log.txt"
+log.file <- opt$log
 flog.appender(appender.file(log.file)) 
-flog.info("Writing logs in %s", log.file)
+flog.info("Writing logs in %s in the working directory", log.file)
 
 # extract gene model
 flog.info("Preparing Gene Model ...")
-gtf.file <- "gunzip -c ../gencode.v22.annotation.gtf.gz"
-gene.model <- GetGeneModel(gtf.file)
+gene.model <- GetGeneModel(opt$gtf)
 
 flog.info("Processing OncoKB variants ...")
 oncokb <- ProcessOncokb(allowedTypes, gene.model)
@@ -575,11 +640,15 @@ variants <- rbind(
   setDT()
 
 # validate URLs
-flog.info("Validating all URLs ...")
-validation <- CheckURL(variants$url)
-flog.info("    %s out of %s URLs are valid", sum(validation), nrow(variants))
-if(sum(!validation) > 0) {
-  flog.warn("    The following URLs are invalid %s", variants[which(!validation)]$url)
+if(opt$checkURL) {
+  flog.info("Validating all URLs ...")
+  validation <- CheckURL(variants$url)
+  flog.info("    %s out of %s URLs are valid", sum(validation), nrow(variants))
+  if(sum(!validation) > 0) {
+    flog.warn("    The following URLs are invalid %s", variants[which(!validation)]$url)
+  }
+} else {
+  flog.info("URL validation is skipped")
 }
 
 # write final data to disk
