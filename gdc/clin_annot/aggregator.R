@@ -36,8 +36,8 @@ GetOptions = function() {
   # display all input options
   flog.info("GTF File: \t\t\t%s", opt$gtf)
   flog.info("CheckURL: \t\t\t%s", opt$checkURL)
-  flog.info("Working Directory: \t\t%s", opt$wkdir)
-  flog.info("Log File: \t%s", opt$log)
+  flog.info("Working Directory: \t%s", opt$wkdir)
+  flog.info("Log File: \t\t\t%s", opt$log)
 
   # return
   return(opt)
