@@ -1,5 +1,5 @@
 
-
+# example command to run this script RScript aggregator.R --gtf gencode.v22.annotation.gtf.gz
 # setwd("/Users/zhenyu/github/other/gdc/clin_annot")
 
 GetOptions = function() {
@@ -399,7 +399,7 @@ ProcessCivic <- function(allowedTypes, gene.model) {
 
   # select columns
   civic.url <- civic.url %>%    
-    select(gdc.gene.name, gdc.gene.id, gdc.transcript.id, hgvsp, type, civic.url) %>% 
+    select(gdc.gene.name, gdc.gene.id, gdc.transcript.id, hgvsp, type, civic.url, name) %>% 
     setDT()
  
   # Save final data to disk
@@ -622,15 +622,14 @@ variants <- rbind(
     rename(gene.name = oncokb.url, 
            gene.id = gdc.gene.id, 
            url = oncokb.url) %>% 
-    mutate(name = NA, 
+    mutate(name = paste(gdc.gene.name, gsub("^p.", "", hgvsp)), 
            source = "OncoKB"), 
   civic %>% 
-    select(gdc.gene.name, gdc.gene.id, hgvsp, civic.url) %>%
+    select(gdc.gene.name, gdc.gene.id, hgvsp, civic.url, name) %>%
     rename(gene.name = civic.url, 
            gene.id = gdc.gene.id, 
            url = civic.url) %>% 
-    mutate(name = NA, 
-           source = "CIVIC"), 
+    mutate(source = "CIVIC"), 
   mcg %>% 
     select(gdc.gene.name, gdc.gene.id, hgvsp, mcg.url, name) %>%
     rename(gene.name = mcg.url, 
