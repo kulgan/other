@@ -1,0 +1,53 @@
+INFO [2019-01-02 14:26:15] Writing logs in log.txt in the working directory
+INFO [2019-01-02 14:26:15] Preparing Gene Model ...
+INFO [2019-01-02 14:26:15]   - Reading GTF file
+INFO [2019-01-02 14:26:30]   - Extracting gene features
+INFO [2019-01-02 14:26:31]     60483 genes detected
+INFO [2019-01-02 14:26:31]   - Extracting transcript features
+INFO [2019-01-02 14:26:44]     198442 transcripts detected
+INFO [2019-01-02 14:26:44] Processing OncoKB variants ...
+INFO [2019-01-02 14:26:44]   - Downloading OncoKB raw variant TXT file
+INFO [2019-01-02 14:26:44]     Raw variant file saved as oncokb.raw.txt
+INFO [2019-01-02 14:26:44]   - Reading OncoKB variant sets
+INFO [2019-01-02 14:26:44]     4366 variants read
+INFO [2019-01-02 14:26:44]     Complete variant file saved as oncokb.complete.tsv
+INFO [2019-01-02 14:26:44]   - Transforming OncoKB variant sets
+INFO [2019-01-02 14:26:46]     Transformed variant file saved as oncokb.transformed.tsv
+INFO [2019-01-02 14:26:46]   - Subsetting OncoKB variant sets
+INFO [2019-01-02 14:26:46]     3626 variants selected
+INFO [2019-01-02 14:26:46]     Selected variant file saved as oncokb.subset.tsv
+INFO [2019-01-02 14:26:46]   - Constructing OncoKB urls
+INFO [2019-01-02 14:26:47]     Final variant file saved as oncokb.final.tsv
+INFO [2019-01-02 14:26:47] Processing CIVIC variants ...
+INFO [2019-01-02 14:26:47]   - Downloading CIVIC raw variant JSON file
+INFO [2019-01-02 14:26:49]     Raw variant file saved as civic.raw.json
+INFO [2019-01-02 14:26:49]   - Reading CIVIC variant sets
+INFO [2019-01-02 14:26:50]     2091 variants read
+INFO [2019-01-02 14:26:50]     Complete variant file saved as civic.complete.tsv
+INFO [2019-01-02 14:26:50]   - Transforming CIVIC variant sets
+INFO [2019-01-02 14:26:50]     Transformed variant file saved as civic.transformed.tsv
+INFO [2019-01-02 14:26:50]   - Subsetting CIVIC variant sets
+INFO [2019-01-02 14:26:50]     1227 variants selected
+INFO [2019-01-02 14:26:50]     Selected variant file saved as civic.subset.tsv
+INFO [2019-01-02 14:26:50]   - Constructing CIVIC urls
+INFO [2019-01-02 14:26:50]     Final variant file saved as civic.final.tsv
+INFO [2019-01-02 14:26:50] Processing MyCancerGenome variants ...
+INFO [2019-01-02 14:26:50]   - Downloading MyCancerGenome raw variant HTML sitemap
+INFO [2019-01-02 14:26:51]     Raw variant file saved as mcg.raw.html
+INFO [2019-01-02 14:26:51]   - Reading MyCancerGenome complete variant sets
+INFO [2019-01-02 14:26:51]     472 variants read
+INFO [2019-01-02 14:26:51]     Complete variant file saved as mcg.complete.tsv
+INFO [2019-01-02 14:26:51]   - Transforming CIVIC variant sets
+INFO [2019-01-02 14:26:52]     Transformed variant file saved as mcg.transformed.tsv
+INFO [2019-01-02 14:26:52]   - Subsetting MyCancerGenome variant sets
+INFO [2019-01-02 14:26:52]     366 variants selected
+INFO [2019-01-02 14:26:52]     Selected variant file saved as mcg.subset.tsv
+INFO [2019-01-02 14:26:52]     Final variant file saved as mcg.final.tsv
+INFO [2019-01-02 14:26:52] Merging databases ...
+INFO [2019-01-02 14:26:52] URL validation is skipped
+INFO [2019-01-02 14:26:52] Summary
+INFO [2019-01-02 14:26:52]   - 5238 variants in total
+INFO [2019-01-02 14:26:52]   - 4428 unique variants
+INFO [2019-01-02 14:26:52]   - 3640 variants from OncoKB
+INFO [2019-01-02 14:26:52]   - 1231 variants from CIVIC
+INFO [2019-01-02 14:26:52]   - 367 variants from MyCancerGenome
