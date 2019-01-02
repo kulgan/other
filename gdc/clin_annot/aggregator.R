@@ -286,7 +286,7 @@ ProcessCivic <- function(allowedTypes, gene.model) {
       alteration == "NUCLEAR EXPRESSION"                                                                             ~ "nuclear-expresssion",
       alteration == "CYTOPLASMIC EXPRESSION"                                                                         ~ "cytoplasmic-expression",
       alteration == "FRAMESHIFT MUTATION"                                                                            ~ "frameshift_ns",
-      alteration == "Splicing alteration"                                                                            ~ "splicing",
+      alteration == "Splicing alteration"                                                                            ~ "splicing_ns",
       TRUE                                                                                                           ~ "other"
       )
     ) %>%                              
