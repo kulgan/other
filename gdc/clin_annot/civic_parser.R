@@ -1,5 +1,5 @@
 
-# example command to run this script RScript aggregator.R --gtf gencode.v22.annotation.gtf.gz
+# Example command to run this script RScript civic_parser.R --gtf gencode.v22.annotation.gtf.gz
 # setwd("/Users/zhenyu/github/other/gdc/clin_annot")
 
 # GetOptions read parameters from input
@@ -34,10 +34,10 @@ GetOptions = function() {
   }
 
   # display all input options
-  flog.info("GTF File: \t\t\t%s", opt$gtf)
-  flog.info("CheckURL: \t\t\t%s", opt$checkURL)
-  flog.info("Working Directory: \t%s", opt$wkdir)
-  flog.info("Log File: \t\t\t%s", opt$log)
+  flog.info("GTF File: \t%s", opt$gtf)
+  flog.info("CheckURL: \t%s", opt$checkURL)
+  flog.info("WkDir: \t%s", opt$wkdir)
+  flog.info("Log File: \t%s", opt$log)
 
   # return
   return(opt)
@@ -87,17 +87,19 @@ GetGeneModel <- function(gtf.file) {
   if(file_ext(gtf.file) == "gz") {
     if(Sys.info()[['sysname']] == "Darwin") {
       # if we have MAC, use gunzip 
-      gtf.file = paste("gunzip -c", gtf.file)
+      gtf <- fread(cmd = paste("gunzip -c", gtf.file), h=F)
     } else if (Sys.info()[['sysname']] == "Linux") {
       # if we have Linux, use zcat
-      gtf.file = paste("zcat", gtf.file)
+      gtf <- fread(cmd = paste("zcat", gtf.file), h=F)
     } else {
       flog.error("Unsupported OS")
     }
+  } else {
+    gtf <- fread(gtf.file, h=F)
   }
 
-  gtf <- fread(gtf.file, h=F)
-  colnames(gtf) <- c("seqname", "source", "feature", "start", "end",  "score", "strand", "frame", "attribute")
+  # add column names
+  setnames(gtf, c("seqname", "source", "feature", "start", "end",  "score", "strand", "frame", "attribute"))
 
   # select genes and extract gene_name/ gene_id 
   flog.info("  - Extracting gene features")
@@ -143,7 +145,7 @@ ProcessCivic <- function(allowedTypes, gene.model, max.record = 99999) {
   flog.info("  - Reading CIVIC variant sets") 
   civic.raw <- jsonlite::fromJSON(civic.raw.file)
   expected.count = civic.raw$`_meta`$total_count
-  records = civic$records
+  records = civic.raw$records
   count = nrow(records)
 
   # Validation of counts
@@ -156,7 +158,7 @@ ProcessCivic <- function(allowedTypes, gene.model, max.record = 99999) {
 
   # In the records, one variant could have more than one variant_types
   # the following to flatten variant_types and extract "name" and "display_name"
-  flog.info("  - Flattening JSON variant_types fields")    
+  flog.info("  - Flattening variant_types from raw JSON")    
   max.variant.type = max(sapply(records$variant_types, function(x) nrow(x)))
   if(max.variant.type > 2) {
     flog.error("Detected at least one variant with more than 2 variant types. Script needs to be updated to parse more than two variant_types")
@@ -175,35 +177,28 @@ ProcessCivic <- function(allowedTypes, gene.model, max.record = 99999) {
   flog.info("    %s variants have one variant_type names", ifelse(length(t[names(t) == 1]) == 0, 0, t[names(t) == 1]))
   flog.info("    %s variants have two variant_type names", ifelse(length(t[names(t) == 2]) == 0, 0, t[names(t) == 2]))
 
-  # Flatten coordinates and extract "representative_transcript"
+  # Flatten coordinates 
   records = cbind(records, records$coordinates) %>% 
     select(-c(variant_types, coordinates)) %>% 
+    mutate(variant.type.name = ifelse(variant.type.name == "N/A", NA, variant.type.name), 
+           variant.type.name2 = ifelse(variant.type.name == "N/A", NA, variant.type.name2), 
+           variant.type.display.name = ifelse(variant.type.display.name == "N/A", NA, variant.type.name2), 
+           variant.type.display.name2 = ifelse(variant.type.display.name2 == "N/A", NA, variant.type.name2), 
+           index = row_number()) %>%
     setDT()
 
-write.table(records, "all.civic.variant.records.txt", col.names=T, row.names=F, sep="\t", quote=F)
-
-
-
-  civic$transcript <-civic$coordinates$representative_transcript
-  civic$transcript2 <- civic$coordinates$representative_transcript2
-
-  # Drop columns of variant_types, coordinates and description
-  civic.complete <- subset(civic, select=-c(variant_types, coordinates)) %>%
-    mutate(variant.type.name = ifelse(variant.type.name == "N/A", NA, variant.type.name)) 
-
   # add index for easy debug and save 
-  civic.complete$index <- 1:nrow(civic.complete)
-  civic.complete.file <- "civic.complete.tsv"
-  fwrite(civic.complete, civic.complete.file, sep="\t", quote=F)
-  flog.info("    %s variants read", nrow(civic.complete))
-  flog.info("    Complete variant file saved as %s", civic.complete.file)
+  civic.records.file <- "civic.all.variant.records.tsv"
+  write.table(records, civic.records.file, col.names=T, row.names=F, sep="\t", quote=F)
+  flog.info("    %s variants read", nrow(records))
+  flog.info("    All CIVIC variant records saved as %s", civic.records.file)
 
   # Fix errors in CIVIC raw data 
   flog.info("  - Transforming CIVIC variant sets")    
-  civic <- civic.complete %>% 
+  civic <- records %>% 
     select(-description) %>%
     mutate(alteration = gsub(" *\\((\\w|\\.| |_|-|>|\\+|\\?)+\\)", "", name), # removing tailing bracket comments
-           alteration = gsub("^p\\.", "", alteration), # remove p. from begining             
+           alteration = gsub("^p\\.", "", alteration), # remove p. from begining because CIVIC is not consistent on this            
            alteration = gsub("^([ACDEFGHIKLMNPQRSTVWY]\\d+([ACDEFGHIKLMNPQRSTVWY])?fs)Ter(\\d+)$", "\\1*\\3", alteration), # change Ter into *
            alteration = gsub("^([ACDEFGHIKLMNPQRSTVWY]\\d+([ACDEFGHIKLMNPQRSTVWY])?)FS((\\*\\d+)?)$", "\\1fs\\3", alteration), # change FS into fs
            alteration = gsub("^(([ACDEFGHIKLMNPQRSTVWY]\\d+_)?[ACDEFGHIKLMNPQRSTVWY]\\d+)DUP$", "\\1dup", alteration), # change DUP into dup
@@ -212,12 +207,14 @@ write.table(records, "all.civic.variant.records.txt", col.names=T, row.names=F, 
            alteration = gsub("^(([ACDEFGHIKLMNPQRSTVWY]\\d+_)?[ACDEFGHIKLMNPQRSTVWY]\\d+)DELins([ACDEFGHIKLMNPQRSTVWY*]+)$", "\\1delins\\3", alteration), # change DELins into delins
            alteration = gsub("^([ACDEFGHIKLMNPQRSTVWY\\*]\\d+)X$", "\\1*", alteration), # change terminal X into *
            alteration = case_when(
-             alteration == "Asn67fs"    ~ "N67fs", 
-             alteration == "Glu34Lys"   ~ "E34K", 
-             alteration == "EZH2 Y641F" ~ "Y641F", 
-             alteration == "MLL-MLLT3"  ~ "KMT2A-MLLT3", 
-             alteration == "BCR-ABL"    ~ "BCR-ABL1", 
-             TRUE                       ~ alteration
+             alteration == "Asn67fs"                            ~ "N67fs", 
+             alteration == "Glu34Lys"                           ~ "E34K", 
+             alteration == "EZH2 Y641F"                         ~ "Y641F", 
+             alteration == "MLL-MLLT3"                          ~ "KMT2A-MLLT3", 
+             alteration == "BCR-ABL"                            ~ "BCR-ABL1", 
+             entrez_name == "JAK2" & alteration == "JAK2 F694L" ~ "F694L", 
+             
+             TRUE                                               ~ alteration
             )
           ) 
 
@@ -252,8 +249,8 @@ write.table(records, "all.civic.variant.records.txt", col.names=T, row.names=F, 
       TRUE                                                                                                           ~ "other"
       )
     ) %>%                              
-    mutate(alteration = gsub("^((\\w|-)+) (FUSION|Fusion|fusion)(S|s)?$", "\\1", alteration)) # remove tailing "fusions"
-
+    mutate(alteration = gsub("^((\\w|-)+) (FUSION|Fusion|fusion)(S|s)?$", "\\1", alteration)) %>% # remove tailing "fusions"
+    setDT()
 
   # Split gene fusions into two gene columns: gene and fusion.gene
   # "*" in fusion.gene represents any partner gene 
@@ -271,7 +268,7 @@ write.table(records, "all.civic.variant.records.txt", col.names=T, row.names=F, 
   flog.info("  - Subsetting CIVIC variant sets")    
   civic.subset <- civic %>% 
     filter(type %in% allowedTypes) %>% 
-    select(id, name, entrez_name, gene_id, transcript, transcript2, alteration, type) %>%
+    select(id, name, entrez_name, gene_id, representative_transcript, representative_transcript2, alteration, type) %>%
     setDT()
 
   # Save subset data to disk
@@ -280,11 +277,10 @@ write.table(records, "all.civic.variant.records.txt", col.names=T, row.names=F, 
   flog.info("    %s variants selected", nrow(civic.subset))
   flog.info("    Selected variant file saved as %s", civic.subset.file)
 
-
   # Add URLs
   flog.info("  - Constructing CIVIC urls")  
   civic.url <- civic.subset %>% 
-    mutate(isoform = gsub("^(\\w+).\\d+$", "\\1", transcript)) %>%
+    mutate(isoform = gsub("^(\\w+).\\d+$", "\\1", representative_transcript)) %>%
     left_join(gene.model[["transcript"]], by = c("isoform" = "gdc.isoform")) %>%
     rename(gdc.gene.name.from.isoform = gdc.gene.name, 
            gdc.gene.id.from.isoform = gdc.gene.id) %>%
@@ -372,49 +368,21 @@ flog.info("Writing logs in %s in the working directory", log.file)
 flog.info("Preparing Gene Model ...")
 gene.model <- GetGeneModel(opt$gtf)
 
-# Process OncoKB
-flog.info("Processing OncoKB variants ...")
-oncokb <- ProcessOncokb(allowedTypes, gene.model)
-
 # Process CIVIC
 flog.info("Processing CIVIC variants ...")
 civic <- ProcessCivic(allowedTypes, gene.model)
 
-# Process MyCancerGenome
-flog.info("Processing MyCancerGenome variants ...")
-mcg <- ProcessMcg(allowedTypes, gene.model)
 
-# Merge
-# Please Note gene name are not unique, so ensembl id should be used
-# For example, CRLF2 matches both ENSG00000205755.9 and ENSGR0000205755.9 on chrX and chrY
-flog.info("Merging databases ...")
-variants <- rbind(
-  oncokb %>% 
-    select(gdc.gene.name, gdc.gene.id, hgvsp, oncokb.url) %>%
-    rename(url = oncokb.url) %>% 
-    mutate(name = paste(gdc.gene.name, gsub("^p.", "", hgvsp)), 
-           source = "OncoKB"), 
-  civic %>% 
-    select(gdc.gene.name, gdc.gene.id, hgvsp, civic.url, name) %>%
-    rename(url = civic.url) %>% 
-    mutate(source = "CIVIC"), 
-  mcg %>% 
-    select(gdc.gene.name, gdc.gene.id, hgvsp, mcg.url, name) %>%
-    rename(url = mcg.url) %>% 
-    mutate(source = "MyCancerGenome")) %>% 
-  rename(gene.name = gdc.gene.name, 
-         gene.id = gdc.gene.id) %>%
-  setDT()
 
 # Validate URLs
 # This is extremely slow for CIVIC and MyCancerGenome (~ hour)
 # Suggest to ignore during testing
 if(opt$checkURL) {
   flog.info("Validating all URLs ...")
-  validation <- CheckURL(variants$url)
-  flog.info("    %s out of %s URLs are valid", sum(validation), nrow(variants))
+  validation <- CheckURL(civic$url)
+  flog.info("    %s out of %s URLs are valid", sum(validation), nrow(civic))
   if(sum(!validation) > 0) {
-    flog.warn("    The following URLs are invalid %s", variants[which(!validation)]$url)
+    flog.warn("    The following URLs are invalid %s", civic[which(!validation)]$url)
   }
 } else {
   flog.info("URL validation is skipped")
@@ -422,16 +390,8 @@ if(opt$checkURL) {
 
 # write final data to disk
 all.variants.file <- "all.variants.txt"
-fwrite(variants, all.variants.file, sep="\t", quote=F)
+fwrite(civic, all.variants.file, sep="\t", quote=F)
 
 # final summary output to the log file
 flog.info("Summary")
-flog.info("  - %s variants in total", nrow(variants))
-flog.info("  - %s unique variants", length(unique(paste(variants$gene.id, variants$hgvsp))))
-flog.info("  - %s variants from OncoKB", sum(variants$source == "OncoKB"))
-flog.info("  - %s variants from CIVIC", sum(variants$source == "CIVIC"))
-flog.info("  - %s variants from MyCancerGenome", sum(variants$source == "MyCancerGenome"))
-
-
-
-
+flog.info("  - %s variants in total", nrow(civic))
