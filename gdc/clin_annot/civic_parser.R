@@ -193,30 +193,33 @@ ProcessCivic <- function(allowedTypes, gene.model, max.record = 99999) {
   flog.info("    %s variants read", nrow(records))
   flog.info("    All CIVIC variant records saved as %s", civic.records.file)
 
+  description <- records[, c("index", "description"), with=F]
+
   # Fix errors in CIVIC raw data 
   flog.info("  - Transforming CIVIC variant sets")    
   civic <- records %>% 
     select(-description) %>%
-    mutate(alteration = gsub(" *\\((\\w|\\.| |_|-|>|\\+|\\?)+\\)", "", name), # removing tailing bracket comments
-           alteration = gsub("^p\\.", "", alteration), # remove p. from begining because CIVIC is not consistent on this            
-           alteration = gsub("^([ACDEFGHIKLMNPQRSTVWY]\\d+([ACDEFGHIKLMNPQRSTVWY])?fs)Ter(\\d+)$", "\\1*\\3", alteration), # change Ter into *
-           alteration = gsub("^([ACDEFGHIKLMNPQRSTVWY]\\d+([ACDEFGHIKLMNPQRSTVWY])?)FS((\\*\\d+)?)$", "\\1fs\\3", alteration), # change FS into fs
-           alteration = gsub("^(([ACDEFGHIKLMNPQRSTVWY]\\d+_)?[ACDEFGHIKLMNPQRSTVWY]\\d+)DUP$", "\\1dup", alteration), # change DUP into dup
-           alteration = gsub("^(([ACDEFGHIKLMNPQRSTVWY]\\d+_)?[ACDEFGHIKLMNPQRSTVWY]\\d+)DEL$", "\\1del", alteration), # change DEL into del
-           alteration = gsub("^(([ACDEFGHIKLMNPQRSTVWY]\\d+_)?[ACDEFGHIKLMNPQRSTVWY]\\d+)INS([ACDEFGHIKLMNPQRSTVWY*]+)$", "\\1ins\\3", alteration), # change INS into ins
-           alteration = gsub("^(([ACDEFGHIKLMNPQRSTVWY]\\d+_)?[ACDEFGHIKLMNPQRSTVWY]\\d+)DELins([ACDEFGHIKLMNPQRSTVWY*]+)$", "\\1delins\\3", alteration), # change DELins into delins
-           alteration = gsub("^([ACDEFGHIKLMNPQRSTVWY\\*]\\d+)X$", "\\1*", alteration), # change terminal X into *
-           alteration = case_when(
-             alteration == "Asn67fs"                            ~ "N67fs", 
-             alteration == "Glu34Lys"                           ~ "E34K", 
-             alteration == "EZH2 Y641F"                         ~ "Y641F", 
-             alteration == "MLL-MLLT3"                          ~ "KMT2A-MLLT3", 
-             alteration == "BCR-ABL"                            ~ "BCR-ABL1", 
-             entrez_name == "JAK2" & alteration == "JAK2 F694L" ~ "F694L", 
-             
-             TRUE                                               ~ alteration
+    mutate(hgvsc = ifelse(grepl("\\(", name), gsub(".+\\((.+)\\).*", "\\1", records$name), NA)) %>%
+    mutate(hgvsp = gsub(" *\\((\\w|\\.| |_|-|>|\\+|\\?)+\\)", "", name), # removing tailing bracket comments
+           hgvsp = gsub("^p\\.", "", hgvsp), # remove p. from begining because CIVIC is not consistent on this            
+           hgvsp = gsub("^([ACDEFGHIKLMNPQRSTVWY]\\d+([ACDEFGHIKLMNPQRSTVWY])?fs)Ter(\\d+)$", "\\1*\\3", hgvsp), # change Ter into *
+           hgvsp = gsub("^([ACDEFGHIKLMNPQRSTVWY]\\d+([ACDEFGHIKLMNPQRSTVWY])?)FS((\\*\\d+)?)$", "\\1fs\\3", hgvsp), # change FS into fs
+           hgvsp = gsub("^(([ACDEFGHIKLMNPQRSTVWY]\\d+_)?[ACDEFGHIKLMNPQRSTVWY]\\d+)DUP$", "\\1dup", hgvsp), # change DUP into dup
+           hgvsp = gsub("^(([ACDEFGHIKLMNPQRSTVWY]\\d+_)?[ACDEFGHIKLMNPQRSTVWY]\\d+)DEL$", "\\1del", hgvsp), # change DEL into del
+           hgvsp = gsub("^(([ACDEFGHIKLMNPQRSTVWY]\\d+_)?[ACDEFGHIKLMNPQRSTVWY]\\d+)INS([ACDEFGHIKLMNPQRSTVWY*]+)$", "\\1ins\\3", hgvsp), # change INS into ins
+           hgvsp = gsub("^(([ACDEFGHIKLMNPQRSTVWY]\\d+_)?[ACDEFGHIKLMNPQRSTVWY]\\d+)DELins([ACDEFGHIKLMNPQRSTVWY*]+)$", "\\1delins\\3", hgvsp), # change DELins into delins
+           hgvsp = gsub("^([ACDEFGHIKLMNPQRSTVWY\\*]\\d+)X$", "\\1*", hgvsp), # change terminal X into *
+           hgvsp = case_when(
+             hgvsp == "Asn67fs"                            ~ "N67fs", 
+             hgvsp == "Glu34Lys"                           ~ "E34K", 
+             hgvsp == "EZH2 Y641F"                         ~ "Y641F", 
+             hgvsp == "MLL-MLLT3"                          ~ "KMT2A-MLLT3", 
+             hgvsp == "BCR-ABL"                            ~ "BCR-ABL1", 
+             entrez_name == "JAK2" & hgvsp == "JAK2 F694L" ~ "F694L", 
+             TRUE                                          ~ hgvsp
             )
-          ) 
+          ) %>%
+    setDT()
 
   # Categorize variants by variant types
   civic <- civic %>%
