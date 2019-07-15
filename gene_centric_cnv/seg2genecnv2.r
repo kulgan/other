@@ -10,10 +10,9 @@
 #		tools
 
 
-
-
 library(data.table)
 library(dplyr)
+library(tidyr)
 library(futile.logger)
 library(matrixStats)
 
@@ -24,14 +23,20 @@ setwd("~/Downloads/segs")
 
 source("~/github/other/gene_centric_cnv/cnv.utils.r")
 
-minArmEvidence = 100
-minSegEvidence = 4
-minBedSegLength = 50
-neighborDistance = 1e6
+minArmEvidence <- 100
+minSegEvidence <- 4
+noise <- 0.1
+cap <- 3
+markerless <- F
+markerDistance <- 2000
 
-cutoffs = c(-0.6, -0.2, 0.2, 0.6)
 
-filters = data.table(ID = c("PASS", 
+# minBedSegLength = 50
+# neighborDistance = 1e6
+allowedContigs <- c(1:22, "X")
+
+
+filters <- data.table(ID = c("PASS", 
 							"impute", 
 							"non_det", 
 							"off_target"), 
@@ -40,30 +45,72 @@ filters = data.table(ID = c("PASS",
 							"gene-level value is not deterministic due to aggregation of segments with very different segment means", 
 							"gene not overlapped with any targeted capture regions"))
 
-bed.file = "../vcrome_2_1_hg19_capture_targets.hg19.bed"
-out.file = "output.tsv"
+# bed.file = "../vcrome_2_1_hg19_capture_targets.hg19.bed"
+out.file <- "output.tsv"
 
 
-# read All TCGA segments
-segs = ReadGenomicSegment("DUNGS_p_TCGA_b84_115_SNP_N_GenomeWideSNP_6_A07_771588.hg19.seg.txt")
+# read segmentation file
+raw.segs <- ReadAndFilterSegmentation(file = "TCGA.BRCA.10.samples", contigs = allowedContigs, h = F)
+
+# in markerless mode, need to add support probes
+if(markerless) {
+  raw.segs$nprobes <- with(raw.segs, ceiling((end - start + 1) / markerDistance))
+}
+
+# read arm information
+arm.info <- ReadAndFilterArmInfo(file = "arm.info.human.hg38.txt", contigs = allowedContigs, h = T)
+
+# clean up segmentation
+clean.segs <- CleanUpSegmentations(segs = raw.segs, arm.info = arm.info, min.seg.evidence = minSegEvidence)
+
+# calculate copy number from segmean
+clean.segs$copy_number <- SegmeanToCopyNumber(segmean = clean.segs$segmean, cap = cap)
+
+# calculate arm and sample level copy numbers 
+arm.copy_number <- GetArmCopyNumber(segs = clean.segs, min.arm.evidence = minArmEvidence) 
+sample.copy_number <- GetSampleCopyNumber(arm.copy_number = arm.copy_number)
+
+# Integrate noise levels
+# calculate sample threshold 
+sample.threshold <- GetSampleThreshold(sample.copy_number = sample.copy_number, noise = noise)
+
+
+
 # centromere location is extracted from UCSC genome browser http://hgdownload.cse.ucsc.edu/goldenPath/hg38/database/cytoBand.txt.gz
-centromere = ReadGenomicLocation("centromere.position.hg38.txt")
-gene = ReadGenomicSegment("gencode.v22.gene.short.txt")
+# centromere = ReadAndFilterCentromereFile("centromere.position.hg38.txt", contigs = allowedContigs, h = T)
+# gene = ReadAndFilterGeneFile("gencode.v22.gene.short.txt", contigs = allowedContigs, h = T)
 # marker = ReadGenomicLocation("gunzip -c marker_file.tsv.gz", h=F)
-bed = ReadGenomicSegment(bed.file, header = F)
+# bed = ReadGenomicSegment(bed.file, header = F)
+gene.info <- ReadAndFilterGene(file = "gencode.v22.gene.short.txt", contigs = allowedContigs, header = T)
 
-normalized.segs = NormalizeSegmean(segs)
 
-# split segments by centromere 
-split.segs = SplitSegByCentromere(normalized.segs, centromere)
 
-# we assume bed file and gene file do not have regions that contains centromere 
 
-# calcualte arm-level segmean value
-arm.segmean = GetArmSegmean(split.segs, minArmEvidence, centromere, bed, minBedSegLength) 
 
-# modify cutoffs by max and min of arm.segmean
-new.cutoffs = GetCutoffs(cutoffs, arm.segmean)
+
+
+
+event.model = CalcualteCopyNumberEventModel(segs)
+
+
+
+]
+
+
+# sample.cn.summary = GetSampleCopyNumberSummary(arm.cn.summary)
+
+gene.seg.overlaps = GetGeneSegmentOverlaps(segs, arm.cn, genes, minSegEvidence)
+
+
+
+GetThresholedValue(gene.segment.overlaps, sample.th)
+
+
+
+
+
+
+
 
 # get all potential gene-level segmean values
 gene.segmean = GetGeneSegmean(segs = split.segs, arm.segmean = arm.segmean, gene = gene, neighbor.distance = neighborDistance, min.seg.evidence = minSegEvidence)
