@@ -17,11 +17,11 @@ GetOptions = function() {
 	option.list = list(
 		make_option(c("-f", "--file"), type = "character", default = NULL, 
 	              	help = "integer value copy number segmentation file"),
-	  make_option(c("-g", "--gene"), type = "character", default = NULL, 
+	  	make_option(c("-g", "--gene"), type = "character", default = NULL, 
 	              	help = "gene location file name"), 
 		make_option(c("-o", "--out"), type = "character", default = NULL, 
 	              	help = "output gene level copy number file name"), 
-	  make_option(c("-l", "--log"), type = "character", default = "stdout", 
+	  	make_option(c("-l", "--log"), type = "character", default = "stdout", 
 	              	help = "log file [default = %default]")   
 	)
 	
@@ -59,9 +59,10 @@ GetOptions = function() {
 	}
 
 	# display all input options
-	flog.info("input segmentation file: \t%s", opt$file)
-	flog.info("intput gene location file: \t%s", opt$gene)
-	flog.info("output gene level cnv file: \t%s", opt$out)
+	flog.info("Parameters accepted:")
+	flog.info("- input segmentation file: \t%s", opt$file)
+	flog.info("- input gene location file: \t%s", opt$gene)
+	flog.info("- output gene level cnv file: \t%s", opt$out)
 
 	# return
 	return(opt)
@@ -70,7 +71,7 @@ GetOptions = function() {
 # ReadSegment reads and reformat input segmentation file
 ReadSegment <- function(file, log) {
 
-	flog.info("Reading copy number segmentation file")
+	flog.info("Reading copy number segmentation from %s", file)
 
 	# define dfault column names nad chromosome names
 	col.names <- c( "chromosome", "start", "end", "copy_number")
@@ -107,7 +108,7 @@ ReadSegment <- function(file, log) {
 
 # ReadSegment reads and reformat input gene location file
 ReadGene <- function(file, log) {
-	flog.info("Reading gene location file")
+	flog.info("Reading gene location from %s", file)
 
 	# define expected column names nad chromosome names
 	col.names <- c( "chromosome", "start", "end", "gene_id", "gene_name")
@@ -218,6 +219,7 @@ gene <- ReadGene(file = opt$gene, log = opt$log)
 cnv <- GetGeneLevel(seg = seg, gene = gene, contigs = contigs, ties = ties, log = opt$log) 
 
 # write to disk
+flog.info("Writing output to %s", opt$out)
 fwrite(cnv, opt$out, col.names=T, row.names=F, sep="\t", quote=F)
-
+flog.info("Done")
 
