@@ -1,28 +1,29 @@
 #!/usr/bin/env
-
+#
 # Seg2Gene
+# 
 # author: Zhenyu Zhang
-# date: 07/15/2019
-# require: R > 3.40 
-#	   	data.table
-#			dplyr
-#			futile.logger
-#			optparse
-#			matrixStats
+# date: 07/20/2019
+# require: R > 3.20 
+#	data.table
+#	dplyr
+#	futile.logger
+#	optparse
+#	matrixStats
 
 
-
+# GetOptions is a function to get paramters from command line input
 GetOptions = function() {
 	# define option_list
 	option.list = list(
 		make_option(c("-f", "--file"), type = "character", default = NULL, 
-	              	help = "integer value copy number segmentation file"),
-	  	make_option(c("-g", "--gene"), type = "character", default = NULL, 
-	              	help = "gene location file name"), 
+			help = "integer value copy number segmentation file"),
+		make_option(c("-g", "--gene"), type = "character", default = NULL, 
+			help = "gene location file name"), 
 		make_option(c("-o", "--out"), type = "character", default = NULL, 
-	              	help = "output gene level copy number file name"), 
-	  	make_option(c("-l", "--log"), type = "character", default = "stdout", 
-	              	help = "log file [default = %default]")   
+			help = "output gene level copy number file name"), 
+		make_option(c("-l", "--log"), type = "character", default = "stdout", 
+			help = "log file [default = %default]")   
 	)
 	
 	# parse 
@@ -53,8 +54,8 @@ GetOptions = function() {
 		opt$out = paste0("./", basename(as.character(opt$file)), ".gene_level_copy_number.tsv")
 		if(file.exists(opt$out)) {
 			print_help(opt.parser)
-	  	flog.error("Output file name was not provided and default output %s already exist", opt$out)
-	  	stop("Output file name is required\n", call.=FALSE)
+		flog.error("Output file name was not provided and default output %s already exist", opt$out)
+		stop("Output file name is required\n", call.=FALSE)
 		}
 	}
 
@@ -68,7 +69,7 @@ GetOptions = function() {
 	return(opt)
 }
 
-# ReadSegment reads and reformat input segmentation file
+# ReadSegment is a function to read and reformat input segmentation file
 ReadSegment <- function(file, log) {
 
 	flog.info("Reading copy number segmentation from %s", file)
@@ -76,19 +77,14 @@ ReadSegment <- function(file, log) {
 	# define dfault column names nad chromosome names
 	col.names <- c( "chromosome", "start", "end", "copy_number")
 
-	# if log output is not "stdout", write to log file
-	if(opt$log != "stdout") {
-		flog.appender(appender.file(opt$log))
-	}
-
-# read data and change column names into lower case
+	# read data and change column names into lower case
 	data <- fread(file)
 	setnames(data, tolower(names(data)))
 	flog.info("- %s segments read", nrow(data))
 
-# check if required columns exist:
-# if yes, only keep those required columns;
-# if no, keep column 2 ~ 5, and set them as required columns
+	# check if required columns exist:
+	# if yes, only keep those required columns;
+	# if no, keep column 2 ~ 5, and set them as required columns
 	if(sum(! col.names %in% names(data)) == 0) {
 		data <- data[, col.names, with=F]
 	} else {
@@ -106,26 +102,21 @@ ReadSegment <- function(file, log) {
 }
 
 
-# ReadSegment reads and reformat input gene location file
+# ReadGene is a function to read and reformat input gene location file
 ReadGene <- function(file, log) {
 	flog.info("Reading gene location from %s", file)
 
 	# define expected column names nad chromosome names
 	col.names <- c( "chromosome", "start", "end", "gene_id", "gene_name")
 
-	# if log output is not "stdout", write to log file
-	if(opt$log != "stdout") {
-		flog.appender(appender.file(opt$log))
-	}
-
-# read data and change column names into lower case
+	# read data and change column names into lower case
 	data <- fread(file)
 	setnames(data, tolower(names(data)))
 	flog.info("- %s genes read", nrow(data))
 
-# check if required columns exist
-# if yes, only keep those required columns
-# if not, output error message
+	# check if required columns exist
+	# if yes, only keep those required columns
+	# if not, output error message
 	if(sum(! col.names %in% names(data)) == 0) {
 		data <- data[, col.names, with=F]
 	} else {
@@ -143,6 +134,7 @@ ReadGene <- function(file, log) {
 }
 
 
+# GetGeneLevel is a function to calcualte gene-level copy number based on overlaps between gene regions and segments
 GetGeneLevel <- function(seg, gene, contigs, ties, log) {
 	flog.info("Generating gene-level copy number calls")
 
@@ -159,12 +151,12 @@ GetGeneLevel <- function(seg, gene, contigs, ties, log) {
 	cnv <- ovlp %>% 
 		group_by(gene_id) %>% 
 		summarise(gene_name = gene_name[1], 
-						 	chromosome = chromosome[1], 
-						 	start = i.start[1],
-						 	end = i.end[1],  
-						 	cnv = weightedMedian(x = copy_number, w = size, ties = ties), 
-						 	min_copy_number = min(copy_number), 
-							max_copy_number = max(copy_number)) %>%
+			chromosome = chromosome[1], 
+			start = i.start[1],
+			end = i.end[1],  
+			cnv = weightedMedian(x = copy_number, w = size, ties = ties), 
+			min_copy_number = min(copy_number), 
+			max_copy_number = max(copy_number)) %>%
 		rename(copy_number = cnv) %>% 
 		mutate(chromosome = factor(chromosome, levels = contigs)) %>%
 		arrange(chromosome, start, end) %>%
@@ -186,14 +178,15 @@ GetGeneLevel <- function(seg, gene, contigs, ties, log) {
 # Main Program
 ##############################
 
+# load libraries
 suppressWarnings(suppressMessages(require(data.table)))
 suppressWarnings(suppressMessages(require(dplyr)))
 suppressWarnings(suppressMessages(require(optparse)))
 suppressWarnings(suppressMessages(require(futile.logger)))
 suppressWarnings(suppressMessages(require(matrixStats)))
 
+# set output format
 options(scipen = 999, digits = 0)
-
 
 # pre-defined variables
 # contigs: which contigs will be kept from final output
@@ -203,11 +196,6 @@ ties = "min"
 
 # get options
 opt <- GetOptions()
-
-# if log output is not "stdout", write to log file
-if(opt$log != "stdout") {
-	flog.appender(appender.file(opt$log))
-}
 
 # read segmentation file
 seg <- ReadSegment(file = opt$file, log = opt$log) 
