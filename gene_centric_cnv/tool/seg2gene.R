@@ -5,6 +5,7 @@
 # date: 07/15/2019
 # require: R > 3.40 
 #	   	data.table
+#			dplyr
 #			futile.logger
 #			optparse
 #			matrixStats
@@ -34,15 +35,15 @@ GetOptions = function() {
 	}
 
 	# stop if input segmentation file is not provided
-	if(is.null(opt$file) | file.exists(opt$seg)){
-	  print_help(opt_parser)
+	if(is.null(opt$file) || ! file.exists(opt$file)){
+	  print_help(opt.parser)
 	  flog.error("Input segmentation file was not provided")
 	  stop("Input segmentation file is required\n", call.=FALSE)
 	}
 
 	# stop if gene file is not provided
-	if(is.null(opt$gene) | file.exists(opt$gene)){
-	  print_help(opt_parser)
+	if(is.null(opt$gene) || ! file.exists(opt$gene)){
+	  print_help(opt.parser)
 	  flog.error("Gene location file was not provided")
 	  stop("Gene location is required\n", call.=FALSE)
 	}
@@ -51,7 +52,7 @@ GetOptions = function() {
 	if(is.null(opt$out)) {
 		opt$out = paste0("./", basename(as.character(opt$file)), ".gene_level_copy_number.tsv")
 		if(file.exists(opt$out)) {
-			print_help(opt_parser)
+			print_help(opt.parser)
 	  	flog.error("Output file name was not provided and default output %s already exist", opt$out)
 	  	stop("Output file name is required\n", call.=FALSE)
 		}
@@ -184,10 +185,11 @@ GetGeneLevel <- function(seg, gene, contigs, ties, log) {
 # Main Program
 ##############################
 
-suppressWarnings(suppressMessages(library(data.table)))
-suppressWarnings(suppressMessages(library(dplyr)))
-suppressWarnings(suppressMessages(library(futile.logger)))
-suppressWarnings(suppressMessages(library(matrixStats)))
+suppressWarnings(suppressMessages(require(data.table)))
+suppressWarnings(suppressMessages(require(dplyr)))
+suppressWarnings(suppressMessages(require(optparse)))
+suppressWarnings(suppressMessages(require(futile.logger)))
+suppressWarnings(suppressMessages(require(matrixStats)))
 
 options(scipen = 999, digits = 0)
 
