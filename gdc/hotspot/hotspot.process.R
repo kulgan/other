@@ -178,8 +178,15 @@ other <- data.table(Hugo_Symbol = c("MSH6", "TP53", "TERT", "ASXL1", "ASXL1"),
 ########################################
 # Merge
 ########################################
-hotspot <- rbind(hotspot.v2, hotspot.v1.reformat, hem, other) %>% 
-  distinct() %>%
+hotspot.v2$source <- "hotspot_v2"
+hotspot.v1.reformat$source <- "hotspot_v1"
+hem$source <- "hematopoietic"
+other$source <- "GENIE"
+
+
+hotspot <- rbind(hotspot.v2, hotspot.v1.reformat, hem, other) %>%  
+  group_by(Hugo_Symbol, change, type) %>%
+  summarise(source = paste(source, collapse=",")) %>%
   setDT()
 
 
@@ -193,14 +200,17 @@ print(unique(hotspot[!Hugo_Symbol %in% gencode$gene_name]$Hugo_Symbol))
 # [1] "WDR52"    "LST3"     "C16orf80"
 
 # Swap gene names. Since the Hugo_Symbols are not unique, I am not going to get Ensemble IDs
-mapping <- data.table(old = c("WDR52", "LST3", "C16orf80"), 
-                     new = c("CFAP44", "SLCO1B3", "CFAP20"))
+# mapping <- data.table(old = c("WDR52", "LST3", "C16orf80"), 
+#                     new = c("CFAP44", "SLCO1B3", "CFAP20"))
 hotspot <- hotspot %>% 
   mutate(Hugo_Symbol = ifelse(Hugo_Symbol == "WDR52", "CFAP44", Hugo_Symbol), 
          Hugo_Symbol = ifelse(Hugo_Symbol == "LST3", "SLCO1B3", Hugo_Symbol), 
-         Hugo_Symbol = ifelse(Hugo_Symbol == "C16orf80", "CFAP20", Hugo_Symbol)) %>%
+         Hugo_Symbol = ifelse(Hugo_Symbol == "C16orf80", "CFAP20", Hugo_Symbol), 
+         type = factor(type, levels = c("snv", "indel", "frameshift", "splice", "splice_region"))) %>%
   arrange(type, Hugo_Symbol) %>% 
   setDT()
+
+
 
 write.table(hotspot, "GDC.mutation.hotspot.20181009.tsv", col.names=T, row.names=F, sep="\t", quote=F)
 

@@ -22,8 +22,8 @@ GetNextMonthStart = function(month = month) {
 library(data.table)
 library(dplyr)
 
-report.file = "GPAS-file-report.20181109.tsv"
-month = "2018-10"
+report.file = "GPAS-file-report.20190605.tsv"
+month = "2019-05"
 
 report = fread(report.file)
 names(report)[which(names(report) == "date_type")] = "data_type"
@@ -49,7 +49,7 @@ if(nrow(report) != nrow(report2)) {
 index = report2[, which(grepl("^index", colnames(report2)))]
 num_index = apply(index, 1, function(x) sum(!is.na(x)))
 if(sum(num_index == 1) != nrow(report)) {
-  cat("Duplicated rules\n")
+  cat("Missing or Duplicated rules\n")
 }
 
 # apply rule and make summary

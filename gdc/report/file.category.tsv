@@ -1,1 +1,31 @@
-node_type	data_type	strategy	file_categoryAlignedReads	*	*	to_be_exportedAlignedReadsIndex	*	*	to_be_exportedAnnotatedSomaticMutation	*	*	to_be_exportedAnnotatedSomaticMutationIndex	*	*	to_be_exportedAnnotationMetric	*	*	intermediateAuxiliaryFile	*	*	intermediateCopyNumberSegment	*	WXS	intermediateCopyNumberSegment	*	Targeted Sequencing	intermediateFilteredSomaticMutation	*	*	intermediateFilteredSomaticMutationIndex	*	*	intermediateFilteringWorkflowArchive	*	*	intermediateGeneExpression	*	*	to_be_exportedHarmonizationMetric	*	*	intermediateRawSomaticMutation	*	*	to_be_exportedRawSomaticMutationIndex	*	*	to_be_exportedSomaticMutationFilteringMetric	*	*	intermediateSubmittedAlignedReads	*	*	importedSubmittedUnalignedReads	*	*	importedTumorRealignedReads	*	*	intermediateTumorRealignedReadsIndex	*	*	intermediate
+node_type	data_type	strategy	file_category
+AlignedReads	*	*	to_be_exported
+AlignedReadsIndex	*	*	to_be_exported
+AnnotatedSomaticMutation	*	*	to_be_exported
+AnnotatedSomaticMutationIndex	*	*	to_be_exported
+AnnotationMetric	*	*	intermediate
+AuxiliaryFile	*	*	intermediate
+CopyNumberSegment	*	WXS	intermediate
+CopyNumberSegment	*	Targeted Sequencing	intermediate
+FilteredSomaticMutation	*	*	intermediate
+FilteredSomaticMutationIndex	*	*	intermediate
+FilteringWorkflowArchive	*	*	intermediate
+GeneExpression	*	*	to_be_exported
+HarmonizationMetric	*	*	intermediate
+RawSomaticMutation	*	*	to_be_exported
+RawSomaticMutationIndex	*	*	to_be_exported
+SomaticMutationFilteringMetric	*	*	intermediate
+SubmittedAlignedReads	*	*	imported
+SubmittedUnalignedReads	*	*	imported
+TumorRealignedReads	*	*	intermediate
+TumorRealignedReadsIndex	*	*	intermediate
+EnsembleMaskedAliquotMaf	*	*	to_be_exported
+AliquotLevelMaf	*	*	to_be_exported
+EnsembleRawAliquotMaf	*	*	to_be_exported
+EnsembleMafMetric	*	*	intermediate
+MirnaExpression	Isoform Expression Quantification	*	to_be_exported
+MirnaExpression	miRNA Expression Quantification	*	to_be_exported
+MirnaExpression	Supplementary Files	*	intermediate
+MsiStatus	Supplementary Files	*	intermediate
+StructuralVariation	Transcript Fusion	*	to_be_exported
+
