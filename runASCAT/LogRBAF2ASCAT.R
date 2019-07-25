@@ -52,10 +52,12 @@ project.id <- args[4]
 gender <- args[5]
 
 # transform gender to ASCAT format
-if(tolower(gender) == "male") {
-  ascat.gender <- "XY"
-} else {
+if(is.null(gender)){
   ascat.gender <- "XX"
+} else if (tolower(gender) != "male") {
+  ascat.gender <- "XX"
+} else {
+  ascat.gender <- "XY"
 }
 
 # Input file
@@ -89,6 +91,7 @@ prefix <- paste0(project.id, ".", aliquot.uuid)
 segment.file <- paste0(prefix, ".ascat2.allelic_specific.seg.txt")
 acf.file <- paste0(prefix, ".ascat2.acf.txt")
 ploidy.file <- paste0(prefix, ".ascat2.ploidy.txt")
+error.log.file <- paste0(prefix, ".log.txt")
 
 chrs <- c(paste0("chr", 1:22), "chrX", "chrY")
 # load input
@@ -100,23 +103,33 @@ ascat.bc <- ascat.GCcorrect(ascat.bc, ascat.gc.file)
 ascat.bc <- ascat.aspcf(ascat.bc)
 # ascat.plotSegmentedData(ascat.bc, img.prefix = prefix)
 # run ASCAT
-ascat.output <- ascat.runAscat(ascat.bc)
+tryCatch({
+  ascat.output <- ascat.runAscat(ascat.bc)
+  # output segment 
+  segment <- ascat.output$segments
+  setnames(segment, c("GDC_Aliquot", "Chromosome", "Start", "End", "Major_Copy_Number", "Minor_Copy_Number"))
+  segment$Total_Copy_Number <- segment$Major_Copy_Number + segment$Minor_Copy_Number
+  write.table(segment, segment.file, sep = "\t", quote = F, row.names = F, col.names = T)
+  # output aberrantcellfraction
+  acf <- data.frame(ascat.output$aberrantcellfraction)
+  write.table(acf, acf.file, sep = "\t", quote = F, row.names = T, col.names = F)
+  # output ploidy
+  ploidy <- data.frame(ascat.output$ploidy)
+  write.table(ploidy, ploidy.file, sep = "\t", quote = F, row.names = T, col.names = F)
+}, warning = function(war) {
+  msg = "ASCAT could not find an optimal ploidy and cellularity value"
+  if(grepl(msg, war$message)){
+    cat(msg, file=error.log.file, sep="\n")
+  } else {
+    cat("other warnings", file=error.log.file, sep="\n")
+  }
+}, error = function(err) {
+  cat("other errors", file=error.log.file, sep="\n")
+}, finally = {
+  # cleanup
+  system(paste0("rm ", aliquot.uuid, ".*"))
+})
 
-# output segment 
-segment <- ascat.output$segments
-setnames(segment, c("GDC_Aliquot", "Chromosome", "Start", "End", "Major_Copy_Number", "Minor_Copy_Number"))
-segment$Total_Copy_Number <- segment$Major_Copy_Number + segment$Minor_Copy_Number
-write.table(segment, segment.file, sep = "\t", quote = F, row.names = F, col.names = T)
 
-# output aberrantcellfraction
-acf <- data.frame(ascat.output$aberrantcellfraction)
-write.table(acf, acf.file, sep = "\t", quote = F, row.names = T, col.names = F)
-
-# output ploidy
-ploidy <- data.frame(ascat.output$ploidy)
-write.table(ploidy, ploidy.file, sep = "\t", quote = F, row.names = T, col.names = F)
-
-# cleanup
-system(paste0("rm ", aliquot.uuid, ".*"))
 
 

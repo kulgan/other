@@ -26,3 +26,5 @@ EnsembleMafMetric	*	*	intermediate
 MirnaExpression	Isoform Expression Quantification	*	to_be_exported
 MirnaExpression	miRNA Expression Quantification	*	to_be_exported
 MirnaExpression	Supplementary Files	*	intermediate
+MsiStatus	Supplementary Files	*	intermediate
+StructuralVariation	Transcript Fusion	*	to_be_exported
