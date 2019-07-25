@@ -1,0 +1,1347 @@
+civic_var_id	gen_id	entrez_gene_name	civic_var_name	civic_var_types	hgvs.p.parsed	hgvs.p.var_types	vname.hgvs.p	vname.hgvs.p.var_types
+2	4	ABL1	BCR-ABL T315I	transcript_fusion;missense_variant	NP_005148.2:p.T315I	sub	T315I	point_mutation
+3	4	ABL1	BCR-ABL E255K	transcript_fusion;missense_variant	NP_005148.2:p.E255K	sub	E255K	point_mutation
+4	2	AKT1	E17K	missense_variant	NP_001014432.1:p.E17K	sub	E17K	point_mutation
+6	1	ALK	EML4-ALK C1156Y	transcript_fusion;missense_variant	NP_004295.2:p.C1156Y	sub	C1156Y	point_mutation
+7	1	ALK	EML4-ALK L1196M	transcript_fusion;missense_variant	NP_004295.2:p.L1196M	sub	L1196M	point_mutation
+8	1	ALK	F1174L	missense_variant	NP_004295.2:p.F1174L	sub	F1174L	point_mutation
+9	1	ALK	R1275Q	missense_variant	NP_004295.2:p.R1275Q	sub	R1275Q	point_mutation
+10	3	ARAF	S214C	missense_variant	NP_001645.1:p.S214C	sub	S214C	point_mutation
+11	5	BRAF	V600D	missense_variant	NP_004324.2:p.V600D	sub	V600D	point_mutation
+12	5	BRAF	V600E	missense_variant	NP_004324.2:p.V600E	sub	V600E	point_mutation
+13	5	BRAF	V600E+V600M	missense_variant			V600E;V600M	point_mutation;point_mutation
+14	5	BRAF	V600E AMPLIFICATION	missense_variant;transcript_amplification			V600E	point_mutation
+33	19	EGFR	L858R	missense_variant	NP_005219.2:p.L858R	sub	L858R	point_mutation
+34	19	EGFR	T790M	missense_variant	NP_005219.2:p.T790M	sub	T790M	point_mutation
+35	20	ERBB2	D769H	missense_variant	NP_001276866.1:p.D769H	sub	D769H	point_mutation
+36	20	ERBB2	D769Y	missense_variant	NP_004439.2:p.D769Y	sub	D769Y	point_mutation
+37	20	ERBB2	DEL 755-759	inframe_deletion	NP_004439.2:p.L755_T759del	del		
+38	20	ERBB2	G309A	missense_variant	NP_004439.2:p.G309A	sub	G309A	point_mutation
+39	20	ERBB2	L755S	missense_variant	NP_004439.2:p.L755S	sub	L755S	point_mutation
+40	20	ERBB2	L755W	missense_variant	NP_004439.2:p.L755W	sub	L755W	point_mutation
+42	20	ERBB2	R678Q	missense_variant	NP_004439.2:p.R678Q	sub	R678Q	point_mutation
+43	20	ERBB2	R896C	missense_variant	NP_004439.2:p.R896C	sub	R896C	point_mutation
+44	20	ERBB2	V777L	missense_variant	NP_004439.2:p.V777L	sub	V777L	point_mutation
+45	20	ERBB2	V842I	missense_variant	NP_004439.2:p.V842I	sub	V842I	point_mutation
+46	21	ESR1	L536Q	missense_variant			L536Q	point_mutation
+47	21	ESR1	D538G	missense_variant			D538G	point_mutation
+48	21	ESR1	Y537C	missense_variant			Y537C	point_mutation
+49	21	ESR1	Y537N	missense_variant			Y537N	point_mutation
+50	21	ESR1	Y537S	missense_variant			Y537S	point_mutation
+59	26	IDH1	R132C	missense_variant	NP_005887.2:p.R132C	sub	R132C	point_mutation
+63	27	IDH2	R172K	missense_variant	NP_002159.2:p.R172K	sub	R172K	point_mutation
+64	28	JAK2	V617F	gain_of_function_variant;missense_variant	NP_004963.1:p.V617F	sub	V617F	point_mutation
+65	29	KIT	D816V	missense_variant	NP_000213.1:p.D816V	sub	D816V	point_mutation
+72	29	KIT	L576P	missense_variant	NP_000213.1:p.L576P	sub	L576P	point_mutation
+73	29	KIT	V654A	missense_variant	NP_000213.1:p.V654A	sub	V654A	point_mutation
+78	30	KRAS	G12C	missense_variant	NP_004976.2:p.G12C	sub	G12C	point_mutation
+79	30	KRAS	G12D	missense_variant	NP_004976.2:p.G12D	sub	G12D	point_mutation
+81	30	KRAS	G13D	missense_variant	NP_004976.2:p.G13D	sub	G13D	point_mutation
+82	31	MAP2K1	P124S	missense_variant	NP_002746.1:p.P124S	sub	P124S	point_mutation
+83	31	MAP2K1	Q56P	missense_variant	NP_002746.1:p.Q56P	sub	Q56P	point_mutation
+87	35	NPM1	W288FS	frameshift_elongation	NP_002511.1:p.W288Cfs*	fs	W288fs	frameshift
+93	36	NRAS	G13D	missense_variant	NP_002515.1:p.G13D	sub	G13D	point_mutation
+95	36	NRAS	Q61L	missense_variant	NP_002515.1:p.Q61L	sub	Q61L	point_mutation
+96	36	NRAS	Q61R	missense_variant	NP_002515.1:p.Q61R	sub	Q61R	point_mutation
+98	38	PDGFRA	D842I	missense_variant	NP_006197.1:p.D842I	sub	D842I	point_mutation
+99	38	PDGFRA	D842V	missense_variant	NP_006197.1:p.D842V	sub	D842V	point_mutation
+100	38	PDGFRA	D842Y	missense_variant	NP_006197.1:p.D842Y	sub	D842Y	point_mutation
+101	38	PDGFRA	I843DEL	inframe_deletion			I843del	small_deletion
+103	37	PIK3CA	E542K	missense_variant	NP_006209.2:p.E542K	sub	E542K	point_mutation
+104	37	PIK3CA	E545K	missense_variant	NP_006209.2:p.E545K	sub	E545K	point_mutation
+107	37	PIK3CA	H1047R	missense_variant	NP_006209.2:p.H1047R	sub	H1047R	point_mutation
+110	41	PTEN	R233*	loss_of_function_variant;stop_gained	NP_000305.3:p.R233*	sub	R233*	point_mutation
+112	42	RET	C634W	missense_variant	NP_065681.1:p.C634W	sub	C634W	point_mutation
+113	42	RET	M918T	missense_variant	NP_065681.1:p.M918T	sub	M918T	point_mutation
+114	44	SF3B1	K666N	missense_variant	NP_036565.2:p.K666N	sub	K666N	point_mutation
+116	45	TP53	R175H	missense_variant	NP_000537.3:p.R175H	sub	R175H	point_mutation
+117	45	TP53	R248Q	missense_variant	NP_000537.3:p.R248Q	sub	R248Q	point_mutation
+118	45	TP53	R248W	missense_variant	NP_000537.3:p.R248W	sub	R248W	point_mutation
+121	45	TP53	R273C	missense_variant	NP_000537.3:p.R273C	sub	R273C	point_mutation
+122	45	TP53	R273H	missense_variant	NP_000537.3:p.R273H	sub	R273H	point_mutation
+134	19	EGFR	G719S	missense_variant	NP_005219.2:p.G719S	sub	G719S	point_mutation
+135	50	NOTCH1	D1642H	missense_variant	NP_060087.3:p.D1642H	sub	D1642H	point_mutation
+136	50	NOTCH1	R2327W	missense_variant	NP_060087.3:p.R2327W	sub	R2327W	point_mutation
+137	50	NOTCH1	V2444FS	frameshift_variant			V2444fs	frameshift
+138	50	NOTCH1	S2275FS	plus_1_frameshift_variant			S2275fs	frameshift
+139	51	DDR2	L63V	missense_variant	NP_006173.2:p.L63V	sub	L63V	point_mutation
+140	51	DDR2	L239R	missense_variant			L239R	point_mutation
+141	51	DDR2	G253C	missense_variant			G253C	point_mutation
+142	51	DDR2	G505S	missense_variant	NP_006173.2:p.G505S	sub	G505S	point_mutation
+143	51	DDR2	I638F	missense_variant			I638F	point_mutation
+144	51	DDR2	G774V	missense_variant			G774V	point_mutation
+145	51	DDR2	S768R	missense_variant			S768R	point_mutation
+148	30	KRAS	G12A	missense_variant	NP_004976.2:p.G12A	sub	G12A	point_mutation
+168	65	BTK	C481S	missense_variant	NP_000052.1:p.C481S	sub	C481S	point_mutation
+169	2	AKT1	Q79K	missense_variant	NP_001014432.1:p.Q79K	sub	Q79K	point_mutation
+171	1	ALK	ALK FUSION G1202R	transcript_fusion;missense_variant	NP_004295.2:p.G1202R	sub	G1202R	point_mutation
+172	1	ALK	EML4-ALK S1206Y	transcript_fusion;missense_variant	NP_004295.2:p.S1206Y	sub	S1206Y	point_mutation
+173	1	ALK	EML4-ALK T1151INST	transcript_fusion;inframe_insertion			T1151insT	insertion
+175	67	AR	F877L	missense_variant	NP_000035.2:p.F877L	sub	F877L	point_mutation
+196	23	FGFR3	Y375C	missense_variant			Y375C	point_mutation
+198	72	FOXL2	C134W	missense_variant			C134W	point_mutation
+201	29	KIT	M541L	missense_variant	NP_000213.1:p.M541L	sub	M541L	point_mutation
+202	29	KIT	V560DEL	inframe_deletion;amino_acid_deletion			V560del	small_deletion
+207	50	NOTCH1	P2514FS	frameshift_truncation			P2514fs	frameshift
+238	9189	NT5C2	R367Q	missense_variant			R367Q	point_mutation
+239	9189	NT5C2	K359Q	missense_variant	NP_036361.1:p.K359Q	sub	K359Q	point_mutation
+240	9189	NT5C2	D407A	missense_variant	NP_036361.1:p.D407A	sub	D407A	point_mutation
+241	4	ABL1	BCR-ABL F317L	transcript_fusion;missense_variant	NP_005148.2:p.F317L	sub	F317L	point_mutation
+243	69	ATM	V2288FS*1	frameshift_truncation			V2288fs*1	frameshift
+244	69	ATM	N2875H	missense_variant	NP_000042.3:p.N2875H	sub	N2875H	point_mutation
+245	3870	NF2	Y177FS	frameshift_elongation			Y177fs	frameshift
+247	38	PDGFRA	V561A	missense_variant	NP_006197.1:p.V561A	sub	V561A	point_mutation
+248	79	TERT	C228T	regulatory_region_variant			C228T	point_mutation
+249	6144	XRCC1	R194W	missense_variant			R194W	point_mutation
+258	3672	MTHFR	A222V	missense_variant	NP_005948.3:p.A222V	sub	A222V	point_mutation
+259	2473	GSTP1	I105V	missense_variant	NP_000843.1:p.I105V	sub	I105V	point_mutation
+260	7451	ABCG2	Q141K	missense_variant			Q141K	point_mutation
+261	6144	XRCC1	Q399R	missense_variant	NP_006288.2:p.Q399R	sub	Q399R	point_mutation
+262	4244	ABCB1	S893T	missense_variant	NP_000918.2:p.S893T	sub	S893T	point_mutation
+263	4244	ABCB1	I1145I	synonymous_variant	NP_000918.2:p.I1145=	identity	I1145I	point_mutation
+264	1736	ERCC2	K751Q	missense_variant			K751Q	point_mutation
+271	524	ATR	I774FS	frameshift_truncation			I774fs	frameshift
+274	2747	HRAS	G13D	missense_variant	NP_005334.1:p.G13D	sub	G13D	point_mutation
+279	3870	NF2	K159FS*16	frameshift_truncation			K159fs*16	frameshift
+283	2073	MTOR	H1968Y	gain_of_function_variant;missense_variant	NP_004949.1:p.H1968Y	sub	H1968Y	point_mutation
+284	2073	MTOR	P2213S	gain_of_function_variant;missense_variant	NP_004949.1:p.P2213S	sub	P2213S	point_mutation
+288	5	BRAF	L597R	missense_variant	NP_004324.2:p.L597R	sub	L597R	point_mutation
+294	37	PIK3CA	P471L	missense_variant	NP_006209.2:p.P471L	sub	P471L	point_mutation
+299	5365	SMO	D473H	missense_variant	NP_005622.1:p.D473H	sub	D473H	point_mutation
+307	1	ALK	EML4-ALK L1152R	transcript_fusion;missense_variant	NP_004295.2:p.L1152R	sub	L1152R	point_mutation
+308	1	ALK	EML4-ALK G1269A	transcript_fusion;missense_variant	NP_004295.2:p.G1269A	sub	G1269A	point_mutation
+317	19	EGFR	G724S	missense_variant	NP_005219.2:p.G724S	sub	G724S	point_mutation
+320	4532	MAPK1	E322K	gain_of_function_variant;missense_variant	NP_002736.3:p.E322K	sub	E322K	point_mutation
+322	30	KRAS	A146V	missense_variant	NP_004976.2:p.A146V	sub	A146V	point_mutation
+351	10024	SETBP1	G870S	missense_variant	NP_056374.2:p.G870S	sub	G870S	point_mutation
+367	4753	RAC1	P29S	missense_variant			P29S	point_mutation
+402	1463	NQO1	P187S	missense_variant	NP_000894.1:p.P187S	sub	P187S	point_mutation
+414	20	ERBB2	Y772_A775DUP	inframe_insertion			Y772_A775dup	duplication
+415	19	EGFR	C797S	missense_variant	NP_005219.2:p.C797S	sub	C797S	point_mutation
+420	26	IDH1	R132H	missense_variant	NP_005887.2:p.R132H	sub	R132H	point_mutation
+424	3742	MYD88	L265P	gain_of_function_variant;missense_variant			L265P	point_mutation
+425	30	KRAS	G12V	missense_variant	NP_004976.2:p.G12V	sub	G12V	point_mutation
+427	36	NRAS	Q61K	missense_variant	NP_002515.1:p.Q61K	sub	Q61K	point_mutation
+443	19	EGFR	G465R	missense_variant			G465R	point_mutation
+453	19	EGFR	S492R	missense_variant	NP_005219.2:p.S492R	sub	S492R	point_mutation
+454	19	EGFR	R451C	missense_variant	NP_001333827.1:p.R451C	sub	R451C	point_mutation
+455	19	EGFR	K467T	missense_variant			K467T	point_mutation
+456	1842	FCGR2A	H167R	missense_variant	NP_001129691.1:p.H167R	sub	H167R	point_mutation
+457	1844	FCGR3A	F212V	missense_variant			F212V	point_mutation
+458	1843	FCGR2B	I232T	missense_variant	NP_003992.3:p.I232T	sub	I232T	point_mutation
+460	19	EGFR	P753S	missense_variant	NP_005219.2:p.P753S	sub	P753S	point_mutation
+462	39	PML	PML-RARA A216V	missense_variant			A216V	point_mutation
+463	39	PML	PML-RARA L218P	missense_variant			L218P	point_mutation
+465	4941	ROS1	CD74-ROS1 G2032R	transcript_fusion;missense_variant			G2032R	point_mutation
+467	3153	KDR	A1065T	missense_variant	NP_002244.1:p.A1065T	sub	A1065T	point_mutation
+468	3153	KDR	D717V	missense_variant			D717V	point_mutation
+469	47	TSC2	Q1178*	stop_gained	NP_000539.2:p.Q1178*	sub	Q1178*	point_mutation
+470	2073	MTOR	F2108L	missense_variant			F2108L	point_mutation
+471	4765	RAD51D	R186*	stop_gained			R186*	point_mutation
+477	6	BRCA1	P968FS	frameshift_truncation	NP_009225.1:p.P968Lfs*	fs	P968fs	frameshift
+479	30	KRAS	Q22*	stop_gained	NP_004976.2:p.Q22*	sub	Q22*	point_mutation
+480	18	DNMT3A	P904L	missense_variant			P904L	point_mutation
+482	29	KIT	RS3733542	synonymous_variant	NP_000213.1:p.L862=	identity		
+496	20	ERBB2	L866M	missense_variant			L866M	point_mutation
+502	3153	KDR	R961W	missense_variant	NP_002244.1:p.R961W	sub	R961W	point_mutation
+504	45	TP53	P47S	missense_variant	NP_000537.3:p.P47S	sub	P47S	point_mutation
+508	4371	PMS2	K706FS*19	minus_1_frameshift_variant	NP_000526.2:p.K706Sfs*	fs	K706fs*19	frameshift
+515	1885	FGFR1	N546K	missense_variant	NP_075598.2:p.N546K	sub	N546K	point_mutation
+516	4941	ROS1	CD74-ROS1 L2026M	transcript_fusion;missense_variant			L2026M	point_mutation
+517	4941	ROS1	CD74-ROS1 L2155S	transcript_fusion;missense_variant			L2155S	point_mutation
+518	4941	ROS1	CD74-ROS1 G2101A	transcript_fusion;missense_variant			G2101A	point_mutation
+528	1	ALK	EML4-ALK  V1180L	transcript_fusion;missense_variant			V1180L	point_mutation
+530	30	KRAS	G12R	missense_variant	NP_004976.2:p.G12R	sub	G12R	point_mutation
+531	45	TP53	P72R	missense_variant	NP_000537.3:p.P72R	sub	P72R	point_mutation
+540	24	FLT3	T227M	SNP;missense_variant	NP_004110.2:p.T227M	sub	T227M	point_mutation
+541	15013	PALB2	L531FS*30	SNP;minus_1_frameshift_variant			L531fs*30	frameshift
+542	2073	MTOR	S2215Y	missense_variant	NP_004949.1:p.S2215Y	sub	S2215Y	point_mutation
+543	2073	MTOR	C1483Y	missense_variant	NP_004949.1:p.C1483Y	sub	C1483Y	point_mutation
+544	2073	MTOR	E1799K	missense_variant	NP_004949.1:p.E1799K	sub	E1799K	point_mutation
+545	22	FGFR2	N550K	gain_of_function_variant;missense_variant	NP_075259.4:p.N550K	sub	N550K	point_mutation
+548	9722	PPP1R15A	RS557806	polymorphic_sequence_variant;missense_variant	NP_055145.3:p.R251P	sub		
+549	1	ALK	F1245C	missense_variant	NP_004295.2:p.F1245C	sub	F1245C	point_mutation
+551	1	ALK	ALK FUSION F1245C	transcript_fusion;missense_variant	NP_004295.2:p.F1245C	sub	F1245C	point_mutation
+552	1	ALK	ALK FUSION G1269A	transcript_fusion;missense_variant	NP_004295.2:p.G1269A	sub	G1269A	point_mutation
+556	13	CDK4	R24C	missense_variant	NP_000066.1:p.R24C	sub	R24C	point_mutation
+562	19	EGFR	S768I	missense_variant	NP_005219.2:p.S768I	sub	S768I	point_mutation
+563	5	BRAF	V600K	missense_variant	NP_004324.2:p.V600K	sub	V600K	point_mutation
+565	44	SF3B1	K700E	missense_variant	NP_036565.2:p.K700E	sub	K700E	point_mutation
+566	4546	MAP2K7	E116K	missense_variant			E116K	point_mutation
+572	2073	MTOR	E2014K + E2419K	missense_variant			E2014K;E2419K	point_mutation;point_mutation
+577	38	PDGFRA	FIP1L1-PDGFRA T674I	missense_variant;transcript_fusion	NP_006197.1:p.T674I	sub	T674I	point_mutation
+579	5	BRAF	D594A	missense_variant	NP_004324.2:p.D594A	sub	D594A	point_mutation
+580	5	BRAF	D594V	missense_variant	NP_004324.2:p.D594V	sub	D594V	point_mutation
+581	5	BRAF	K483M	loss_of_function_variant;missense_variant			K483M	point_mutation
+582	5	BRAF	L597S	missense_variant	NP_004324.2:p.L597S	sub	L597S	point_mutation
+583	5	BRAF	L597Q	missense_variant	NP_004324.2:p.L597Q	sub	L597Q	point_mutation
+584	5	BRAF	K601E	missense_variant	NP_004324.2:p.K601E	sub	K601E	point_mutation
+585	5	BRAF	L597V	missense_variant	NP_004324.2:p.L597V	sub	L597V	point_mutation
+588	1	ALK	HIP1-ALK I1171N	transcript_fusion;missense_variant	NP_004295.2:p.I1171N	sub	I1171N	point_mutation
+589	1	ALK	EML4-ALK I1171S	transcript_fusion;missense_variant			I1171S	point_mutation
+604	2317	GNAQ	Q209P	missense_variant	NP_002063.2:p.Q209P	sub	Q209P	point_mutation
+605	41	PTEN	V317FS	frameshift_variant			V317fs	frameshift
+609	2073	MTOR	M2327I	missense_variant			M2327I	point_mutation
+610	2073	MTOR	A2034V	missense_variant			A2034V	point_mutation
+611	5	BRAF	D594G	missense_variant	NP_004324.2:p.D594G	sub	D594G	point_mutation
+612	24	FLT3	D835H	missense_variant	NP_004110.2:p.D835H	sub	D835H	point_mutation
+613	24	FLT3	D835H/Y	missense_variant	NP_004110.2:p.D835Y;NP_004110.2:p.D835H	sub;sub		
+614	3090	JAK1	Q503*	stop_gained			Q503*	point_mutation
+616	537	B2M	S14FS	frameshift_truncation			S14fs	frameshift
+627	31	MAP2K1	C121S	missense_variant	NP_002746.1:p.C121S	sub	C121S	point_mutation
+628	23	FGFR3	S249C	missense_variant			S249C	point_mutation
+631	58	VHL	R200W (c.598C>T)	missense_variant	NP_000542.1:p.R200W	sub	R200W	point_mutation
+634	5534	STK11	D194E	loss_of_heterozygosity;missense_variant	NP_000446.1:p.D194E	sub	D194E	point_mutation
+636	41	PTEN	R130*	stop_gained	NP_000305.3:p.R130*	sub	R130*	point_mutation
+638	4795	RB1	M695FS*26	frameshift_truncation			M695fs*26	frameshift
+649	52	MET	D1228N	missense_variant	NP_001120972.1:p.D1246N	sub	D1228N	point_mutation
+650	761	CASP8	D302H	polymorphic_sequence_variant;missense_variant	NP_001219.2:p.D302H	sub	D302H	point_mutation
+655	31	MAP2K1	Q56_V60del	inframe_deletion			Q56_V60del	small_deletion
+658	5	BRAF	L505H	missense_variant	NP_004324.2:p.L505H	sub	L505H	point_mutation
+661	7	BRCA2	D3095E	missense_variant	NP_000050.2:p.D3095E	sub	D3095E	point_mutation
+691	12271	ERRFI1	E384*	loss_of_function_variant;stop_gained			E384*	point_mutation
+692	21	ESR1	S463P	missense_variant			S463P	point_mutation
+694	5	BRAF	G596C	missense_variant	NP_004324.2:p.G596C	sub	G596C	point_mutation
+701	1733	ERBB3	V104M	missense_variant			V104M	point_mutation
+702	1733	ERBB3	R103G	missense_variant			R103G	point_mutation
+703	1733	ERBB3	G284R	missense_variant			G284R	point_mutation
+712	19	EGFR	D761Y	missense_variant	NP_005219.2:p.D761Y	sub	D761Y	point_mutation
+714	46	TSC1	R1062W	missense_variant	NP_000359.1:p.R1062W	sub	R1062W	point_mutation
+723	19	EGFR	K757R	missense_variant			K757R	point_mutation
+724	19	EGFR	E746G	missense_variant			E746G	point_mutation
+725	3532	MLH1	E13FS*3	frameshift_truncation	NP_000240.1:p.E13Rfs*	fs	E13fs*3	frameshift
+727	3628	MSH2	R383*	stop_gained	NP_000242.1:p.R383*	sub	R383*	point_mutation
+728	3532	MLH1	V534R	missense_variant			V534R	point_mutation
+730	3532	MLH1	G606FS*2	frameshift_truncation			G606fs*2	frameshift
+733	3532	MLH1	K618DEL	inframe_deletion	NP_000240.1:p.K618del	del	K618del	small_deletion
+734	3532	MLH1	P138T				P138T	point_mutation
+735	3532	MLH1	R687FS	frameshift_variant	NP_000240.1:p.R687Gfs*	fs	R687fs	frameshift
+738	1526	DPYD	DPYD*13 HOMOZYGOSITY	missense_variant	NP_000101.2:p.I560S	sub		
+741	3532	MLH1	R100*	stop_gained	NP_000240.1:p.R100*	sub	R100*	point_mutation
+743	3532	MLH1	T117M	missense_variant	NP_000240.1:p.T117M	sub	T117M	point_mutation
+744	3532	MLH1	Q426FS	frameshift_truncation			Q426fs	frameshift
+745	3532	MLH1	V49A	missense_variant			V49A	point_mutation
+746	3532	MLH1	D667FS	frameshift_truncation			D667fs	frameshift
+747	3532	MLH1	M1L	missense_variant			M1L	point_mutation
+748	3532	MLH1	*757L	stop_lost			*757L	point_mutation
+749	3532	MLH1	R265G	missense_variant			R265G	point_mutation
+750	3532	MLH1	V213FS	frameshift_truncation			V213fs	frameshift
+751	3532	MLH1	N551T	missense_variant	NP_000240.1:p.N551T	sub	N551T	point_mutation
+752	3532	MLH1	A424T	missense_variant	NP_000240.1:p.A424T	sub	A424T	point_mutation
+753	3532	MLH1	Q149*	stop_gained	NP_000240.1:p.Q149*	sub	Q149*	point_mutation
+754	3532	MLH1	R226*	stop_gained	NP_000240.1:p.R226*	sub	R226*	point_mutation
+755	2478	MSH6	I972F	missense_variant			I972F	point_mutation
+756	3532	MLH1	P536FS	frameshift_truncation			P536fs	frameshift
+757	3532	MLH1	G67R	missense_variant	NP_000240.1:p.G67R	sub	G67R	point_mutation
+758	3532	MLH1	I68S	missense_variant			I68S	point_mutation
+759	3532	MLH1	G65D	missense_variant	NP_000240.1:p.G65D	sub	G65D	point_mutation
+760	3532	MLH1	A681V	missense_variant	NP_000240.1:p.A681V	sub	A681V	point_mutation
+761	2478	MSH6	P138T	missense_variant			P138T	point_mutation
+762	3628	MSH2	V273FS	frameshift_variant			V273fs	frameshift
+763	3628	MSH2	E28FS	frameshift_elongation			E28fs	frameshift
+764	58	VHL	E55FS (c.163_164delGA)	frameshift_truncation	NP_000542.1:p.E55fs*	fs	E55fs	frameshift
+765	2478	MSH6	I891FS	frameshift_truncation			I891fs	frameshift
+766	58	VHL	E55RfsTer11 (c.163delG)	frameshift_truncation	NP_000542.1:p.E55Rfs*11;NP_000542.1:p.E55fs*	fs;fs	E55Rfs*11	frameshift
+767	2478	MSH6	R1242H	missense_variant	NP_000170.1:p.R1242H	sub	R1242H	point_mutation
+768	4371	PMS2	R315*	stop_gained	NP_000526.2:p.R315*	sub	R315*	point_mutation
+769	3532	MLH1	M490T	missense_variant			M490T	point_mutation
+770	3628	MSH2	K172*	stop_gained			K172*	point_mutation
+771	58	VHL	A56FS (c.164_165insG)	frameshift_truncation	NP_000542.1:p.A56Gfs*74;NP_000542.1:p.A56fs*	fs;fs	A56fs	frameshift
+772	8351	HOXB13	G84E	missense_variant	NP_006352.2:p.G84E	sub	G84E	point_mutation
+773	3628	MSH2	E483G	missense_variant			E483G	point_mutation
+775	2478	MSH6	V352I	missense_variant	NP_000170.1:p.V352I	sub	V352I	point_mutation
+776	2478	MSH6	R1242C	missense_variant	NP_000170.1:p.R1242C	sub	R1242C	point_mutation
+778	8450	SLCO1B1	N130D	missense_variant			N130D	point_mutation
+781	1733	ERBB3	V855A	missense_variant			V855A	point_mutation
+785	8950	CHEK2	1100DELC	frameshift_truncation	NP_009125.1:p.T367Mfs*	fs		
+787	8950	CHEK2	I157T	missense_variant	NP_009125.1:p.I157T	sub	I157T	point_mutation
+792	4692	PTPRD	V253I	missense_variant	NP_002830.1:p.V253I	sub	V253I	point_mutation
+793	58	VHL	A56FS (c.164_165insA)	frameshift_truncation	NP_000542.1:p.A56Gfs*74;NP_000542.1:p.A56fs*	fs;fs	A56fs	frameshift
+794	58	VHL	E55E (c.165G>A)	silent_mutation	NP_000542.1:p.E55=	identity	E55E	point_mutation
+798	52	MET	D1228V	missense_variant			D1228V	point_mutation
+802	43	RUNX1	K83E	missense_variant	NP_001001890.1:p.K83E	sub	K83E	point_mutation
+803	43	RUNX1	Y260*	stop_gained	NP_001001890.1:p.Y260*	sub	Y260*	point_mutation
+804	43	RUNX1	R135FSX177				R135fsX177	frameshift
+805	3985	NTRK3	ETV6-NTRK3 G623R	transcript_fusion;missense_variant			G623R	point_mutation
+806	43	RUNX1	D198Y	loss_of_function_variant;missense_variant			D198Y	point_mutation
+807	43	RUNX1	A107P	missense_variant	NP_001745.2:p.A134P	sub	A107P	point_mutation
+810	43	RUNX1	T148HFSX9	frameshift_truncation	NP_001745.2:p.T148Hfs*	fs	T148HfsX9	frameshift
+811	1769	ETV6	R399C	missense_variant	NP_001978.1:p.R399C	sub	R399C	point_mutation
+812	1769	ETV6	R369Q	missense_variant	NP_001978.1:p.R369Q	sub	R369Q	point_mutation
+813	1769	ETV6	P214L	missense_variant			P214L	point_mutation
+814	11932	DDX41	R164W	missense_variant			R164W	point_mutation
+816	20	ERBB2	G776L	missense_variant			G776L	point_mutation
+817	20	ERBB2	G778_P780DUP	inframe_insertion			G778_P780dup	duplication
+818	20	ERBB2	M774DELINSWLV	inframe_indel			M774delinsWLV	delins
+820	58	VHL	A149S (c.445G>T)	missense_variant	NP_000542.1:p.A149S	sub	A149S	point_mutation
+822	3090	JAK1	S703I	missense_variant			S703I	point_mutation
+824	31	MAP2K1	K57T	missense_variant			K57T	point_mutation
+825	3	ARAF	S490T	missense_variant			S490T	point_mutation
+826	2319	GNAS	R201C	missense_variant	NP_000507.1:p.R201C	sub	R201C	point_mutation
+829	58	VHL	M54IFS (c.162_166delGGAGG)	frameshift_truncation	NP_000542.1:p.M54Ifs*76	fs	M54Ifs	frameshift
+837	5365	SMO	W535L	missense_variant	NP_005622.1:p.W535L	sub	W535L	point_mutation
+838	41	PTEN	R173C	missense_variant	NP_000305.3:p.R173C	sub	R173C	point_mutation
+840	5	BRAF	G469R	missense_variant	NP_004324.2:p.G469R	sub	G469R	point_mutation
+841	5	BRAF	G469V	missense_variant	NP_004324.2:p.G469V	sub	G469V	point_mutation
+846	58	VHL	M1FS (c.1_17del17)	start_lost			M1fs	frameshift
+847	58	VHL	M1? (c.1-1_20del21)	start_lost	NP_000542.1:p.M1?	sub	M1?	point_mutation
+848	58	VHL	M1? (c.3G>A)	start_lost	NP_000542.1:p.M1?	sub	M1?	point_mutation
+849	58	VHL	N7D (c.19A>G)	missense_variant			N7D	point_mutation
+850	58	VHL	P25L (c.74C>T)	missense_variant	NP_000542.1:p.P25L	sub	P25L	point_mutation
+851	58	VHL	P59fs (c.173_174insC)	frameshift_truncation	NP_000542.1:p.P59Afs*73	fs	P59fs	frameshift
+852	58	VHL	Y98FS (c.291_310del20)	frameshift_truncation	NP_000542.1:p.Y98Hfs*27	fs	Y98fs	frameshift
+854	2747	HRAS	Q61L	missense_variant	NP_005334.1:p.Q61L	sub	Q61L	point_mutation
+861	19	EGFR	T725M	missense_variant			T725M	point_mutation
+862	38	PDGFRA	P577S	missense_variant	NP_006197.1:p.P577S	sub	P577S	point_mutation
+863	38	PDGFRA	R841K	missense_variant	NP_006197.1:p.R841K	sub	R841K	point_mutation
+864	38	PDGFRA	H845Y	missense_variant	NP_006197.1:p.H845Y	sub	H845Y	point_mutation
+865	38	PDGFRA	G853D	missense_variant	NP_006197.1:p.G853D	sub	G853D	point_mutation
+870	65	BTK	T316A	missense_variant			T316A	point_mutation
+871	20	ERBB2	T862A	missense_variant			T862A	point_mutation
+872	20	ERBB2	V773A	missense_variant			V773A	point_mutation
+873	20	ERBB2	N857S	missense_variant	NP_004439.2:p.N857S	sub	N857S	point_mutation
+874	20	ERBB2	H878Y	missense_variant			H878Y	point_mutation
+877	2319	GNAS	T393C	missense_variant			T393C	point_mutation
+878	36	NRAS	G12D	missense_variant	NP_002515.1:p.G12D	sub	G12D	point_mutation
+879	45	TP53	G245S				G245S	point_mutation
+880	26	IDH1	R132L	missense_variant	NP_001269315.1:p.R132L	sub	R132L	point_mutation
+881	37	PIK3CA	E545Q	missense_variant	NP_006209.2:p.E545Q	sub	E545Q	point_mutation
+882	37	PIK3CA	E545A	missense_variant	NP_006209.2:p.E545A	sub	E545A	point_mutation
+883	37	PIK3CA	E545G	missense_variant	NP_006209.2:p.E545G	sub	E545G	point_mutation
+884	37	PIK3CA	E545V	missense_variant	NP_006209.2:p.E545V	sub	E545V	point_mutation
+885	37	PIK3CA	Q546K	missense_variant	NP_006209.2:p.Q546K	sub	Q546K	point_mutation
+886	37	PIK3CA	Q546E	missense_variant	NP_006209.2:p.Q546E	sub	Q546E	point_mutation
+890	19	EGFR	L747_S752del				L747_S752del	small_deletion
+892	4	ABL1	BCR-ABL F359V	missense_variant	NP_005148.2:p.F359V	sub	F359V	point_mutation
+893	36	NRAS	Q61H	missense_variant	NP_002515.1:p.Q61H	sub	Q61H	point_mutation
+895	36	NRAS	G13C	missense_variant	NP_002515.1:p.G13C	sub	G13C	point_mutation
+896	36	NRAS	G13R	missense_variant	NP_002515.1:p.G13R	sub	G13R	point_mutation
+897	36	NRAS	G12C	missense_variant	NP_002515.1:p.G12C	sub	G12C	point_mutation
+898	36	NRAS	G12S	missense_variant	NP_002515.1:p.G12S	sub	G12S	point_mutation
+901	69	ATM	T2666A	missense_variant			T2666A	point_mutation
+902	69	ATM	L2890V	missense_variant	NP_000042.3:p.L2890V	sub	L2890V	point_mutation
+903	69	ATM	R3008C	missense_variant			R3008C	point_mutation
+904	69	ATM	R3008H	missense_variant			R3008H	point_mutation
+905	30	KRAS	A146P	missense_variant	NP_004976.2:p.A146P	sub	A146P	point_mutation
+906	30	KRAS	A146T	missense_variant	NP_004976.2:p.A146T	sub	A146T	point_mutation
+907	30	KRAS	Q61H	missense_variant	NP_004976.2:p.Q61H	sub	Q61H	point_mutation
+908	30	KRAS	Q61L	missense_variant	NP_004976.2:p.Q61L	sub	Q61L	point_mutation
+909	30	KRAS	Q61R	missense_variant	NP_004976.2:p.Q61R	sub	Q61R	point_mutation
+910	30	KRAS	Q61K	missense_variant	NP_004976.2:p.Q61K	sub	Q61K	point_mutation
+911	30	KRAS	G13C	missense_variant	NP_004976.2:p.G13C	sub	G13C	point_mutation
+913	30	KRAS	G12S	missense_variant	NP_004976.2:p.G12S	sub	G12S	point_mutation
+918	45	TP53	R273L	missense_variant	NP_000537.3:p.R273L	sub	R273L	point_mutation
+922	45	TP53	Y220C	missense_variant	NP_000537.3:p.Y220C	sub	Y220C	point_mutation
+927	26	IDH1	R132G	missense_variant	NP_001269315.1:p.R132G	sub	R132G	point_mutation
+928	26	IDH1	R132S	missense_variant	NP_001269315.1:p.R132S	sub	R132S	point_mutation
+930	37	PIK3CA	N345K	missense_variant	NP_006209.2:p.N345K	sub	N345K	point_mutation
+931	37	PIK3CA	C420R	missense_variant	NP_006209.2:p.C420R	sub	C420R	point_mutation
+933	37	PIK3CA	E542Q	missense_variant	NP_006209.2:p.E542Q	sub	E542Q	point_mutation
+934	37	PIK3CA	E545D	missense_variant	NP_006209.2:p.E545D	sub	E545D	point_mutation
+935	37	PIK3CA	Y1021C	missense_variant	NP_006209.2:p.Y1021C	sub	Y1021C	point_mutation
+937	37	PIK3CA	M1043I	missense_variant	NP_006209.2:p.M1043I	sub	M1043I	point_mutation
+938	37	PIK3CA	H1047Y	missense_variant	NP_006209.2:p.H1047Y	sub	H1047Y	point_mutation
+939	37	PIK3CA	G1049S	missense_variant	NP_006209.2:p.G1049S	sub	G1049S	point_mutation
+940	37	PIK3CA	G1049R	missense_variant	NP_006209.2:p.G1049R	sub	G1049R	point_mutation
+941	38	PDGFRA	V561D	missense_variant	NP_006197.1:p.V561D	sub	V561D	point_mutation
+946	29	KIT	Y503_F504insAY				Y503_F504insAY	insertion
+948	29	KIT	K550_W557del				K550_W557del	small_deletion
+949	29	KIT	K550_K558DEL	inframe_deletion	NP_000213.1:p.K550_K558del	del	K550_K558del	small_deletion
+950	29	KIT	P551L	missense_variant			P551L	point_mutation
+951	29	KIT	M552_W557DEL	inframe_deletion			M552_W557del	small_deletion
+952	29	KIT	Y553D	missense_variant			Y553D	point_mutation
+953	29	KIT	Y553_K558DEL	inframe_deletion			Y553_K558del	small_deletion
+955	29	KIT	E554D	missense_variant			E554D	point_mutation
+956	29	KIT	V555_Q556DEL	inframe_deletion			V555_Q556del	small_deletion
+958	29	KIT	W557R	missense_variant	NP_000213.1:p.W557R	sub	W557R	point_mutation
+959	29	KIT	W557G	missense_variant	NP_000213.1:p.W557G	sub	W557G	point_mutation
+960	29	KIT	W557T				W557T	point_mutation
+962	29	KIT	W557_E561DEL				W557_E561del	small_deletion
+963	29	KIT	K558Q	missense_variant	NP_000213.1:p.K558Q	sub	K558Q	point_mutation
+964	29	KIT	K558_V559DEL				K558_V559del	small_deletion
+965	29	KIT	K558R	missense_variant			K558R	point_mutation
+966	29	KIT	V559DEL		NP_000213.1:p.V559del	del	V559del	small_deletion
+967	29	KIT	V559_V560DEL				V559_V560del	small_deletion
+968	29	KIT	V559D	missense_variant	NP_000213.1:p.V559D	sub	V559D	point_mutation
+969	29	KIT	V559A	missense_variant	NP_000213.1:p.V559A	sub	V559A	point_mutation
+970	29	KIT	V559G	missense_variant	NP_000213.1:p.V559G	sub	V559G	point_mutation
+971	29	KIT	V560D	missense_variant	NP_000213.1:p.V560D	sub	V560D	point_mutation
+972	29	KIT	V560G		NP_000213.1:p.V560G	sub	V560G	point_mutation
+974	29	KIT	T574A	missense_variant			T574A	point_mutation
+975	29	KIT	Q575L	missense_variant			Q575L	point_mutation
+976	29	KIT	P577L	missense_variant			P577L	point_mutation
+977	29	KIT	D579DEL	inframe_deletion			D579del	small_deletion
+978	29	KIT	K642E	missense_variant	NP_000213.1:p.K642E	sub	K642E	point_mutation
+979	29	KIT	T661I	missense_variant			T661I	point_mutation
+980	29	KIT	S692L	missense_variant	NP_000213.1:p.S692L	sub	S692L	point_mutation
+981	29	KIT	Q694K	missense_variant			Q694K	point_mutation
+983	29	KIT	D816H	missense_variant	NP_000213.1:p.D816H	sub	D816H	point_mutation
+984	29	KIT	D816Y				D816Y	point_mutation
+986	29	KIT	D820Y	missense_variant	NP_000213.1:p.D820Y	sub	D820Y	point_mutation
+989	29	KIT	Y823D	missense_variant	NP_000213.1:p.Y823D	sub	Y823D	point_mutation
+990	29	KIT	A829P				A829P	point_mutation
+991	5	BRAF	V600R	coding_sequence_variant			V600R	point_mutation
+992	5	BRAF	G469A	missense_variant	NP_004324.2:p.G469A	sub	G469A	point_mutation
+993	5	BRAF	G469E	missense_variant			G469E	point_mutation
+994	19	EGFR	R108K				R108K	point_mutation
+995	19	EGFR	T263P				T263P	point_mutation
+996	19	EGFR	A289V	missense_variant	NP_005219.2:p.A289V	sub	A289V	point_mutation
+999	19	EGFR	G719A	missense_variant	NP_005219.2:p.G719A	sub	G719A	point_mutation
+1001	19	EGFR	V742A				V742A	point_mutation
+1004	19	EGFR	E746_T751delinsA				E746_T751delinsA	delins
+1005	19	EGFR	E746V				E746V	point_mutation
+1012	19	EGFR	L747_P753delinsS	inframe_deletion			L747_P753delinsS	delins
+1013	19	EGFR	D761N				D761N	point_mutation
+1016	19	EGFR	G810S				G810S	point_mutation
+1017	19	EGFR	R831H	missense_variant			R831H	point_mutation
+1018	19	EGFR	L838V				L838V	point_mutation
+1020	19	EGFR	L861Q				L861Q	point_mutation
+1021	4	ABL1	BCR-ABL M244V	missense_variant	NP_005148.2:p.M244V	sub	M244V	point_mutation
+1022	4	ABL1	BCR-ABL L248V	missense_variant	NP_005148.2:p.L248V	sub	L248V	point_mutation
+1023	4	ABL1	BCR-ABL G250E	missense_variant	NP_005148.2:p.G250E	sub	G250E	point_mutation
+1024	4	ABL1	Q252H	missense_variant	NP_005148.2:p.Q252H	sub	Q252H	point_mutation
+1025	4	ABL1	BCR-ABL Y253H	missense_variant	NP_005148.2:p.Y253H	sub	Y253H	point_mutation
+1026	4	ABL1	Y253F	missense_variant	NP_005148.2:p.Y253F	sub	Y253F	point_mutation
+1027	4	ABL1	BCR-ABL D276G	missense_variant	NP_005148.2:p.D276G	sub	D276G	point_mutation
+1029	4	ABL1	BCR-ABL M351T	missense_variant	NP_005148.2:p.M351T	sub	M351T	point_mutation
+1030	4	ABL1	BCR-ABL H396R	missense_variant	NP_005148.2:p.H396R	sub	H396R	point_mutation
+1031	50	NOTCH1	L1600P	missense_variant			L1600P	point_mutation
+1032	50	NOTCH1	L1574P				L1574P	point_mutation
+1033	50	NOTCH1	R1598P				R1598P	point_mutation
+1034	50	NOTCH1	L1678P				L1678P	point_mutation
+1045	45	TP53	D281G				D281G	point_mutation
+1049	45	TP53	P278S				P278S	point_mutation
+1066	45	TP53	M237I				M237I	point_mutation
+1068	45	TP53	Y234C	missense_variant	NP_000537.3:p.Y234C	sub	Y234C	point_mutation
+1092	45	TP53	V157F	missense_variant	NP_000537.3:p.V157F	sub	V157F	point_mutation
+1103	30	KRAS	Q61P	missense_variant	NP_004976.2:p.Q61P	sub	Q61P	point_mutation
+1104	30	KRAS	Q61E	missense_variant	NP_004976.2:p.Q61E	sub	Q61E	point_mutation
+1105	30	KRAS	Q61FS				Q61fs	frameshift
+1106	5	BRAF	G464V	missense_variant	NP_004324.2:p.G464V	sub	G464V	point_mutation
+1107	5	BRAF	D594N	missense_variant	NP_004324.2:p.D594N	sub	D594N	point_mutation
+1108	45	TP53	R282L	missense_variant	NP_000537.3:p.R282L	sub	R282L	point_mutation
+1109	45	TP53	R213P	missense_variant	NP_000537.3:p.R213P	sub	R213P	point_mutation
+1120	30	KRAS	K117N	missense_variant	NP_004976.2:p.K117N	sub	K117N	point_mutation
+1121	5	BRAF	F595L	missense_variant	NP_004324.2:p.F595L	sub	F595L	point_mutation
+1127	50	NOTCH1	F1592S	missense_variant			F1592S	point_mutation
+1140	50	NOTCH1	L1600Q	missense_variant			L1600Q	point_mutation
+1142	50	NOTCH1	L1585R	missense_variant			L1585R	point_mutation
+1143	50	NOTCH1	V1577A	missense_variant			V1577A	point_mutation
+1144	50	NOTCH1	V1577E	missense_variant			V1577E	point_mutation
+1145	50	NOTCH1	L1574Q	missense_variant			L1574Q	point_mutation
+1151	37	PIK3CA	H1047L	missense_variant	NP_006209.2:p.H1047L	sub	H1047L	point_mutation
+1152	4	ABL1	BCR-ABL F486S	transcript_fusion;missense_variant	NP_005148.2:p.F486S	sub	F486S	point_mutation
+1153	69	ATM	P292R	missense_variant			P292R	point_mutation
+1154	69	ATM	M1FS	frameshift_variant			M1fs	frameshift
+1155	69	ATM	K293*	stop_gained	NP_000042.3:p.K293*	sub	K293*	point_mutation
+1156	69	ATM	R2459C	missense_variant			R2459C	point_mutation
+1157	69	ATM	Q984E	missense_variant			Q984E	point_mutation
+1158	69	ATM	F1025L	missense_variant			F1025L	point_mutation
+1159	69	ATM	Q1084*	stop_gained			Q1084*	point_mutation
+1160	69	ATM	D1930V	missense_variant			D1930V	point_mutation
+1161	69	ATM	R2034P				R2034P	point_mutation
+1162	69	ATM	E2187*	stop_gained			E2187*	point_mutation
+1163	69	ATM	L2427P	missense_variant			L2427P	point_mutation
+1164	69	ATM	F2732V	missense_variant	NP_000042.3:p.F2732V	sub	F2732V	point_mutation
+1165	69	ATM	R777FS	frameshift_variant			R777fs	frameshift
+1166	69	ATM	K468FS	frameshift_variant	NP_000042.3:p.K468Efs*	fs	K468fs	frameshift
+1167	69	ATM	V1268FS	frameshift_variant			V1268fs	frameshift
+1168	69	ATM	D1682H	missense_variant	NP_000042.3:p.D1682H	sub	D1682H	point_mutation
+1169	69	ATM	A2062V	missense_variant			A2062V	point_mutation
+1170	69	ATM	R1575H	missense_variant			R1575H	point_mutation
+1171	69	ATM	A2274T	missense_variant	NP_000042.3:p.A2274T	sub	A2274T	point_mutation
+1172	69	ATM	C2488Y	missense_variant	NP_000042.3:p.C2488Y	sub	C2488Y	point_mutation
+1173	4	ABL1	BCR-ABL E255V	missense_variant	NP_005148.2:p.E255V	sub	E255V	point_mutation
+1174	50	NOTCH1	F1592C		NP_060087.3:p.F1592C	sub	F1592C	point_mutation
+1175	36	NRAS	G12V				G12V	point_mutation
+1178	37	PIK3CA	R93W	missense_variant	NP_006209.2:p.R93W	sub	R93W	point_mutation
+1181	19	EGFR	R776C				R776C	point_mutation
+1182	19	EGFR	S784F				S784F	point_mutation
+1183	4	ABL1	E292V	missense_variant	NP_005148.2:p.E292V	sub	E292V	point_mutation
+1184	4	ABL1	BCR-ABL F359C	missense_variant	NP_005148.2:p.F359C	sub	F359C	point_mutation
+1186	5	BRAF	N581S	missense_variant			N581S	point_mutation
+1187	19	EGFR	A864T	missense_variant			A864T	point_mutation
+1188	19	EGFR	N826S				N826S	point_mutation
+1196	5	BRAF	G466A	missense_variant	NP_004324.2:p.G466A	sub	G466A	point_mutation
+1206	29	KIT	S501_A502INSAY	inframe_insertion			S501_A502insAY	insertion
+1214	19	EGFR	E746_T751delinsVA	inframe_deletion	NP_005219.2:p.E746_T751delinsVA	delins	E746_T751delinsVA	delins
+1227	7936	AKT3	E17K	missense_variant	NP_001193658.1:p.E17K	sub	E17K	point_mutation
+1230	4	ABL1	L384M	missense_variant	NP_005148.2:p.L384M	sub	L384M	point_mutation
+1231	4	ABL1	BCR-ABL V299L	missense_variant	NP_005148.2:p.V299L	sub	V299L	point_mutation
+1232	4	ABL1	L387F	missense_variant	NP_005148.2:p.L387F	sub	L387F	point_mutation
+1233	4	ABL1	BCR-ABL G398R	transcript_fusion;missense_variant	NP_005148.2:p.G398R	sub	G398R	point_mutation
+1234	37	PIK3CA	K111N	missense_variant	NP_006209.2:p.K111N	sub	K111N	point_mutation
+1235	37	PIK3CA	I391M	missense_variant	NP_006209.2:p.I391M	sub	I391M	point_mutation
+1236	6	BRCA1	M1V	start_lost	NP_009225.1:p.M1V	sub	M1V	point_mutation
+1237	6	BRCA1	M1I	start_lost	NP_009225.1:p.M1I	sub	M1I	point_mutation
+1238	6	BRCA1	C61G	missense_variant	NP_009225.1:p.C61G	sub	C61G	point_mutation
+1239	6	BRCA1	C64Y	missense_variant	NP_009225.1:p.C64Y	sub	C64Y	point_mutation
+1240	6	BRCA1	R71G	missense_variant	NP_009225.1:p.R71G	sub	R71G	point_mutation
+1241	6	BRCA1	R71K	missense_variant	NP_009225.1:p.R71K	sub	R71K	point_mutation
+1242	6	BRCA1	R1495M	missense_variant	NP_009225.1:p.R1495M	sub	R1495M	point_mutation
+1243	6	BRCA1	E1559K	missense_variant	NP_009225.1:p.E1559K	sub	E1559K	point_mutation
+1244	6	BRCA1	D1692N	missense_variant	NP_009225.1:p.D1692N	sub	D1692N	point_mutation
+1245	6	BRCA1	R1443*	stop_gained	NP_009225.1:p.R1443*	sub	R1443*	point_mutation
+1246	6	BRCA1	Q1467*	stop_gained	NP_009225.1:p.Q1467*	sub	Q1467*	point_mutation
+1247	7	BRCA2	M1R	missense_variant	NP_000050.2:p.M1R	sub	M1R	point_mutation
+1248	7	BRCA2	M1I	missense_variant	NP_000050.2:p.M1I	sub	M1I	point_mutation
+1249	7	BRCA2	V159M	missense_variant	NP_000050.2:p.V159M	sub	V159M	point_mutation
+1250	7	BRCA2	V211L	missense_variant			V211L	point_mutation
+1251	7	BRCA2	V211I	missense_variant			V211I	point_mutation
+1252	7	BRCA2	R2336P	missense_variant	NP_000050.2:p.R2336P	sub	R2336P	point_mutation
+1253	7	BRCA2	R2336H	missense_variant	NP_000050.2:p.R2336H	sub	R2336H	point_mutation
+1254	45	TP53	V143A	missense_variant			V143A	point_mutation
+1260	42	RET	C609Y	missense_variant	NP_065681.1:p.C609Y	sub	C609Y	point_mutation
+1263	29	KIT	N822K	missense_variant	NP_000213.1:p.N822K	sub	N822K	point_mutation
+1264	29	KIT	C809G	missense_variant	NP_000213.1:p.C809G	sub	C809G	point_mutation
+1265	29	KIT	D820A	missense_variant	NP_000213.1:p.D820A	sub	D820A	point_mutation
+1266	29	KIT	D820G	missense_variant	NP_000213.1:p.D820G	sub	D820G	point_mutation
+1267	29	KIT	T670I	missense_variant	NP_000213.1:p.T670I	sub	T670I	point_mutation
+1270	31	MAP2K1	F53L	missense_variant	NP_002746.1:p.F53L	sub	F53L	point_mutation
+1271	4941	ROS1	G2032R	missense_variant	NP_002935.2:p.G2032R	sub	G2032R	point_mutation
+1272	31	MAP2K1	K57N	missense_variant	NP_002746.1:p.K57N	sub	K57N	point_mutation
+1275	1	ALK	L1198F	missense_variant			L1198F	point_mutation
+1282	3983	NTRK1	LMNA-NTRK1 G595R AND G667C	missense_variant			G595R;G667C	point_mutation;point_mutation
+1285	1290	CTNNB1	T41A	missense_variant	NP_001895.1:p.T41A	sub	T41A	point_mutation
+1286	1290	CTNNB1	S45F	missense_variant	NP_001895.1:p.S45F	sub	S45F	point_mutation
+1287	1290	CTNNB1	S45P	missense_variant	NP_001895.1:p.S45P	sub	S45P	point_mutation
+1288	3091	JAK3	M511I	missense_variant	NP_000206.2:p.M511I	sub	M511I	point_mutation
+1289	3091	JAK3	V722I	missense_variant	NP_000206.2:p.V722I	sub	V722I	point_mutation
+1290	3091	JAK3	S61C	missense_variant	NP_000206.2:p.S61C	sub	S61C	point_mutation
+1291	3090	JAK1	P429S	missense_variant			P429S	point_mutation
+1292	3090	JAK1	W690*	stop_gained			W690*	point_mutation
+1294	58	VHL	W8* (c.24G>A)	stop_gained	NP_000542.1:p.W8*	sub	W8*	point_mutation
+1295	1	ALK	F1245V	missense_variant	NP_004295.2:p.F1245V	sub	F1245V	point_mutation
+1302	24	FLT3	D835V	missense_variant	NP_004110.2:p.D835V	sub	D835V	point_mutation
+1304	20	ERBB2	L755P	missense_variant	NP_004439.2:p.L755P	sub	L755P	point_mutation
+1305	20	ERBB2	T798M	missense_variant			T798M	point_mutation
+1308	20	ERBB2	L768S	missense_variant			L768S	point_mutation
+1309	20	ERBB2	L638S				L638S	point_mutation
+1311	20	ERBB2	V773L				V773L	point_mutation
+1312	20	ERBB2	K753E	missense_variant			K753E	point_mutation
+1313	20	ERBB2	L753E				L753E	point_mutation
+1314	20	ERBB2	K755S				K755S	point_mutation
+1317	36	NRAS	G13V				G13V	point_mutation
+1319	2319	GNAS	R201H				R201H	point_mutation
+1387	2747	HRAS	G12D				G12D	point_mutation
+1390	19	EGFR	E884K				E884K	point_mutation
+1391	2747	HRAS	Q61R				Q61R	point_mutation
+1392	2747	HRAS	Q61K				Q61K	point_mutation
+1393	2747	HRAS	G13R				G13R	point_mutation
+1394	2747	HRAS	G12V				G12V	point_mutation
+1395	30	KRAS	G13R	missense_variant	NP_004976.2:p.G13R	sub	G13R	point_mutation
+1396	30	KRAS	G13S	missense_variant	NP_004976.2:p.G13S	sub	G13S	point_mutation
+1397	24	FLT3	D835E	missense_variant			D835E	point_mutation
+1398	4542	MAP2K2	F57C	missense_variant			F57C	point_mutation
+1400	23	FGFR3	K650E				K650E	point_mutation
+1402	29	KIT	D816G				D816G	point_mutation
+1413	19	EGFR	E709Q				E709Q	point_mutation
+1420	19	EGFR	G719D				G719D	point_mutation
+1443	19	EGFR	S768N				S768N	point_mutation
+1445	19	EGFR	D770_N771insSVD				D770_N771insSVD	insertion
+1446	19	EGFR	H773_V774insH				H773_V774insH	insertion
+1457	19	EGFR	L838P				L838P	point_mutation
+1463	19	EGFR	T847I				T847I	point_mutation
+1465	19	EGFR	P848L				P848L	point_mutation
+1466	19	EGFR	V851I				V851I	point_mutation
+1467	19	EGFR	T854A				T854A	point_mutation
+1474	19	EGFR	A859T	missense_variant			A859T	point_mutation
+1477	19	EGFR	L861R				L861R	point_mutation
+1482	19	EGFR	E868G				E868G	point_mutation
+1487	4	ABL1	BCR-ABL E355G	missense_variant	NP_005148.2:p.E355G	sub	E355G	point_mutation
+1488	4	ABL1	BCR-ABL L387M	missense_variant			L387M	point_mutation
+1489	2747	HRAS	G13V				G13V	point_mutation
+1491	30	KRAS	A59T	missense_variant	NP_004976.2:p.A59T	sub	A59T	point_mutation
+1492	1	ALK	F1174C	missense_variant			F1174C	point_mutation
+1493	1	ALK	T1151M	missense_variant	NP_004295.2:p.T1151M	sub	T1151M	point_mutation
+1494	4	ABL1	T277A	missense_variant			T277A	point_mutation
+1495	4	ABL1	S438C	missense_variant			S438C	point_mutation
+1496	4	ABL1	E450G	missense_variant	NP_005148.2:p.E450G	sub	E450G	point_mutation
+1498	29	KIT	W557_V559INSC				W557_V559insC	insertion
+1499	37	PIK3CA	S158L	missense_variant	NP_006209.2:p.S158L	sub	S158L	point_mutation
+1500	37	PIK3CA	E81K	missense_variant	NP_006209.2:p.E81K	sub	E81K	point_mutation
+1503	12903	FBXW7	R505C	missense_variant	NP_361014.1:p.R505C	sub	R505C	point_mutation
+1504	12903	FBXW7	R505H				R505H	point_mutation
+1505	1	ALK	F1174V	missense_variant			F1174V	point_mutation
+1506	4	ABL1	L298V	missense_variant			L298V	point_mutation
+1507	4	ABL1	BCR-ABL F311I	missense_variant	NP_005148.2:p.F311I	sub	F311I	point_mutation
+1508	4	ABL1	L364I	missense_variant			L364I	point_mutation
+1509	4	ABL1	BCR-ABL E453Q	missense_variant	NP_005148.2:p.E453Q	sub	E453Q	point_mutation
+1510	6559	ARID1A	Q456X				Q456*	point_mutation
+1511	19	EGFR	S768_D770dup				S768_D770dup	duplication
+1513	19	EGFR	H773_V774insNPH	inframe_insertion			H773_V774insNPH	insertion
+1514	19	EGFR	D770_N771insGL	inframe_insertion			D770_N771insGL	insertion
+1515	19	EGFR	A763_Y764insFQEA	inframe_insertion			A763_Y764insFQEA	insertion
+1517	30	KRAS	G13V	missense_variant	NP_004976.2:p.G13V	sub	G13V	point_mutation
+1520	2073	MTOR	Q2223K				Q2223K	point_mutation
+1521	14	CDKN2A	W110*	stop_gained	NP_000068.1:p.W110*	sub	W110*	point_mutation
+1522	14	CDKN2A	A20P	missense_variant			A20P	point_mutation
+1523	4	ABL1	BCR-ABL F359I	missense_variant	NP_005148.2:p.F359I	sub	F359I	point_mutation
+1524	4	ABL1	M343T	missense_variant	NP_005148.2:p.M343T	sub	M343T	point_mutation
+1525	4	ABL1	BCR-ABL F317V	missense_variant	NP_005148.2:p.F317V	sub	F317V	point_mutation
+1526	4	ABL1	E279K	missense_variant	NP_005148.2:p.E279K	sub	E279K	point_mutation
+1527	4	ABL1	Q300R	missense_variant			Q300R	point_mutation
+1528	4	ABL1	BCR-ABL F311L	missense_variant	NP_005148.2:p.F311L	sub	F311L	point_mutation
+1529	4	ABL1	BCR-ABL N331S	missense_variant			N331S	point_mutation
+1530	4	ABL1	BCR-ABL L364P	missense_variant			L364P	point_mutation
+1531	4	ABL1	BCR-ABL H396P	missense_variant	NP_005148.2:p.H396P	sub	H396P	point_mutation
+1532	4	ABL1	D421G	missense_variant	NP_005148.2:p.D421G	sub	D421G	point_mutation
+1533	4	ABL1	I432T	missense_variant			I432T	point_mutation
+1534	4	ABL1	BCR-ABL E450V	missense_variant	NP_005148.2:p.E450V	sub	E450V	point_mutation
+1535	4	ABL1	BCR-ABL E453K	missense_variant	NP_005148.2:p.E453K	sub	E453K	point_mutation
+1536	4	ABL1	E453A	missense_variant	NP_005148.2:p.E453A	sub	E453A	point_mutation
+1537	4	ABL1	BCR-ABL P480A	missense_variant			P480A	point_mutation
+1538	4	ABL1	F486Y	missense_variant	NP_005148.2:p.F486Y	sub	F486Y	point_mutation
+1540	38	PDGFRA	L579M	missense_variant			L579M	point_mutation
+1541	29	KIT	Q556_I571DEL				Q556_I571del	small_deletion
+1543	29	KIT	V555_I571DEL				V555_I571del	small_deletion
+1547	29	KIT	D579_H580INSIDPTQLPYD				D579_H580insIDPTQLPYD	insertion
+1548	29	KIT	Y570_L576DEL				Y570_L576del	small_deletion
+1550	29	KIT	V560_L576DEL				V560_L576del	small_deletion
+1551	29	KIT	V569_L576DEL				V569_L576del	small_deletion
+1552	4532	MAPK1	E278E	synonymous_variant			E278E	point_mutation
+1553	1	ALK	L1196Q	missense_variant			L1196Q	point_mutation
+1554	1	ALK	L1152P	missense_variant			L1152P	point_mutation
+1555	6	BRCA1	W1815X	stop_gained			W1815*	point_mutation
+1556	1	ALK	L1198P	missense_variant			L1198P	point_mutation
+1558	29	KIT	A502_Y503INSAY				A502_Y503insAY	insertion
+1559	29	KIT	D816E				D816E	point_mutation
+1560	5365	SMO	D473G				D473G	point_mutation
+1561	5365	SMO	D473Y				D473Y	point_mutation
+1562	5365	SMO	S278I				S278I	point_mutation
+1563	5365	SMO	W281C				W281C	point_mutation
+1564	5365	SMO	Q477E				Q477E	point_mutation
+1566	19	EGFR	D770_N771insGT	inframe_insertion			D770_N771insGT	insertion
+1567	19	EGFR	V774_C775insHV	inframe_insertion			V774_C775insHV	insertion
+1569	19	EGFR	D770_N771insNPG	inframe_insertion			D770_N771insNPG	insertion
+1570	5365	SMO	L412F	missense_variant	NP_005622.1:p.L412F	sub	L412F	point_mutation
+1571	19	EGFR	W731L				W731L	point_mutation
+1572	19	EGFR	E734Q	missense_variant			E734Q	point_mutation
+1573	19	EGFR	T785A				T785A	point_mutation
+1574	19	EGFR	C797Y	missense_variant			C797Y	point_mutation
+1575	19	EGFR	Y801H				Y801H	point_mutation
+1576	5365	SMO	V321M				V321M	point_mutation
+1578	19	EGFR	V769A				V769A	point_mutation
+1580	19	EGFR	L747_S752INSQ				L747_S752insQ	insertion
+1582	19	EGFR	P546S				P546S	point_mutation
+1583	5365	SMO	W281L				W281L	point_mutation
+1584	5365	SMO	G497W				G497W	point_mutation
+1585	5365	SMO	I408V				I408V	point_mutation
+1586	5365	SMO	C469Y				C469Y	point_mutation
+1587	5365	SMO	T241M				T241M	point_mutation
+1588	5365	SMO	A459V				A459V	point_mutation
+1589	5365	SMO	S533N				S533N	point_mutation
+1590	4645	PTCH1	W170X				W170*	point_mutation
+1591	4645	PTCH1	W712X				W712*	point_mutation
+1592	4645	PTCH1	Q787X				Q787*	point_mutation
+1593	4645	PTCH1	Q17X				Q17*	point_mutation
+1595	4	ABL1	H201L	missense_variant			H201L	point_mutation
+1596	4	ABL1	Y232S	missense_variant	NP_005148.2:p.Y232S	sub	Y232S	point_mutation
+1597	4	ABL1	M237V	missense_variant			M237V	point_mutation
+1598	4	ABL1	I242T	missense_variant			I242T	point_mutation
+1599	4	ABL1	G250V	missense_variant	NP_005148.2:p.G250V	sub	G250V	point_mutation
+1600	4	ABL1	Q252R	missense_variant			Q252R	point_mutation
+1601	4	ABL1	E258D	missense_variant	NP_005148.2:p.E258D	sub	E258D	point_mutation
+1602	4	ABL1	L273M	missense_variant			L273M	point_mutation
+1603	4	ABL1	E281K	missense_variant	NP_005148.2:p.E281K	sub	E281K	point_mutation
+1604	4	ABL1	V289I	missense_variant	NP_005148.2:p.V289I	sub	V289I	point_mutation
+1605	4	ABL1	Y342H	missense_variant	NP_005148.2:p.Y342H	sub	Y342H	point_mutation
+1606	4	ABL1	D363Y	missense_variant	NP_005148.2:p.D363Y	sub	D363Y	point_mutation
+1607	4	ABL1	A365V	missense_variant	NP_005148.2:p.A365V	sub	A365V	point_mutation
+1608	4	ABL1	A366G	missense_variant	NP_005148.2:p.A366G	sub	A366G	point_mutation
+1609	4	ABL1	BCR-ABL V379I	missense_variant	NP_005148.2:p.V379I	sub	V379I	point_mutation
+1610	4	ABL1	M388L	missense_variant			M388L	point_mutation
+1611	4	ABL1	Y393C	missense_variant	NP_005148.2:p.Y393C	sub	Y393C	point_mutation
+1612	4	ABL1	BCR-ABL A397P	missense_variant	NP_005148.2:p.A397P	sub	A397P	point_mutation
+1613	4	ABL1	S417Y	missense_variant			S417Y	point_mutation
+1614	4	ABL1	I418V	missense_variant			I418V	point_mutation
+1615	4	ABL1	I418S	missense_variant			I418S	point_mutation
+1616	4	ABL1	P441L	missense_variant			P441L	point_mutation
+1617	4	ABL1	E450K	missense_variant	NP_005148.2:p.E450K	sub	E450K	point_mutation
+1618	4	ABL1	E450Q	missense_variant	NP_005148.2:p.E450Q	sub	E450Q	point_mutation
+1619	4	ABL1	E450A	missense_variant	NP_005148.2:p.E450A	sub	E450A	point_mutation
+1620	4	ABL1	E453V	missense_variant	NP_005148.2:p.E453V	sub	E453V	point_mutation
+1621	4	ABL1	E459G	missense_variant	NP_005148.2:p.E459G	sub	E459G	point_mutation
+1622	4	ABL1	M472I	missense_variant			M472I	point_mutation
+1623	4	ABL1	P480L	missense_variant			P480L	point_mutation
+1624	4	ABL1	G514S	missense_variant			G514S	point_mutation
+1625	4	ABL1	BCR-ABL F317I	missense_variant	NP_005148.2:p.F317I	sub	F317I	point_mutation
+1626	31	MAP2K1	E203K	missense_variant	NP_002746.1:p.E203K	sub	E203K	point_mutation
+1627	5	BRAF	G596R	missense_variant	NP_004324.2:p.G596R	sub	G596R	point_mutation
+1628	3867	NF1	R163X	stop_gained			R163*	point_mutation
+1630	24	FLT3	Y591_V592INSVDFREYE				Y591_V592insVDFREYE	insertion
+1631	24	FLT3	E588_Y589INSKYFYVDFRE	inframe_insertion			E588_Y589insKYFYVDFRE	insertion
+1632	24	FLT3	V592_D593INSDFREY				V592_D593insDFREY	insertion
+1639	4	ABL1	C475V	splice_donor_variant			C475V	point_mutation
+1640	4	ABL1	N336S	missense_variant			N336S	point_mutation
+1641	4941	ROS1	D2033N				D2033N	point_mutation
+1642	4384	POLD1	Y956N				Y956N	point_mutation
+1643	5128	SCN8A	Q225X				Q225*	point_mutation
+1644	18364	PXDNL	P1460T				P1460T	point_mutation
+1645	14195	PAPPA2	Y1520X				Y1520*	point_mutation
+1646	13465	POLE4	A59E				A59E	point_mutation
+1647	4384	POLD1	C284Y				C284Y	point_mutation
+1648	4384	POLD1	E374K				E374K	point_mutation
+1649	52	MET	D1010Y				D1010Y	point_mutation
+1650	5	BRAF	G596V	missense_variant			G596V	point_mutation
+1651	52	MET	D1010N				D1010N	point_mutation
+1652	4290	PIK3R2	N561D				N561D	point_mutation
+1653	37	PIK3CA	D350G	missense_variant	NP_006209.2:p.D350G	sub	D350G	point_mutation
+1654	36	NRAS	Q179X				Q179*	point_mutation
+1656	4	ABL1	R351W	missense_variant			R351W	point_mutation
+1657	4	ABL1	G340L	coding_sequence_variant			G340L	point_mutation
+1658	5	BRAF	V600_K601DELINSD	inframe_deletion			V600_K601delinsD	delins
+1659	29	KIT	S628N				S628N	point_mutation
+1660	52	MET	D1010H				D1010H	point_mutation
+1661	1	ALK	R1192P	missense_variant	NP_004295.2:p.R1192P	sub	R1192P	point_mutation
+1662	19	EGFR	N771DELinsVH				N771delinsVH	delins
+1664	19	EGFR	M766_A767insAI				M766_A767insAI	insertion
+1665	19	EGFR	Y764_V765insHH				Y764_V765insHH	insertion
+1666	19	EGFR	D770_N771insGY	inframe_insertion			D770_N771insGY	insertion
+1667	19	EGFR	P772_H773insYNP	inframe_insertion			P772_H773insYNP	insertion
+1668	19	EGFR	P772_V774insPHV	inframe_insertion			P772_V774insPHV	insertion
+1669	3359	LYN	Y508F				Y508F	point_mutation
+1670	4941	ROS1	S1986Y				S1986Y	point_mutation
+1671	4941	ROS1	S1986F				S1986F	point_mutation
+1672	19	EGFR	Y69FS*11				Y69fs*11	frameshift
+1673	1734	ERBB4	G1109C	missense_variant			G1109C	point_mutation
+1674	21	ESR1	E380Q				E380Q	point_mutation
+1675	21	ESR1	L536R				L536R	point_mutation
+1676	12903	FBXW7	S668FS*39				S668fs*39	frameshift
+1677	12903	FBXW7	L403FS*34				L403fs*34	frameshift
+1678	12903	FBXW7	G579W				G579W	point_mutation
+1679	12903	FBXW7	R658Q				R658Q	point_mutation
+1680	4767	RAF1	R391W				R391W	point_mutation
+1682	6559	ARID1A	P1175FS*5				P1175fs*5	frameshift
+1683	1	ALK	R214H	missense_variant			R214H	point_mutation
+1686	154	ACVR1	G328V	missense_variant	NP_001096.1:p.G328V	sub	G328V	point_mutation
+1688	42	RET	KIF5B-RET V804L				V804L	point_mutation
+1689	42	RET	KIF5B-RET G810A				G810A	point_mutation
+1692	23	FGFR3	G691R				G691R	point_mutation
+1694	58	VHL	E12D (c.36G>C)	missense_variant	NP_000542.1:p.E12D	sub	E12D	point_mutation
+1695	45	TP53	R158H				R158H	point_mutation
+1696	45	TP53	R249S				R249S	point_mutation
+1697	45	TP53	R280K				R280K	point_mutation
+1698	45	TP53	R280T				R280T	point_mutation
+1699	45	TP53	R158L				R158L	point_mutation
+1700	42	RET	C634R				C634R	point_mutation
+1733	58	VHL	E46* (c.136G>T)	stop_gained	NP_000542.1:p.E46*	sub	E46*	point_mutation
+1734	58	VHL	E52K (c.154G>A)	missense_variant	NP_000542.1:p.E52K	sub	E52K	point_mutation
+1735	58	VHL	E52fs* (c.156G>T)				E52fs*	frameshift
+1736	58	VHL	E55* (c.163G>T)				E55*	point_mutation
+1737	58	VHL	G39AfsTer26 (c.327delC)				G39Afs*26	frameshift
+1738	58	VHL	L158P (c.473T>C)	missense_variant	NP_000542.1:p.L158P	sub	L158P	point_mutation
+1739	58	VHL	R167Q (c.500G>A)	missense_variant	NP_000542.1:p.R167Q	sub	R167Q	point_mutation
+1741	58	VHL	Y98H (c.292T>C)	missense_variant	NP_000542.1:p.Y98H	sub	Y98H	point_mutation
+1742	58	VHL	H115Q (c.345C>A)	missense_variant	NP_000542.1:p.H115Q	sub	H115Q	point_mutation
+1743	58	VHL	F119L (c.357C>G)	missense_variant	NP_000542.1:p.F119L	sub	F119L	point_mutation
+1744	58	VHL	A149T (c.445G>A)	missense_variant	NP_000542.1:p.A149T	sub	A149T	point_mutation
+1745	58	VHL	T157I (c.470C>T)	missense_variant	NP_000542.1:p.T157I	sub	T157I	point_mutation
+1746	58	VHL	R161Q (c.482G>A)	missense_variant	NP_000542.1:p.R161Q	sub	R161Q	point_mutation
+1747	58	VHL	R167W (c.499C>T)	missense_variant	NP_000542.1:p.R167W	sub	R167W	point_mutation
+1748	58	VHL	L178P (c.533T>C)	missense_variant	NP_000542.1:p.L178P	sub	L178P	point_mutation
+1749	58	VHL	F76I (c.226T>A)	missense_variant	NP_000542.1:p.F76I	sub	F76I	point_mutation
+1750	58	VHL	V62C (c.180delG)	inframe_deletion	NP_000542.1:p.V62Cfs*	fs	V62C	point_mutation
+1752	58	VHL	Q73* (c.217C>T)	stop_gained	NP_000542.1:p.Q73*	sub	Q73*	point_mutation
+1754	58	VHL	N78H (c.232A>C)	missense_variant	NP_000542.1:p.N78H	sub	N78H	point_mutation
+1755	58	VHL	N78S (c.233A>G)	missense_variant	NP_000542.1:p.N78S	sub	N78S	point_mutation
+1756	58	VHL	N78T (c.233A>C)	missense_variant	NP_000542.1:p.N78T	sub	N78T	point_mutation
+1757	58	VHL	S80I (c.239G>T)	missense_variant	NP_000542.1:p.S80I	sub	S80I	point_mutation
+1758	58	VHL	N131* (c.255insC)				N131*	point_mutation
+1759	58	VHL	P86A (c.256C>G)	missense_variant	NP_000542.1:p.P86A	sub	P86A	point_mutation
+1760	58	VHL	P86L (c.257C>T)	missense_variant	NP_000542.1:p.P86L	sub	P86L	point_mutation
+1761	58	VHL	W88R (c.262T>A)	missense_variant	NP_000542.1:p.W88R	sub	W88R	point_mutation
+1762	58	VHL	S111FS (c.331delA)				S111fs	frameshift
+1763	58	VHL	S111N (c.332G>A)	missense_variant	NP_000542.1:p.S111N	sub	S111N	point_mutation
+1764	58	VHL	S111R (c.333C>G)	missense_variant	NP_000542.1:p.S111R	sub	S111R	point_mutation
+1766	58	VHL	Y112* (c.336C>A)	stop_gained	NP_000542.1:p.Y112*	sub	Y112*	point_mutation
+1767	58	VHL	W117C (c.351G>T)	missense_variant	NP_000542.1:p.W117C	sub	W117C	point_mutation
+1768	58	VHL	L129Q (c.386insAGA)				L129Q	point_mutation
+1769	58	VHL	L135* (c.404T>A)	stop_gained			L135*	point_mutation
+1770	58	VHL	N150I (c.448delA)				N150I	point_mutation
+1771	58	VHL	P154fs (c.462delA)	frameshift_truncation	NP_000542.1:p.V155Cfs*4	fs	P154fs	frameshift
+1772	58	VHL	C162R (c.484T>C)	missense_variant	NP_000542.1:p.C162R	sub	C162R	point_mutation
+1773	58	VHL	C162F (c.485G>T)	missense_variant	NP_000542.1:p.C162F	sub	C162F	point_mutation
+1774	58	VHL	C162W (c.486C>G)	missense_variant	NP_000542.1:p.C162W	sub	C162W	point_mutation
+1775	58	VHL	V166D (c.497T>A)	missense_variant	NP_000542.1:p.V166D	sub	V166D	point_mutation
+1776	58	VHL	L184P (c.551T>C)	missense_variant	NP_000542.1:p.L184P	sub	L184P	point_mutation
+1777	58	VHL	E186* (c.556G>T)	stop_gained	NP_000542.1:p.E186*	sub	E186*	point_mutation
+1778	58	VHL	E186K (c.556G>A)	missense_variant	NP_000542.1:p.E186K	sub	E186K	point_mutation
+1779	58	VHL	R167fs (c.502insTTGTTCGT)				R167fs	frameshift
+1780	58	VHL	Y175fs (c.526delA)	frameshift_truncation			Y175fs	frameshift
+1781	58	VHL	Q145H (c.435_436delGC)	frameshift_variant	NP_000542.1:p.Q145Hfs*	fs	Q145H	point_mutation
+1782	58	VHL	P154L (c.461C>T)	missense_variant	NP_000542.1:p.P154L	sub	P154L	point_mutation
+1783	58	VHL	T157fs (c.472insT)				T157fs	frameshift
+1784	58	VHL	S183* (c.548C>A)	stop_gained	NP_000542.1:p.S183*	sub	S183*	point_mutation
+1785	58	VHL	A56fs (c.167insA)				A56fs	frameshift
+1786	58	VHL	P59R (c.175delC)	missense_variant			P59R	point_mutation
+1787	58	VHL	S65W (c.194C>G)	missense_variant	NP_000542.1:p.S65W	sub	S65W	point_mutation
+1788	58	VHL	S65L (c.194C>T)	missense_variant	NP_000542.1:p.S65L	sub	S65L	point_mutation
+1789	58	VHL	V66* (c.196delG)	stop_gained	NP_000542.1:p.V66*	sub	V66*	point_mutation
+1790	58	VHL	C77FS (c.228_229insC)	frameshift_variant			C77fs	frameshift
+1791	58	VHL	R79P (c.236G>C)	missense_variant	NP_000542.1:p.R79P	sub	R79P	point_mutation
+1792	58	VHL	S80R (c.240T>G)	missense_variant			S80R	point_mutation
+1793	58	VHL	L89P (c.266T>C)	missense_variant	NP_000542.1:p.L89P	sub	L89P	point_mutation
+1794	58	VHL	E94* (c.280G>T)	stop_gained	NP_000542.1:p.E94*	sub	E94*	point_mutation
+1795	58	VHL	P103FS (c.309_310delTG)	frameshift_variant			P103fs	frameshift
+1796	58	VHL	R113* (c.337C>T)	missense_variant	NP_000542.1:p.R113*	sub	R113*	point_mutation
+1797	58	VHL	G114C (c.340G>T)	missense_variant	NP_000542.1:p.G114C	sub	G114C	point_mutation
+1798	58	VHL	L118P (c.353T>C)	missense_variant	NP_000542.1:p.L118P	sub	L118P	point_mutation
+1800	58	VHL	N131P (c.390_391delTA)	missense_variant			N131P	point_mutation
+1801	58	VHL	F136S (c.407T>C)	missense_variant	NP_000542.1:p.F136S	sub	F136S	point_mutation
+1802	58	VHL	L153C (c.457delC)				L153C	point_mutation
+1803	58	VHL	L158V (c.472C>G)	missense_variant	NP_000542.1:p.L158V	sub	L158V	point_mutation
+1804	58	VHL	R161* (c.481C>T)	missense_variant	NP_000542.1:p.R161*	sub	R161*	point_mutation
+1805	58	VHL	R167G (c.499C>G)	missense_variant	NP_000542.1:p.R167G	sub	R167G	point_mutation
+1806	58	VHL	V170F (c.508G>T)	missense_variant	NP_000542.1:p.V170F	sub	V170F	point_mutation
+1807	58	VHL	I180V (c.538A>G)	missense_variant	NP_000542.1:p.I180V	sub	I180V	point_mutation
+1808	58	VHL	L184R (c.551T>G)	missense_variant	NP_000542.1:p.L184R	sub	L184R	point_mutation
+1809	58	VHL	Y185* (c.555C>G)	stop_gained	NP_000542.1:p.Y185*	sub	Y185*	point_mutation
+1810	58	VHL	Q195* (c.583C>T)	stop_gained	NP_000542.1:p.Q195*	sub	Q195*	point_mutation
+1811	58	VHL	S65* (c.194C>A)	stop_gained	NP_000542.1:p.S65*	sub	S65*	point_mutation
+1812	58	VHL	G93fs (c.278delG)	frameshift_variant			G93fs	frameshift
+1813	58	VHL	D121G (c.362A>G)	missense_variant	NP_000542.1:p.D121G	sub	D121G	point_mutation
+1814	58	VHL	F136C (c.407T>G)	missense_variant	NP_000542.1:p.F136C	sub	F136C	point_mutation
+1815	58	VHL	V84L (c.250G>T)	missense_variant	NP_000542.1:p.V84L	sub	V84L	point_mutation
+1816	58	VHL	S72P (c.214delT)	frameshift_truncation			S72P	point_mutation
+1818	58	VHL	Q96P (c.287A>C)	missense_variant	NP_000542.1:p.Q96P	sub	Q96P	point_mutation
+1819	58	VHL	G185S (c.340+5G>C)				G185S	point_mutation
+1820	58	VHL	L116V (c.346C>G)	missense_variant			L116V	point_mutation
+1821	58	VHL	W117* (c.351G>A)	stop_gained	NP_000542.1:p.W117*	sub	W117*	point_mutation
+1822	58	VHL	L118R (c.353T>G)	missense_variant	NP_000542.1:p.L118R	sub	L118R	point_mutation
+1823	58	VHL	N141FS (c.421delA)	minus_1_frameshift			N141fs	frameshift
+1824	58	VHL	C162Y (c.485G>A)	missense_variant	NP_000542.1:p.C162Y	sub	C162Y	point_mutation
+1825	58	VHL	V166F (c.496G>T)	missense_variant	NP_000542.1:p.V166F	sub	V166F	point_mutation
+1826	58	VHL	V170D (c.509T>A)	missense_variant	NP_000542.1:p.V170D	sub	V170D	point_mutation
+1827	58	VHL	R177* (c.529A>T)	stop_gained	NP_000542.1:p.R177*	sub	R177*	point_mutation
+1828	58	VHL	L188R (c.563delT)	minus_1_frameshift_variant	NP_000542.1:p.L188Rfs*14	fs	L188R	point_mutation
+1829	58	VHL	E186del (c.558_560delAGA)	inframe_deletion	NP_000542.1:p.E186del	del	E186del	small_deletion
+1830	4386	POLE	P286R				P286R	point_mutation
+1831	4386	POLE	V411L				V411L	point_mutation
+1832	4386	POLE	S459F				S459F	point_mutation
+1833	58	VHL	V166F (c.498C>G)				V166F	point_mutation
+1834	58	VHL	E70* (c.208G>T)	stop_gained	NP_000542.1:p.E70*	sub	E70*	point_mutation
+1835	58	VHL	F76S (c.227T>C)	missense_variant	NP_000542.1:p.F76S	sub	F76S	point_mutation
+1836	58	VHL	L188V (c.562C>G)	missense_variant	NP_000542.1:p.L188V	sub	L188V	point_mutation
+1837	58	VHL	P81S (c.241C>T)	missense_variant	NP_000542.1:p.P81S	sub	P81S	point_mutation
+1838	58	VHL	L101G (c.301C>G)				L101G	point_mutation
+1839	58	VHL	T105P (c.313A>C)	missense_variant	NP_000542.1:p.T105P	sub	T105P	point_mutation
+1840	58	VHL	R107P (c.320G>C)	missense_variant	NP_000542.1:p.R107P	sub	R107P	point_mutation
+1841	58	VHL	L118T (c.352insA)				L118T	point_mutation
+1843	58	VHL	L132fs (c.395delA)				L132fs	frameshift
+1844	58	VHL	D143fs (c.430delG)				D143fs	frameshift
+1845	58	VHL	Q164* (c.490C>T)	stop_gained	NP_000542.1:p.Q164*	sub	Q164*	point_mutation
+1846	58	VHL	Y175D (c.523T>G)	missense_variant	NP_000542.1:p.Y175D	sub	Y175D	point_mutation
+1847	58	VHL	V181G (c.540_543delCGTC)				V181G	point_mutation
+1848	58	VHL	Q96* (c.286C>T)	stop_gained	NP_000542.1:p.Q96*	sub	Q96*	point_mutation
+1849	58	VHL	P86R (c.257C>G)	missense_variant	NP_000542.1:p.P86R	sub	P86R	point_mutation
+1850	58	VHL	G144* (c.430G>T)	stop_gained	NP_000542.1:p.G144*	sub	G144*	point_mutation
+1851	58	VHL	L128F (c.381_382GC>TT)				L128F	point_mutation
+1852	58	VHL	L188P (c.563T>C)	missense_variant	NP_000542.1:p.L188P	sub	L188P	point_mutation
+1853	58	VHL	S111C (c.330CA>TT)				S111C	point_mutation
+1854	19	EGFR	Ex19 del L858R	missense_variant;inframe_deletion			L858R	point_mutation
+1855	58	VHL	R161P (c.482G>C)	missense_variant	NP_000542.1:p.R161P	sub	R161P	point_mutation
+1856	58	VHL	Q164R (c.491A>G)	missense_variant	NP_000542.1:p.Q164R	sub	Q164R	point_mutation
+1857	58	VHL	G114R (c.340G>C)	missense_variant	NP_000542.1:p.G114R	sub	G114R	point_mutation
+1858	58	VHL	G93D (c.278G>A)	missense_variant	NP_000542.1:p.G93D	sub	G93D	point_mutation
+1859	58	VHL	G93S (c.277G>A)	missense_variant	NP_000542.1:p.G93S	sub	G93S	point_mutation
+1860	58	VHL	L101R (c.302T>G)	missense_variant	NP_000542.1:p.L101R	sub	L101R	point_mutation
+1861	58	VHL	L188Q (c.563T>A)	missense_variant			L188Q	point_mutation
+1862	58	VHL	K159E (c.475A>G)	missense_variant			K159E	point_mutation
+1864	58	VHL	P192fs (c.575delC)	missense_variant	NP_000542.1:p.P192Qfs*10	fs	P192fs	frameshift
+1865	58	VHL	Y112H (c.334T>C)	missense_variant	NP_000542.1:p.Y112H	sub	Y112H	point_mutation
+1867	58	VHL	R64P (c.191G>C)	missense_variant	NP_000542.1:p.R64P	sub	R64P	point_mutation
+1868	58	VHL	N131fs (c.393CC>A)				N131fs	frameshift
+1869	58	VHL	E189L (c.565delG)				E189L	point_mutation
+1871	58	VHL	I151T (c.452T>C)	missense_variant	NP_000542.1:p.I151T	sub	I151T	point_mutation
+1872	58	VHL	L158fs (c.473insT)				L158fs	frameshift
+1873	58	VHL	S68P (c.202T>C)	missense_variant	NP_000542.1:p.S68P	sub	S68P	point_mutation
+1874	58	VHL	S80N (c.239G>A)	missense_variant	NP_000542.1:p.S80N	sub	S80N	point_mutation
+1875	58	VHL	V130F (c.388G>T)	missense_variant	NP_000542.1:p.V130F	sub	V130F	point_mutation
+1881	69	ATM	F858L				F858L	point_mutation
+1883	58	VHL	Q145* (c.433C>T)	stop_gained	NP_000542.1:p.Q145*	sub	Q145*	point_mutation
+1884	58	VHL	E134* (c.400G>T)	stop_gained	NP_000542.1:p.E134*	sub	E134*	point_mutation
+1885	58	VHL	H115P (c.344A>C)	missense_variant	NP_000542.1:p.H115P	sub	H115P	point_mutation
+1886	58	VHL	L128R (c.383T>G)	missense_variant	NP_000542.1:p.L128R	sub	L128R	point_mutation
+1887	58	VHL	L169P (c.506T>C)	missense_variant	NP_000542.1:p.L169P	sub	L169P	point_mutation
+1888	58	VHL	L178R (c.533T>G)	missense_variant	NP_000542.1:p.L178R	sub	L178R	point_mutation
+1889	58	VHL	M54* (c.162insT)				M54*	point_mutation
+1891	19	EGFR	L747P				L747P	point_mutation
+1892	19	EGFR	V774A				V774A	point_mutation
+1893	58	VHL	F91* (c.272T>A)				F91*	point_mutation
+1894	19	EGFR	V774M				V774M	point_mutation
+1895	19	EGFR	K806E	missense_variant			K806E	point_mutation
+1896	19	EGFR	N826Y				N826Y	point_mutation
+1897	19	EGFR	V834I				V834I	point_mutation
+1899	19	EGFR	N842S				N842S	point_mutation
+1902	58	VHL	P86S (c.256C>T)	missense_variant	NP_000542.1:p.P86S	sub	P86S	point_mutation
+1903	58	VHL	S65P (c.193T>C)	missense_variant	NP_000542.1:p.S65P	sub	S65P	point_mutation
+1904	58	VHL	S72P (c.214T>C)	missense_variant	NP_000542.1:p.S72P	sub	S72P	point_mutation
+1905	58	VHL	G123FS (c.367delG)	frameshift_truncation			G123fs	frameshift
+1906	58	VHL	L135FS (c.404delT)	frameshift_truncation	NP_000542.1:p.L135Yfs*24	fs	L135fs	frameshift
+1907	58	VHL	R176fs (c.528delG)	frameshift_truncation	NP_000542.1:p.R177Dfs*25	fs	R176fs	frameshift
+1908	58	VHL	W88* (c.264G>A)	stop_gained			W88*	point_mutation
+1909	58	VHL	V155E (c.464T>A)	missense_variant	NP_000542.1:p.V155E	sub	V155E	point_mutation
+1910	58	VHL	V170A (c.509T>C)	missense_variant	NP_000542.1:p.V170A	sub	V170A	point_mutation
+1911	58	VHL	R58fs (c.173_174insC)	frameshift_variant	NP_000542.1:p.P59Afs*?	fs	R58fs	frameshift
+1912	58	VHL	F76fs (c.223_224insT)	frameshift_truncation	NP_000542.1:p.F76Lfs*56	fs	F76fs	frameshift
+1913	58	VHL	K196* (c.586A>T)	stop_gained	NP_000542.1:p.K196*	sub	K196*	point_mutation
+1914	58	VHL	R120G (c.358A>G)	missense_variant	NP_000542.1:p.R120G	sub	R120G	point_mutation
+1915	58	VHL	R161G (c.481C>G)	missense_variant	NP_000542.1:p.R161G	sub	R161G	point_mutation
+1916	58	VHL	R167L (c.500G>T)	missense_variant	NP_000542.1:p.R167L	sub	R167L	point_mutation
+1917	58	VHL	N141fs (c.422_440del19)	frameshift_variant	NP_000542.1:p.N141Ifs*12	fs	N141fs	frameshift
+1918	58	VHL	D126FS (c.375_376insC)	inframe_insertion			D126fs	frameshift
+1919	58	VHL	E160FS (c.479_480delAG)	frameshift_truncation	NP_000542.1:p.E160Afs*13	fs	E160fs	frameshift
+1920	58	VHL	G93R (c.277G>C)	missense_variant	NP_000542.1:p.G93R	sub	G93R	point_mutation
+1921	58	VHL	H115Y (c.343C>T)	missense_variant	NP_000542.1:p.H115Y	sub	H115Y	point_mutation
+1922	58	VHL	I109FS (c.326delT)	frameshift_truncation			I109fs	frameshift
+1923	58	VHL	L153P (c.458T>C)	missense_variant	NP_000542.1:p.L153P	sub	L153P	point_mutation
+1924	58	VHL	L188R (c.563T>G)	missense_variant			L188R	point_mutation
+1925	58	VHL	L85fs (c.253_254ins38)				L85fs	frameshift
+1926	58	VHL	F76del (c.227_229delTCT)	inframe_deletion	NP_000542.1:p.F76del	del	F76del	small_deletion
+1927	58	VHL	P103A (c.307C>G)	missense_variant	NP_000542.1:p.P103A	sub	P103A	point_mutation
+1928	58	VHL	P138T (c.412C>A)	missense_variant	NP_000542.1:p.P138T	sub	P138T	point_mutation
+1929	58	VHL	P59fs (c.176delC)	frameshift_truncation	NP_000542.1:p.P59Rfs*8	fs	P59fs	frameshift
+1930	58	VHL	P59S (c.175C>T)	missense_variant	NP_000542.1:p.P59S	sub	P59S	point_mutation
+1931	58	VHL	P61P (c.183C>G)	synonymous_variant	NP_000542.1:p.P61=	identity	P61P	point_mutation
+1932	58	VHL	Y175* (c.525C>A)	stop_gained	NP_000542.1:p.Y175*	sub	Y175*	point_mutation
+1933	58	VHL	Y98C  (c.293A>G)	missense_variant	NP_000542.1:p.Y98C	sub	Y98C	point_mutation
+1934	58	VHL	V155G (c.464T>G)	missense_variant	NP_000542.1:p.V155G	sub	V155G	point_mutation
+1935	58	VHL	V170G (c.509T>G)	missense_variant	NP_000542.1:p.V170G	sub	V170G	point_mutation
+1936	58	VHL	V66G (c.197T>G)	missense_variant	NP_000542.1:p.V66G	sub	V66G	point_mutation
+1937	58	VHL	V84L (c.250G>C)	missense_variant	NP_000542.1:p.V84L	sub	V84L	point_mutation
+1941	58	VHL	S168T (c.503G>C)	missense_variant	NP_000542.1:p.S168T	sub	S168T	point_mutation
+1942	58	VHL	P86S (c.257C>T)				P86S	point_mutation
+1943	58	VHL	Q164H (c.492G>C)	missense_variant			Q164H	point_mutation
+1944	58	VHL	L63P (c.188T>C)	missense_variant	NP_000542.1:p.L63P	sub	L63P	point_mutation
+1945	58	VHL	p.Phe119Glnfs*12 (c.354_355delCT)				Phe119Glnfs*12	frameshift
+1946	58	VHL	Y156C (c.467A>G)	missense_variant	NP_000542.1:p.Y156C	sub	Y156C	point_mutation
+1948	58	VHL	R69fs (c.204insG)				R69fs	frameshift
+1949	58	VHL	G144fs (c.432insG)				G144fs	frameshift
+1953	58	VHL	N131K (c.393C>A)	missense_variant	NP_000542.1:p.N131K	sub	N131K	point_mutation
+1954	58	VHL	T105fs (c.315insAC)				T105fs	frameshift
+1955	58	VHL	P71fs (c.211insT)				P71fs	frameshift
+1956	58	VHL	E70K (c.208G>A)	missense_variant	NP_000542.1:p.E70K	sub	E70K	point_mutation
+1957	58	VHL	H115Q (c.345C>G)	missense_variant			H115Q	point_mutation
+1958	58	VHL	H191FS (c.571delC)	frameshift_truncation	NP_000542.1:p.H191Tfs*11	fs	H191fs	frameshift
+1960	58	VHL	L140fs (c.417_to_418delTC)				L140fs	frameshift
+1961	58	VHL	M54fs (c.161insT)				M54fs	frameshift
+1962	58	VHL	P154P (c.462A>C)	synonymous_variant	NP_000542.1:p.P154=	identity	P154P	point_mutation
+1963	58	VHL	S80R (c.238A>C)	missense_variant	NP_000542.1:p.S80R	sub	S80R	point_mutation
+1964	58	VHL	R60FS (c.179delG)	frameshift_truncation			R60fs	frameshift
+1965	58	VHL	I109TfsX50 (c.326delT)	frameshift_variant			I109TfsX50	frameshift
+1966	58	VHL	W88S (c.263G>C)	missense_variant	NP_000542.1:p.W88S	sub	W88S	point_mutation
+1967	58	VHL	Y156D (c.466T>G)	missense_variant	NP_000542.1:p.Y156D	sub	Y156D	point_mutation
+1968	58	VHL	Y156* (c.468T>G)	stop_gained	NP_000542.1:p.Y156*	sub	Y156*	point_mutation
+1969	58	VHL	Y175* (c.525C>G)	stop_gained	NP_000542.1:p.Y175*	sub	Y175*	point_mutation
+1970	58	VHL	V130L (c.388G>C)	missense_variant	NP_000542.1:p.V130L	sub	V130L	point_mutation
+1975	58	VHL	R167fsX4 (c.499_504delinsT)	frameshift_variant			R167fsX4	frameshift
+1976	58	VHL	E173* (c.517G>T)	stop_gained	NP_000542.1:p.E173*	sub	E173*	point_mutation
+1977	58	VHL	V194fs (c.579_580delTG)	frameshift_variant			V194fs	frameshift
+1980	58	VHL	R82P (c.245G>C)	missense_variant	NP_000542.1:p.R82P	sub	R82P	point_mutation
+1981	58	VHL	N100fsX131 (c.298_299InsA)				N100fsX131	frameshift
+1986	58	VHL	*214L (c.641G>T)	stop_lost	NP_000542.1:p.*214L	sub	*214L	point_mutation
+1987	58	VHL	*214W (c.642A>G)	stop_lost	NP_000542.1:p.*214W	sub	*214W	point_mutation
+1988	58	VHL	*214C (c.642A>T)	stop_lost	NP_000542.1:p.*214C	sub	*214C	point_mutation
+1989	58	VHL	G144fs (c.431delG)	frameshift_truncation	NP_000542.1:p.G144Dfs*	fs	G144fs	frameshift
+1994	58	VHL	Q132* (c.394C>T)	stop_gained	NP_000542.1:p.Q132*	sub	Q132*	point_mutation
+1996	58	VHL	L129fs (c.384delT)	frameshift_variant			L129fs	frameshift
+1997	58	VHL	L178Q (c.533T>A)	missense_variant			L178Q	point_mutation
+1999	58	VHL	V74G (c.221T>G)	missense_variant	NP_000542.1:p.V74G	sub	V74G	point_mutation
+2000	58	VHL	H115R (c.344A>G)	missense_variant			H115R	point_mutation
+2001	58	VHL	R131S (c.392A>G)				R131S	point_mutation
+2002	58	VHL	Q73fs (c.215delC)	frameshift_variant			Q73fs	frameshift
+2003	58	VHL	S111R (c.333C>A)	missense_variant	NP_000542.1:p.S111R	sub	S111R	point_mutation
+2004	58	VHL	S168fs (c.503delG)	frameshift_truncation	NP_000542.1:p.S168Tfs*2	fs	S168fs	frameshift
+2005	58	VHL	P172fs  (c.516delT)	frameshift_truncation			P172fs	frameshift
+2006	58	VHL	Y112N (c.334T>A)	missense_variant	NP_000542.1:p.Y112N	sub	Y112N	point_mutation
+2007	58	VHL	R107G  (c.319C>G)	missense_variant	NP_000542.1:p.R107G	sub	R107G	point_mutation
+2008	58	VHL	G93C (c.277G>T)	missense_variant	NP_000542.1:p.G93C	sub	G93C	point_mutation
+2009	58	VHL	G93V (c.278G>T)	missense_variant			G93V	point_mutation
+2010	58	VHL	L198Q  (c.593T>A)	missense_variant	NP_000542.1:p.L198Q	sub	L198Q	point_mutation
+2011	58	VHL	S65A (c.193T>G)	missense_variant	NP_000542.1:p.S65A	sub	S65A	point_mutation
+2012	58	VHL	S68W (c.203C>G)				S68W	point_mutation
+2013	58	VHL	Y156N (c.466T>A)	missense_variant	NP_000542.1:p.Y156N	sub	Y156N	point_mutation
+2014	58	VHL	P61fs (c.183insC)				P61fs	frameshift
+2015	58	VHL	F76del (c.226_228delTTC)	inframe_deletion			F76del	small_deletion
+2020	58	VHL	L85P (c.254T>C)	missense_variant	NP_000542.1:p.L85P	sub	L85P	point_mutation
+2022	58	VHL	V194FS (c.581_582delTG)	frameshift_truncation	NP_000542.1:p.V194Afs*?	fs	V194fs	frameshift
+2023	58	VHL	A149fs (c.449del14-nt)				A149fs	frameshift
+2026	58	VHL	G114S (c.340G>A)	missense_variant	NP_000542.1:p.G114S	sub	G114S	point_mutation
+2027	58	VHL	W117fs (c.349dupT)	inframe_insertion			W117fs	frameshift
+2028	58	VHL	A122I (c.364_365GC>AT)	missense_variant			A122I	point_mutation
+2029	58	VHL	N150fs (c.445_458del)	frameshift_variant			N150fs	frameshift
+2030	58	VHL	I151M (c.453C>G)	missense_variant			I151M	point_mutation
+2032	58	VHL	E160FS (c.478_479delGA)	frameshift_truncation			E160fs	frameshift
+2033	58	VHL	L163H (c.488T>A)	missense_variant			L163H	point_mutation
+2034	58	VHL	L129P (c.386T>C)	missense_variant			L129P	point_mutation
+2035	58	VHL	C162FS (c.483delA)	frameshift_truncation			C162fs	frameshift
+2037	58	VHL	N78I (c.233A>T)	missense_variant	NP_000542.1:p.N78I	sub	N78I	point_mutation
+2038	58	VHL	I147V (c.439A>G)	missense_variant	NP_000542.1:p.I147V	sub	I147V	point_mutation
+2039	58	VHL	W88fs (c.263_265delGGCinsTT)	indel;frameshift_variant	NP_000542.1:p.W88Ffs*?	fs	W88fs	frameshift
+2040	58	VHL	K159fs (c.477_478insCA)	frameshift_variant			K159fs	frameshift
+2041	58	VHL	Q73fs (c.217delC)	frameshift_truncation	NP_000542.1:p.Q73Rfs*?	fs	Q73fs	frameshift
+2042	58	VHL	A149fs (c.445delG)	inframe_deletion	NP_000542.1:p.A149Pfs*10	fs	A149fs	frameshift
+2043	58	VHL	G104A (c.311G>C)	missense_variant	NP_000542.1:p.G104A	sub	G104A	point_mutation
+2044	58	VHL	R107H (c.320G>A)	missense_variant	NP_000542.1:p.R107H	sub	R107H	point_mutation
+2045	58	VHL	S111C (c.331A>T)				S111C	point_mutation
+2046	58	VHL	V155L (c.463G>C)				V155L	point_mutation
+2050	9533	DICER1	E1705K				E1705K	point_mutation
+2051	9533	DICER1	D1709N				D1709N	point_mutation
+2052	9533	DICER1	E1813Q				E1813Q	point_mutation
+2053	58	VHL	D126Y (c.376G>T)	missense_variant	NP_000542.1:p.D126Y	sub	D126Y	point_mutation
+2054	58	VHL	T124I (c.371C>T)	missense_variant	NP_000542.1:p.T124I	sub	T124I	point_mutation
+2055	58	VHL	P146fs (c.436delC)	frameshift_truncation			P146fs	frameshift
+2056	58	VHL	W88R (c.262T>C)	missense_variant	NP_000542.1:p.W88R	sub	W88R	point_mutation
+2057	58	VHL	H115FS (c.344delA)	frameshift_truncation			H115fs	frameshift
+2058	58	VHL	P102fs (c.305delC)	frameshift_truncation	NP_000542.1:p.P102Rfs*?	fs	P102fs	frameshift
+2059	58	VHL	G144R (c.430G>A)	missense_variant	NP_000542.1:p.G144R	sub	G144R	point_mutation
+2060	58	VHL	H125P (c.374A>C)	missense_variant	NP_000542.1:p.H125P	sub	H125P	point_mutation
+2063	5534	STK11	F354L				F354L	point_mutation
+2064	58	VHL	P192S (c.574C>T)	missense_variant	NP_000542.1:p.P192S	sub	P192S	point_mutation
+2066	58	VHL	Y175N (c.523T>A)	missense_variant	NP_000542.1:p.Y175N	sub	Y175N	point_mutation
+2067	58	VHL	Y175C (c.524A>G)	missense_variant	NP_000542.1:p.Y175C	sub	Y175C	point_mutation
+2068	58	VHL	V87A (c.260T>C)	missense_variant	NP_000542.1:p.V87A	sub	V87A	point_mutation
+2069	58	VHL	P97L (c.290C>T)	missense_variant			P97L	point_mutation
+2070	58	VHL	L184H (c.551T>A)	missense_variant			L184H	point_mutation
+2073	58	VHL	G106fs (c.316insA)				G106fs	frameshift
+2076	58	VHL	V155M (c.463G>A)	missense_variant	NP_000542.1:p.V155M	sub	V155M	point_mutation
+2079	58	VHL	Q164L (c.491A>T)	missense_variant	NP_000542.1:p.Q164L	sub	Q164L	point_mutation
+2080	58	VHL	R176fs (c.527delG)	frameshift_truncation			R176fs	frameshift
+2081	58	VHL	V194fs (c.581_582delGT)				V194fs	frameshift
+2084	58	VHL	P81L (c.242C>T)	missense_variant	NP_000542.1:p.P81L	sub	P81L	point_mutation
+2085	58	VHL	T152I (c.455C>T)	missense_variant	NP_000542.1:p.T152I	sub	T152I	point_mutation
+2086	58	VHL	V130I (c.388G>A)/ R200W (c.598C>T)	missense_variant			V130I;R200W	point_mutation;point_mutation
+2087	58	VHL	L63fs (c.189_192delGCGC)				L63fs	frameshift
+2088	58	VHL	F76del (c.224_226delTCT)	inframe_deletion			F76del	small_deletion
+2090	58	VHL	P40fs (c.118ins)				P40fs	frameshift
+2091	58	VHL	T152fs (c.455insA)				T152fs	frameshift
+2092	58	VHL	T157fs (c.472ins)				T157fs	frameshift
+2094	58	VHL	T157fs (c.472ins1-nt)				T157fs	frameshift
+2095	58	VHL	I151fs (c.452insA)				I151fs	frameshift
+2097	58	VHL	D92fs (c.275del18-nt)				D92fs	frameshift
+2098	58	VHL	K159fs (c.475delA)	frameshift_truncation			K159fs	frameshift
+2099	58	VHL	V66del (c.197_220del)	inframe_deletion			V66del	small_deletion
+2100	58	VHL	S183fs (c.548delC)	frameshift_truncation			S183fs	frameshift
+2101	58	VHL	V84M (c.250G>A)	missense_variant	NP_000542.1:p.V84M	sub	V84M	point_mutation
+2105	58	VHL	D197N (c.589G>A)	missense_variant	NP_000542.1:p.D197N	sub	D197N	point_mutation
+2106	58	VHL	S80G (c.238A>G)	missense_variant	NP_000542.1:p.S80G	sub	S80G	point_mutation
+2107	58	VHL	F76L (c.228C>G)	missense_variant	NP_000542.1:p.F76L	sub	F76L	point_mutation
+2110	58	VHL	R82L (c.245G>T)	missense_variant	NP_000542.1:p.R82L	sub	R82L	point_mutation
+2112	58	VHL	N78D (c.232A>G)	missense_variant			N78D	point_mutation
+2113	58	VHL	N78Y (c.232A>T)	missense_variant	NP_000542.1:p.N78Y	sub	N78Y	point_mutation
+2115	58	VHL	Y185* (c.555C>A)	stop_gained	NP_000542.1:p.Y185*	sub	Y185*	point_mutation
+2116	58	VHL	R167Q (c.499C>T)				R167Q	point_mutation
+2117	58	VHL	P95R (c.284C>G)	missense_variant			P95R	point_mutation
+2118	58	VHL	P103L (c.308C>T)	missense_variant			P103L	point_mutation
+2119	58	VHL	F119S (c.356T>C)	missense_variant	NP_000542.1:p.F119S	sub	F119S	point_mutation
+2120	58	VHL	P138L (c.413C>T)	missense_variant			P138L	point_mutation
+2121	58	VHL	P61fs (c.181delCCGT)				P61fs	frameshift
+2122	58	VHL	S65* (c.203C>A)	stop_gained	NP_000542.1:p.S68*	sub	S65*	point_mutation
+2123	58	VHL	C77del (c.229_231delTGC)	conservative_inframe_deletion	NP_000542.1:p.C77del	del	C77del	small_deletion
+2124	58	VHL	W88C (c.264G>C)	missense_variant	NP_000542.1:p.W88C	sub	W88C	point_mutation
+2125	58	VHL	Q132P (c.395A>C)	missense_variant	NP_000542.1:p.Q132P	sub	Q132P	point_mutation
+2126	58	VHL	D198fs (c.592_593delCT)	frameshift_truncation			D198fs	frameshift
+2127	58	VHL	G93FS (c.279delC)	frameshift_truncation			G93fs	frameshift
+2128	58	VHL	P97P (c.291C>G)	silent_mutation			P97P	point_mutation
+2129	58	VHL	G114dup (c.342dupGGT)				G114dup	duplication
+2130	58	VHL	S65FS (c.194delC)	frameshift_truncation	NP_000542.1:p.S65Wfs*2	fs	S65fs	frameshift
+2131	58	VHL	Q73fs (c.214insGCCC)				Q73fs	frameshift
+2132	58	VHL	F76fs (c.227insC)				F76fs	frameshift
+2134	58	VHL	G114fs (c.341delCGTTTCCAACAATTTCTCGGTGT)				G114fs	frameshift
+2135	58	VHL	G123fs (c.369_375delGACACAC)	frameshift_variant			G123fs	frameshift
+2136	58	VHL	H125fs (c.374insA)				H125fs	frameshift
+2137	58	VHL	L158fs (c.474_476delGAAinsC)	frameshift_variant			L158fs	frameshift
+2138	58	VHL	Y175FS (c.525delC)	frameshift_truncation			Y175fs	frameshift
+2139	58	VHL	L188fs (c.562delC)	frameshift_truncation			L188fs	frameshift
+2140	58	VHL	Q195fs (c.584_585delAG)	frameshift_variant			Q195fs	frameshift
+2141	58	VHL	D197FS (c.589delG)	frameshift_truncation			D197fs	frameshift
+2142	58	VHL	T202fs (c.606insA)				T202fs	frameshift
+2143	58	VHL	R113FS (c.337delC)	frameshift_truncation	NP_000542.1:p.R113Efs*?	fs	R113fs	frameshift
+2144	58	VHL	E55fs (c.165_166dupG)				E55fs	frameshift
+2145	58	VHL	P61FS (c.182_185delCCGT)	frameshift_variant			P61fs	frameshift
+2147	58	VHL	K196E (c.586A>G)	missense_variant	NP_000542.1:p.K196E	sub	K196E	point_mutation
+2148	58	VHL	R161R (c.481C>A)				R161R	point_mutation
+2149	58	VHL	N90I (c.269A>T)	missense_variant	NP_000542.1:p.N90I	sub	N90I	point_mutation
+2150	58	VHL	I151F (c.451A>T)				I151F	point_mutation
+2151	58	VHL	W88* (c.263G>A)	stop_gained	NP_000542.1:p.W88*	sub	W88*	point_mutation
+2153	58	VHL	G114fs (c.326_339dupTCCACAGCTACCGA)				G114fs	frameshift
+2154	58	VHL	D121H (c.361G>C)	missense_variant	NP_000542.1:p.D121H	sub	D121H	point_mutation
+2155	58	VHL	R145fs (c.432_433insA)	frameshift_variant			R145fs	frameshift
+2156	58	VHL	S111R (c.331A>C)	missense_variant	NP_000542.1:p.S111R	sub	S111R	point_mutation
+2157	58	VHL	L128P (c.383T>C)	missense_variant			L128P	point_mutation
+2158	58	VHL	F76fs (c.222_225dupCATC)				F76fs	frameshift
+2160	58	VHL	Y98FS (c.291delC)	frameshift_truncation	NP_000542.1:p.Y98Tfs*	fs	Y98fs	frameshift
+2161	58	VHL	S183L (c.548C>T)	missense_variant	NP_000542.1:p.S183L	sub	S183L	point_mutation
+2162	58	VHL	N150S (c.449A>G)	missense_variant	NP_000542.1:p.N150S	sub	N150S	point_mutation
+2165	1810	FANCA	S1088F	missense_variant	NP_000126.2:p.S1088F	sub	S1088F	point_mutation
+2168	8032	RAD50	L1237F				L1237F	point_mutation
+2173	58	VHL	E94K (c.280G>A)	missense_variant	NP_000542.1:p.E94K	sub	E94K	point_mutation
+2175	58	VHL	R79C (c.235C>T)				R79C	point_mutation
+2176	58	VHL	Y175C (c.523A>G)				Y175C	point_mutation
+2177	58	VHL	M54I (c.162G>C)	missense_variant			M54I	point_mutation
+2195	9533	DICER1	D1709G				D1709G	point_mutation
+2196	9533	DICER1	D1709E				D1709E	point_mutation
+2197	9533	DICER1	D1810H				D1810H	point_mutation
+2198	9533	DICER1	D1810Y				D1810Y	point_mutation
+2199	9533	DICER1	D1810N				D1810N	point_mutation
+2200	9533	DICER1	E1813G				E1813G	point_mutation
+2201	9533	DICER1	E1813K				E1813K	point_mutation
+2213	19	EGFR	M766_A767insASV				M766_A767insASV	insertion
+2217	19	EGFR	P772_H773insH				P772_H773insH	insertion
+2221	5	BRAF	G496A				G496A	point_mutation
+2222	5	BRAF	G466V	missense_variant	NP_004324.2:p.G466V	sub	G466V	point_mutation
+2223	5	BRAF	G606E	missense_variant			G606E	point_mutation
+2224	5	BRAF	P731T	missense_variant			P731T	point_mutation
+2241	58	VHL	R82C (c.244C>T)	missense_variant	NP_000542.1:p.R82C	sub	R82C	point_mutation
+2242	58	VHL	W88L (c.263G>T)	missense_variant	NP_000542.1:p.W88L	sub	W88L	point_mutation
+2243	58	VHL	S111G (c.331A>G)	missense_variant	NP_000542.1:p.S111G	sub	S111G	point_mutation
+2244	58	VHL	I151M (c.453C>G)	missense_variant	NP_000542.1:p.I151M	sub	I151M	point_mutation
+2245	58	VHL	E160* (c.478G>T)	stop_gained	NP_000542.1:p.E160*	sub	E160*	point_mutation
+2246	58	VHL	I180N (c.539T>A)	missense_variant	NP_000542.1:p.I180N	sub	I180N	point_mutation
+2247	58	VHL	L198R (c.593T>G)	missense_variant	NP_000542.1:p.L198R	sub	L198R	point_mutation
+2248	58	VHL	T100A(c.298A>G)				T100A	point_mutation
+2249	58	VHL	W117* (c.350G>A)				W117*	point_mutation
+2250	58	VHL	I151S (c.452T>G)				I151S	point_mutation
+2251	58	VHL	Q96fs (c.286insT)				Q96fs	frameshift
+2252	58	VHL	G104fs (c.309delT)				G104fs	frameshift
+2253	58	VHL	N174fs (c.520delA)				N174fs	frameshift
+2255	19	EGFR	A702S				A702S	point_mutation
+2256	19	EGFR	E709K and G719A				E709K;G719A	point_mutation;point_mutation
+2258	19	EGFR	E 709A and G719C				G719C	point_mutation
+2259	19	EGFR	I744_K745insKIPVAI				I744_K745insKIPVAI	insertion
+2260	52	MET	D1028N				D1028N	point_mutation
+2261	58	VHL	Q132fs (c.395delA)				Q132fs	frameshift
+2262	58	VHL	L63fs (c.187delC)				L63fs	frameshift
+2263	58	VHL	P61fs (c.181delC)				P61fs	frameshift
+2264	58	VHL	R82_V84del (c.244_252del)	inframe_deletion			R82_V84del	small_deletion
+2265	58	VHL	A56_P59del (c.166_178del)				A56_P59del	small_deletion
+2266	58	VHL	G104fs (c.310delG)				G104fs	frameshift
+2267	58	VHL	Q132fs (c.395_396delAA)				Q132fs	frameshift
+2268	58	VHL	V194fs (c.579_580delTG)				V194fs	frameshift
+2269	58	VHL	M54_A56del (c.159_168del)				M54_A56del	small_deletion
+2271	58	VHL	F76_N78del (c.226_232del)				F76_N78del	small_deletion
+2272	58	VHL	N141fs (c.421_422delAA)				N141fs	frameshift
+2273	58	VHL	R161fs (c.481insC)				R161fs	frameshift
+2274	58	VHL	P172fs (c.514delC)				P172fs	frameshift
+2275	154	ACVR1	p.R258G				R258G	point_mutation
+2276	18420	AMER1	p.R358X				R358*	point_mutation
+2277	14303	CRLF2	V2del				V2del	small_deletion
+2279	14303	CRLF2	G24R				G24R	point_mutation
+2280	154	ACVR1	p.G328W				G328W	point_mutation
+2281	1290	CTNNB1	p.S37C				S37C	point_mutation
+2282	11314	DROSHA	E518K				E518K	point_mutation
+2283	154	ACVR1	G328E	missense_variant;gain_of_function_variant			G328E	point_mutation
+2285	14303	CRLF2	F232C				F232C	point_mutation
+2290	58	VHL	G144Q (c.431G>A)				G144Q	point_mutation
+2291	58	VHL	I147T (c.440T>C)				I147T	point_mutation
+2293	58	VHL	G104G (c.312C>G)				G104G	point_mutation
+2294	58	VHL	F91L (c.273C>G)				F91L	point_mutation
+2298	58	VHL	L128fs (c.382delC)				L128fs	frameshift
+2299	58	VHL	W88fs (c.261dupA)				W88fs	frameshift
+2300	58	VHL	L63P (c.188T>C)	missense_variant	NP_000542.1:p.L63P	sub	L63P	point_mutation
+2301	58	VHL	E55fs (c.162delG)				E55fs	frameshift
+2302	58	VHL	R60fs (c.176_177delCG)				R60fs	frameshift
+2303	58	VHL	P61_S65del (c.183_195del)				P61_S65del	small_deletion
+2304	58	VHL	E70fs (c.209_210delAG)				E70fs	frameshift
+2305	58	VHL	L85fs (c.253delC)				L85fs	frameshift
+2306	58	VHL	P86fs (c.255_256delGC)				P86fs	frameshift
+2307	58	VHL	P86H (c.257C>A)	missense_variant	NP_000542.1:p.P86H	sub	P86H	point_mutation
+2308	58	VHL	L89H (c.266T>A)	missense_variant	NP_000542.1:p.L89H	sub	L89H	point_mutation
+2309	58	VHL	N90fs (c.269delA)				N90fs	frameshift
+2310	58	VHL	E94_P97del (c.281_291del)				E94_P97del	small_deletion
+2311	58	VHL	K114fs (c.339_340delAG)				K114fs	frameshift
+2312	58	VHL	L116fs (c.347delT)				L116fs	frameshift
+2313	58	VHL	L118fs (c.349_350insG)				L118fs	frameshift
+2314	58	VHL	T124fs (c.370_371insTGCAGGA)				T124fs	frameshift
+2315	58	VHL	N131fs (c.389delT)				N131fs	frameshift
+2316	58	VHL	S139fs (c.415insC)				S139fs	frameshift
+2317	58	VHL	L140fs (c.420delC)				L140fs	frameshift
+2318	58	VHL	N141_D142del (c.422_428del)				N141_D142del	small_deletion
+2319	58	VHL	G144fs (c.429_430insGGAC)				G144fs	frameshift
+2320	58	VHL	G144fs (c.430_433delGGAC)				G144fs	frameshift
+2321	58	VHL	Q145H (c.435G>T)				Q145H	point_mutation
+2322	58	VHL	I147fs (c.439insT)				I147fs	frameshift
+2323	58	VHL	T157fs (c.469delA)				T157fs	frameshift
+2324	58	VHL	L158_K159del (c.472_477del)				L158_K159del	small_deletion
+2325	58	VHL	V166fs (c.498delC)				V166fs	frameshift
+2326	58	VHL	S168_L169del (c.504_509del)				S168_L169del	small_deletion
+2327	58	VHL	K171fs (c.512_516delAGCCT)				K171fs	frameshift
+2328	58	VHL	H191fs (c.570_574delCCACC)				H191fs	frameshift
+2329	58	VHL	R205fs (c.615delC)				R205fs	frameshift
+2330	20	ERBB2	L869R	missense_variant;gain_of_function_variant	NP_004439.2:p.L869R	sub	L869R	point_mutation
+2331	20	ERBB2	T798I				T798I	point_mutation
+2332	19	EGFR	A750T				A750T	point_mutation
+2333	19	EGFR	R705K				R705K	point_mutation
+2335	4	ABL1	BCR-ABL T315A				T315A	point_mutation
+2340	4	ABL1	BCR-ABL L248R				L248R	point_mutation
+2343	4	ABL1	BCR-ABL F317S				F317S	point_mutation
+2346	3532	MLH1	Glu34Lys (c.100G>A)				E34K	point_mutation
+2347	2975	IL7R	S185C				S185C	point_mutation
+2348	2975	IL7R	V253G				V253G	point_mutation
+2358	4	ABL1	BCR-ABL F311V				F311V	point_mutation
+2359	4	ABL1	BCR-ABL F317C				F317C	point_mutation
+2364	15344	PREX2	R172I				R172I	point_mutation
+2370	4	ABL1	BCR-ABL E459K	missense_variant			E459K	point_mutation
+2372	52	MET	EGFR T790M				T790M	point_mutation
+2377	4868	RHEB	Y35N				Y35N	point_mutation
+2380	58	VHL	V130I (c.388G>A)				V130I	point_mutation
+2381	58	VHL	L118P (c.353T>C) / R107G  (c.319C>G)				L118P;R107G	point_mutation;point_mutation
+2383	58	VHL	Q203TfsX53 (c.606dupA)				Q203TfsX53	frameshift
+2387	1239	CSF3R	T618I				T618I	point_mutation
+2391	31	MAP2K1	C121S + G128D				C121S;G128D	point_mutation;point_mutation
+2398	5	BRAF	D594K				D594K	point_mutation
+2399	23	FGFR3	V443L				V443L	point_mutation
+2400	23	FGFR3	V443M				V443M	point_mutation
+2401	23	FGFR3	V496V				V496V	point_mutation
+2402	23	FGFR3	V555M				V555M	point_mutation
+2403	23	FGFR3	R248C				R248C	point_mutation
+2404	23	FGFR3	Y373C				Y373C	point_mutation
+2405	23	FGFR3	G380R				G380R	point_mutation
+2406	23	FGFR3	G370C				G370C	point_mutation
+2407	23	FGFR3	F386L				F386L	point_mutation
+2416	2537	H3F3A	K27M				K27M	point_mutation
+2420	2538	H3F3B	K36M				K36M	point_mutation
+2421	2537	H3F3A	G34W				G34W	point_mutation
+2423	58	VHL	F136fs (c.407delC)				F136fs	frameshift
+2425	58	VHL	H191D (c.571C>G)				H191D	point_mutation
+2427	58	VHL	P54S (c.460C>T)				P54S	point_mutation
+2428	58	VHL	G104V (c.311G>T)				G104V	point_mutation
+2430	58	VHL	P40R (c.119C>G)				P40R	point_mutation
+2432	58	VHL	V87fs (c.259_260insA)				V87fs	frameshift
+2437	58	VHL	V166A (c.497T>C)				V166A	point_mutation
+2440	58	VHL	P138R (c.413C>G)				P138R	point_mutation
+2442	58	VHL	A50A (c.150C>G); Splicing alteration (c.463-1G>T)				A50A	point_mutation
+2443	58	VHL	Q132Hfs*45 (c.343_395dup)				Q132Hfs*45	frameshift
+2444	58	VHL	Q73Pfs*59 (c.217dupC)				Q73Pfs*59	frameshift
+2445	58	VHL	V74Sfs*53 (c.219_232delGGTCATCTTCTGCA)				V74Sfs*53	frameshift
+2446	58	VHL	D121Mfs*38 (c.361delG)				D121Mfs*38	frameshift
+2447	58	VHL	V66Gfs*89 (c.197_209del)				V66Gfs*89	frameshift
+2448	58	VHL	R79_S80del (c.236_241delGCAGTC)				R79_S80del	small_deletion
+2449	58	VHL	D92G (c.275A>G)				D92G	point_mutation
+2451	58	VHL	V141fs (c.422_440del19)				V141fs	frameshift
+2453	58	VHL	Y156_T157del (c.465_470del6)				Y156_T157del	small_deletion
+2455	58	VHL	G114Vfs*45 (c.339delA)				G114Vfs*45	frameshift
+2456	58	VHL	T133Lfs*26 (c.397delA)				T133Lfs*26	frameshift
+2458	58	VHL	R167P (c.500G>C)				R167P	point_mutation
+2459	58	VHL	L178P (c.532C>T)				L178P	point_mutation
+2460	58	VHL	N131K (c.393C>G)				N131K	point_mutation
+2462	58	VHL	S72fs (c.216delC)				S72fs	frameshift
+2463	58	VHL	H110P (c.329A>C)				H110P	point_mutation
+2466	58	VHL	E52* (c.154G>T)				E52*	point_mutation
+2467	58	VHL	L158E (c.473T>A)				L158E	point_mutation
+2468	4517	PRKCB	D427N				D427N	point_mutation
+2469	58	VHL	R176fs (c.526_528delA)				R176fs	frameshift
+2470	58	VHL	W117C (c.351G>X)				W117C	point_mutation
+2471	58	VHL	T104fs (c.313_315delC)				T104fs	frameshift
+2473	58	VHL	M54fs (c.160delA)				M54fs	frameshift
+2474	58	VHL	P59fs (c.176insAGCAdelTCCTGCGCT)				P59fs	frameshift
+2475	58	VHL	F119L (c.355T>C)				F119L	point_mutation
+2476	58	VHL	I151N (c.452T>A)				I151N	point_mutation
+2477	58	VHL	V155fs (c.464_468delTGTAT)				V155fs	frameshift
+2478	58	VHL	L163P (c.488T>C)				L163P	point_mutation
+2479	58	VHL	D197Rfs* (c.588_588dupA)				D197Rfs*	frameshift
+2480	58	VHL	Y98S (c.293A>C)				Y98S	point_mutation
+2481	58	VHL	I151T (c.453T>C)				I151T	point_mutation
+2482	58	VHL	A149fs (c.446delG)				A149fs	frameshift
+2484	58	VHL	Y98N (c.292T>A)				Y98N	point_mutation
+2486	58	VHL	R167fs (c.501insTTGTCCGT)				R167fs	frameshift
+2487	58	VHL	I75del (c.221delTCA)				I75del	small_deletion
+2488	58	VHL	*214G (c.640T>G)	stop_lost	ENSP00000256474.2:p.*214G;NP_000542.1:p.*214G	sub;sub	*214G	point_mutation
+2489	58	VHL	*214C (c.641insC)				*214C	point_mutation
+2490	58	VHL	N131S (c.392A>G)				N131S	point_mutation
+2491	58	VHL	G114V (c.341G>T)				G114V	point_mutation
+2493	58	VHL	V194G (c.581T>G)				V194G	point_mutation
+2494	58	VHL	R120T (c.359G>C)				R120T	point_mutation
+2495	58	VHL	H208fs (c.623insTTTTGTTG)				H208fs	frameshift
+2496	58	VHL	P86S (c.256C>T); Splicing alteration (c.340 5G>C)				P86S	point_mutation
+2497	58	VHL	M54Gfs*77 (c.160_161delAT)				M54Gfs*77	frameshift
+2498	58	VHL	L198Wfs*4 (c.592delC)				L198Wfs*4	frameshift
+2499	58	VHL	K196fs (c.588insA)				K196fs	frameshift
+2500	58	VHL	Y98S (c.293A>C) (Novel)				Y98S	point_mutation
+2501	58	VHL	L198P (c.593T>C)				L198P	point_mutation
+2502	58	VHL	E160V (c.479A>T)	missense_variant	NP_000542.1:p.E160V	sub	E160V	point_mutation
+2503	58	VHL	S183W (c.548C>G)				S183W	point_mutation
+2505	58	VHL	L163F (c.487C>T)				L163F	point_mutation
+2506	58	VHL	L85_E94del (c.254_283del30bp)				L85_E94del	small_deletion
+2508	58	VHL	L129P (c.386T>G)				L129P	point_mutation
+2509	58	VHL	V62Efs*71 (c.185_193delTGCTGCGCTinsAGCA)				V62Efs*71	frameshift
+2510	58	VHL	R69Afs*63 (c.204_205insG)				R69Afs*63	frameshift
+2511	58	VHL	S80Ifs*79 (c.239delG)				S80Ifs*79	frameshift
+2512	58	VHL	S80fs (c.239_245delGTCCGCG)				S80fs	frameshift
+2513	58	VHL	V87E (c.260T>A)				V87E	point_mutation
+2514	58	VHL	D92fs (c.275delAinsCC)				D92fs	frameshift
+2515	58	VHL	P97Afs*35 (c.287_288insA)				P97Afs*35	frameshift
+2516	58	VHL	H110Pfs*49 (c.329delA)				H110Pfs*49	frameshift
+2517	58	VHL	S111Tfs*48 (c.332delG)				S111Tfs*48	frameshift
+2520	58	VHL	H115fs (c.343delC)				H115fs	frameshift
+2521	58	VHL	W117G (c.349T>G)				W117G	point_mutation
+2522	58	VHL	W117R (c.349T>A)				W117R	point_mutation
+2523	58	VHL	W117S (c.350G>C)				W117S	point_mutation
+2524	58	VHL	E134Dfs*72 (c.402_428delATTATTTGTGCCATCTCTCAATGTTGA)				E134Dfs*72	frameshift
+2525	58	VHL	Q145fs (c.433_437delCAGCC)				Q145fs	frameshift
+2526	58	VHL	P146Gfs*14 (c.435_436insGG)				P146Gfs*14	frameshift
+2527	58	VHL	E160fs (c.480delG)				E160fs	frameshift
+2528	58	VHL	C162* (c.486C>A)				C162*	point_mutation
+2529	58	VHL	E189_D190del (c.565_570delGAAGAC)				E189_D190del	small_deletion
+2532	58	VHL	R82G (c.244C>G)				R82G	point_mutation
+2533	58	VHL	D126N (c.376G>A)				D126N	point_mutation
+2537	58	VHL	R108fs (c.323delGC)				R108fs	frameshift
+2538	58	VHL	E70K (c.208G>A); Splicing alteration (c.340+5G>C)				E70K	point_mutation
+2539	58	VHL	V114R (c.341T>C)				V114R	point_mutation
+2540	58	VHL	H115Q (c.346C>A)				H115Q	point_mutation
+2541	58	VHL	S139F (c.416C>T)				S139F	point_mutation
+2542	58	VHL	F190L (c.568T>C)				F190L	point_mutation
+2543	58	VHL	L198fs (c.592delC)				L198fs	frameshift
+2545	58	VHL	M54fs (c.160_175del)				M54fs	frameshift
+2546	58	VHL	P61fs Stop at 121(c.180_208del)				P61fs	frameshift
+2547	58	VHL	Asn67fs (c.197_213del)				N67fs	frameshift
+2548	58	VHL	V84fs (c.249_255del)				V84fs	frameshift
+2549	58	VHL	L89R(c.266T>G)				L89R	point_mutation
+2551	58	VHL	G104fs*158 (c.311delC)				G104fs*158	frameshift
+2552	58	VHL	R120fs*158 (c.359delG)				R120fs*158	frameshift
+2553	58	VHL	D121_A122del (c.361_366del)				D121_A122del	small_deletion
+2554	58	VHL	D126G (c.377A>G)				D126G	point_mutation
+2555	58	VHL	G127fs (c.381delG)				G127fs	frameshift
+2556	58	VHL	T133fs*157 (c.397_400delACTG)				T133fs*157	frameshift
+2557	58	VHL	L135fs (c.405delA)				L135fs	frameshift
+2558	58	VHL	F137fs (c.408insT)				F137fs	frameshift
+2559	58	VHL	L140fs*158 (c.419delT)				L140fs*158	frameshift
+2560	58	VHL	G144fs*158 (c.431delG)				G144fs*158	frameshift
+2561	58	VHL	A149fs*158 (c.446delC)				A149fs*158	frameshift
+2562	58	VHL	T157fs*158 (c.469delA)				T157fs*158	frameshift
+2563	58	VHL	L163fs*169 (c.488delT)				L163fs*169	frameshift
+2568	42	RET	V804M				V804M	point_mutation
+2569	63	EZH2	EZH2 Y641F				Y641F	point_mutation
+2573	4685	PTPN11	D61Y				D61Y	point_mutation
+2574	10024	SETBP1	D868N				D868N	point_mutation
+2576	1290	CTNNB1	G34V				G34V	point_mutation
+2577	4176	PDGFRB	AGGF1-PDGFRB, AGGF1-PDGFRB C843G				C843G	point_mutation
+2580	58	VHL	N131T (c.392A>C)				N131T	point_mutation
+2587	28	JAK2	JAK2 F694L				F694L	point_mutation
+2592	29	KIT	K642R				K642R	point_mutation
+2597	9533	DICER1	p.Gln301Ter and p.Glu1813Gly				Gln301*;Glu1813Gly	point_mutation;point_mutation
+2599	19	EGFR	I462K				I462K	point_mutation
+2600	19	EGFR	I462R				I462R	point_mutation
+2601	19	EGFR	S464L				S464L	point_mutation
+2602	19	EGFR	S464T				S464T	point_mutation
+2603	19	EGFR	G465E				G465E	point_mutation
+2604	19	EGFR	G465V				G465V	point_mutation
+2605	19	EGFR	K467N				K467N	point_mutation
+2606	19	EGFR	K489Q				K489Q	point_mutation
+2607	19	EGFR	K489E				K489E	point_mutation
+2608	19	EGFR	I491K				I491K	point_mutation
+2609	19	EGFR	I491R				I491R	point_mutation
+2610	19	EGFR	S492C				S492C	point_mutation
+2611	19	EGFR	V441G				V441G	point_mutation
+2612	19	EGFR	V441D				V441D	point_mutation
+2613	19	EGFR	V441F				V441F	point_mutation
+2614	19	EGFR	S442R				S442R	point_mutation
+2615	19	EGFR	S442I				S442I	point_mutation
+2616	19	EGFR	F404I				F404I	point_mutation
+2617	19	EGFR	F404V				F404V	point_mutation
+2618	19	EGFR	T415M				T415M	point_mutation
+2620	29	KIT	T417_D419delinsY				T417_D419delinsY	delins
+2621	29	KIT	F506_F508DUP				F506_F508dup	duplication
+2622	29	KIT	K484_G487DEL				K484_G487del	small_deletion
+2624	45	TP53	V135A				V135A	point_mutation
